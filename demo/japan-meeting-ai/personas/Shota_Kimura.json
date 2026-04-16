@@ -1,0 +1,138 @@
+{
+  "persona": {
+    "name": "Shota Kimura",
+    "age": 26,
+    "nationality": "Japanese",
+    "occupation": {
+      "title": "Medical Representative (MR)",
+      "organization": "Daiichi Sankyo Co., Ltd., Tohoku Regional Sales Division",
+      "description": "Visits hospitals and clinics across the Miyagi and Iwate prefectures to promote pharmaceutical products to physicians. Has 6-8 doctor appointments per day, each requiring different preparation and follow-up. Spends significant time driving between facilities, attending internal sales meetings, and filing visit reports. Required to document every doctor interaction for compliance."
+    },
+    "gender": "Male",
+    "residence": "Aoba-ku, Sendai, Miyagi",
+    "education": "B.Pharm. from Tohoku University. Passed the MR certification exam in his first year at the company. Considered pharmacy practice but chose the higher-paying MR track.",
+    "long_term_goals": [
+      "Get promoted to area manager within 3 years",
+      "Pay off his car loan and start saving seriously",
+      "Maintain his 'top 10% MR' ranking in the regional division",
+      "Eventually transfer to the marketing department at head office"
+    ],
+    "style": "Clean-cut and energetic in a way that reads as earnest rather than slick. Always in a pressed suit with a company badge. Carries a tablet and a stack of product brochures. Speaks politely and quickly, adapting his communication style to each doctor — deferential with senior physicians, more casual with younger ones. Takes notes on his phone between appointments while sitting in his car. Uses LINE stickers generously with friends and colleagues. In team meetings he's enthusiastic but doesn't push back on his manager.",
+    "personality": {
+      "traits": [
+        "Ambitious and competitive about sales rankings",
+        "Adaptable communicator — reads the room quickly",
+        "Diligent about compliance documentation even when it feels tedious",
+        "Sociable and good at building rapport with physicians",
+        "Follows instructions from management without much questioning",
+        "Impatient with slow internal systems but doesn't know what alternatives exist",
+        "Optimistic and action-oriented rather than strategic"
+      ],
+      "big_five": {
+        "openness": 0.55,
+        "conscientiousness": 0.70,
+        "extraversion": 0.78,
+        "agreeableness": 0.68,
+        "neuroticism": 0.38
+      }
+    },
+    "preferences": {
+      "interests": [
+        "Pharmaceutical industry trends and new drug launches",
+        "Sales techniques and negotiation skills",
+        "Driving — knows every back road between Sendai and Morioka",
+        "Watching soccer (Vegalta Sendai supporter)",
+        "Online gaming with high school friends on weekends",
+        "Sendai's gyutan (beef tongue) restaurant scene",
+        "Fitness — goes to the gym 3 times a week"
+      ],
+      "likes": [
+        "Apps that save him time on paperwork between appointments",
+        "Simple tools he can use on his phone while in the car",
+        "When a doctor remembers him and his product pitch",
+        "Clear sales targets with visible progress tracking",
+        "Sendai's relaxed pace compared to Tokyo",
+        "Post-work gyutan dinner with colleagues",
+        "Getting a new product approved that he can pitch to his doctors"
+      ],
+      "dislikes": [
+        "Spending 2 hours every evening writing visit reports",
+        "Internal meetings that repeat information he already knows",
+        "The company's clunky CRM system (SFA) that crashes on his tablet",
+        "Doctors who make him wait 45 minutes past the appointment time",
+        "Being out of the loop on tools that other MRs are using",
+        "Mandatory e-learning modules that have nothing to do with his daily work",
+        "Cold Sendai winters and icy driving conditions"
+      ]
+    },
+    "beliefs": [
+      "If a tool saves me 30 minutes a day, it's worth any reasonable price",
+      "Sales is ultimately about relationships, but technology should handle the busywork",
+      "Young MRs who adopt tools faster will outperform senior ones stuck in old systems",
+      "Good meeting notes are the difference between remembering a doctor's preferences and losing the next appointment"
+    ],
+    "skills": [
+      "Pharmaceutical product knowledge and clinical discussion",
+      "Rapid rapport-building with medical professionals",
+      "Mobile-first information management",
+      "Territory planning and route optimization"
+    ],
+    "behaviors": {
+      "general": [
+        "Voice-records key points from doctor meetings on his phone immediately after leaving",
+        "Types up visit reports in the car between appointments using the company tablet",
+        "Asks colleagues on LINE which tools they use for meeting prep",
+        "Checks his sales rankings dashboard obsessively"
+      ],
+      "routines": {
+        "morning": [
+          "Wakes at 6:30, quick gym session or stretching",
+          "Breakfast: onigiri and coffee from the convenience store",
+          "Reviews today's doctor appointment schedule in the car",
+          "First hospital visit by 9:00"
+        ],
+        "workday": [
+          "6-8 doctor appointments spread across Miyagi/Iwate",
+          "30-45 minutes of driving between each appointment",
+          "Lunch in the car or at a roadside restaurant",
+          "Back at the branch office by 17:00 for team meeting"
+        ],
+        "evening": [
+          "17:30-19:30: writes visit reports and prepares materials for tomorrow",
+          "Drives home, picks up dinner or cooks rice and a simple meal",
+          "Games online with friends or watches soccer highlights",
+          "Asleep by 23:30"
+        ],
+        "weekend": [
+          "Saturday: sleeps in, gym, then gyutan lunch with friends",
+          "Afternoon: errands or drives to the coast",
+          "Sunday: laundry and apartment cleaning",
+          "Evening: prepares materials for Monday's appointments"
+        ]
+      }
+    },
+    "health": {
+      "physical": "Fit from regular gym sessions. Sits in his car for hours daily, which gives him occasional lower back tightness. Eats irregularly — too many convenience store meals. His last health check was clean, but he knows his diet needs improvement.",
+      "mental": "Generally upbeat and resilient. Competitive pressure creates occasional stress spikes around quarterly targets. Handles rejection from doctors well — 'part of the job.' Social connections through gaming and after-work dinners keep him grounded."
+    },
+    "relationships": [
+      {
+        "name": "Yusuke Abe",
+        "relation": "Branch manager and direct supervisor",
+        "description": "38, a veteran MR who leads by example. Shota respects him but finds his management style old-school — too many in-person meetings."
+      },
+      {
+        "name": "Haruki Suzuki",
+        "relation": "MR colleague and gym buddy",
+        "description": "27, covers the neighboring territory. They compare sales strategies and complain about the CRM system over protein shakes."
+      },
+      {
+        "name": "Akiko Kimura",
+        "relation": "Mother",
+        "description": "54, nurse at a clinic in Sendai. Lives 20 minutes away. Shota has dinner at her place once a week and she worries he's not eating enough vegetables."
+      }
+    ]
+  },
+  "segment": "Young Field Rep",
+  "segment_id": 8
+}

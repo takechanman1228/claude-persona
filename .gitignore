@@ -1,0 +1,24 @@
+# OS
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Generated outputs (reproducible from code)
+outputs/
+
+# Archived persona panels (reproducible via generate)
+personas/_archive/
+
+# Archived demo results
+demo/running-shoes/_archive/
+
+# Local Claude Code settings
+.claude/
+
+# Editor
+.vscode/
+.idea/
+*.swp

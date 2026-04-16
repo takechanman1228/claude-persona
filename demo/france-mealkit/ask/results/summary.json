@@ -1,0 +1,58 @@
+{
+  "total_respondents": 10,
+  "segments": {
+    "Dual-Income Couples Without Children": 4,
+    "Families With Young Children": 3,
+    "Independent Professionals & Empty Nesters": 3
+  },
+  "top_signals": [
+    {
+      "theme": "ingredient provenance transparency",
+      "count": 1
+    },
+    {
+      "theme": "subscription lock-in distrust",
+      "count": 1
+    },
+    {
+      "theme": "market ritual hard to replace",
+      "count": 1
+    },
+    {
+      "theme": "packaging waste trade-off",
+      "count": 1
+    },
+    {
+      "theme": "flexibility over subscription lock-in",
+      "count": 1
+    },
+    {
+      "theme": "culinary discovery as motivation",
+      "count": 1
+    },
+    {
+      "theme": "bad ux is a dealbreaker",
+      "count": 1
+    },
+    {
+      "theme": "lyon's food scene competes",
+      "count": 1
+    },
+    {
+      "theme": "cooking as a non-negotiable skill",
+      "count": 1
+    },
+    {
+      "theme": "subscription auto-renewal distrust",
+      "count": 1
+    }
+  ],
+  "emotion_distribution": {
+    "skeptical": 3,
+    "curious": 2,
+    "conflicted": 2,
+    "resistant": 1,
+    "indifferent": 1,
+    "ambivalent": 1
+  }
+}

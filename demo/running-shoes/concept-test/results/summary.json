@@ -1,0 +1,123 @@
+{
+  "total_respondents": 15,
+  "segments": {
+    "Marathon Purist": 1,
+    "Time-Starved Multitasker": 1,
+    "Daily Walker Retiree": 1,
+    "Sneaker Culture Collector": 1,
+    "Reluctant Beginner": 1,
+    "Trail Adventurer": 1,
+    "Veteran Coach": 1,
+    "Data-Driven Optimizer": 1,
+    "Budget Racer": 1,
+    "Injury-Conscious Expert": 1,
+    "Athleisure Aesthete": 1,
+    "Category Skeptic": 1,
+    "Endurance Extremist": 1,
+    "Weekend Warrior Mom": 1,
+    "Post-Cardiac Walker": 1
+  },
+  "overall_preference": {
+    "A": 6,
+    "B": 6,
+    "C": 3
+  },
+  "preference_by_segment": {
+    "Marathon Purist": {
+      "count": 1,
+      "preferences": {
+        "A": 1
+      }
+    },
+    "Time-Starved Multitasker": {
+      "count": 1,
+      "preferences": {
+        "B": 1
+      }
+    },
+    "Daily Walker Retiree": {
+      "count": 1,
+      "preferences": {
+        "B": 1
+      }
+    },
+    "Sneaker Culture Collector": {
+      "count": 1,
+      "preferences": {
+        "C": 1
+      }
+    },
+    "Reluctant Beginner": {
+      "count": 1,
+      "preferences": {
+        "B": 1
+      }
+    },
+    "Trail Adventurer": {
+      "count": 1,
+      "preferences": {
+        "A": 1
+      }
+    },
+    "Veteran Coach": {
+      "count": 1,
+      "preferences": {
+        "B": 1
+      }
+    },
+    "Data-Driven Optimizer": {
+      "count": 1,
+      "preferences": {
+        "A": 1
+      }
+    },
+    "Budget Racer": {
+      "count": 1,
+      "preferences": {
+        "A": 1
+      }
+    },
+    "Injury-Conscious Expert": {
+      "count": 1,
+      "preferences": {
+        "A": 1
+      }
+    },
+    "Athleisure Aesthete": {
+      "count": 1,
+      "preferences": {
+        "C": 1
+      }
+    },
+    "Category Skeptic": {
+      "count": 1,
+      "preferences": {
+        "B": 1
+      }
+    },
+    "Endurance Extremist": {
+      "count": 1,
+      "preferences": {
+        "A": 1
+      }
+    },
+    "Weekend Warrior Mom": {
+      "count": 1,
+      "preferences": {
+        "C": 1
+      }
+    },
+    "Post-Cardiac Walker": {
+      "count": 1,
+      "preferences": {
+        "B": 1
+      }
+    }
+  },
+  "purchase_likelihood": {
+    "mean": 3.07,
+    "median": 3.0,
+    "min": 2.0,
+    "max": 4.0
+  }
+}

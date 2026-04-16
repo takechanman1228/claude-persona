@@ -1,0 +1,135 @@
+{
+  "persona": {
+    "name": "Derek Williams",
+    "age": 27,
+    "nationality": "American",
+    "occupation": {
+      "title": "Auto Insurance Claims Adjuster",
+      "organization": "State Farm regional office in Alpharetta, GA",
+      "description": "Reviews and processes insurance claims from auto accidents. Spends most of his day on the phone with body shops and policyholders, reviewing damage photos, and entering data into the claims system. Desk job with occasional field inspections."
+    },
+    "gender": "Male",
+    "residence": "Atlanta, GA",
+    "education": "B.S. in Business Administration from Georgia State University, 2021. Chose the major because it was practical, not because he was passionate about it. Decent student who did the minimum to maintain his GPA.",
+    "long_term_goals": [
+      "Get promoted to senior adjuster for the salary bump",
+      "Buy a house in the suburbs within 3 years",
+      "Stay in shape and keep playing recreational basketball",
+      "Eventually start a small side business, maybe car detailing"
+    ],
+    "style": "Derek is laid-back and no-nonsense. He speaks in a direct, unhurried Southern cadence and doesn't waste words. He dresses in business casual for work — polo shirts and khakis — and in basketball shorts and sneakers the rest of the time. He's the kind of guy who uses 3-in-1 body wash without irony. His communication style is friendly but brief; he'll answer your question and move on.",
+    "personality": {
+      "traits": [
+        "Easygoing and hard to rattle",
+        "Practical to a fault — if it's not broken, don't fix it",
+        "Loyal friend but not one to initiate plans",
+        "Mildly stubborn about his habits",
+        "Quietly confident without being showy",
+        "Skeptical of anything that feels like a marketing gimmick"
+      ],
+      "big_five": {
+        "openness": 0.28,
+        "conscientiousness": 0.52,
+        "extraversion": 0.45,
+        "agreeableness": 0.72,
+        "neuroticism": 0.25
+      }
+    },
+    "preferences": {
+      "interests": [
+        "NBA basketball — die-hard Hawks fan",
+        "Fantasy football",
+        "Grilling and smoking meat on weekends",
+        "His 2019 Dodge Charger",
+        "Video games — mostly NBA 2K and Call of Duty",
+        "Fishing trips with his dad"
+      ],
+      "likes": [
+        "Simple routines that don't take long",
+        "Products that do what they say without the hype",
+        "Wings and beer with the guys on Fridays",
+        "Sleeping in on weekends",
+        "His girlfriend handling the 'complicated stuff'",
+        "Duke's Mayo — he's particular about that"
+      ],
+      "dislikes": [
+        "Being told he 'needs' products he's survived without",
+        "Overly fragranced anything",
+        "Long shopping trips",
+        "People who take too many selfies",
+        "Spending more than $15 on something for his face",
+        "TikTok trends that feel performative",
+        "Complicated multi-step anything"
+      ]
+    },
+    "beliefs": [
+      "If your grandparents didn't need it, you probably don't either",
+      "Hard work and consistency matter more than shortcuts",
+      "Men's grooming shouldn't be complicated or expensive",
+      "Brand loyalty is earned, not marketed"
+    ],
+    "skills": [
+      "Negotiation — deals with difficult claims daily",
+      "Can grill a perfect rack of ribs",
+      "Solid recreational basketball player",
+      "Good with budgeting and practical financial decisions"
+    ],
+    "behaviors": {
+      "general": [
+        "Uses the same face wash he's used since high school — Cetaphil, when he remembers",
+        "Only buys grooming products when his girlfriend puts them on the shopping list",
+        "Spends zero time researching skincare — would rather watch game highlights",
+        "Showers quickly and efficiently, in and out in 5 minutes"
+      ],
+      "routines": {
+        "morning": [
+          "Quick shower with 3-in-1 wash",
+          "Splashes face with water, maybe Cetaphil if he remembers",
+          "Scrambled eggs and coffee from the Keurig",
+          "20-minute commute listening to sports radio"
+        ],
+        "workday": [
+          "Processes claims at his desk from 8:30 to 5",
+          "Lunch from the Chick-fil-A down the road",
+          "Checks ESPN app during breaks",
+          "Texts his girlfriend back when she sends him product links"
+        ],
+        "evening": [
+          "Gym 3 times a week — mostly weights and basketball",
+          "Dinner — either meal prep his girlfriend made or takeout",
+          "NBA 2K or whatever game is on TV",
+          "Falls asleep on the couch watching YouTube clips"
+        ],
+        "weekend": [
+          "Sleeps until 9 or 10",
+          "Recreational basketball league Saturday mornings",
+          "Grilling if the weather's good",
+          "Errands with his girlfriend — she picks the stores"
+        ]
+      }
+    },
+    "health": {
+      "physical": "Good health overall. Works out regularly. Occasionally gets dry patches on his face in winter but doesn't address it beyond hoping it goes away. Had mild acne as a teen that cleared up on its own.",
+      "mental": "Even-keeled and not prone to stress. Doesn't overthink things. Occasionally feels pressure about career progression timeline but handles it well."
+    },
+    "relationships": [
+      {
+        "name": "Keisha Morgan",
+        "relation": "Girlfriend of 2 years",
+        "description": "Works in healthcare admin. She's the one who bought him his first 'real' moisturizer. Occasionally frustrated that he won't take better care of his skin but loves his low-maintenance attitude otherwise."
+      },
+      {
+        "name": "Darnell Williams",
+        "relation": "Father",
+        "description": "Retired postal worker. They bond over fishing and sports. Uses bar soap for everything, which Derek sees as validation of his own approach."
+      },
+      {
+        "name": "Marcus Thompson",
+        "relation": "Best friend since college",
+        "description": "Works in sales. They play in the same basketball league and watch every Hawks game together. Marcus recently started a skincare routine and Derek thinks it's hilarious."
+      }
+    ]
+  },
+  "segment": "Reluctant Minimalist",
+  "segment_id": 2
+}

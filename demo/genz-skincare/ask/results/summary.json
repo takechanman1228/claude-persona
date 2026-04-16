@@ -1,0 +1,66 @@
+{
+  "total_respondents": 10,
+  "segments": {
+    "Routine Devotee": 1,
+    "Reluctant Minimalist": 1,
+    "Ingredient Detective": 1,
+    "Clean Beauty Advocate": 1,
+    "Skincare Skeptic": 1,
+    "Trend Chaser": 1,
+    "Pragmatic Upgrader": 1,
+    "Budget Beauty Maven": 1,
+    "Wellness Explorer": 1,
+    "Anxious Perfectionist": 1
+  },
+  "top_signals": [
+    {
+      "theme": "ingredient transparency missing",
+      "count": 1
+    },
+    {
+      "theme": "greenwashing disguised as clean beauty",
+      "count": 1
+    },
+    {
+      "theme": "marketing claims vs. real formulation",
+      "count": 1
+    },
+    {
+      "theme": "too much effort to verify",
+      "count": 1
+    },
+    {
+      "theme": "too many choices",
+      "count": 1
+    },
+    {
+      "theme": "marketing nonsense",
+      "count": 1
+    },
+    {
+      "theme": "overpriced basics",
+      "count": 1
+    },
+    {
+      "theme": "don't need what they're selling",
+      "count": 1
+    },
+    {
+      "theme": "hidden ingredient concentrations",
+      "count": 1
+    },
+    {
+      "theme": "marketing language over clinical data",
+      "count": 1
+    }
+  ],
+  "emotion_distribution": {
+    "frustrated": 4,
+    "annoyed": 1,
+    "exhausted": 1,
+    "indifferent": 1,
+    "overwhelmed": 1,
+    "indignant": 1,
+    "anxious": 1
+  }
+}

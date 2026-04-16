@@ -1,0 +1,87 @@
+{
+  "total_respondents": 10,
+  "segments": {
+    "Efficiency-Obsessed Manager": 1,
+    "Analog Traditionalist": 1,
+    "Startup Juggler": 1,
+    "Overwhelmed Section Chief": 1,
+    "Skeptical IT Gatekeeper": 1,
+    "Remote Creative Freelancer": 1,
+    "Cost-Conscious SMB Owner": 1,
+    "Young Field Rep": 1,
+    "Government Bureaucrat": 1,
+    "Innovation Champion": 1
+  },
+  "overall_preference": {
+    "B": 9,
+    "A": 1
+  },
+  "preference_by_segment": {
+    "Efficiency-Obsessed Manager": {
+      "count": 1,
+      "preferences": {
+        "B": 1
+      }
+    },
+    "Analog Traditionalist": {
+      "count": 1,
+      "preferences": {
+        "B": 1
+      }
+    },
+    "Startup Juggler": {
+      "count": 1,
+      "preferences": {
+        "B": 1
+      }
+    },
+    "Overwhelmed Section Chief": {
+      "count": 1,
+      "preferences": {
+        "B": 1
+      }
+    },
+    "Skeptical IT Gatekeeper": {
+      "count": 1,
+      "preferences": {
+        "B": 1
+      }
+    },
+    "Remote Creative Freelancer": {
+      "count": 1,
+      "preferences": {
+        "B": 1
+      }
+    },
+    "Cost-Conscious SMB Owner": {
+      "count": 1,
+      "preferences": {
+        "B": 1
+      }
+    },
+    "Young Field Rep": {
+      "count": 1,
+      "preferences": {
+        "A": 1
+      }
+    },
+    "Government Bureaucrat": {
+      "count": 1,
+      "preferences": {
+        "B": 1
+      }
+    },
+    "Innovation Champion": {
+      "count": 1,
+      "preferences": {
+        "B": 1
+      }
+    }
+  },
+  "purchase_likelihood": {
+    "mean": 3.1,
+    "median": 3.5,
+    "min": 2.0,
+    "max": 4.0
+  }
+}

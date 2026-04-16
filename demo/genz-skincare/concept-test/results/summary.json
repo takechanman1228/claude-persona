@@ -1,0 +1,88 @@
+{
+  "total_respondents": 10,
+  "segments": {
+    "Routine Devotee": 1,
+    "Reluctant Minimalist": 1,
+    "Ingredient Detective": 1,
+    "Clean Beauty Advocate": 1,
+    "Skincare Skeptic": 1,
+    "Trend Chaser": 1,
+    "Pragmatic Upgrader": 1,
+    "Budget Beauty Maven": 1,
+    "Wellness Explorer": 1,
+    "Anxious Perfectionist": 1
+  },
+  "overall_preference": {
+    "B": 5,
+    "A": 3,
+    "C": 2
+  },
+  "preference_by_segment": {
+    "Routine Devotee": {
+      "count": 1,
+      "preferences": {
+        "C": 1
+      }
+    },
+    "Reluctant Minimalist": {
+      "count": 1,
+      "preferences": {
+        "A": 1
+      }
+    },
+    "Ingredient Detective": {
+      "count": 1,
+      "preferences": {
+        "B": 1
+      }
+    },
+    "Clean Beauty Advocate": {
+      "count": 1,
+      "preferences": {
+        "B": 1
+      }
+    },
+    "Skincare Skeptic": {
+      "count": 1,
+      "preferences": {
+        "A": 1
+      }
+    },
+    "Trend Chaser": {
+      "count": 1,
+      "preferences": {
+        "C": 1
+      }
+    },
+    "Pragmatic Upgrader": {
+      "count": 1,
+      "preferences": {
+        "B": 1
+      }
+    },
+    "Budget Beauty Maven": {
+      "count": 1,
+      "preferences": {
+        "B": 1
+      }
+    },
+    "Wellness Explorer": {
+      "count": 1,
+      "preferences": {
+        "B": 1
+      }
+    },
+    "Anxious Perfectionist": {
+      "count": 1,
+      "preferences": {
+        "A": 1
+      }
+    }
+  },
+  "purchase_likelihood": {
+    "mean": 3.0,
+    "median": 3.0,
+    "min": 1.0,
+    "max": 4.0
+  }
+}

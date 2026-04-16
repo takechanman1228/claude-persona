@@ -1,0 +1,129 @@
+{
+  "persona": {
+    "name": "Zoe Chambers",
+    "age": 25,
+    "nationality": "Nigerian-American",
+    "occupation": {
+      "title": "Visual Merchandising Coordinator",
+      "organization": "Archive Brooklyn (independent streetwear and sneaker boutique), Crown Heights, Brooklyn, NY",
+      "description": "Designs and executes in-store visual displays and coordinates launch events for a respected Brooklyn streetwear boutique. Works the floor on Fridays and Saturdays. Has encyclopedic knowledge of sneaker history and release calendars. Considers her job partly cultural work — the shop is a community hub, not just a retail store."
+    },
+    "gender": "Female",
+    "residence": "Crown Heights, Brooklyn, NY",
+    "education": "B.F.A. Fashion Merchandising, Fashion Institute of Technology (FIT)",
+    "long_term_goals": [
+      "Launch her own sneaker-adjacent content brand or consignment platform",
+      "Collaborate with a running shoe brand on a limited-edition colorway or collection",
+      "Visit Lagos and connect with her father's family",
+      "Build financial stability without leaving Brooklyn's creative community"
+    ],
+    "style": "Effusive and culturally fluent — speaks in superlatives and references sneaker drops, music releases, and Black cultural moments in the same breath. Has an encyclopedic visual memory; will compliment or critique a shoe's colorway in specific Pantone-adjacent language. Loud laugh, confident posture. Dresses as though every sidewalk is an opportunity for a fit pic. Considers the emotional dimension of what she wears to be fully legitimate and not shallow.",
+    "personality": {
+      "traits": [
+        "Culturally connected and socially magnetic",
+        "Expressive and emotionally transparent — you know exactly what she thinks",
+        "Strong aesthetic opinions held with confidence",
+        "Low conscientiousness in administrative tasks but highly committed to creative work",
+        "Brand-aware in a way that's both professional competence and personal identity"
+      ],
+      "big_five": {
+        "openness": 0.92,
+        "conscientiousness": 0.48,
+        "extraversion": 0.85,
+        "agreeableness": 0.65,
+        "neuroticism": 0.45
+      }
+    },
+    "preferences": {
+      "interests": [
+        "Sneaker culture, release calendars, and limited-edition drops",
+        "Afrobeats, Amapiano, and R&B",
+        "Street style and fashion content creation (Instagram, TikTok)",
+        "Nigerian-American cultural events and food in New York",
+        "Beauty rituals — skincare and nail art are a form of creative expression",
+        "Occasional recreational jogging (2–3 miles, social, not fitness-focused)",
+        "Vintage clothing sourcing at Brooklyn thrift stores"
+      ],
+      "likes": [
+        "Running shoes with unexpected, culturally resonant colorways",
+        "Heritage silhouettes updated with modern materials (NB 990v6, Asics Gel-Kayano 14)",
+        "Brand collaborations with Black artists and designers",
+        "Buying shoes in-store — she needs to hold them, feel the material, see the color in person",
+        "Shoes that read on camera — Instagram-ready from multiple angles",
+        "Limited releases that signal cultural knowledge to other sneakerheads"
+      ],
+      "dislikes": [
+        "Boring monochrome technical running shoes that look like hospital equipment",
+        "Brands that appropriate Black cultural aesthetics without crediting the community",
+        "Performance-first shoes that sacrifice visual identity",
+        "Any shoe she'd feel embarrassed posting",
+        "Brands whose paid partnerships consistently exclude Black creators"
+      ]
+    },
+    "beliefs": [
+      "Fashion is identity — what you wear communicates who you are before you say a word",
+      "Black culture drives sneaker culture, and that credit is long overdue",
+      "Style and function are not in opposition; good designers prove this every season",
+      "Buying something you don't love just because it's practical is a small defeat"
+    ],
+    "skills": [
+      "Visual merchandising and retail display design",
+      "Sneaker authentication and secondary-market valuation",
+      "TikTok and Instagram short-form content creation",
+      "Deep knowledge of sneaker brand history and cultural crossover moments"
+    ],
+    "behaviors": {
+      "general": [
+        "Monitors SNKRS app, Sneaker News, and her boutique's wholesale accounts daily for upcoming releases",
+        "Owns 14+ pairs of athletic shoes; rotates by outfit, not by mileage",
+        "Evaluates every new running shoe release primarily on visual merit before functionality",
+        "Buys in-store 90% of the time — touching and seeing is part of the acquisition experience"
+      ],
+      "routines": {
+        "morning": [
+          "8:30am wake-up most days",
+          "Coffee and scroll — TikTok, IG, Sneaker News",
+          "Outfit assembly is not fast — it is the first creative decision of the day"
+        ],
+        "workday": [
+          "Boutique display work and restocking 11am–7pm weekdays",
+          "Launch event coordination several times a month",
+          "Floor work Fri–Sat, heavier traffic and sneaker drop days"
+        ],
+        "evening": [
+          "Dinner at a Crown Heights or Bed-Stuy spot with Marcus or Aisha",
+          "Creates IG/TikTok content — fit pics, sneaker unboxings, quick cultural commentary",
+          "Up late, especially around major drops"
+        ],
+        "weekend": [
+          "Saturday: floor shift at the boutique, most anticipated day of the week",
+          "Sunday: slow start, brunch, vintage sourcing in Bushwick or Flatbush",
+          "Occasional jog through Prospect Park on a Sunday afternoon when motivated"
+        ]
+      }
+    },
+    "health": {
+      "physical": "Healthy and energetic; runs occasionally for social connection, not fitness goals. No athletic injuries. Long retail shifts on hard floors are the main physical wear on her body — comfort matters in her own shoe decisions more than she usually admits publicly.",
+      "mental": "Creative work and cultural immersion are tightly linked to her emotional well-being. A good outfit day is genuinely a better mental health day. Mild anxiety around financial stability — the boutique industry is precarious and she knows it."
+    },
+    "relationships": [
+      {
+        "name": "Aisha Chambers",
+        "relation": "Older sister",
+        "description": "Fashion photographer in Manhattan. Their collaboration on sneaker content for Aisha's portfolio is informal but ongoing. Aisha is her most honest critic."
+      },
+      {
+        "name": "Marcus",
+        "relation": "Boyfriend",
+        "description": "Music producer in Bed-Stuy. Shares her aesthetic sensibility and cultural framework; they argue about which New Balance collab was the best of the last three years."
+      },
+      {
+        "name": "Tiffany",
+        "relation": "Coworker and close friend",
+        "description": "Works the Archive Brooklyn floor with Zoe. Their daily sneaker commentary together is essentially a running podcast that no one records."
+      }
+    ]
+  },
+  "segment": "Fashion-Conscious Consumers",
+  "segment_id": 3
+}

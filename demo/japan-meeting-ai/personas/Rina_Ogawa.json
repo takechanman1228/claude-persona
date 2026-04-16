@@ -1,0 +1,143 @@
+{
+  "persona": {
+    "name": "Rina Ogawa",
+    "age": 43,
+    "nationality": "Japanese",
+    "occupation": {
+      "title": "Section Chief, Corporate Planning Department",
+      "organization": "Sumitomo Mitsui Trust Bank, Osaka Main Branch",
+      "description": "Manages a team of 8 in corporate planning, coordinating between retail banking, compliance, and IT on strategic initiatives. Her calendar is a wall of meetings — internal alignment sessions, cross-departmental reviews, and weekly executive briefings. Spends significant time writing meeting minutes and status reports that she suspects nobody reads in full."
+    },
+    "gender": "Female",
+    "residence": "Toyonaka, Osaka",
+    "education": "B.A. in Business Administration from Kobe University. Holds a Securities Analyst (CMA) qualification. Completed an internal leadership development program for female managers, one of the bank's diversity initiatives.",
+    "long_term_goals": [
+      "Get promoted to deputy general manager before age 48",
+      "Reduce her overtime to spend more evenings with her daughter",
+      "Build a professional network of women in financial services leadership",
+      "Take her daughter on a trip to Europe when she enters junior high"
+    ],
+    "style": "Polished and composed, even when internally stressed. Wears conservative suits in navy or charcoal with small pearl earrings — the unwritten dress code of megabank women managers. Speaks in formal keigo in meetings but switches to Kansai-ben with close colleagues. Takes meticulous handwritten notes in a Hobonichi planner, then types them up later — a double-entry system she knows is wasteful but can't quit. Rarely raises her voice; instead, she asks pointed questions that steer discussions. Colleagues describe her as 'the person who actually remembers what was decided last time.'",
+    "personality": {
+      "traits": [
+        "Highly detail-oriented and thorough",
+        "Quietly frustrated by inefficiency but too diplomatic to complain openly",
+        "Carries a heavy sense of responsibility for her team's output",
+        "Risk-averse in tool adoption — worries about compliance implications",
+        "Warm and supportive as a mentor but keeps professional distance",
+        "Perfectionist tendencies that extend her work hours unnecessarily",
+        "Skeptical of promises but open to evidence"
+      ],
+      "big_five": {
+        "openness": 0.45,
+        "conscientiousness": 0.92,
+        "extraversion": 0.38,
+        "agreeableness": 0.70,
+        "neuroticism": 0.65
+      }
+    },
+    "preferences": {
+      "interests": [
+        "Financial industry trends and regulatory changes",
+        "Work-life balance strategies for working mothers",
+        "Japanese tea ceremony (practices monthly at a community center)",
+        "Reading mystery novels by Keigo Higashino",
+        "Exploring Osaka's department store food halls",
+        "Meeting productivity techniques she reads about but rarely implements",
+        "Her daughter's piano recitals"
+      ],
+      "likes": [
+        "Well-structured meetings with clear agendas",
+        "Tools that integrate with existing bank-approved systems",
+        "Quiet mornings before the office gets busy",
+        "When a meeting ends early",
+        "Reliable, predictable software behavior",
+        "Handwritten thank-you notes from team members",
+        "Weekend mornings at the neighborhood bakery with her daughter"
+      ],
+      "dislikes": [
+        "Meetings that run over time because of poor facilitation",
+        "Being asked to adopt new tools without IT department approval",
+        "Cloud services not approved by the bank's information security team",
+        "The assumption that women managers should also handle team morale and social events",
+        "Vague meeting conclusions where nobody owns the next step",
+        "Being cc'd on email chains with 30+ people",
+        "Having to retype handwritten notes into digital reports"
+      ]
+    },
+    "beliefs": [
+      "Good documentation is the foundation of organizational trust",
+      "In financial services, compliance is not optional — any tool must clear security review",
+      "Women in Japanese banks have to be twice as prepared to be taken equally seriously",
+      "Small process improvements compound into massive time savings over a year"
+    ],
+    "skills": [
+      "Meeting facilitation and minute-taking in formal Japanese business style",
+      "Cross-departmental coordination and consensus building",
+      "Financial analysis and strategic planning",
+      "Mentoring junior female staff in career navigation"
+    ],
+    "behaviors": {
+      "general": [
+        "Arrives 20 minutes before the first meeting to review materials",
+        "Takes handwritten notes during meetings, types them up within 2 hours after",
+        "Sends meeting minutes to all attendees by end of day, every time",
+        "Keeps a personal 'decision log' tracking what was agreed and by whom"
+      ],
+      "routines": {
+        "morning": [
+          "Wakes at 6:00, prepares breakfast and lunch for her daughter",
+          "Sees daughter off to school by 7:30",
+          "Takes the Hankyu line to Umeda, arrives at office by 8:30",
+          "Reviews agenda and materials for morning meetings with tea"
+        ],
+        "workday": [
+          "Meetings from 9:00 to 17:00 with a 45-minute lunch break",
+          "Spends 17:00-19:00 writing up minutes and status reports",
+          "Quick check of tomorrow's agenda before leaving",
+          "Leaves by 19:30 on good days, 21:00 during busy periods"
+        ],
+        "evening": [
+          "Picks up daughter from after-school care or her mother's house",
+          "Dinner together, helps with homework",
+          "30 minutes of reading after daughter goes to bed",
+          "Asleep by 23:00, often exhausted"
+        ],
+        "weekend": [
+          "Saturday: daughter's piano lesson, then shopping or park",
+          "Afternoon: catches up on household tasks",
+          "Sunday morning: bakery visit, then tea ceremony practice (twice a month)",
+          "Sunday evening: quietly reviews the week ahead"
+        ]
+      }
+    },
+    "health": {
+      "physical": "Generally healthy but fatigued. Chronic stiff shoulders from desk work. Had a bout of gastritis last year attributed to work stress. Tries to walk 8,000 steps daily but often falls short. Gets the annual bank health screening — everything normal except borderline anemia.",
+      "mental": "Carries a persistent low-level anxiety about balancing work performance and parenting. Feels guilty leaving the office 'early' at 19:30 when male colleagues stay until 21:00. Has found that the tea ceremony practice genuinely calms her. Would benefit from more personal time but doesn't prioritize it."
+    },
+    "relationships": [
+      {
+        "name": "Hana Ogawa",
+        "relation": "Daughter",
+        "description": "10, a cheerful fourth-grader who loves piano and cats. Rina's primary motivation for wanting to reduce overtime. Starting to notice when her mom misses school events."
+      },
+      {
+        "name": "Yoshiko Ogawa",
+        "relation": "Mother",
+        "description": "71, lives 20 minutes away in Suita. Retired nurse. Picks up Hana from school when Rina works late. Rina feels both grateful and guilty about leaning on her."
+      },
+      {
+        "name": "Naomi Kitamura",
+        "relation": "Colleague and closest work friend",
+        "description": "40, works in compliance. They eat lunch together when schedules align and share candid frustrations about bank culture that they'd never voice in meetings."
+      },
+      {
+        "name": "Taro Ogawa",
+        "relation": "Ex-husband",
+        "description": "Divorced 4 years ago. He lives in Tokyo and sees Hana during school holidays. The relationship is civil but minimal."
+      }
+    ]
+  },
+  "segment": "Overwhelmed Section Chief",
+  "segment_id": 4
+}

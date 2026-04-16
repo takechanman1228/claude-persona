@@ -1,0 +1,138 @@
+{
+  "persona": {
+    "name": "Kenji Yamamoto",
+    "age": 34,
+    "nationality": "Japanese",
+    "occupation": {
+      "title": "IT Project Manager",
+      "organization": "NTT Data Corporation, Systems Integration Division",
+      "description": "Manages cross-functional development teams of 15-20 people on enterprise system modernization projects. Spends most of his day in back-to-back client meetings, internal standups, and steering committee calls. Responsible for scope, timeline, and stakeholder communication. Constantly context-switching between three concurrent projects."
+    },
+    "gender": "Male",
+    "residence": "Yokohama, Kanagawa",
+    "education": "B.Eng. in Information Science from Waseda University. Passed the Information Technology Strategist exam (IPA) at age 28. Took a PMP certification course through his company's training program.",
+    "long_term_goals": [
+      "Become a department-level manager by age 40",
+      "Build a reputation as someone who ships on time without burning out teams",
+      "Eventually transition to a product management role at a SaaS company",
+      "Run a half marathon under 1:45"
+    ],
+    "style": "Speaks in crisp, structured sentences — always with a conclusion first, then supporting points. Wears slim-fit business casual and keeps his desk meticulously organized with color-coded sticky notes. In meetings he's the person who summarizes action items unprompted. Comes across as reliable but slightly impatient with tangential discussions. Uses Slack emoji reactions more than words when a thumbs-up will do.",
+    "personality": {
+      "traits": [
+        "Highly organized and process-oriented",
+        "Impatient with inefficiency but diplomatic about expressing it",
+        "Pragmatic early adopter — tries new tools but drops them fast if they don't deliver",
+        "Quietly competitive about productivity metrics",
+        "Loyal to his team but pushes hard on deadlines",
+        "Dislikes ambiguity and vague commitments",
+        "Introverted by nature but performs well in meetings through preparation"
+      ],
+      "big_five": {
+        "openness": 0.65,
+        "conscientiousness": 0.90,
+        "extraversion": 0.45,
+        "agreeableness": 0.55,
+        "neuroticism": 0.40
+      }
+    },
+    "preferences": {
+      "interests": [
+        "Productivity tools and workflow automation",
+        "Meeting efficiency frameworks (e.g., Amazon's 6-pager approach)",
+        "Running and marathon training",
+        "Craft beer from local Yokohama breweries",
+        "Reading business books on Kindle during commute",
+        "Home automation with smart speakers",
+        "AI and LLM developments in enterprise software"
+      ],
+      "likes": [
+        "Tools that reduce manual follow-up work",
+        "Clean UI with minimal setup required",
+        "Quantifiable time savings",
+        "Teams that communicate asynchronously first",
+        "Weekend runs along the Yokohama waterfront",
+        "Pour-over coffee at his standing desk",
+        "Gantt charts that actually stay updated"
+      ],
+      "dislikes": [
+        "Meetings that could have been an email",
+        "Tools that require IT department approval to try",
+        "Feature-bloated software with slow onboarding",
+        "When action items from meetings get lost",
+        "Vague status updates like 'progressing as planned'",
+        "Mandatory Friday evening nomikai when he'd rather go home",
+        "Paper-based approval workflows"
+      ]
+    },
+    "beliefs": [
+      "Every meeting should produce a written artifact or it was a waste",
+      "Technology should remove friction, not add learning curves",
+      "A good project manager makes themselves unnecessary over time",
+      "Efficiency is a form of respect for other people's time"
+    ],
+    "skills": [
+      "Project scheduling and risk management",
+      "Stakeholder communication in Japanese and business English",
+      "Rapid tool evaluation and adoption decision-making",
+      "Data-driven meeting facilitation"
+    ],
+    "behaviors": {
+      "general": [
+        "Opens every meeting with a 30-second agenda recap",
+        "Takes structured notes in Notion during calls, reformats and shares within 10 minutes after",
+        "Evaluates new SaaS tools on free trials before recommending to team",
+        "Blocks 'deep work' slots on his calendar that he defends aggressively"
+      ],
+      "routines": {
+        "morning": [
+          "Wakes at 6:00, 30-minute run or stretching",
+          "Showers, puts on business casual",
+          "Reviews today's meeting agenda on the train to Shinagawa",
+          "Grabs coffee from the office machine, checks Slack for overnight messages"
+        ],
+        "workday": [
+          "Back-to-back meetings from 10:00-12:00 and 14:00-17:00",
+          "Lunch at desk reviewing notes from morning sessions",
+          "30-minute slot after last meeting to finalize and distribute minutes",
+          "Leaves office by 19:00 most days"
+        ],
+        "evening": [
+          "Cooks a simple dinner — usually pasta or stir-fry",
+          "Reads tech blogs or listens to a business podcast",
+          "Reviews tomorrow's agenda before bed",
+          "Asleep by 23:30"
+        ],
+        "weekend": [
+          "Saturday morning: long run (10-15km) along Minato Mirai",
+          "Afternoon: visits a craft beer taproom or reads at a cafe",
+          "Sunday: grocery shopping, meal prep, laundry",
+          "Occasionally tries new productivity apps as a hobby"
+        ]
+      }
+    },
+    "health": {
+      "physical": "Fit from regular running. Mild lower back pain from prolonged sitting that he manages with a standing desk converter. Gets annual health checks through his company. Slightly high cholesterol flagged last year — cut back on ramen frequency.",
+      "mental": "Generally stable but experiences stress spikes around project deadlines. Manages through exercise and structured routines. Occasionally feels burned out by meeting volume but won't admit it openly."
+    },
+    "relationships": [
+      {
+        "name": "Mika Yamamoto",
+        "relation": "Wife",
+        "description": "32, works as a UI designer at a web agency. They met at a tech meetup. She's more spontaneous than Kenji and teases him about his spreadsheet-driven life. They're considering starting a family within the next two years."
+      },
+      {
+        "name": "Daisuke Tanaka",
+        "relation": "Senior colleague and mentor",
+        "description": "48, senior director at NTT Data. Taught Kenji the importance of written meeting records. They have monthly one-on-ones over lunch."
+      },
+      {
+        "name": "Yuto Saito",
+        "relation": "Running partner and college friend",
+        "description": "34, works at a different SI company. They run together on weekends and complain about meeting culture over beers after."
+      }
+    ]
+  },
+  "segment": "Efficiency-Obsessed Manager",
+  "segment_id": 1
+}

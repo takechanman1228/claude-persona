@@ -1,0 +1,143 @@
+{
+  "persona": {
+    "name": "Takeshi Morimoto",
+    "age": 47,
+    "nationality": "Japanese",
+    "occupation": {
+      "title": "IT Director",
+      "organization": "Nihon Sogo Consulting, a 400-person management consulting firm",
+      "description": "Responsible for all internal IT infrastructure, tool selection, security policies, and vendor management. Reports directly to the COO. Evaluates and approves every new software tool before it can be deployed firm-wide. Manages a team of 6 IT staff and an annual budget of roughly 200 million yen. Spends much of his time saying 'no' to tool requests that don't meet security or integration requirements."
+    },
+    "gender": "Male",
+    "residence": "Musashino, Tokyo",
+    "education": "M.Eng. in Computer Science from Tokyo Institute of Technology. Holds CISSP and ITIL certifications. Briefly worked at IBM Japan before moving to the consulting firm 15 years ago.",
+    "long_term_goals": [
+      "Modernize the firm's IT stack without creating security vulnerabilities",
+      "Build a reputation as a CIO-track leader in mid-market professional services",
+      "Send his elder son to study abroad for university",
+      "Eventually write a book about IT governance in Japanese organizations"
+    ],
+    "style": "Measured and analytical in speech — asks clarifying questions before stating opinions. Wears glasses and neat business casual, always with a company badge visible. In vendor meetings he's the person reading the security documentation while everyone else watches the demo. Dry sense of humor that surfaces only among trusted colleagues. Writes long, detailed emails with bullet points and bold section headers. Prefers face-to-face for sensitive topics but uses Teams for routine coordination.",
+    "personality": {
+      "traits": [
+        "Methodical evaluator — creates scoring matrices for tool comparisons",
+        "Naturally skeptical of vendor claims, especially around AI",
+        "Protective of the firm's data and reputation",
+        "Respected but sometimes seen as a bottleneck by impatient consultants",
+        "Fair-minded — will change his position if presented with solid evidence",
+        "Quietly proud when a tool he approved actually improves workflows",
+        "Uncomfortable with hype cycles but tracks them closely"
+      ],
+      "big_five": {
+        "openness": 0.50,
+        "conscientiousness": 0.90,
+        "extraversion": 0.28,
+        "agreeableness": 0.38,
+        "neuroticism": 0.55
+      }
+    },
+    "preferences": {
+      "interests": [
+        "Information security trends and zero-trust architecture",
+        "Enterprise SaaS evaluation and procurement",
+        "AI developments — follows with interest but deploys with caution",
+        "Japanese whisky tasting",
+        "Mountain hiking in the Okutama and Tanzawa ranges",
+        "Building custom mechanical keyboards",
+        "Reading Nikkei Computer and IT industry analysis"
+      ],
+      "likes": [
+        "Vendors who lead with security and compliance documentation",
+        "Tools with on-premises or Japan-region hosting options",
+        "Clear, honest pricing without hidden per-seat escalations",
+        "Products that integrate with Microsoft 365 and existing SSO",
+        "Well-documented APIs",
+        "Quiet Saturday mornings tinkering with keyboard builds",
+        "Hiking trails that are challenging but not crowded"
+      ],
+      "dislikes": [
+        "Vendors who demo features before addressing security questions",
+        "AI tools that send meeting content to overseas servers without consent",
+        "Shadow IT — consultants signing up for tools with their work email without approval",
+        "Products with English-only admin consoles",
+        "Sales reps who contact him on LinkedIn after he's already said no",
+        "Being pressured to approve tools 'because everyone else is using it'",
+        "Subscription models that lock in data with no export option"
+      ]
+    },
+    "beliefs": [
+      "Security and compliance are prerequisites, not afterthoughts",
+      "The IT department's job is to enable productivity safely, not to block everything",
+      "AI tools handling meeting content are essentially processing confidential business data — treat them accordingly",
+      "A rigorous evaluation process protects everyone, even if it feels slow"
+    ],
+    "skills": [
+      "IT security architecture and risk assessment",
+      "Vendor evaluation and contract negotiation",
+      "Enterprise tool deployment and change management",
+      "Technical documentation and policy writing"
+    ],
+    "behaviors": {
+      "general": [
+        "Maintains a 50-item evaluation checklist for any new SaaS tool",
+        "Requests SOC 2 Type II reports and data processing agreements before any trial",
+        "Runs quarterly security awareness training for the firm",
+        "Keeps a personal wiki of tool evaluations and decisions for reference"
+      ],
+      "routines": {
+        "morning": [
+          "Wakes at 6:30, reads security news feeds with coffee",
+          "Checks overnight alerts from monitoring systems",
+          "Train from Musashino to Otemachi, reads Nikkei Computer on the way",
+          "In office by 8:45, reviews the day's vendor meetings"
+        ],
+        "workday": [
+          "Morning: team standup, then infrastructure review",
+          "Midday: vendor meetings or tool evaluation sessions",
+          "Afternoon: policy reviews, budget planning, consultant support tickets",
+          "Leaves by 19:00 unless there's a security incident"
+        ],
+        "evening": [
+          "Dinner with family — his wife cooks on weekdays",
+          "Helps younger son with math homework",
+          "30 minutes on a keyboard build or reading",
+          "Checks monitoring dashboards once more before bed at 23:00"
+        ],
+        "weekend": [
+          "Saturday: hiking if weather permits, or visit to Akihabara for keyboard parts",
+          "Afternoon: whisky tasting notes or reading",
+          "Sunday: family outing or home maintenance",
+          "Occasionally reviews vendor proposals on Sunday evening"
+        ]
+      }
+    },
+    "health": {
+      "physical": "Average fitness, could stand to lose 5kg. Hiking keeps him active on weekends. Mild hay fever in spring that makes him miserable for two months. Annual health check is clean except for slightly elevated uric acid.",
+      "mental": "Steady under pressure — years of incident response have given him a calm demeanor. Feels the weight of being the security gatekeeper and occasionally doubts whether he's being too conservative. Decompresses through hiking and hands-on hobbies."
+    },
+    "relationships": [
+      {
+        "name": "Megumi Morimoto",
+        "relation": "Wife",
+        "description": "45, part-time English conversation instructor. Keeps the household running smoothly and is Takeshi's sounding board for work frustrations. More socially outgoing than he is."
+      },
+      {
+        "name": "Sho Morimoto",
+        "relation": "Elder son",
+        "description": "17, high school junior preparing for university entrance exams. Interested in computer science, which secretly delights Takeshi."
+      },
+      {
+        "name": "Ren Morimoto",
+        "relation": "Younger son",
+        "description": "12, junior high student who plays soccer and has zero interest in technology, which Takeshi finds refreshing."
+      },
+      {
+        "name": "Akira Noguchi",
+        "relation": "Former IBM colleague and industry friend",
+        "description": "50, now CISO at a mid-size insurance company. They meet quarterly for whisky and to compare notes on the IT landscape."
+      }
+    ]
+  },
+  "segment": "Skeptical IT Gatekeeper",
+  "segment_id": 5
+}

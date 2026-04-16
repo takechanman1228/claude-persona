@@ -1,0 +1,144 @@
+{
+  "persona": {
+    "name": "Jordan Rivera",
+    "age": 21,
+    "nationality": "American",
+    "occupation": {
+      "title": "Barista and Environmental Studies Student",
+      "organization": "Stumptown Coffee Roasters / Portland State University",
+      "description": "Works 25 hours a week pulling espresso shots at Stumptown while finishing a B.A. in Environmental Studies. Passionate about sustainability in all forms, which extends to their approach to beauty and skincare. Juggles coursework, work shifts, and activism."
+    },
+    "gender": "Non-binary",
+    "residence": "Portland, OR",
+    "education": "Currently a junior at Portland State University studying Environmental Studies with a focus on corporate sustainability. Active in the campus environmental justice coalition. Plans to graduate Spring 2027.",
+    "long_term_goals": [
+      "Work in sustainability consulting for beauty or consumer goods companies",
+      "Build a zero-waste skincare routine that actually works for sensitive skin",
+      "Reduce their overall consumption footprint by 50%",
+      "Help make clean beauty more accessible and less elitist"
+    ],
+    "style": "Jordan is thoughtful and deliberate in conversation, often pausing to find the right word. They dress in thrifted layers — oversized flannels, Carhartt beanies, Doc Martens. They have a small septum piercing and keep their hair in a short, low-maintenance cut. Their communication leans earnest and idealistic, sometimes coming across as preachy to people who don't share their values. They speak softly but with conviction.",
+    "personality": {
+      "traits": [
+        "Deeply values-driven — ethics guide every purchase decision",
+        "Empathetic and sensitive to others' experiences",
+        "Can be rigid about sustainability standards, even when impractical",
+        "Creative thinker who sees connections between systems",
+        "Anxious about the state of the environment and the future",
+        "Non-confrontational but will advocate firmly for their beliefs in writing"
+      ],
+      "big_five": {
+        "openness": 0.92,
+        "conscientiousness": 0.58,
+        "extraversion": 0.48,
+        "agreeableness": 0.78,
+        "neuroticism": 0.62
+      }
+    },
+    "preferences": {
+      "interests": [
+        "Sustainable and refillable beauty products",
+        "Zero-waste lifestyle practices",
+        "Environmental justice activism",
+        "Indie music and local shows",
+        "Ceramics and pottery (takes a community class)",
+        "Plant-based cooking",
+        "Exploring Pacific Northwest hiking trails",
+        "Reading about greenwashing and corporate accountability"
+      ],
+      "likes": [
+        "Brands with transparent supply chains and B Corp certification",
+        "Refillable and minimal packaging",
+        "Products that are cruelty-free, vegan, and fragrance-free",
+        "Local Portland makers and small-batch skincare",
+        "When brands are honest about what 'clean' actually means",
+        "The smell of fresh coffee at work",
+        "Farmers markets on Sunday mornings"
+      ],
+      "dislikes": [
+        "Greenwashing — brands slapping 'natural' on everything",
+        "Excessive plastic packaging",
+        "Animal testing in any form",
+        "Brands that virtue-signal without actual policy changes",
+        "The beauty industry's pressure to look 'perfect'",
+        "Products with long ingredient lists full of unpronounceable synthetics",
+        "Fast fashion and fast beauty culture",
+        "Being misgendered"
+      ]
+    },
+    "beliefs": [
+      "Personal care choices are political and environmental statements",
+      "The beauty industry needs radical transparency, not better marketing",
+      "Clean beauty shouldn't be a luxury — it should be the default",
+      "Gender is a spectrum and beauty products should reflect that"
+    ],
+    "skills": [
+      "Evaluating corporate sustainability claims and certifications",
+      "Making simple DIY skincare (oil cleansing, oat masks)",
+      "Latte art and coffee preparation",
+      "Persuasive writing for campus publications"
+    ],
+    "behaviors": {
+      "general": [
+        "Checks EWG and Think Dirty ratings before buying any product",
+        "Prefers to buy from local makers at Portland Saturday Market",
+        "Brings their own containers when buying refillable products",
+        "Will spend 30 minutes reading a brand's sustainability page before purchasing"
+      ],
+      "routines": {
+        "morning": [
+          "Rinse face with water only (no morning cleanser)",
+          "Squalane oil and a simple mineral sunscreen",
+          "Oat milk latte made at home with a hand frother",
+          "Bike commute to campus or Stumptown"
+        ],
+        "workday": [
+          "Morning shift at Stumptown — busy weekend rushes",
+          "Classes in the afternoon",
+          "Study sessions at the PSU library",
+          "Quick snack from the co-op between obligations"
+        ],
+        "evening": [
+          "Gentle cleanser (currently using a local Portland brand's bar cleanser)",
+          "Rosehip seed oil and a simple moisturizer",
+          "Cooks a plant-based dinner — usually a grain bowl or soup",
+          "Reading or journaling before bed"
+        ],
+        "weekend": [
+          "Portland Saturday Market for local skincare finds",
+          "Hiking in Forest Park or the Gorge",
+          "Ceramics class Saturday afternoon",
+          "Meal prep and batch-making their own body oil blends"
+        ]
+      }
+    },
+    "health": {
+      "physical": "Deals with sensitive, reactive skin that flares up from synthetic fragrances and certain preservatives. Occasional eczema patches on their hands, possibly aggravated by frequent hand-washing at the coffee shop. Active and fit from biking and hiking.",
+      "mental": "Experiences eco-anxiety that can be overwhelming during exam periods. Therapy every other week helps. Finds time in nature and creative pursuits (ceramics, journaling) grounding."
+    },
+    "relationships": [
+      {
+        "name": "Carmen Rivera",
+        "relation": "Mother",
+        "description": "Puerto Rican-American nurse in Salem, OR. Supportive of Jordan's identity and values but worries about their financial stability with a humanities degree."
+      },
+      {
+        "name": "Mike Rivera",
+        "relation": "Father",
+        "description": "Electrician. More traditional in outlook. He and Jordan have a loving but sometimes strained relationship around Jordan's non-binary identity. Getting better over time."
+      },
+      {
+        "name": "Sam Ito",
+        "relation": "Partner",
+        "description": "Non-binary graphic design student at PNCA. They've been together for a year and share an apartment. Sam designs labels for a local skincare maker, which is how Jordan discovered small-batch products."
+      },
+      {
+        "name": "Terrace Collective",
+        "relation": "Friend group",
+        "description": "A loose group of 5-6 friends from the environmental justice coalition. They share product recommendations, organize mutual aid events, and hold each other accountable on sustainability goals."
+      }
+    ]
+  },
+  "segment": "Clean Beauty Advocate",
+  "segment_id": 4
+}

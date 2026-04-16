@@ -1,0 +1,107 @@
+{
+  "persona": {
+    "name": "Ravi Mehta",
+    "age": 33,
+    "nationality": "Indian-American",
+    "occupation": {
+      "title": "Senior Data Scientist",
+      "organization": "Tempus AI (health-tech)",
+      "description": "Builds predictive models for cancer treatment outcomes using genomic data. Works hybrid — 3 days in the office, 2 remote. Spends most of his time in Jupyter notebooks and on Slack. High cognitive demand, sedentary."
+    },
+    "gender": "Male",
+    "residence": "San Francisco, CA",
+    "education": "B.Tech in Computer Science from IIT Bombay. M.S. in Statistics from Stanford. Published two papers on causal inference methods.",
+    "long_term_goals": [
+      "Break a sub-1:30 half marathon",
+      "Transition to a VP of Data Science role",
+      "Optimize his running using the same analytical rigor he applies to work",
+      "Build a personalized training model using his own biometric data",
+      "Visit every Michelin-starred restaurant in the Bay Area"
+    ],
+    "style": "Ravi speaks in data. He quantifies everything — not to show off, but because precision is how he makes sense of the world. He asks for energy return percentages, stack height in millimeters, and weight in grams — marketing adjectives like 'responsive' annoy him unless backed by numbers. He's quiet in group settings but sharp in one-on-one conversation. Dresses in fitted running gear during runs and tech-casual (Patagonia vest, Allbirds) at work.",
+    "personality": {
+      "traits": [
+        "Analytically rigorous — won't accept claims without evidence",
+        "Introverted but socially capable in small groups",
+        "Perfectionistic about running form and metrics",
+        "Impatient with vague or qualitative product descriptions",
+        "Enjoys the intellectual side of running optimization",
+        "Spends as much time analyzing runs as running them"
+      ],
+      "big_five": {
+        "openness": 0.75,
+        "conscientiousness": 0.80,
+        "extraversion": 0.40,
+        "agreeableness": 0.45,
+        "neuroticism": 0.50
+      }
+    },
+    "preferences": {
+      "interests": [
+        "Running performance analytics (Stryd, Garmin metrics)",
+        "Machine learning and causal inference",
+        "Japanese whisky tasting",
+        "Specialty coffee brewing methods",
+        "Running shoe technology teardowns",
+        "Biomechanics research papers",
+        "Bay Area hiking trails"
+      ],
+      "likes": [
+        "Shoes with published midsole energy return data",
+        "Brands that provide detailed specifications (not just marketing copy)",
+        "Carbon plate or similar propulsion technology",
+        "Shoes with large-sample runner reviews (not just influencer opinions)",
+        "Running watches with advanced analytics",
+        "Products that cite peer-reviewed research",
+        "A/B testing his own shoe rotation"
+      ],
+      "dislikes": [
+        "Marketing copy that says 'responsive' without defining the metric",
+        "Shoes that don't publish their stack height or heel-toe drop",
+        "Influencer-driven shoe recommendations without methodology",
+        "Overly cushioned shoes that sacrifice proprioception",
+        "Products positioned on emotion rather than evidence",
+        "Running shoe reviews that don't mention weight or durability data",
+        "Being told to 'just run in whatever feels good'"
+      ]
+    },
+    "beliefs": [
+      "Running performance is a multivariate optimization problem",
+      "Shoe choice should be data-informed, not brand-loyalty-driven",
+      "The best running shoe is the one with the highest evidence base for your gait type",
+      "Technology in shoes should be measurable, not just marketable"
+    ],
+    "skills": [
+      "Statistical modeling and machine learning (Python, R)",
+      "Data visualization and storytelling",
+      "Running gait self-analysis using slow-motion video",
+      "Specialty coffee pour-over technique"
+    ],
+    "behaviors": {
+      "general": [
+        "Runs 4x per week with every run tracked on Garmin + Stryd pod",
+        "Maintains a personal spreadsheet comparing shoes by weight, drop, stack height, and durability",
+        "Reads Doctors of Running and Believe in the Run for technical reviews",
+        "Rotates 4 pairs of shoes: easy day, tempo, long run, race"
+      ],
+      "routines": {
+        "morning": ["Wake at 6:30", "Pour-over coffee ritual", "Review yesterday's running data on Garmin Connect", "Run if it's a morning-run day (Tu, Th)"],
+        "workday": ["Standup at 9:30", "Deep work: model building 10-1", "Lunch: bento from Marufuku or homemade dal", "Meetings and code reviews 2-5"],
+        "evening": ["Run if it's an evening-run day (M, F)", "Cook dinner — usually Indian or Japanese", "Analyze run data and update shoe log", "Read research papers or running blogs", "Bed by 11"],
+        "weekend": ["Saturday: long run (12-16 miles) through Golden Gate Park", "Post-run recovery: sauna, stretching", "Sunday: rest day, brunch, hiking", "Meal prep and gear maintenance"]
+      }
+    },
+    "health": {
+      "physical": "Good cardiovascular fitness but tight hip flexors from desk work. Minor ITBS flare-up in 2025 resolved with targeted strengthening. Neutral gait with slight overpronation under fatigue. Maintains healthy BMI and tracks body composition monthly.",
+      "mental": "Manages work stress well. Occasionally overthinks running — analysis paralysis about shoe choice and training plans. Meditation practice helps. Gets satisfaction from seeing training data trend in the right direction."
+    },
+    "relationships": [
+      {"name": "Anita Mehta", "relation": "Mother (60)", "description": "Lives in Mumbai. Doesn't understand why he runs but is proud of his career. Video calls every Sunday."},
+      {"name": "Nisha Patel", "relation": "Girlfriend (31)", "description": "Product manager at Stripe. Not a runner but hikes. Tolerates his running data spreadsheets with affectionate exasperation."},
+      {"name": "Arun Krishnamurthy", "relation": "Running partner", "description": "Also a data scientist. They discuss shoe technology on long runs. Arun is faster and Ravi uses him as a pace benchmark."},
+      {"name": "Raj Mehta", "relation": "Father (63)", "description": "Retired banker in Mumbai. Had knee replacement surgery — Ravi thinks about this when choosing shoes."}
+    ]
+  },
+  "segment": "Data-Driven Optimizer",
+  "segment_id": 8
+}

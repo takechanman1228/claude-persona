@@ -1,0 +1,17 @@
+{
+  "name": "claude-persona",
+  "owner": {
+    "name": "takechanman1228"
+  },
+  "metadata": {
+    "description": "Build persona panels and pressure-test product concepts with Claude Code"
+  },
+  "plugins": [
+    {
+      "name": "claude-persona",
+      "source": "./",
+      "description": "Build a market-specific persona panel and pressure-test concepts before fieldwork. Inspired by TinyTroupe.",
+      "version": "0.1.0"
+    }
+  ]
+}

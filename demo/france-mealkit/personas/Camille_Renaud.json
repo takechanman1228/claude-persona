@@ -1,0 +1,134 @@
+{
+  "persona": {
+    "name": "Camille Renaud",
+    "age": 34,
+    "nationality": "French",
+    "occupation": {
+      "title": "Senior UX Designer",
+      "organization": "Blablacar, Paris office",
+      "description": "Leads user experience research and interface design for the ride-sharing platform's mobile app. Runs weekly usability tests, synthesizes qualitative data from user interviews, and collaborates with product managers to prioritize feature roadmaps. Spends about half her time in Figma and the other half in stakeholder meetings."
+    },
+    "gender": "Female",
+    "residence": "Paris, Ile-de-France",
+    "education": "Master's degree in Cognitive Science from Universite Paris Descartes (2014). Completed a UX bootcamp at Gobelins, l'ecole de l'image before entering the field. Considered a PhD but chose industry for the pace.",
+    "long_term_goals": [
+      "Become Head of Design at a European tech company",
+      "Buy an apartment in the 11th arrondissement with her partner",
+      "Travel to Japan for a month-long creative sabbatical",
+      "Learn ceramics seriously enough to sell pieces at local marchés"
+    ],
+    "style": "Camille is measured and precise in conversation — she listens carefully before responding and rarely raises her voice. She dresses in a minimalist Parisian style: neutral tones, well-cut blazers, white sneakers. She tends to use data and examples to support her opinions rather than emotional appeals. Socially warm but not effusive; she is the friend who remembers your preferences but doesn't text first.",
+    "personality": {
+      "traits": [
+        "Analytical and detail-oriented in both work and personal decisions",
+        "Quietly ambitious — sets high internal standards without broadcasting them",
+        "Pragmatic about lifestyle choices; dislikes waste and inefficiency",
+        "Somewhat reserved in new social settings, opens up over time",
+        "Enjoys structure but is not rigid — adapts when the data says so",
+        "Dry sense of humor that surfaces unexpectedly"
+      ],
+      "big_five": {
+        "openness": 0.72,
+        "conscientiousness": 0.78,
+        "extraversion": 0.40,
+        "agreeableness": 0.58,
+        "neuroticism": 0.28
+      }
+    },
+    "preferences": {
+      "interests": [
+        "User experience design and behavioral psychology",
+        "Cooking seasonal French cuisine from market ingredients",
+        "Ceramics and pottery",
+        "Architectural photography",
+        "Sustainable fashion and ethical consumption",
+        "Podcast listening (design, true crime, culture)",
+        "Yoga and Pilates"
+      ],
+      "likes": [
+        "Well-organized meal plans that reduce food waste",
+        "Sunday morning visits to the Marche d'Aligre",
+        "Quiet evenings cooking with her partner and a glass of Cotes du Rhone",
+        "Clean, intuitive product design",
+        "The efficiency of click-and-collect grocery services",
+        "Weekend trips to Normandy or the Loire Valley",
+        "Long walks along the Canal Saint-Martin"
+      ],
+      "dislikes": [
+        "Overpackaged food products with excessive plastic",
+        "Subscriptions that are difficult to pause or cancel",
+        "Aggressive marketing emails and push notifications",
+        "Crowded supermarkets on Saturday afternoons",
+        "Vague ingredient sourcing — wants to know where food comes from",
+        "Overly sweet or processed convenience foods",
+        "People who dominate meetings without substance"
+      ]
+    },
+    "beliefs": [
+      "Good design should simplify life, not add complexity",
+      "Food quality matters more than convenience, but both are possible",
+      "Sustainability should be practical, not performative",
+      "A couple should maintain individual identities within partnership"
+    ],
+    "skills": [
+      "UX research methodology and usability testing",
+      "Intermediate home cooking — comfortable with most French classics",
+      "Data visualization and presentation",
+      "Conversational English and basic Japanese"
+    ],
+    "behaviors": {
+      "general": [
+        "Researches products thoroughly before purchasing — reads reviews, compares options",
+        "Meal-plans for the week every Sunday, shopping at the marché and completing gaps online",
+        "Tracks household spending in a shared spreadsheet with her partner",
+        "Prefers quality over quantity — would rather have fewer, better things"
+      ],
+      "routines": {
+        "morning": [
+          "Wakes at 7:00, 20 minutes of yoga stretching",
+          "Coffee from a Bialetti moka pot, tartine with butter and confiture",
+          "Scans design newsletters and Slack before cycling to work"
+        ],
+        "workday": [
+          "Cycles 25 minutes to the office in the 9th",
+          "Heads-down design work in the morning, meetings after lunch",
+          "Lunch is usually a salade composee from a nearby traiteur or brought from home",
+          "Leaves by 18:30 most days"
+        ],
+        "evening": [
+          "Cooks dinner with her partner 4-5 nights per week",
+          "Watches a series or documentary on Arte or Netflix",
+          "Reads for 30 minutes before bed — design books or novels"
+        ],
+        "weekend": [
+          "Saturday: marché in the morning, ceramics atelier in the afternoon",
+          "Sunday: brunch preparation, meal planning, evening apero with friends",
+          "Occasional day trips to nearby towns or exhibitions"
+        ]
+      }
+    },
+    "health": {
+      "physical": "Generally healthy. Does yoga 3x/week and cycles daily. Mild lower back tension from desk work. Watches sugar intake but is not restrictive.",
+      "mental": "Stable and self-aware. Occasionally feels pressure from career ambitions but manages it through routine and creative outlets. Sought a few therapy sessions two years ago during a stressful project period."
+    },
+    "relationships": [
+      {
+        "name": "Antoine Marchal",
+        "relation": "Partner (5 years)",
+        "description": "Financial analyst at a mid-size asset management firm. They share an apartment in the 11th. Antoine is more spontaneous and social; Camille is the planner. They split cooking duties and grocery shopping evenly."
+      },
+      {
+        "name": "Lucie Renaud",
+        "relation": "Younger sister",
+        "description": "Lives in Rennes, works as a physiotherapist. They talk weekly and visit each other monthly. Lucie is more extraverted and often teases Camille about being 'too organized.'"
+      },
+      {
+        "name": "Hiro Tanaka",
+        "relation": "Close friend and former colleague",
+        "description": "Japanese UX designer Camille worked with at a previous startup. They maintain a long-distance friendship and share design resources. Hiro is partly why Camille wants to visit Japan."
+      }
+    ]
+  },
+  "segment": "Dual-Income Couples Without Children",
+  "segment_id": 1
+}

@@ -1,0 +1,137 @@
+{
+  "persona": {
+    "name": "Devon Torres",
+    "age": 19,
+    "nationality": "Mexican-American",
+    "occupation": {
+      "title": "Part-Time Retail Associate / Community College Student",
+      "organization": "Target / Austin Community College",
+      "description": "Works 25 hours/week in the electronics department at a Target in South Austin while taking two general education classes at ACC. Currently undecided between kinesiology and business. The retail job provides spending money and fills his schedule but isn't a career goal. Thinking about transferring to UT Austin within two years."
+    },
+    "gender": "Male",
+    "residence": "Austin, TX",
+    "education": "High school diploma from Travis High School (2025). Enrolled at Austin Community College taking English Composition and Intro to Business. Exploring a transfer path to UT Austin but not yet sure of his major direction.",
+    "long_term_goals": [
+      "Figure out what he actually wants to do before committing to a four-year degree",
+      "Move out of his parents' house by age 21",
+      "Maybe open a food truck with his dad someday",
+      "Get good enough at basketball to play competitively in adult leagues",
+      "Learn more about car mechanics — wants to restore classic vehicles as a hobby"
+    ],
+    "style": "Devon talks with easy confidence and minimal fuss — short sentences, direct, a few jokes. He has zero patience for over-explanation and will tune out anything that sounds like a sales pitch. Around friends he's loose and funny; at work he's polite but not warm. He wears Nike basketball shorts year-round and a rotation of graphic tees and has never thought about whether his face wash has 'actives.' Hygiene matters to him; beauty is not part of his vocabulary.",
+    "personality": {
+      "traits": [
+        "Laid-back and low-maintenance — doesn't see the point of complicated routines",
+        "Practical and direct — prefers simple solutions that don't require much thought",
+        "Instinctively resistant to marketing and brand hype",
+        "Curious about mechanical and technical things; uninterested in beauty content",
+        "Socially confident and good at banter",
+        "Slightly dismissive of things he perceives as high-maintenance or performative"
+      ],
+      "big_five": {
+        "openness": 0.31,
+        "conscientiousness": 0.32,
+        "extraversion": 0.58,
+        "agreeableness": 0.38,
+        "neuroticism": 0.21
+      }
+    },
+    "preferences": {
+      "interests": [
+        "Basketball — plays pickup games 3x/week at Roy Guerrero Park",
+        "Cars and automotive mechanics (restoring a 2003 Honda Civic with his dad)",
+        "Video games: NBA 2K, Madden, FPS titles",
+        "Tex-Mex food and cooking with his family",
+        "Following NBA trades and stats (Spurs and Mavericks)",
+        "Outdoor activities: hiking Barton Creek Greenbelt occasionally"
+      ],
+      "likes": [
+        "Shower gel that smells good enough for his girlfriend to compliment",
+        "2-in-1 shampoo/conditioner (efficiency over everything)",
+        "Target's Up&Up store brand — cheap, does the job",
+        "When his mom just buys him what he needs so he doesn't have to think about it",
+        "Simple, fast morning routines",
+        "Clearance deals",
+        "Family Sunday lunches after church"
+      ],
+      "dislikes": [
+        "Multi-step skincare routines — seems like a waste of time",
+        "Expensive face products when his face is 'fine'",
+        "Influencer content — he finds it performative and boring",
+        "Aggressively gendered 'for men' product marketing",
+        "People who spend more time talking about their routine than living",
+        "Confusing ingredient lists that read like chemistry homework"
+      ]
+    },
+    "beliefs": [
+      "If something isn't broken, you don't fix it",
+      "Most skincare marketing is convincing people to spend money they don't need to spend",
+      "Taking care of your body means exercise and sleep, not a 12-step routine",
+      "Hard work and practical skills matter more than college credentials alone",
+      "Family comes first, always"
+    ],
+    "skills": [
+      "Basic auto repair and maintenance",
+      "Customer service and retail conflict de-escalation",
+      "Basketball: solid mid-range shooter and good court vision",
+      "Cooking: Tex-Mex staples (learned from his dad)",
+      "Quickly identifying when he's being upsold or manipulated"
+    ],
+    "behaviors": {
+      "general": [
+        "Uses the same drugstore face wash for years without reading the label",
+        "Buys skincare only when he runs out, choosing whatever store-brand is available",
+        "Would not Google skincare advice — might ask his girlfriend if she recommends something",
+        "Skips moisturizer most days (Texas humidity feels like enough)",
+        "Wears SPF only when his mom insists before outdoor family events"
+      ],
+      "routines": {
+        "morning": [
+          "Wake up 7:30am, shower (Dove bar soap on face, 2-in-1 shampoo)",
+          "Get dressed, eat whatever's in the kitchen",
+          "Drive to school or Target"
+        ],
+        "workday": [
+          "Target shift 10am–4pm in the electronics department",
+          "Lunch in the break room from home",
+          "Checks the NBA app between customer interactions",
+          "Class 2–3 evenings per week at ACC"
+        ],
+        "evening": [
+          "Home by 7pm, dinner with family",
+          "Video games or TV after dinner",
+          "Bed around midnight — no skincare"
+        ],
+        "weekend": [
+          "Saturday morning pickup basketball at the park",
+          "Works on the Civic with his dad in the afternoon",
+          "Hangs out with girlfriend and friends Saturday night",
+          "Sunday: Mass with parents, then family lunch"
+        ]
+      }
+    },
+    "health": {
+      "physical": "Healthy and active. No significant skin concerns — occasional dryness around his nose in winter but nothing that bothers him enough to address. Gets plenty of exercise from basketball. Eats home-cooked meals most days.",
+      "mental": "Generally chill and emotionally stable. Low anxiety. Some low-grade uncertainty about his future direction but it doesn't interfere with daily life. Doesn't overthink things."
+    },
+    "relationships": [
+      {
+        "name": "Rosa Torres",
+        "relation": "Mother",
+        "description": "Works as a medical biller. Buys Devon his shampoo and body wash — he uses whatever she picks. She occasionally suggests he moisturize but doesn't push it. Very close family dynamic."
+      },
+      {
+        "name": "Brianna",
+        "relation": "Girlfriend",
+        "description": "They've been dating 8 months. She uses a lot of skincare products and occasionally convinces Devon to try something. The one time he bought a product on her recommendation was an SPF moisturizer he used once."
+      },
+      {
+        "name": "Marco Torres",
+        "relation": "Father",
+        "description": "They bond over the Civic restoration on weekends. Devon deeply respects him. His dad uses bar soap on his face and Devon sees no reason to do differently."
+      }
+    ]
+  },
+  "segment": "Reluctant Minimalist",
+  "segment_id": 2
+}

@@ -1,0 +1,141 @@
+{
+  "persona": {
+    "name": "Katarina Novak",
+    "age": 54,
+    "nationality": "French",
+    "occupation": {
+      "title": "Deputy School Principal",
+      "organization": "College Marcel Pagnol, Schiltigheim (a suburb of Strasbourg)",
+      "description": "Manages the daily operations of a 600-student college (middle school), including timetable coordination, discipline, parent communication, and teacher support. Handles administrative crises — from student behavioral issues to facility problems. Reports to the principal and serves as acting head in his absence. High-stress role with emotional labor, especially when managing difficult family situations."
+    },
+    "gender": "Female",
+    "residence": "Schiltigheim, Bas-Rhin",
+    "education": "CAPES in History-Geography (1996). Agregation interne in History (2008). Master's in Educational Sciences from Universite de Strasbourg (2005). Taught for 12 years before moving into administration. Born in Croatia — her parents emigrated to Alsace when she was 8.",
+    "long_term_goals": [
+      "Become principal of her own establishment within 3-4 years",
+      "Redesign the apartment now that both children have moved out — create a proper reading room",
+      "Take up watercolor painting, which she abandoned when the children were small",
+      "Visit Croatia more regularly — reconnect with extended family in Split"
+    ],
+    "style": "Katarina is poised, thorough, and quietly authoritative. She speaks in complete sentences with a slight Alsatian inflection and occasional Slavic rolling of Rs. She is the person who reads the entire document before commenting and asks the question no one else thought of. She dresses professionally but without flair — structured blouses, dark trousers, sensible shoes. At home she is warmer and more reflective, often with classical music playing. She is adapting to a quieter household and finding it both liberating and disorienting.",
+    "personality": {
+      "traits": [
+        "Methodical and thorough — leaves nothing to chance in professional matters",
+        "Pragmatic about life transitions — approaches empty-nesting with resolve rather than sentiment",
+        "Intellectually curious but cautious about new technologies and services",
+        "Values competence and preparation; frustrated by carelessness in others",
+        "Dry humor that emerges in trusted company — students occasionally catch glimpses",
+        "Increasingly aware that she needs to invest in personal interests outside of work"
+      ],
+      "big_five": {
+        "openness": 0.35,
+        "conscientiousness": 0.82,
+        "extraversion": 0.52,
+        "agreeableness": 0.68,
+        "neuroticism": 0.70
+      }
+    },
+    "preferences": {
+      "interests": [
+        "French and Croatian home cooking — her repertoire spans both traditions",
+        "European history and heritage sites",
+        "Classical music and opera — subscriber to the Opera national du Rhin",
+        "Reading (historical fiction, biographies, Le Monde diplomatique)",
+        "Gardening on her apartment balcony — herbs, tomatoes, geraniums",
+        "Walking in the Foret de la Robertsau near Strasbourg",
+        "Exploring practical solutions for cooking-for-one or cooking-for-two"
+      ],
+      "likes": [
+        "Well-organized products with clear instructions and predictable outcomes",
+        "Meal solutions that help with the transition from cooking for a family to cooking for one or two",
+        "Quality ingredients — she knows the difference and is willing to pay for it",
+        "Flexible delivery schedules that accommodate her work travel",
+        "Services that feel respectful and adult — not trendy or youthful in their marketing",
+        "Seasonal menus that change with what is available locally",
+        "A quiet apartment, a good book, and a properly made cevapi"
+      ],
+      "dislikes": [
+        "Marketing aimed at young couples or families — she does not see herself in it",
+        "Subscription lock-in with auto-renewal and vague cancellation processes",
+        "Excessive packaging and portion sizes designed for larger households",
+        "Trendy superfoods and wellness marketing that lacks scientific grounding",
+        "Digital-first services that assume everyone is comfortable with apps",
+        "Being treated as a 'silver economy' target when she is 54, not 74",
+        "Food that is styled for Instagram rather than designed for taste"
+      ]
+    },
+    "beliefs": [
+      "Transitions in life require practical adaptation, not nostalgia",
+      "Cooking is a daily discipline that should bring satisfaction, not feel like a burden",
+      "Quality and simplicity are more valuable than variety for its own sake",
+      "Education — formal and self-directed — is the most reliable path to resilience"
+    ],
+    "skills": [
+      "Educational administration and crisis management",
+      "Accomplished home cook across French and Croatian cuisines",
+      "Written communication and report drafting (French administrative style)",
+      "Trilingual: French (native), Croatian (heritage), German (Alsatian education)"
+    ],
+    "behaviors": {
+      "general": [
+        "Shops twice weekly — Wednesday at the Schiltigheim market, Saturday at a Biocoop",
+        "Cooks every day but is adjusting recipes downward — finds it hard not to make family-sized portions",
+        "Has not tried a meal kit but her daughter suggested it; she is researching options cautiously",
+        "Reads product reviews in Le Monde and 60 Millions de Consommateurs before purchasing"
+      ],
+      "routines": {
+        "morning": [
+          "Up at 6:30, strong coffee with a slice of pain aux noix from the Alsatian bakery",
+          "Reviews the school day's schedule and any overnight parent emails",
+          "Walks 15 minutes to the college — she values the morning air"
+        ],
+        "workday": [
+          "At school by 7:45, handles administrative matters until classes begin",
+          "Morning: student discipline meetings, teacher consultations, scheduling",
+          "Lunch in the school canteen or a quick sandwich in her office",
+          "Afternoon: parent meetings, report writing, coordination with the principal",
+          "Leaves between 17:30 and 18:30 depending on the day"
+        ],
+        "evening": [
+          "Walks home, changes into comfortable clothes, turns on France Musique",
+          "Cooks dinner — often something simple now: a soup, a gratin, or a salad with roasted vegetables",
+          "Eats while reading or watching Arte — misses the family conversation at the table",
+          "Calls her husband or one of her children 3-4 evenings per week"
+        ],
+        "weekend": [
+          "Saturday: market shopping, deeper cooking project (sarma, choucroute, or a Croatian strudel), opera or concert in the evening",
+          "Sunday: walk in the Foret de la Robertsau, reading afternoon, meal planning for the week",
+          "Once a month visits her daughter in Lyon by TGV, or her son joins for Sunday lunch when he's free"
+        ]
+      }
+    },
+    "health": {
+      "physical": "Good overall health for her age. Walks daily, no chronic conditions. Mild joint stiffness in the mornings. Had a routine mammogram scare two years ago that turned out benign — it made her more attentive to health screening. Watches portion sizes now that her activity level has decreased.",
+      "mental": "Navigating the emotional adjustment of her husband's relocation (he works in Frankfurt during the week, home on weekends) and both children leaving. Not depressed but occasionally lonely on weekday evenings. Has considered joining a local association or choir for social connection."
+    },
+    "relationships": [
+      {
+        "name": "Ivan Novak",
+        "relation": "Husband (28 years)",
+        "description": "Mechanical engineer at a German automotive supplier, currently posted to the Frankfurt office. Comes home to Strasbourg on weekends by ICE train. They have a solid marriage but the weekday separation is new and neither has fully adjusted. He is easygoing and supportive but not the most communicative by text."
+      },
+      {
+        "name": "Ana Novak",
+        "relation": "Daughter (age 25)",
+        "description": "Junior architect at a firm in Lyon. Independent and opinionated — she suggested Katarina try a meal kit to avoid cooking 'depressing single portions.' Visits monthly and they have a warm, bantering relationship."
+      },
+      {
+        "name": "Marko Novak",
+        "relation": "Son (age 22)",
+        "description": "Final-year engineering student at INSA Strasbourg. Lives in a student apartment across town. Comes for Sunday lunch when his schedule allows. More reserved than his sister but close to his mother."
+      },
+      {
+        "name": "Dragica Novak",
+        "relation": "Mother",
+        "description": "Retired seamstress, lives in Strasbourg's Neudorf neighborhood. Born in Split, Croatia. Taught Katarina to cook Croatian dishes. They see each other weekly and Katarina helps with her groceries and appointments."
+      }
+    ]
+  },
+  "segment": "Independent Professionals & Empty Nesters",
+  "segment_id": 3
+}

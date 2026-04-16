@@ -1,0 +1,128 @@
+{
+  "persona": {
+    "name": "Kevin Tanaka",
+    "age": 31,
+    "nationality": "Japanese-American",
+    "occupation": {
+      "title": "Senior UX Designer",
+      "organization": "Fieldnotes (B2B SaaS startup), San Francisco, CA",
+      "description": "Leads UX design for a construction project management platform. Owns the end-to-end design system, conducts user research, and collaborates closely with engineering. Brings the same design systems thinking to consumer goods evaluation — everything he buys is mentally decomposed into its design intentions. Can tell when a shoe's aesthetic is considered versus arbitrary."
+    },
+    "gender": "Male",
+    "residence": "Mission District, San Francisco, CA",
+    "education": "B.S. Interaction Design, California College of the Arts",
+    "long_term_goals": [
+      "Build a design career that spans both digital products and physical goods",
+      "Run 3–4 times per week consistently (has maintained it for 14 months, the longest streak he's had)",
+      "Contribute design writing to a publication like It's Nice That or Dezeen",
+      "Move to a neighborhood in the Bay Area with more access to good trail running"
+    ],
+    "style": "Quiet and thoughtful — asks clarifying questions before forming opinions, a habit trained by years of user research interviews. Brings designer vocabulary to product discussions ('the visual weight here is off'; 'the hierarchy isn't clear'). In group settings he says less than most but what he says tends to be memorable. Dresses in curated minimalism — premium basics in neutral tones, with one statement piece that's almost always footwear.",
+    "personality": {
+      "traits": [
+        "Observant and analytically thorough — evaluates objects the way he evaluates interfaces",
+        "Restrained aesthetic sensibility; considers maximalism a form of insecurity",
+        "Quietly confident but not given to self-promotion",
+        "Prone to over-researching decisions — analysis paralysis is a known flaw",
+        "Loyal to brands that demonstrate sustained design commitment, not just one good release"
+      ],
+      "big_five": {
+        "openness": 0.88,
+        "conscientiousness": 0.82,
+        "extraversion": 0.45,
+        "agreeableness": 0.62,
+        "neuroticism": 0.40
+      }
+    },
+    "preferences": {
+      "interests": [
+        "Running shoe design history and archival silhouettes",
+        "Design systems and component library architecture",
+        "Trail running in Marin Headlands (casual pace, high aesthetic appreciation)",
+        "Japanese craft culture — ceramics, knives, textile",
+        "Vinyl records — independent hip-hop and ambient",
+        "Matcha preparation as a morning ritual",
+        "Cycling as a weekend complement to running"
+      ],
+      "likes": [
+        "Heritage running silhouettes updated with material restraint (NB 990v6, Asics Gel-NYC, Saucony Shadow 6000)",
+        "Salehe Bembury and Joe Freshgoods-level collaborations — cultural and design substance",
+        "Brands with coherent, legible design philosophy across their catalog",
+        "Shoes that work with tailored casual wear, not just gym settings",
+        "Limited-production runs that reward knowing the brand's history"
+      ],
+      "dislikes": [
+        "Loud, graphic colorways that feel like an attention deficit rather than a design choice",
+        "Brands that release collaborations cynically — famous name, no real design input",
+        "Chunky maximalist silhouettes with no clear visual intention",
+        "Running shoes whose marketing contradicts what the shoe actually is",
+        "Anything that reads as trying too hard"
+      ]
+    },
+    "beliefs": [
+      "Good design is invisible — it removes friction and delivers function without announcing itself",
+      "Restraint is a form of confidence; the best shoes don't need to shout",
+      "Craftsmanship and function should not be separated — a beautiful shoe that performs poorly is a failure",
+      "Cultural collaboration should be substantive or not at all"
+    ],
+    "skills": [
+      "UX design systems and interaction design",
+      "Running shoe design history and material knowledge",
+      "Design critique — evaluating aesthetic intention behind consumer products",
+      "Figma, Framer, and rapid prototype communication"
+    ],
+    "behaviors": {
+      "general": [
+        "Researches a shoe for 2–4 weeks before purchasing — reads design press, watches detail videos, checks archival context",
+        "Owns 8 pairs of athletic shoes; each has a specific aesthetic purpose",
+        "Jogs 3–4x per week in the Presidio or along the Embarcadero",
+        "Evaluates new shoe releases by asking 'what design problem is this solving and was it solved well?' before 'do I like it?'"
+      ],
+      "routines": {
+        "morning": [
+          "7:00am wake-up",
+          "Matcha preparation — 12-minute ritual, not optional",
+          "Run 4–6 miles before work on Mon/Wed/Fri"
+        ],
+        "workday": [
+          "Deep design work 9am–1pm (no meetings)",
+          "Design reviews and cross-functional syncs afternoons",
+          "Leaves at 6pm; does not check Slack after dinner"
+        ],
+        "evening": [
+          "Cooks at home most nights — Japanese-American standards: miso soup, rice, protein",
+          "Records or reading after dinner",
+          "Researches whatever design topic is current obsession before sleep"
+        ],
+        "weekend": [
+          "Long trail run in Marin Headlands Saturday morning",
+          "Coffee shop design work or personal writing Sunday",
+          "Cycling or museum visit as a change of pace"
+        ]
+      }
+    },
+    "health": {
+      "physical": "Fit and active; 25–30 miles per week at a moderate pace. No significant injuries. Mild lower back tension from long desk hours — running and cycling mitigate it. Sees a chiropractor monthly as maintenance.",
+      "mental": "Disciplined and purposeful, slightly prone to perfectionism that can stall decisions. Running has become a reliable cognitive reset from intense design work. Values scheduled separation from screens, which he enforces with moderate success."
+    },
+    "relationships": [
+      {
+        "name": "Yuki Tanaka",
+        "relation": "Mother",
+        "description": "Lives in Sacramento. Retired teacher; admires Kevin's career but doesn't fully understand what UX design is. They have dinner once a month, and she always asks why he's not wearing warmer clothes."
+      },
+      {
+        "name": "Derrick",
+        "relation": "College friend and running partner",
+        "description": "Met at CCA, now works in product management. They run Marin Headlands trails together on Saturday mornings and argue about which shoe brand has been most consistent over the past five years."
+      },
+      {
+        "name": "Yuna",
+        "relation": "Work colleague and creative collaborator",
+        "description": "Lead product designer at Fieldnotes. They co-write the company's design system documentation and occasionally exchange shoe research recommendations."
+      }
+    ]
+  },
+  "segment": "Fashion-Conscious Consumers",
+  "segment_id": 3
+}

@@ -1,0 +1,143 @@
+{
+  "persona": {
+    "name": "Haruka Fujimoto",
+    "age": 36,
+    "nationality": "Japanese",
+    "occupation": {
+      "title": "DX Promotion Lead",
+      "organization": "Lion Corporation, Digital Strategy Office",
+      "description": "Leads a cross-functional team of 5 tasked with identifying, piloting, and scaling digital tools across Lion's marketing and sales divisions. Acts as an internal evangelist for productivity tools and AI adoption. Bridges the gap between IT governance and business units who want to move faster. Reports to the CDO and presents monthly to the executive committee on DX initiative progress."
+    },
+    "gender": "Female",
+    "residence": "Sumida-ku, Tokyo",
+    "education": "M.B.A. from Hitotsubashi University (ICS program, taught in English). B.A. in Sociology from Sophia University. Spent two years at Accenture Japan before joining Lion, which gave her consulting frameworks she still uses daily.",
+    "long_term_goals": [
+      "Become the first female CDO at a major Japanese consumer goods company",
+      "Build a DX playbook that other traditional manufacturers can replicate",
+      "Publish thought leadership on AI adoption in Japanese enterprises",
+      "Raise her daughter to be bilingual and globally minded"
+    ],
+    "style": "Polished and articulate, with a consulting-trained ability to structure any argument into three points. Dresses in smart contemporary business style — blazers with a creative edge, statement earrings. Switches fluidly between formal Japanese in executive meetings and casual English-peppered conversation with her team. Creates beautiful PowerPoint decks that simplify complex concepts. In meetings she's the facilitator type — draws out quiet voices and synthesizes group input into action items. Active on LinkedIn and sometimes posts about DX in Japanese manufacturing.",
+    "personality": {
+      "traits": [
+        "Strategic thinker who connects individual tools to organizational transformation",
+        "Persuasive communicator who adapts her message to the audience",
+        "Genuinely excited about AI and its potential for Japanese enterprises",
+        "Diplomatic navigator of internal politics — knows when to push and when to wait",
+        "Data-driven but understands that change management is emotional",
+        "Sometimes overestimates how ready the organization is for new tools",
+        "Balances ambition with a pragmatic understanding of Japanese corporate pace"
+      ],
+      "big_five": {
+        "openness": 0.82,
+        "conscientiousness": 0.82,
+        "extraversion": 0.72,
+        "agreeableness": 0.58,
+        "neuroticism": 0.32
+      }
+    },
+    "preferences": {
+      "interests": [
+        "Enterprise AI adoption and digital transformation strategy",
+        "Meeting productivity tools — actively evaluates 2-3 per quarter",
+        "Change management methodologies",
+        "Japanese contemporary art — visits galleries on weekends",
+        "Raising a bilingual child (Japanese/English)",
+        "Cooking Japanese home meals with a modern twist",
+        "Following DX case studies from other Japanese manufacturers"
+      ],
+      "likes": [
+        "AI tools with clear ROI metrics she can present to executives",
+        "Products that offer enterprise trials with dedicated onboarding",
+        "Vendors who understand Japanese corporate decision-making culture",
+        "Tools that generate structured outputs (action items, summaries) automatically",
+        "When a pilot program succeeds and skeptics become advocates",
+        "Collaborative workshops where teams discover tools together",
+        "Saturday afternoons at a gallery with her daughter"
+      ],
+      "dislikes": [
+        "Tools that work great in demos but fail in real enterprise environments",
+        "Vendors who don't have Japanese-language support or local presence",
+        "The slow ringi (approval circulation) process for tool procurement",
+        "When business units adopt shadow IT and then ask for support",
+        "Being dismissed as 'just the DX person' when she raises strategic points",
+        "AI tools that can't handle Japanese language meetings accurately",
+        "Missing her daughter's bedtime because of late executive meetings"
+      ]
+    },
+    "beliefs": [
+      "AI meeting tools are the easiest DX win because everyone hates taking meeting minutes",
+      "Successful tool adoption requires executive sponsorship AND grassroots enthusiasm",
+      "Japanese companies won't adopt AI tools unless they work flawlessly in Japanese",
+      "DX is not about technology — it's about changing how people work together"
+    ],
+    "skills": [
+      "Digital transformation strategy and roadmapping",
+      "Enterprise tool evaluation with ROI modeling",
+      "Executive presentation and stakeholder management",
+      "Change management and internal evangelism"
+    ],
+    "behaviors": {
+      "general": [
+        "Runs structured pilot programs for new tools: 2-week trial → survey → decision",
+        "Maintains a comparison spreadsheet of AI meeting tools she's evaluated",
+        "Presents tool adoption metrics monthly to the CDO and executive committee",
+        "Networks actively with DX leads at other companies through industry events and LinkedIn"
+      ],
+      "routines": {
+        "morning": [
+          "Wakes at 6:15, gets her daughter ready for nursery",
+          "Drops daughter at hoikuen by 8:00",
+          "Train to Ryogoku office, reviews meeting prep on the way",
+          "At desk by 8:45 with coffee from the office machine"
+        ],
+        "workday": [
+          "Morning: DX team standup, then stakeholder alignment meetings",
+          "Lunch: often working lunch with a vendor demo or networking",
+          "Afternoon: pilot program reviews, executive prep, cross-functional workshops",
+          "Leaves by 18:30 to pick up daughter — non-negotiable boundary"
+        ],
+        "evening": [
+          "Picks up daughter by 19:00, dinner and bath",
+          "Reads to her daughter until bedtime at 20:30",
+          "Catches up on Slack and email until 22:00",
+          "Reads a DX or business book for 20 minutes before bed"
+        ],
+        "weekend": [
+          "Saturday morning: takes daughter to a park or children's museum",
+          "Afternoon: gallery visit or coffee with industry contacts",
+          "Sunday: family time, cooking a proper meal, household tasks",
+          "Sunday evening: reviews the week ahead and prepares executive slide updates"
+        ]
+      }
+    },
+    "health": {
+      "physical": "Healthy but time-starved for exercise. Used to run but stopped after her daughter was born. Does occasional yoga at home from YouTube. Annual health check is clean — tries to eat balanced meals despite the time pressure.",
+      "mental": "Manages the cognitive load of being a working mother, DX evangelist, and corporate politician simultaneously. Occasionally feels imposter syndrome in all-male executive meetings. Her daughter's joy is her reset button. Considers herself resilient but admits she's running at capacity."
+    },
+    "relationships": [
+      {
+        "name": "Koichi Fujimoto",
+        "relation": "Husband",
+        "description": "38, senior engineer at a robotics company. Supportive of Haruka's career ambitions. They share household duties roughly equally, which is unusual in their social circle and something they're both proud of."
+      },
+      {
+        "name": "Mio Fujimoto",
+        "relation": "Daughter",
+        "description": "4, attends a bilingual nursery in Sumida-ku. Haruka's primary motivation for maintaining work boundaries. Starting to form her own personality — curious and talkative."
+      },
+      {
+        "name": "Yusuke Okada",
+        "relation": "Former Accenture colleague and DX peer",
+        "description": "37, DX lead at a food manufacturer. They meet monthly to exchange notes on tool evaluations and organizational change tactics."
+      },
+      {
+        "name": "Kyoko Takeuchi",
+        "relation": "CDO and direct manager",
+        "description": "52, former McKinsey partner who joined Lion to lead digital transformation. Haruka's executive sponsor and career mentor. Demanding but fair."
+      }
+    ]
+  },
+  "segment": "Innovation Champion",
+  "segment_id": 10
+}

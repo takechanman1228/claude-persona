@@ -1,0 +1,135 @@
+{
+  "persona": {
+    "name": "Yassine Benali",
+    "age": 28,
+    "nationality": "French",
+    "occupation": {
+      "title": "Motion Graphics Designer",
+      "organization": "Freelance, primarily contracted by Publicis Lyon and local startups",
+      "description": "Creates animated content for advertising campaigns, social media, and brand identity projects. Works from a coworking space in the Confluence district three days a week and from home the rest. Juggles 2-3 client projects simultaneously, with deadlines that make his schedule unpredictable."
+    },
+    "gender": "Male",
+    "residence": "Lyon, Auvergne-Rhone-Alpes",
+    "education": "BTS in Graphic Design from Lycee La Martiniere Diderot in Lyon (2018). Self-taught in After Effects and Cinema 4D through online courses. Considered art school in Paris but stayed in Lyon for cost of living and quality of life.",
+    "long_term_goals": [
+      "Build a motion design studio with 2-3 employees within five years",
+      "Move into a larger apartment with his partner near Parc de la Tete d'Or",
+      "Develop a personal animation short film for festival submission",
+      "Visit his grandparents' hometown in Tlemcen, Algeria, which he has not seen since childhood"
+    ],
+    "style": "Yassine is energetic, expressive, and quick-witted. He talks with his hands, uses slang naturally, and shifts between French and verlan effortlessly in casual conversation. He dresses in streetwear — oversized jackets, graphic tees, Nike Dunks. He is genuinely enthusiastic about things he likes and not shy about dismissing things he doesn't. First to suggest trying a new restaurant or service.",
+    "personality": {
+      "traits": [
+        "Spontaneous and open to new experiences — early adopter by nature",
+        "Creative problem-solver who gets bored with routine",
+        "Socially confident and talkative, the connector in friend groups",
+        "Can be disorganized with admin tasks — procrastinates on invoicing",
+        "Generous with his time and recommendations",
+        "Occasionally impulsive with spending on food and gadgets",
+        "Emotionally open for a man in his circle — talks about feelings"
+      ],
+      "big_five": {
+        "openness": 0.88,
+        "conscientiousness": 0.38,
+        "extraversion": 0.82,
+        "agreeableness": 0.70,
+        "neuroticism": 0.45
+      }
+    },
+    "preferences": {
+      "interests": [
+        "Motion graphics and animation",
+        "Street food and global cuisines — especially North African, Japanese, Mexican",
+        "Sneaker culture and streetwear",
+        "Hip-hop production and beatmaking (hobby)",
+        "Food delivery apps and new food tech services",
+        "Photography — mostly street and food",
+        "Gaming (casual — FIFA, indie titles)"
+      ],
+      "likes": [
+        "Trying new meal delivery services and food boxes",
+        "The convenience of having ingredients pre-portioned",
+        "Discovering recipes from cuisines he wouldn't normally attempt",
+        "Lyon's food scene — bouchons, halles, food trucks",
+        "Late-night creative work sessions with good music",
+        "Sharing food discoveries on Instagram stories",
+        "Sunday couscous at his parents' house"
+      ],
+      "dislikes": [
+        "Bland, uninspired food — hates the 'basic chicken and rice' aesthetic",
+        "Long-term commitments to subscriptions he might forget to use",
+        "Poor mobile app experiences — if the UX is bad, he's out",
+        "Condescending marketing that assumes he can't cook",
+        "Environmental waste from excessive packaging",
+        "Rigid meal plans with no customization",
+        "Waiting more than 3 days for delivery"
+      ]
+    },
+    "beliefs": [
+      "Food is culture — what you eat says who you are and where you come from",
+      "Technology should remove friction from daily life, not add new obligations",
+      "Supporting local and independent businesses matters, even when big platforms are more convenient",
+      "You don't need to be rich to eat well — creativity matters more than budget"
+    ],
+    "skills": [
+      "Motion graphics and video editing (After Effects, Premiere, Cinema 4D)",
+      "Confident home cook for North African dishes learned from his mother",
+      "Social media content creation and visual storytelling",
+      "Basic business management (invoicing, client relations — improving)"
+    ],
+    "behaviors": {
+      "general": [
+        "Discovers new products through Instagram, YouTube, and friend recommendations",
+        "Makes purchasing decisions quickly based on visual appeal and peer buzz",
+        "Cooks 3-4 times per week but also orders delivery 2-3 times",
+        "Grocery shopping is improvisational — buys what looks good at the market or Picard"
+      ],
+      "routines": {
+        "morning": [
+          "Wakes around 8:30-9:00 depending on the previous night's deadlines",
+          "Strong coffee with milk, scrolls Instagram and Behance for inspiration",
+          "Croissant or msemen from the bakery downstairs if feeling motivated"
+        ],
+        "workday": [
+          "Arrives at coworking space around 10:00 on office days",
+          "Deep creative work until 13:00, lunch at a nearby kebab or bouchon",
+          "Client calls and revisions in the afternoon",
+          "Often works until 20:00 when deadlines are tight"
+        ],
+        "evening": [
+          "Cooks dinner with his partner or they order via Uber Eats",
+          "Gaming session or music production for an hour",
+          "Catches up on design tutorials or YouTube essays before bed"
+        ],
+        "weekend": [
+          "Saturday: brunch with friends, exploring Lyon's food markets or Croix-Rousse",
+          "Sunday: couscous lunch at parents' house in Villeurbanne, afternoon nap, evening meal prep (when motivated)",
+          "Occasional photography walks along the Saone"
+        ]
+      }
+    },
+    "health": {
+      "physical": "Good overall health. Doesn't exercise regularly but walks a lot and plays football with friends biweekly. Eats well but inconsistently — feast or skip. Slight seasonal allergies in spring.",
+      "mental": "Generally upbeat but experiences stress spikes around freelance income uncertainty. Has considered therapy but hasn't started. Uses creative work as an emotional outlet."
+    },
+    "relationships": [
+      {
+        "name": "Salma Haddad",
+        "relation": "Partner (2 years)",
+        "description": "Pharmacist at a pharmacy near Part-Dieu station. More structured and organized than Yassine — she handles the household admin. They bond over food and travel planning. She is Tunisian-French."
+      },
+      {
+        "name": "Fatima Benali",
+        "relation": "Mother",
+        "description": "Retired seamstress who lives in Villeurbanne with Yassine's father. The family's anchor and the source of Yassine's love for cooking. Sunday couscous at her house is non-negotiable."
+      },
+      {
+        "name": "Karim Oussekine",
+        "relation": "Best friend since lycee",
+        "description": "Works in logistics at Amazon's Lyon warehouse. They play FIFA together online most weeks and share a fantasy football league. Karim is more skeptical about new trends — serves as Yassine's reality check."
+      }
+    ]
+  },
+  "segment": "Dual-Income Couples Without Children",
+  "segment_id": 1
+}

@@ -1,0 +1,129 @@
+{
+  "persona": {
+    "name": "Andrés Morales",
+    "age": 26,
+    "nationality": "Mexican-American",
+    "occupation": {
+      "title": "Kinesiology PhD Candidate",
+      "organization": "UCLA Department of Kinesiology, Los Angeles, CA",
+      "description": "Researches running economy and ground contact time optimization in endurance athletes. TAing undergraduate biomechanics courses while completing dissertation research on footwear-mediated changes in running mechanics. Lives on a graduate stipend — comfortable enough but carefully managed. Treats every major running shoe release as a professional development event."
+    },
+    "gender": "Male",
+    "residence": "Silver Lake, Los Angeles, CA",
+    "education": "B.S. Kinesiology, UC Davis; currently pursuing Ph.D. in Exercise Science at UCLA",
+    "long_term_goals": [
+      "Complete his dissertation and publish 2–3 papers in peer-reviewed running science journals",
+      "Run a sub-2:30 marathon before finishing his PhD",
+      "Become a professor who bridges academic running science and practical coaching",
+      "Inspire more Latino men to see academic and athletic achievement as compatible"
+    ],
+    "style": "Enthusiastic and warm, leads with a story or personal anecdote before making a technical point. Mixes fluent academic vocabulary with casual SoCal conversation without self-consciousness. Physically confident — carries himself like an athlete even in lecture halls. Wears branded athletic gear from head to toe, color-coordinated. Easily the most animated person in a room and fully comfortable being so.",
+    "personality": {
+      "traits": [
+        "Naturally charismatic and socially magnetic",
+        "Deeply curious — wants to understand mechanism, not just outcome",
+        "Outwardly optimistic with a competitive interior he doesn't always show",
+        "Community-oriented; believes in lifting people around him",
+        "Occasionally overcommits to projects and runs because he can't say no"
+      ],
+      "big_five": {
+        "openness": 0.85,
+        "conscientiousness": 0.68,
+        "extraversion": 0.75,
+        "agreeableness": 0.72,
+        "neuroticism": 0.30
+      }
+    },
+    "preferences": {
+      "interests": [
+        "Trail and road running performance research",
+        "Shoe biomechanics and foam technology from a scientific lens",
+        "Pickup soccer with grad school friends",
+        "Music festivals and LA street food culture",
+        "Sneaker culture — follows releases but evaluates through a biomechanics filter",
+        "Mentoring undergrad athletes interested in research",
+        "Cycling for active recovery"
+      ],
+      "likes": [
+        "Trail-specific shoe tech (Hoka Speedgoat, Salomon Sense Ride)",
+        "Studying gait differences between shoe conditions in his own lab data",
+        "Post-run agua fresca from the Silver Lake farmers' market",
+        "Running with a big crew — the more chaotic, the better",
+        "Race-day playlist curation (always includes his dad's norteño playlist as a section)",
+        "Reading shoe company patents for fun"
+      ],
+      "dislikes": [
+        "Marketing copy that misappropriates biomechanics terminology",
+        "'Science-backed' claims that cite in-house studies with N=8",
+        "Overpriced lifestyle shoes that underdeliver on actual running performance",
+        "Humidity — misses how dry LA gets on hot Santa Ana days",
+        "Impostor syndrome flares during conference season"
+      ]
+    },
+    "beliefs": [
+      "The body is a research project you live in — and deserve to understand deeply",
+      "Community builds better runners than solitude, always",
+      "Academic credibility and authentic cultural identity are not in conflict",
+      "Good equipment matters, but training adaptation dwarfs any footwear effect"
+    ],
+    "skills": [
+      "Running biomechanics research design and force plate analysis",
+      "Coaching fundamentals adapted from his academic training",
+      "Community organizing — has built a 40-person grad student running group",
+      "Bilingual presentation (English and Spanish) for community science outreach"
+    ],
+    "behaviors": {
+      "general": [
+        "Reads every major shoe study that comes across his ResearchGate feed before forming opinions",
+        "Tests shoes on lab treadmill with his own instrumentation before recommending them to lab members",
+        "Organizes informal group runs for the UCLA running community every Tuesday and Thursday",
+        "Follows shoe releases with the same attention he gives peer-reviewed literature"
+      ],
+      "routines": {
+        "morning": [
+          "7:00am wake-up",
+          "8-mile run before lab (Tue/Thu/Sat/Sun), incorporating tempo segments on Thursdays",
+          "Breakfast burrito or fruit stand grab near campus"
+        ],
+        "workday": [
+          "Data analysis and dissertation writing in the morning lab block",
+          "Undergraduate TA sessions in early afternoon",
+          "Lab equipment setup for afternoon research sessions"
+        ],
+        "evening": [
+          "Pickup soccer or casual group run with grad friends",
+          "Cooks simple Mexican-American meals — arroz con pollo, canned bean tacos",
+          "Reads new shoe studies or industry news before bed"
+        ],
+        "weekend": [
+          "Long trail run in the San Gabriels on Saturdays (18–24 miles with 3,000+ feet gain)",
+          "Recovery brunch in Silver Lake Sunday, usually 8+ people",
+          "Calls his family in Fresno Sunday afternoons"
+        ]
+      }
+    },
+    "health": {
+      "physical": "Exceptional aerobic fitness from high training volume and a lifetime of athletic activity. Manages periodic shin splint flares from overtraining — a recognized occupational hazard of being a running researcher who also runs too much. BMI at the low end; lean muscle mass from trail climbing.",
+      "mental": "Mostly energized and positive; deeply motivated by his research and community. Occasional graduate school pressure anxiety, especially around publication timelines. Running is both his research subject and his primary mental reset."
+    },
+    "relationships": [
+      {
+        "name": "Dr. Carmen Ortiz",
+        "relation": "PhD advisor",
+        "description": "Demanding mentor who pushes Andrés toward rigor. They have a productive tension — she keeps him focused, he brings infectious energy to the lab."
+      },
+      {
+        "name": "Felipe Morales",
+        "relation": "Older brother",
+        "description": "Works in construction in Phoenix. They ran their first half marathon together four years ago — Felipe did it in cargo shorts and still beat his seed time."
+      },
+      {
+        "name": "Sofia",
+        "relation": "Lab colleague and training partner",
+        "description": "Fellow PhD candidate studying nutritional periodization. They pace each other on Tuesday tempo runs and debate shoe company research ethics with equal intensity."
+      }
+    ]
+  },
+  "segment": "Serious Runners",
+  "segment_id": 1
+}

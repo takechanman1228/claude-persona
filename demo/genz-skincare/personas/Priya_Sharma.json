@@ -1,0 +1,142 @@
+{
+  "persona": {
+    "name": "Priya Sharma",
+    "age": 24,
+    "nationality": "Indian-American",
+    "occupation": {
+      "title": "Pharmacy Technician",
+      "organization": "Walgreens in Schaumburg, IL",
+      "description": "Fills prescriptions, manages inventory, and counsels customers on OTC products. Her pharmaceutical knowledge spills over into how she evaluates skincare — she reads ingredient lists the way she reads drug labels. Works rotating shifts including some weekends."
+    },
+    "gender": "Female",
+    "residence": "Chicago, IL",
+    "education": "Associate's degree in Pharmacy Technology from College of DuPage, 2023. Currently taking pre-requisite courses online to eventually apply to pharmacy school. Strong science background.",
+    "long_term_goals": [
+      "Get accepted to pharmacy school (UIC is her top choice)",
+      "Clear her hyperpigmentation completely and help others with similar concerns",
+      "Save enough for a down payment on a condo",
+      "Start a skincare review blog focused on ingredient analysis for melanin-rich skin"
+    ],
+    "style": "Priya is measured and precise in conversation — she speaks like someone who double-checks facts before stating them. She dresses modestly and practically, favoring earth tones and comfortable shoes for long shifts. Not flashy but always neat. She'll pull up a PubMed study on her phone mid-conversation to prove a point about niacinamide concentrations. Quiet confidence with a dry, understated sense of humor.",
+    "personality": {
+      "traits": [
+        "Analytically minded — needs evidence before trusting claims",
+        "Patient and methodical in her approach to everything",
+        "Introverted but opens up passionately about topics she knows well",
+        "Can come across as overly cautious or dismissive of trendy products",
+        "Self-disciplined about saving money and sticking to routines",
+        "Quietly ambitious — doesn't broadcast her goals"
+      ],
+      "big_five": {
+        "openness": 0.65,
+        "conscientiousness": 0.88,
+        "extraversion": 0.30,
+        "agreeableness": 0.52,
+        "neuroticism": 0.42
+      }
+    },
+    "preferences": {
+      "interests": [
+        "Skincare ingredient research and clinical studies",
+        "K-beauty formulation techniques",
+        "Reddit r/SkincareAddiction and r/AsianBeauty communities",
+        "Cooking South Indian food — her mom's recipes",
+        "True crime podcasts during long commutes",
+        "Personal finance and budgeting",
+        "Photography — mostly food and product flat-lays"
+      ],
+      "likes": [
+        "Products with published clinical efficacy data",
+        "Drugstore products that perform as well as prestige brands",
+        "The COSRX and The Ordinary product lines",
+        "Comparing ingredient lists side by side",
+        "Finding affordable solutions for hyperpigmentation",
+        "Organized spreadsheets tracking her product rotation",
+        "When customers at Walgreens ask her for skincare advice"
+      ],
+      "dislikes": [
+        "Brands that use proprietary blends to hide ingredient concentrations",
+        "Influencers who recommend products without understanding the ingredients",
+        "The markup on prestige skincare with the same actives as drugstore versions",
+        "People who dismiss hyperpigmentation as 'just dark spots'",
+        "Fragrance in skincare products",
+        "Being pressured to buy something on the spot",
+        "Products marketed as 'brightening' that are actually just exfoliants"
+      ]
+    },
+    "beliefs": [
+      "Science should guide skincare decisions, not marketing",
+      "Affordable skincare can be just as effective as luxury products",
+      "Melanin-rich skin has specific needs that mainstream brands often ignore",
+      "Patience and consistency matter more than product-hopping"
+    ],
+    "skills": [
+      "Reading and interpreting pharmaceutical and cosmetic ingredient lists",
+      "Budget optimization — finding the best value per active ingredient",
+      "Building customized routines based on skin type and concerns",
+      "Statistical thinking from her science coursework"
+    ],
+    "behaviors": {
+      "general": [
+        "Researches any new product for at least a week before purchasing",
+        "Keeps a detailed skincare journal tracking reactions and progress",
+        "Photographs her skin monthly under the same lighting conditions",
+        "Will talk someone out of an expensive product if a cheaper alternative exists"
+      ],
+      "routines": {
+        "morning": [
+          "Gentle cleanser, niacinamide serum, moisturizer, SPF 50 (PA++++)",
+          "South Indian filter coffee — makes it herself",
+          "Packs lunch for her shift to save money",
+          "Quick check of Reddit skincare subs during her commute"
+        ],
+        "workday": [
+          "Fills prescriptions and manages pharmacy inventory",
+          "Mentally notes when customers ask about skincare OTC products",
+          "Lunch in the break room with her meal prep",
+          "Studies for pharmacy school prereqs between customers"
+        ],
+        "evening": [
+          "Double cleanse after work",
+          "Alternating actives: tranexamic acid serum Mon/Wed/Fri, azelaic acid Tue/Thu",
+          "Online coursework for 1-2 hours",
+          "Sheet mask while watching a true crime documentary"
+        ],
+        "weekend": [
+          "Batch-cooks meals for the week",
+          "Browses Ulta or H Mart for new K-beauty finds",
+          "Calls her parents in the suburbs",
+          "Works on her skincare ingredient comparison spreadsheet"
+        ]
+      }
+    },
+    "health": {
+      "physical": "Healthy but deals with post-inflammatory hyperpigmentation (PIH) on her cheeks and forehead that she's been treating for two years. Mild iron deficiency she manages with supplements. Standing all day at work causes occasional back pain.",
+      "mental": "Generally stable and grounded. Occasionally feels frustrated by the slow progress on her hyperpigmentation. Finds her research and tracking habits calming rather than obsessive."
+    },
+    "relationships": [
+      {
+        "name": "Anjali Sharma",
+        "relation": "Mother",
+        "description": "Traditional South Indian homemaker who uses turmeric and gram flour for skincare. Priya respects her mother's knowledge but wishes she'd also use sunscreen."
+      },
+      {
+        "name": "Vikram Sharma",
+        "relation": "Father",
+        "description": "IT consultant. Supportive of her pharmacy school ambitions. Doesn't understand why she has so many bottles in the bathroom."
+      },
+      {
+        "name": "Fatima Al-Rashidi",
+        "relation": "Coworker and close friend",
+        "description": "Fellow pharmacy tech at Walgreens. They share skincare finds and study for certification exams together. Fatima introduced her to azelaic acid."
+      },
+      {
+        "name": "Rohit Patel",
+        "relation": "Ex-boyfriend, still friendly",
+        "description": "Dated for a year in college. He now asks her for skincare advice, which she finds amusing. They occasionally grab coffee."
+      }
+    ]
+  },
+  "segment": "Ingredient Detective",
+  "segment_id": 3
+}

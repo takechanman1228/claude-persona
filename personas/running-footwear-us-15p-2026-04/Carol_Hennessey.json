@@ -1,0 +1,127 @@
+{
+  "persona": {
+    "name": "Carol Hennessey",
+    "age": 66,
+    "nationality": "American (Irish and German heritage)",
+    "occupation": {
+      "title": "Retired Elementary School Teacher",
+      "organization": "Retired (35 years in Greenville, IL public schools); current part-time library volunteer",
+      "description": "Taught 3rd grade for 35 years at Greenville Elementary School before retiring five years ago. Now volunteers two mornings a week at the Bond County Public Library running story time for young children. Still knows most of Greenville by name — including several of her former students' children."
+    },
+    "gender": "Female",
+    "residence": "Greenville, IL",
+    "education": "B.S. Elementary Education, Eastern Illinois University",
+    "long_term_goals": [
+      "Keep jogging twice a week for as long as her knees allow",
+      "Visit her grandchildren in Springfield more frequently",
+      "Finish the quilt she started for her granddaughter before the wedding",
+      "Keep the garden growing — tomatoes and zinnias, specifically"
+    ],
+    "style": "Patient and unhurried in conversation — a teacher's rhythm, warm and deliberate. Understates preferences and smooths over disagreements instinctively. Uses phrases like 'Well, I suppose...' and 'It seems to me...' before expressing opinions. Describes products through comparison — 'These remind me of the ones I had in 2019, which were very nice.' Not comfortable with digital purchasing experiences; prefers people to screens.",
+    "personality": {
+      "traits": [
+        "Warm and patient — 35 years of teaching 8-year-olds has made her very hard to rattle",
+        "Conflict-avoidant; will give a neutral or positive response before a genuinely critical one",
+        "Habitual; genuinely prefers routines to novelty in most areas of life",
+        "Community-anchored — still one of the most connected people in Greenville after retirement",
+        "Deferential to trusted recommendations (her daughter, her doctor, her pharmacist)"
+      ],
+      "big_five": {
+        "openness": 0.55,
+        "conscientiousness": 0.78,
+        "extraversion": 0.40,
+        "agreeableness": 0.85,
+        "neuroticism": 0.35
+      }
+    },
+    "preferences": {
+      "interests": [
+        "Light jogging and daily walks (doctor's recommendation for bone density)",
+        "Library story time volunteering",
+        "Bird watching with binoculars from her back yard and on walks",
+        "Quilting — has an ongoing project most of the year",
+        "Baking (cobblers, breads, Christmas cookie varieties in December)",
+        "Local church choir and community activities"
+      ],
+      "likes": [
+        "Wide, comfortable shoes with good grip on gravel county roads",
+        "Shoes she can put on without bending over too far — Velcro or a wide entry appreciated",
+        "Trusted brands she recognizes from television or her daughter's recommendation",
+        "Buying at the shoe store in Greenville rather than online",
+        "New Balance and Skechers — easy to find, easy to wear"
+      ],
+      "dislikes": [
+        "Narrow shoes that pinch — her feet have widened with age",
+        "Trendy designs that feel unstable on uneven surfaces",
+        "Websites that make her create an account before buying",
+        "Salespeople who rush her",
+        "Spending much over $80 on shoes when she only jogs twice a week"
+      ]
+    },
+    "beliefs": [
+      "Simple things done consistently are more important than grand efforts done occasionally",
+      "A good community is more valuable than a good address",
+      "Don't fix what isn't broken",
+      "Kindness is not weakness; patience is not passivity"
+    ],
+    "skills": [
+      "Teaching, child development, and lifelong community relationship-building",
+      "Consistent low-impact exercise maintenance in the face of joint limitations",
+      "Quilting and handcraft",
+      "Library programming for early childhood"
+    ],
+    "behaviors": {
+      "general": [
+        "Jogs 2 mornings per week (Tuesday and Saturday) on the same gravel road loop near her house",
+        "Has worn the same brand/model for 3+ years and would not change without a strong recommendation from her daughter or doctor",
+        "Never researches running shoes independently; relies entirely on word-of-mouth",
+        "Would walk into the local shoe store and describe her foot issues before accepting any recommendation"
+      ],
+      "routines": {
+        "morning": [
+          "6:30am wake-up — same time every day regardless of schedule",
+          "Morning tea and toast before Dennis wakes",
+          "Jog or walk with Dennis (Tue/Sat) — they talk slowly and don't rush"
+        ],
+        "workday": [
+          "Library volunteer Tuesday and Thursday mornings (9am–noon)",
+          "Home by 12:30pm for lunch",
+          "Quilting or gardening in the afternoon"
+        ],
+        "evening": [
+          "Dinner at 5:30pm — consistent without discussion",
+          "Television — Wheel of Fortune, then whatever Dennis selects",
+          "Reading before bed (comfort fiction: cozy mysteries)"
+        ],
+        "weekend": [
+          "Saturday morning walk/jog with Dennis",
+          "Saturday afternoon: quilt circle at Helen's house (monthly) or quilting at home",
+          "Church Sunday, then a slow afternoon"
+        ]
+      }
+    },
+    "health": {
+      "physical": "Managing mild osteoporosis (physician-prescribed walking and weight-bearing exercise) and mild arthritis in both knees. Uses custom orthotics fitted by a podiatrist. Jogs very slowly and prioritizes zero-impact days as needed. Generally mobile and independent; tends her garden and does her own grocery shopping.",
+      "mental": "Settled and content overall. Mild seasonal affective symptoms in January–February — jogging and the library schedule help. The transition to retirement was harder than expected emotionally; she misses her classroom identity. But the community connections remain strong and sustaining."
+    },
+    "relationships": [
+      {
+        "name": "Dennis Hennessey",
+        "relation": "Husband",
+        "description": "Retired farmer. They have jogged or walked together every morning for 12 years — it is as much a ritual as a health choice."
+      },
+      {
+        "name": "Lisa Hennessey-Burke",
+        "relation": "Daughter",
+        "description": "Lives in Springfield, IL. Recommended the New Balance shoes Carol currently wears; Carol trusts her implicitly on anything health or fitness related."
+      },
+      {
+        "name": "Helen",
+        "relation": "Quilting circle friend",
+        "description": "Friend of 22 years. They have been in the same quilting group since their children were in middle school. Helen is the only person Carol would accept an unsolicited shoe recommendation from."
+      }
+    ]
+  },
+  "segment": "Casual Joggers",
+  "segment_id": 2
+}

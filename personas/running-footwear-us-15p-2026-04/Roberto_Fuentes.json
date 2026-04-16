@@ -1,0 +1,128 @@
+{
+  "persona": {
+    "name": "Roberto Fuentes",
+    "age": 57,
+    "nationality": "Mexican-American",
+    "occupation": {
+      "title": "Community Garden Coordinator (retired)",
+      "organization": "Marana Parks & Recreation (part-time, volunteer-equivalent); retired from USPS after 32-year career as a mail carrier",
+      "description": "Spent 32 years walking 8–12 miles per day as a mail carrier in Tucson's south side. Now retired and coordinates a community garden in Marana three mornings a week — watering schedules, soil amendments, neighbor volunteer coordination. Jogs partly because the absence of his walking routes left a hole in his daily structure."
+    },
+    "gender": "Male",
+    "residence": "Marana, AZ",
+    "education": "High school diploma, Sunnyside High School, Tucson; several community college courses in business and Spanish literature",
+    "long_term_goals": [
+      "Jog consistently three mornings a week without significant joint pain through his 60s",
+      "Lose 20 pounds and keep his type 2 diabetes in the controlled range without medication increase",
+      "Teach his granddaughter Elena to run a mile",
+      "Expand the community garden to include a youth plot for neighborhood children"
+    ],
+    "style": "Reserved and careful in new situations; opens up gradually over time and with people who've earned his trust. Speaks slowly and deliberately, choosing each word with intention. Prefers to explain a point through personal experience rather than abstract argument. Has a quiet dignity that coexists with genuine warmth when he's comfortable. Does not perform enthusiasm he doesn't feel.",
+    "personality": {
+      "traits": [
+        "Cautious and deliberate — will not be rushed into a decision",
+        "Loyal to what has worked; change requires a compelling real-world reason",
+        "Physically capable and quietly proud of his fitness history",
+        "Family-anchored — nearly every preference or habit connects back to family context",
+        "Skeptical of new or trendy products; trusts the familiar and tested"
+      ],
+      "big_five": {
+        "openness": 0.50,
+        "conscientiousness": 0.62,
+        "extraversion": 0.38,
+        "agreeableness": 0.68,
+        "neuroticism": 0.58
+      }
+    },
+    "preferences": {
+      "interests": [
+        "Morning jogs as retirement health routine",
+        "Community gardening (vegetables, native plants, some fruit trees)",
+        "Watching Liga MX and the Mexican national team",
+        "Cooking traditional Sonoran-style Mexican food",
+        "Home repair and maintenance",
+        "Spending time with his granddaughter Elena"
+      ],
+      "likes": [
+        "Shoes that 'just work' without needing to think about them",
+        "Returning to a brand that did not disappoint him previously",
+        "Early morning walks or jogs before Tucson heat arrives",
+        "Straightforward, honest product communication — no buzzwords",
+        "New Balance or Saucony for reliable, unfussy wear"
+      ],
+      "dislikes": [
+        "Shoes with thick cushioning that disconnects him from the ground — after 32 years of mail-carrier walking, he likes to feel the pavement",
+        "Complicated lacing systems — he wants to put them on and go",
+        "Being pushed toward trendy shoes by salespeople half his age",
+        "Spending over $100 on shoes unless he has a clear reason",
+        "Any product that hurt his feet and was not returnable"
+      ]
+    },
+    "beliefs": [
+      "You trust what you've tested yourself, not what an advertisement tells you",
+      "Family and land are what matter — everything else is peripheral",
+      "Simple and honest beats clever every time, in products and in people",
+      "Consistency in small habits beats dramatic interventions"
+    ],
+    "skills": [
+      "30+ years of daily walking on varied terrain — intuitive footwear evaluator",
+      "Community garden coordination and volunteer management",
+      "Traditional Sonoran cooking",
+      "Basic home electrical and plumbing repair"
+    ],
+    "behaviors": {
+      "general": [
+        "Jogs 3 mornings per week (Mon/Wed/Fri) at 6:00am before Tucson heat",
+        "Has bought the same brand and model twice in a row — will not change without a concrete problem",
+        "Was disappointed by one pair of 'premium' shoes that caused heel blisters; now deeply suspicious of any shoe he can't evaluate on a real walk first",
+        "Does not research shoes online; buys from a local shoe store in Tucson where a staff member he trusts works"
+      ],
+      "routines": {
+        "morning": [
+          "5:30am wake-up",
+          "Coffee with Maria before going out",
+          "2.5–3 mile jog through the neighborhood before the heat builds",
+          "Community garden by 8:00am Mon/Wed/Fri"
+        ],
+        "workday": [
+          "Garden coordination work until noon",
+          "Lunch at home, usually leftovers or a simple torta",
+          "Afternoon is unstructured — errands, home projects, television"
+        ],
+        "evening": [
+          "Dinner with Maria — traditional home-cooked meals",
+          "Watches fútbol or a Mexican telenovela",
+          "Elena visits 2–3 evenings per week when her parents work late"
+        ],
+        "weekend": [
+          "Elena runs around the block with him most Saturday mornings",
+          "Extended family gatherings at least once a month",
+          "Mass on Sundays, then slow morning at home"
+        ]
+      }
+    },
+    "health": {
+      "physical": "Naturally fit baseline from 32 years of daily walking carrier routes. Managing mild arthritis in his left ankle and type 2 diabetes (controlled through diet and jogging). Carries some excess weight from retirement reduction in daily activity; working on it. Foot sensitivity is real — bad shoe choices cause disproportionate problems given his ankle condition.",
+      "mental": "Jogging and the community garden together form his retirement structure. On days he skips both, he feels unmoored and slightly irritable. Maria has learned to flag this. Connection to his grandchildren and the garden community are significant emotional anchors."
+    },
+    "relationships": [
+      {
+        "name": "Maria Fuentes",
+        "relation": "Wife",
+        "description": "Married 30 years. Manages his diabetes diet with firm care and mild nagging. Goes for slow walks with him on Sunday mornings — their shared quiet time."
+      },
+      {
+        "name": "Tomás",
+        "relation": "Son",
+        "description": "Works in distribution logistics in Phoenix. Calls every Sunday. Bought Roberto his current running shoes last Father's Day — the good pair, the one that actually fit."
+      },
+      {
+        "name": "Elena",
+        "relation": "Granddaughter",
+        "description": "Eight years old. Runs around the block with Roberto on weekend mornings and asks approximately 40 questions per mile."
+      }
+    ]
+  },
+  "segment": "Casual Joggers",
+  "segment_id": 2
+}

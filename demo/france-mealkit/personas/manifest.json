@@ -1,0 +1,51 @@
+{
+  "survey_id": "meal-kit-france-10p-2026-04",
+  "category": "Meal kit subscription",
+  "topic": "First-time potential meal kit subscribers in France",
+  "market": "France",
+  "generation_mode": "segment-driven",
+  "requested_count": 10,
+  "total_personas": 10,
+  "created": "2026-04-16T00:00:00Z",
+  "segments": [
+    {
+      "name": "Dual-Income Couples Without Children",
+      "count": 4,
+      "description": "DINK couples (38% of customer base) — both partners work, no children. Motivated by convenience and time savings after long workdays. High-value segment that skews toward Paris, Lyon, and Nantes."
+    },
+    {
+      "name": "Families With Young Children",
+      "count": 3,
+      "description": "Families with children under 12 (27% of customer base) — juggling childcare, work schedules, and mealtime logistics. Value kid-friendly options, nutrition quality, and waste reduction."
+    },
+    {
+      "name": "Independent Professionals & Empty Nesters",
+      "count": 3,
+      "description": "Remaining 35% — singles, solo professionals, and empty nesters. Diverse motivations: learning to cook, adjusting portion sizes, convenience for one. Less represented in high-value tiers but growing."
+    }
+  ],
+  "sampling_plan": [
+    {"slot": 1, "segment": "Dual-Income Couples Without Children", "name": "Camille Renaud", "age_bucket": "30s", "gender": "Female", "occupation_tier": "professional", "geography_type": "urban", "region_hint": "Paris / Ile-de-France", "category_stance": "pragmatic", "ethnicity_hint": "White French"},
+    {"slot": 2, "segment": "Dual-Income Couples Without Children", "name": "Yassine Benali", "age_bucket": "20s", "gender": "Male", "occupation_tier": "creative", "geography_type": "urban", "region_hint": "Lyon / Auvergne-Rhone-Alpes", "category_stance": "enthusiastic", "ethnicity_hint": "North African French"},
+    {"slot": 3, "segment": "Dual-Income Couples Without Children", "name": "Nathalie Guerin", "age_bucket": "40s", "gender": "Female", "occupation_tier": "professional", "geography_type": "suburban", "region_hint": "Nantes / Pays de la Loire", "category_stance": "skeptical", "ethnicity_hint": "White French"},
+    {"slot": 4, "segment": "Dual-Income Couples Without Children", "name": "Remi Edouard", "age_bucket": "30s", "gender": "Male", "occupation_tier": "trade", "geography_type": "urban", "region_hint": "Bordeaux / Nouvelle-Aquitaine", "category_stance": "enthusiastic", "ethnicity_hint": "Caribbean French"},
+    {"slot": 5, "segment": "Families With Young Children", "name": "Mei-Lin Gerard", "age_bucket": "30s", "gender": "Female", "occupation_tier": "professional", "geography_type": "urban", "region_hint": "Paris / Ile-de-France", "category_stance": "enthusiastic", "ethnicity_hint": "East Asian French"},
+    {"slot": 6, "segment": "Families With Young Children", "name": "Christophe Morel", "age_bucket": "40s", "gender": "Male", "occupation_tier": "service", "geography_type": "suburban", "region_hint": "Lyon / Auvergne-Rhone-Alpes", "category_stance": "pragmatic", "ethnicity_hint": "White French"},
+    {"slot": 7, "segment": "Families With Young Children", "name": "Amadou Diallo", "age_bucket": "30s", "gender": "Male", "occupation_tier": "professional", "geography_type": "urban", "region_hint": "Nantes / Loire-Atlantique", "category_stance": "skeptical", "ethnicity_hint": "West African French"},
+    {"slot": 8, "segment": "Independent Professionals & Empty Nesters", "name": "Priya Sharma", "age_bucket": "20s", "gender": "Female", "occupation_tier": "student", "geography_type": "urban", "region_hint": "Paris / Ile-de-France", "category_stance": "enthusiastic", "ethnicity_hint": "South Asian French"},
+    {"slot": 9, "segment": "Independent Professionals & Empty Nesters", "name": "Florian Roche", "age_bucket": "30s", "gender": "Male", "occupation_tier": "creative", "geography_type": "urban", "region_hint": "Toulouse / Occitanie", "category_stance": "indifferent", "ethnicity_hint": "White French"},
+    {"slot": 10, "segment": "Independent Professionals & Empty Nesters", "name": "Katarina Novak", "age_bucket": "50s", "gender": "Female", "occupation_tier": "professional", "geography_type": "suburban", "region_hint": "Strasbourg / Grand Est", "category_stance": "pragmatic", "ethnicity_hint": "Eastern European French"}
+  ],
+  "persona_files": [
+    "Camille_Renaud.json",
+    "Yassine_Benali.json",
+    "Nathalie_Guerin.json",
+    "Remi_Edouard.json",
+    "Mei-Lin_Gerard.json",
+    "Christophe_Morel.json",
+    "Amadou_Diallo.json",
+    "Priya_Sharma.json",
+    "Florian_Roche.json",
+    "Katarina_Novak.json"
+  ]
+}

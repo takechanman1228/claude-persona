@@ -1,0 +1,12 @@
+{
+  "survey_type": "concept-test",
+  "panel_dir": "demo/genz-skincare/personas",
+  "topic": "Skincare / Beauty",
+  "variables": {
+    "category": "skincare products",
+    "concepts": "**A: Acne Control Serum** — A targeted treatment serum that fights breakouts with active ingredients. Designed for acne-prone skin, it uses clinically proven actives to clear existing blemishes and prevent new ones.\n\n**B: Barrier Repair Cream** — A soothing moisturizer that strengthens your skin barrier and reduces redness. Formulated for sensitive and stressed skin, it calms irritation and restores your skin's natural protective layer.\n\n**C: Glow Boosting Toner** — brightens dull skin and supports a more even complexion."
+  },
+  "backend": "claude-cli",
+  "model": "sonnet",
+  "max_concurrency": 5
+}

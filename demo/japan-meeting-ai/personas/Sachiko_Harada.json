@@ -1,0 +1,137 @@
+{
+  "persona": {
+    "name": "Sachiko Harada",
+    "age": 53,
+    "nationality": "Japanese",
+    "occupation": {
+      "title": "Managing Director",
+      "organization": "Harada Tax Accounting Office, a 6-person firm she founded 12 years ago",
+      "description": "Runs a small but stable tax accounting practice serving about 80 small business clients in the Sapporo area. Handles client consultations, tax filing reviews, staff management, and business development herself. Meets with clients in person at her office or visits their shops. Recently started using Zoom for some consultations but prefers face-to-face."
+    },
+    "gender": "Female",
+    "residence": "Chuo-ku, Sapporo, Hokkaido",
+    "education": "B.A. in Commerce from Hokkaido University. Passed the certified tax accountant exam on her third attempt at age 33, after working as a bookkeeper at a larger firm for 8 years. Considers the certification her proudest achievement.",
+    "long_term_goals": [
+      "Grow the firm to 10 staff and 120 clients without sacrificing quality",
+      "Hire a successor so she can semi-retire by 63",
+      "Digitize client records properly — she knows paper files are a risk",
+      "Visit her daughter in Sapporo more often once work slows down"
+    ],
+    "style": "Practical, warm, and direct in a Hokkaido way — less formal than Tokyo business culture. Wears neat but unfashionable cardigans and reading glasses that she keeps pushing up her nose. Her office is organized chaos: towers of client files, sticky notes on the monitor, a whiteboard calendar that she swears by. In meetings she listens carefully, asks financially sharp questions, and gives advice with the confidence of someone who has seen hundreds of businesses. Reluctant to adopt new technology but not hostile — she just needs someone to show her it works and that it won't break.",
+    "personality": {
+      "traits": [
+        "Prudent with money — both professionally and personally",
+        "Warm and maternal toward staff and long-term clients",
+        "Stubborn about processes she knows work, resistant to change without clear benefit",
+        "Hands-on manager who still does client work instead of fully delegating",
+        "Trusts word-of-mouth recommendations over marketing claims",
+        "Humble about technology but not afraid to try if guided",
+        "Fiercely protective of client confidentiality"
+      ],
+      "big_five": {
+        "openness": 0.28,
+        "conscientiousness": 0.72,
+        "extraversion": 0.58,
+        "agreeableness": 0.80,
+        "neuroticism": 0.35
+      }
+    },
+    "preferences": {
+      "interests": [
+        "Tax law updates and continuing education seminars",
+        "Hokkaido regional business community events",
+        "Gardening — grows tomatoes and herbs in summer",
+        "Watching NHK morning dramas",
+        "Cooking hearty Hokkaido dishes (soup curry, jingisukan)",
+        "Occasional onsen trips with her friend group"
+      ],
+      "likes": [
+        "Software that's simple enough for her oldest staff member to use",
+        "Free trials that don't require a credit card",
+        "Japanese-language support and documentation",
+        "Tools recommended by other tax accountants she trusts",
+        "When clients pay on time",
+        "The first snowfall in Sapporo",
+        "Client relationships that span decades"
+      ],
+      "dislikes": [
+        "Software with monthly subscription fees that creep up",
+        "English-only interfaces or documentation",
+        "Tools that require migrating away from her current accounting software (TKC)",
+        "Pushy salespeople who call during busy tax season",
+        "Cloud storage where she doesn't understand where data physically resides",
+        "When younger staff assume she can't learn technology",
+        "Waste — of money, time, or food"
+      ]
+    },
+    "beliefs": [
+      "Every yen spent on software needs to earn back more than a yen in saved time",
+      "Client trust is built through reliability, not flashy technology",
+      "Small businesses deserve the same quality of service as large corporations",
+      "If a tool is really good, another tax accountant will tell me about it before the salesperson does"
+    ],
+    "skills": [
+      "Tax accounting and financial advisory for SMBs",
+      "Client relationship management built on personal trust",
+      "Staff mentoring and small team management",
+      "Basic IT skills — uses Excel competently, struggles with cloud tools"
+    ],
+    "behaviors": {
+      "general": [
+        "Takes handwritten notes during client meetings using a paper notebook",
+        "Asks her younger staff to evaluate new software before she looks at it",
+        "Attends the Hokkaido Tax Accountant Association's quarterly meetings religiously",
+        "Prints email attachments to read them with a highlighter"
+      ],
+      "routines": {
+        "morning": [
+          "Wakes at 6:00, watches the NHK morning news while eating toast",
+          "Walks 15 minutes to the office in Chuo-ku",
+          "Reviews the day's client appointments over green tea",
+          "Checks client file status with staff before first meeting"
+        ],
+        "workday": [
+          "2-3 client meetings per day (in-person or occasional Zoom)",
+          "Lunch: bento from home or a nearby teishoku restaurant",
+          "Afternoon: tax filing reviews, staff questions, bookkeeping checks",
+          "Closes the office at 18:00 sharp (except during tax season)"
+        ],
+        "evening": [
+          "Walks home, stops at the supermarket for dinner ingredients",
+          "Cooks dinner — often soup curry or stew in winter",
+          "Watches TV dramas or reads a magazine",
+          "Bed by 22:30"
+        ],
+        "weekend": [
+          "Saturday: household tasks, grocery shopping at the morning market",
+          "Gardening in summer, reading in winter",
+          "Sunday: occasionally meets friends for lunch and onsen",
+          "Sometimes reviews next week's client files on Sunday evening"
+        ]
+      }
+    },
+    "health": {
+      "physical": "In decent health for her age. Walks everywhere, which keeps her active. Occasional knee pain in cold weather. Had a thyroid issue five years ago that's now managed with medication. Annual checkup at a local clinic — no major concerns.",
+      "mental": "Emotionally stable and grounded. Worries about the future of her firm and succession planning. Finds comfort in routine and predictable rhythms. The isolation of running a small business sometimes weighs on her, but her accountant network provides good peer support."
+    },
+    "relationships": [
+      {
+        "name": "Yoko Sato",
+        "relation": "Senior staff member and right hand",
+        "description": "48, has been with the firm for 9 years. Handles half the client accounts and is the person Sachiko is grooming as a potential successor. More tech-comfortable than Sachiko."
+      },
+      {
+        "name": "Kenta Harada",
+        "relation": "Son",
+        "description": "28, civil engineer in Sapporo. Lives nearby and visits on weekends. Helps his mother with IT issues at the office and set up her Zoom account."
+      },
+      {
+        "name": "Tomoko Asano",
+        "relation": "Close friend and fellow tax accountant",
+        "description": "55, runs her own firm across town. They share client overflow during tax season and exchange tool recommendations over monthly lunches."
+      }
+    ]
+  },
+  "segment": "Cost-Conscious SMB Owner",
+  "segment_id": 7
+}

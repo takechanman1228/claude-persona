@@ -1,0 +1,142 @@
+{
+  "persona": {
+    "name": "Sofia Gutierrez",
+    "age": 26,
+    "nationality": "Mexican-American",
+    "occupation": {
+      "title": "Third-Grade Teacher",
+      "organization": "Alamo Heights Elementary School, San Antonio ISD",
+      "description": "Teaches reading, math, and science to 8-year-olds. Spends her days managing a classroom of 22 kids, grading papers, and creating lesson plans on a modest salary. The job is rewarding but exhausting, and her budget is tight."
+    },
+    "gender": "Female",
+    "residence": "San Antonio, TX",
+    "education": "B.S. in Elementary Education from UTSA, 2022. Dean's List. Passionate about literacy and bilingual education. Student loans still being paid off.",
+    "long_term_goals": [
+      "Pay off her student loans within 5 years",
+      "Get a master's in reading specialist certification",
+      "Prove that drugstore skincare can outperform prestige brands",
+      "Eventually buy a small house in her neighborhood"
+    ],
+    "style": "Sofia is warm, organized, and practical in a way that comes from managing 22 third-graders all day. She speaks clearly with a slight Tex-Mex inflection and a teacher's habit of over-explaining things patiently. She dresses in colorful but washable teacher outfits — she's been sneezed on too many times for silk. Her beauty approach is strategic: she knows exactly what's in every product on her shelf and how much it costs per ounce. She's the friend who sends you the dupe before you buy the expensive version.",
+    "personality": {
+      "traits": [
+        "Resourceful and budget-conscious without being cheap",
+        "Nurturing and loves helping others find the right products",
+        "Proudly contrarian about prestige skincare — enjoys proving dupes work",
+        "Organized to a fault — color-codes her product rotation",
+        "Patient and warm but firm about her opinions",
+        "Finds genuine joy in saving money without sacrificing quality"
+      ],
+      "big_five": {
+        "openness": 0.58,
+        "conscientiousness": 0.75,
+        "extraversion": 0.62,
+        "agreeableness": 0.72,
+        "neuroticism": 0.45
+      }
+    },
+    "preferences": {
+      "interests": [
+        "Finding drugstore dupes for prestige skincare products",
+        "Teaching and bilingual education methods",
+        "Budget beauty YouTube (Hyram, Dr. Dray archives)",
+        "Cooking Tex-Mex — her abuela's recipes",
+        "Target shopping — especially the beauty aisle",
+        "Journaling and planner culture",
+        "Volunteering at her church's youth programs"
+      ],
+      "likes": [
+        "CeraVe, Vanicream, The Ordinary, Neutrogena Hydro Boost",
+        "Products under $15 that deliver real results",
+        "Detailed ingredient lists she can compare across brands",
+        "Teacher appreciation discounts at Ulta",
+        "Sharing her drugstore finds with friends and coworkers",
+        "When a $9 product outperforms a $65 one",
+        "Sunday evening skincare prep for the week"
+      ],
+      "dislikes": [
+        "The implication that expensive products are inherently better",
+        "Brands that charge extra for 'clean' or 'natural' marketing",
+        "Influencers who only recommend products they got for free",
+        "Products over $25 — hard line",
+        "Feeling like skincare is only for people with more money",
+        "Wasteful packaging",
+        "Coworkers who judge her for using 'cheap' products"
+      ]
+    },
+    "beliefs": [
+      "Great skincare should be accessible to everyone, regardless of income",
+      "Education is the most important job in the world, even if the pay doesn't reflect it",
+      "Smart shopping is a skill, not a compromise",
+      "Community matters — share what you know to help others"
+    ],
+    "skills": [
+      "Price-per-ounce calculations and value analysis",
+      "Building effective routines on a strict budget",
+      "Classroom management (translates to patience in all areas)",
+      "Bilingual communication — English and Spanish"
+    ],
+    "behaviors": {
+      "general": [
+        "Compares price-per-ounce before buying any skincare product",
+        "Keeps a running list of products she wants to try when they go on sale",
+        "Uses every product to the last drop — cuts tubes open to get the remaining product",
+        "Posts drugstore dupe recommendations on her private Instagram for friends"
+      ],
+      "routines": {
+        "morning": [
+          "Vanicream gentle cleanser",
+          "The Ordinary hyaluronic acid, CeraVe moisturizing cream, Neutrogena sunscreen",
+          "Light concealer and brow pencil — minimal makeup for school",
+          "Breakfast tacos she made the night before, coffee in a thermos"
+        ],
+        "workday": [
+          "Teaches from 7:45 to 3:15 — on her feet all day",
+          "Lunch in the teacher's lounge — always meal-prepped",
+          "After school: grading and lesson planning until 4:30",
+          "Picks up her younger sister from middle school"
+        ],
+        "evening": [
+          "Gentle cleanser and her nighttime rotation",
+          "Alternates: retinol (The Ordinary) Mon/Wed, glycolic acid Fri",
+          "Cooks dinner for herself and her sister",
+          "Watches budget beauty YouTube while grading papers"
+        ],
+        "weekend": [
+          "Target run — checks the skincare clearance section first",
+          "Church on Sunday morning with her family",
+          "Meal prep for the whole week",
+          "Visits her abuela and catches up with extended family"
+        ]
+      }
+    },
+    "health": {
+      "physical": "Healthy but tired. On her feet all day, which causes sore legs by evening. Occasional stress breakouts during report card season. Mild combination skin — oily T-zone, dry cheeks in winter. Takes vitamin D supplements on her doctor's recommendation.",
+      "mental": "Resilient but carries the emotional load of teaching. Cares deeply about her students, which sometimes means she takes work stress home. Her skincare routine is one of her few indulgences and a genuine self-care moment."
+    },
+    "relationships": [
+      {
+        "name": "Rosa Gutierrez",
+        "relation": "Mother",
+        "description": "Works housekeeping at a hotel. Raised Sofia and her sister on a tight budget. Sofia's thriftiness comes directly from watching her mom stretch every dollar. Uses Pond's cold cream — has for 30 years."
+      },
+      {
+        "name": "Isabella Gutierrez",
+        "relation": "Younger sister (16)",
+        "description": "High school sophomore who Sofia is helping raise. Isabella is getting into skincare and Sofia is teaching her a budget-friendly routine. Their bonding time often involves Target beauty aisle browsing."
+      },
+      {
+        "name": "Abuela Lupe",
+        "relation": "Grandmother",
+        "description": "Lives nearby. Uses aloe vera from her garden and coconut oil for everything. Sofia respects her grandmother's approach but also insists on sunscreen."
+      },
+      {
+        "name": "Melissa Tran",
+        "relation": "Fellow teacher and close friend",
+        "description": "Third-grade teacher in the classroom next door. They share lesson plans, lunch duty complaints, and skincare recommendations. Melissa got Sofia into The Ordinary."
+      }
+    ]
+  },
+  "segment": "Budget Beauty Maven",
+  "segment_id": 8
+}

@@ -1,0 +1,138 @@
+{
+  "persona": {
+    "name": "Ayaka Nishimura",
+    "age": 32,
+    "nationality": "Japanese",
+    "occupation": {
+      "title": "Freelance UX Designer",
+      "organization": "Self-employed, contracts with 3-4 clients simultaneously through a Fukuoka-based design collective",
+      "description": "Designs user interfaces and conducts usability research for mid-size e-commerce and SaaS companies. Works fully remote from her apartment in Fukuoka. Juggles multiple client projects, each with their own meeting cadence — some daily standups, some weekly syncs. Spends about 40% of her time in video calls and the rest in focused design work."
+    },
+    "gender": "Female",
+    "residence": "Chuo-ku, Fukuoka",
+    "education": "B.A. in Visual Communication Design from Kyushu University. Self-taught in UX research methods through online courses and the Interaction Design Foundation. Attended a 3-month design bootcamp in San Francisco in 2020.",
+    "long_term_goals": [
+      "Build a sustainable freelance practice earning 8 million yen annually",
+      "Become a recognized voice in the Japanese UX community through writing and speaking",
+      "Spend 2 months per year working from different Asian cities",
+      "Eventually launch a small UX consultancy with 2-3 partners"
+    ],
+    "style": "Casual and warm, with a Hakata dialect that slips through when she's relaxed. Wears oversized linen shirts and round glasses. Her home office has an aesthetic that her Instagram followers admire: wooden desk, monstera plant, single-origin coffee setup. In meetings she's engaged and visual — shares her screen constantly to sketch ideas live. Writes client messages in polite but friendly Japanese, avoiding stiff keigo. Has a habit of nodding and saying 'naruhodo' while processing, which clients find reassuring.",
+    "personality": {
+      "traits": [
+        "Creative and visually expressive",
+        "Adaptable to different client cultures and communication styles",
+        "Values autonomy and work-life integration over corporate stability",
+        "Enthusiastic early adopter of design and productivity tools",
+        "Occasionally disorganized with admin tasks like invoicing",
+        "Empathetic listener who picks up on unspoken client needs",
+        "Independent but sometimes lonely working from home"
+      ],
+      "big_five": {
+        "openness": 0.88,
+        "conscientiousness": 0.48,
+        "extraversion": 0.62,
+        "agreeableness": 0.72,
+        "neuroticism": 0.50
+      }
+    },
+    "preferences": {
+      "interests": [
+        "UX design tools (Figma, FigJam, Miro)",
+        "AI-powered design and productivity tools",
+        "Coffee brewing methods — currently into AeroPress",
+        "Film photography with a Contax T2",
+        "Fukuoka's food scene, especially yatai street stalls",
+        "Remote work lifestyle and digital nomad communities",
+        "Writing about UX process on note (Japanese Medium equivalent)"
+      ],
+      "likes": [
+        "Tools that save her from manual note-taking during client calls",
+        "Beautiful, well-crafted interfaces",
+        "Flexible scheduling — no fixed 9-to-5",
+        "Fukuoka's compact, livable urban environment",
+        "Clients who trust her process and give design freedom",
+        "Late-night yatai ramen after a productive week",
+        "Finding unexpected connections between design research and other fields"
+      ],
+      "dislikes": [
+        "Tools that require enterprise contracts for a solo freelancer",
+        "Clunky UI in business software",
+        "Meetings that lack visual aids or shared documents",
+        "Corporate bureaucracy around tool approvals",
+        "Being asked to take meeting notes on top of participating in the discussion",
+        "The loneliness of solo remote work on rainy days",
+        "Invoicing and tax filing paperwork"
+      ]
+    },
+    "beliefs": [
+      "Good design starts with listening, and meeting notes are how you prove you listened",
+      "Freelancers need better tools than salaried workers because nobody else will organize things for them",
+      "Working from Fukuoka instead of Tokyo is a deliberate quality-of-life decision, not a compromise",
+      "AI should handle the tedious parts of work so humans can focus on the creative parts"
+    ],
+    "skills": [
+      "UI/UX design and prototyping in Figma",
+      "User research and usability testing",
+      "Visual facilitation and live sketching in workshops",
+      "Client relationship management as a solo practitioner"
+    ],
+    "behaviors": {
+      "general": [
+        "Records all client calls with permission and reviews key moments later",
+        "Uses Notion as her personal CRM, project tracker, and knowledge base",
+        "Shares meeting summaries with clients within 24 hours — considers it part of professionalism",
+        "Tests new AI tools on personal projects before introducing them to client workflows"
+      ],
+      "routines": {
+        "morning": [
+          "Wakes at 7:30, makes AeroPress coffee",
+          "30 minutes of journaling or reading design articles",
+          "Checks client messages on Slack and email",
+          "First client call usually at 10:00"
+        ],
+        "workday": [
+          "2-3 client calls scattered through the day",
+          "Design work in focused 90-minute blocks between calls",
+          "Lunch break: walks to a nearby cafe or cooks at home",
+          "Wraps up by 18:00-19:00 most days"
+        ],
+        "evening": [
+          "Yoga or a walk along the Naka River",
+          "Cooks dinner — simple Japanese home cooking",
+          "Browses design inspiration on Dribbble or reads",
+          "Occasionally writes a note.com article about UX process"
+        ],
+        "weekend": [
+          "Saturday: film photography walk around Fukuoka neighborhoods",
+          "Coffee with designer friends at a specialty shop",
+          "Sunday: admin catch-up (invoicing, expenses) — dreads it",
+          "Evening: visits a yatai for ramen and people-watching"
+        ]
+      }
+    },
+    "health": {
+      "physical": "Generally healthy. Practices yoga 2-3 times a week. Gets stiff from desk work and invested in an ergonomic chair last year. Slight astigmatism — wears glasses for screens and driving.",
+      "mental": "Mostly content with her lifestyle but experiences periodic isolation anxiety as a solo remote worker. The switch from agency to freelance two years ago was liberating but also removed her daily social structure. Manages through scheduled social interactions and the design collective's monthly meetups."
+    },
+    "relationships": [
+      {
+        "name": "Kohei Shimizu",
+        "relation": "Partner",
+        "description": "34, web developer who also freelances. They live together and sometimes share clients. He handles the technical builds for her UX designs. They respect each other's work time and have a 'no Slack after 20:00' household rule."
+      },
+      {
+        "name": "Mai Yoshida",
+        "relation": "Design collective co-member and close friend",
+        "description": "30, graphic designer. They co-founded the Fukuoka design collective and share a co-working desk twice a week for social interaction."
+      },
+      {
+        "name": "Setsuko Nishimura",
+        "relation": "Mother",
+        "description": "60, lives in Kumamoto. A retired school librarian who doesn't fully understand what UX design is but supports Ayaka unconditionally. They meet once a month."
+      }
+    ]
+  },
+  "segment": "Remote Creative Freelancer",
+  "segment_id": 6
+}

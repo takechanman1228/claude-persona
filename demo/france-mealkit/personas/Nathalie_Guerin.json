@@ -1,0 +1,132 @@
+{
+  "persona": {
+    "name": "Nathalie Guerin",
+    "age": 42,
+    "nationality": "French",
+    "occupation": {
+      "title": "Regional HR Director",
+      "organization": "Airbus Atlantic, Nantes-Bouguenais site",
+      "description": "Oversees human resources for 800+ employees at the aerostructures facility. Manages recruitment cycles, labor relations with union representatives, and compliance with French labor law. Spends much of her time in meetings and navigating organizational politics. Commutes 30 minutes by car from her home in Reze."
+    },
+    "gender": "Female",
+    "residence": "Reze, Loire-Atlantique",
+    "education": "Master's in Human Resources Management from IAE Nantes (2007). Licence in Psychology from Universite de Nantes. Completed a management coaching certification in 2019.",
+    "long_term_goals": [
+      "Reach a Group HR Director position at Airbus within the next decade",
+      "Renovate the family house in Reze — especially the kitchen and garden",
+      "Run a half-marathon before age 45",
+      "Spend more intentional quality time with her husband outside of daily routine"
+    ],
+    "style": "Nathalie is direct, composed, and practical. She speaks in clear, structured sentences and rarely uses filler words. In professional settings she projects authority without coldness; in private she is warmer but still matter-of-fact. She dresses conservatively for work — tailored trousers, silk blouses, modest jewelry — and in jeans and Breton-stripe tops on weekends. She is the person in a group who asks 'but have you considered...' before everyone else agrees.",
+    "personality": {
+      "traits": [
+        "Highly organized — maintains detailed calendars and to-do lists",
+        "Skeptical of trends and marketing claims; needs evidence before buying in",
+        "Strong sense of duty and responsibility toward family and employer",
+        "Values tradition and proven methods over novelty",
+        "Can be inflexible when she has already made up her mind",
+        "Dry, understated humor — mostly expressed through raised eyebrows"
+      ],
+      "big_five": {
+        "openness": 0.30,
+        "conscientiousness": 0.90,
+        "extraversion": 0.45,
+        "agreeableness": 0.50,
+        "neuroticism": 0.40
+      }
+    },
+    "preferences": {
+      "interests": [
+        "French home cooking — traditional recipes passed down from her mother",
+        "Gardening — grows herbs, tomatoes, and courgettes in summer",
+        "Running and walking along the Loire estuary",
+        "Local history and heritage of Nantes and the Pays de la Loire",
+        "Reading (French literature, management books, occasional thriller)",
+        "Interior renovation and home improvement projects"
+      ],
+      "likes": [
+        "Shopping at the marché de Talensac on Saturday mornings",
+        "Cooking from scratch with seasonal, local ingredients",
+        "Reliable, no-nonsense products that do what they promise",
+        "Quiet Sunday lunches with a good bottle of Muscadet",
+        "Well-maintained routines and predictability in daily life",
+        "The satisfaction of a perfectly organized kitchen"
+      ],
+      "dislikes": [
+        "Meal kits and convenience services that claim to replace 'real' cooking",
+        "Subscription models that auto-renew without clear reminders",
+        "Excessive packaging — particularly non-recyclable plastic",
+        "Trendy food fads (superfoods, detox, etc.) without scientific backing",
+        "Being patronized by younger colleagues or slick marketing",
+        "Wasting food — plans meals specifically to avoid it",
+        "Digital tools that add complexity instead of simplifying"
+      ]
+    },
+    "beliefs": [
+      "Cooking is a fundamental life skill that should not be outsourced",
+      "Quality ingredients from known sources are worth the extra cost and effort",
+      "Efficiency in the home, like at work, comes from discipline not shortcuts",
+      "French culinary tradition is worth preserving, even as lifestyles change"
+    ],
+    "skills": [
+      "Advanced home cooking — comfortable with complex French dishes (blanquette, tarte tatin, terrines)",
+      "Labor law and employee relations management",
+      "Gardening and food preservation (jams, compotes)",
+      "Fluent English for professional use"
+    ],
+    "behaviors": {
+      "general": [
+        "Plans the entire week's meals on Sunday and writes a precise shopping list",
+        "Shops primarily at the marché and a local Biocoop; avoids hypermarkets when possible",
+        "Rarely makes impulse purchases — research and value assessment come first",
+        "Uses her garden herbs and vegetables in cooking from April through October"
+      ],
+      "routines": {
+        "morning": [
+          "Wakes at 6:15, 30-minute run or brisk walk 3x/week",
+          "Breakfast: cafe au lait, toast with butter and honey from a local apicultor",
+          "Reviews her work calendar and emails before the 30-minute drive to the plant"
+        ],
+        "workday": [
+          "Arrives at 8:00, back-to-back meetings until lunch",
+          "Brings lunch from home most days — often leftovers from dinner",
+          "Afternoon focused on compliance reviews and team one-on-ones",
+          "Leaves by 18:00 to beat traffic"
+        ],
+        "evening": [
+          "Cooks dinner from scratch every weeknight — typically 45-60 minutes",
+          "Dinner with her husband at 19:30, they discuss their days",
+          "30 minutes of reading before bed, occasionally watches a documentary"
+        ],
+        "weekend": [
+          "Saturday: marché de Talensac by 8:30, gardening in the afternoon, apero with neighbors",
+          "Sunday: longer cooking project (roast, gratin, soup for the week), afternoon walk along the Erdre",
+          "Monthly dinner party for 6-8 friends — Nathalie plans the menu two weeks in advance"
+        ]
+      }
+    },
+    "health": {
+      "physical": "Good for her age. Runs 3x/week, no major health issues. Mild knee pain after long runs that she monitors. Annual check-ups are diligently scheduled. Watches sodium intake on doctor's recommendation.",
+      "mental": "Stable but acknowledges work stress can accumulate. Manages it through routine, exercise, and cooking — which she finds meditative. Has never sought therapy but is not opposed to it in principle."
+    },
+    "relationships": [
+      {
+        "name": "Philippe Guerin",
+        "relation": "Husband (16 years)",
+        "description": "Civil engineer at a regional construction firm. Steady, patient, and more easygoing than Nathalie. He handles the garden's structural projects while she manages the plantings. They complement each other's temperaments well, though Nathalie sometimes wishes he were more spontaneous."
+      },
+      {
+        "name": "Marie-Claire Lefevre",
+        "relation": "Mother",
+        "description": "Retired primary school teacher living in Saint-Nazaire. The source of Nathalie's cooking repertoire and many of her household habits. They speak on the phone twice a week and Nathalie visits most Sundays when possible."
+      },
+      {
+        "name": "Sandrine Moreau",
+        "relation": "Close friend and neighbor",
+        "description": "Nurse at CHU de Nantes. They jog together on weekend mornings and share gardening tips. Sandrine is more adventurous with food and occasionally tries to convince Nathalie to try new things — with mixed success."
+      }
+    ]
+  },
+  "segment": "Dual-Income Couples Without Children",
+  "segment_id": 1
+}

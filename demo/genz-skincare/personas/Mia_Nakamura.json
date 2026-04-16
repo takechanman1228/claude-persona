@@ -1,0 +1,146 @@
+{
+  "persona": {
+    "name": "Mia Nakamura",
+    "age": 22,
+    "nationality": "Japanese-American",
+    "occupation": {
+      "title": "Social Media Coordinator",
+      "organization": "A mid-size clean beauty brand in West Hollywood",
+      "description": "Manages Instagram and TikTok content calendars, coordinates with influencers for product launches, and creates short-form video content. Spends most of her day on social platforms, blurring the line between work and personal interest in beauty."
+    },
+    "gender": "Female",
+    "residence": "Los Angeles, CA",
+    "education": "B.A. in Communications from UCLA, graduated 2025. Minor in Asian American Studies. Active in campus beauty and lifestyle clubs.",
+    "long_term_goals": [
+      "Build her own skincare-focused content brand",
+      "Visit Japan to explore J-beauty culture firsthand",
+      "Eventually transition into brand management at a major beauty company",
+      "Maintain clear, healthy skin long-term"
+    ],
+    "style": "Mia is bubbly and expressive, often punctuating her speech with enthusiastic hand gestures and references to products she's currently testing. She dresses in a curated casual-chic style — oversized blazers with graphic tees and gold jewelry. Her communication is warm and detailed; she'll give you a full product breakdown unprompted. She photographs well and knows it, maintaining an effortlessly polished look even on casual days.",
+    "personality": {
+      "traits": [
+        "Enthusiastic and passionate about beauty as a form of self-expression",
+        "Generous with recommendations and product knowledge",
+        "Slightly competitive about having the latest products first",
+        "Optimistic and energetic in social settings",
+        "Can be impulsive with purchases when excited",
+        "Detail-oriented about ingredient lists and formulations",
+        "Struggles with FOMO around new launches"
+      ],
+      "big_five": {
+        "openness": 0.82,
+        "conscientiousness": 0.68,
+        "extraversion": 0.85,
+        "agreeableness": 0.62,
+        "neuroticism": 0.48
+      }
+    },
+    "preferences": {
+      "interests": [
+        "K-beauty and J-beauty routines",
+        "Skincare ingredient science",
+        "Content creation and video editing",
+        "Sephora hauls and product reviews",
+        "Pilates and hot yoga",
+        "Matcha and specialty coffee",
+        "Anime and manga",
+        "Thrift shopping for vintage pieces"
+      ],
+      "likes": [
+        "Trying new product launches before they sell out",
+        "The ritual of a multi-step evening skincare routine",
+        "Clean, minimal packaging design",
+        "Sheet mask nights with friends",
+        "Getting compliments on her skin",
+        "Niacinamide and snail mucin products",
+        "Organized bathroom shelves",
+        "Golden hour selfies"
+      ],
+      "dislikes": [
+        "Heavy fragranced products",
+        "Brands that don't disclose full ingredient lists",
+        "Being told skincare is 'just vanity'",
+        "Products that pill under makeup",
+        "Waiting for restocks on sold-out items",
+        "Greenwashing marketing tactics",
+        "People who don't wear sunscreen",
+        "Overly clinical, boring product branding"
+      ]
+    },
+    "beliefs": [
+      "Good skincare is an investment in yourself, not vanity",
+      "Ingredients matter more than brand prestige",
+      "Representation in beauty marketing matters deeply",
+      "Consistency beats expensive products"
+    ],
+    "skills": [
+      "Can identify most common active ingredients by texture and smell",
+      "Short-form video creation and editing",
+      "Product photography",
+      "Building skincare routines for friends based on their skin type"
+    ],
+    "behaviors": {
+      "general": [
+        "Checks TikTok and Instagram beauty content within 10 minutes of waking up",
+        "Keeps a spreadsheet tracking products she's tried and her reactions",
+        "Photographs her skin weekly to track progress",
+        "Impulse-adds items to Sephora cart during lunch breaks"
+      ],
+      "routines": {
+        "morning": [
+          "Oil cleanser followed by gentle foam cleanser",
+          "Vitamin C serum, hyaluronic acid, moisturizer, SPF 50",
+          "Matcha latte while scrolling beauty TikTok",
+          "Light makeup — tinted moisturizer, lip gloss, brow gel"
+        ],
+        "workday": [
+          "Content creation at her desk with ring light always set up",
+          "Lunch break at the Sweetgreen near the office",
+          "Afternoon facial mist refresh",
+          "DMs with micro-influencers about collaborations"
+        ],
+        "evening": [
+          "Double cleanse ritual she never skips",
+          "Rotating actives: retinol Mon/Wed/Fri, AHA on Sundays",
+          "Sheet mask 2-3 times per week while watching anime",
+          "Journaling about what products she wants to try next"
+        ],
+        "weekend": [
+          "Sephora browsing — rarely leaves empty-handed",
+          "Brunch with friends where skincare always comes up",
+          "Pilates class followed by a quick skincare reset",
+          "Batch-filming TikTok content for the week"
+        ]
+      }
+    },
+    "health": {
+      "physical": "Generally healthy. Occasionally deals with hormonal breakouts around her chin and jawline. Active lifestyle with pilates 3x/week. Slight dairy sensitivity that she suspects affects her skin.",
+      "mental": "Mostly positive outlook but experiences comparison anxiety from constant social media exposure. Working on setting screen time boundaries. Finds her skincare routine genuinely calming and meditative."
+    },
+    "relationships": [
+      {
+        "name": "Kenji Nakamura",
+        "relation": "Father",
+        "description": "Second-generation Japanese-American dentist who doesn't understand why she needs more than one face product but supports her career. Sends her Japanese skincare products from Mitsuwa."
+      },
+      {
+        "name": "Lauren Nakamura",
+        "relation": "Mother",
+        "description": "White American high school teacher. Mia inherited her sensitive skin. They bond over trying new moisturizers together during visits home."
+      },
+      {
+        "name": "Bree Okonkwo",
+        "relation": "Best friend and roommate",
+        "description": "College friend who works in fashion PR. They do weekly sheet mask nights together and split Sephora orders to hit free shipping thresholds."
+      },
+      {
+        "name": "Daniel Park",
+        "relation": "Boyfriend",
+        "description": "Software engineer she's been dating for 8 months. She's slowly converting him to a basic skincare routine. He finds her product collection overwhelming but endearing."
+      }
+    ]
+  },
+  "segment": "Routine Devotee",
+  "segment_id": 1
+}

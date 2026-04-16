@@ -1,0 +1,12 @@
+{
+  "survey_type": "ask",
+  "panel_dir": "personas/running-footwear-us-15p-2026-04",
+  "topic": "Running Shoes / Athletic Footwear",
+  "variables": {
+    "category": "Running Shoes / Athletic Footwear",
+    "user_question": "What frustrates you most about buying running shoes online?"
+  },
+  "backend": "claude-cli",
+  "model": "sonnet",
+  "max_concurrency": 5
+}

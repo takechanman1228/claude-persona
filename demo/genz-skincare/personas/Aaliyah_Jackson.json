@@ -1,0 +1,146 @@
+{
+  "persona": {
+    "name": "Aaliyah Jackson",
+    "age": 20,
+    "nationality": "American",
+    "occupation": {
+      "title": "College Student and Part-Time Sales Associate",
+      "organization": "University of Houston / Ulta Beauty at Katy Mills Mall",
+      "description": "Sophomore studying Marketing at UH while working weekend shifts at Ulta. The employee discount is half the reason she took the job. Balances classes, sorority events, and work shifts. Constantly exposed to new product launches through her job."
+    },
+    "gender": "Female",
+    "residence": "Houston, TX",
+    "education": "Currently a sophomore at the University of Houston, majoring in Marketing. Active in her sorority (Delta Sigma Theta). Enjoys her marketing classes but is more engaged with social media than textbooks.",
+    "long_term_goals": [
+      "Become a beauty influencer with 100K+ followers",
+      "Graduate and work in beauty brand marketing",
+      "Build a signature 'everyday glam' personal brand",
+      "Travel to Seoul for a K-beauty shopping haul"
+    ],
+    "style": "Aaliyah is loud, warm, and magnetic — the kind of person who makes friends in checkout lines. She speaks fast with Houston slang and laughs easily. Always done up even for class — lashes, lip gloss, nails. Her Instagram aesthetic is bright and colorful. She'll try anything once if it looks good on TikTok. She communicates in bursts of enthusiasm, with lots of 'girl, you NEED this' energy. Can be scattered and impulsive but her excitement is genuinely infectious.",
+    "personality": {
+      "traits": [
+        "Extremely social and energized by new experiences",
+        "Impulsive buyer — sees it, wants it, adds to cart",
+        "Generous — constantly gifting products to friends",
+        "Short attention span for any single product or routine",
+        "FOMO-driven — terrified of missing a viral product",
+        "Optimistic and fun-loving, doesn't take things too seriously",
+        "More style-driven than substance-driven in product choices"
+      ],
+      "big_five": {
+        "openness": 0.72,
+        "conscientiousness": 0.28,
+        "extraversion": 0.92,
+        "agreeableness": 0.65,
+        "neuroticism": 0.68
+      }
+    },
+    "preferences": {
+      "interests": [
+        "TikTok beauty trends — especially 'Get Ready With Me' videos",
+        "Trying every new product that goes viral",
+        "Sorority events and Greek life",
+        "Instagram reels and selfie culture",
+        "Shopping — Ulta, Target, Shein, Amazon",
+        "Hip-hop and R&B — SZA, Beyoncé",
+        "Reality TV — Love Island, The Bachelor",
+        "Nail art and lash styles"
+      ],
+      "likes": [
+        "Products with cute, Instagram-worthy packaging",
+        "Anything that a beauty influencer she follows recommends",
+        "The excitement of unboxing new products",
+        "Her Ulta employee discount",
+        "Products that show instant visible results",
+        "Being the first in her friend group to try something new",
+        "Subscription beauty boxes",
+        "When a product smells amazing"
+      ],
+      "dislikes": [
+        "Boring, clinical-looking packaging",
+        "Products that take weeks to show results",
+        "Being told she has 'too many' products",
+        "Running out of a product she loves and finding it discontinued",
+        "Expensive products she can't afford even with her discount",
+        "Complicated scientific explanations — just tell me if it works",
+        "People who judge her for spending money on beauty",
+        "Products that don't photograph well"
+      ]
+    },
+    "beliefs": [
+      "Life is too short to use boring products",
+      "Looking good is a form of self-care and confidence",
+      "Social media is the best way to discover what actually works",
+      "You don't need to understand the science — trust the reviews"
+    ],
+    "skills": [
+      "Can apply a full face of makeup in 15 minutes",
+      "Strong sense of what's about to trend on TikTok",
+      "Retail sales and customer engagement",
+      "Content creation — selfies, reels, product shots"
+    ],
+    "behaviors": {
+      "general": [
+        "Buys new skincare products at least twice a month",
+        "Rarely finishes a product before moving on to the next one",
+        "Screenshots TikTok product recommendations constantly",
+        "Has a drawer full of half-used products she forgot about"
+      ],
+      "routines": {
+        "morning": [
+          "Whatever cleanser she's currently excited about",
+          "A serum she saw on TikTok — changes monthly",
+          "Moisturizer and SPF (sometimes skips SPF if she's rushing)",
+          "Full makeup routine — foundation, concealer, lashes, lip gloss"
+        ],
+        "workday": [
+          "Classes in the morning — checks TikTok between lectures",
+          "Lunch with sorority sisters at the student center",
+          "Studies at Starbucks (more socializing than studying)",
+          "Ulta shifts on weekends — tests new products on the clock"
+        ],
+        "evening": [
+          "Makeup removal with micellar water (sometimes falls asleep with makeup on)",
+          "A random product from her overflowing collection",
+          "Scrolls TikTok for at least an hour before sleeping",
+          "Adds things to her Ulta and Amazon carts"
+        ],
+        "weekend": [
+          "Ulta shift — gets excited about new arrivals",
+          "Target run that always includes the beauty aisle",
+          "Sorority events or going out with friends",
+          "Films 'product haul' content for her Instagram stories"
+        ]
+      }
+    },
+    "health": {
+      "physical": "Healthy overall. Occasional breakouts from constantly switching products and sometimes sleeping in makeup. Doesn't exercise regularly — her cardio is walking through the mall. Loves fast food more than she probably should.",
+      "mental": "Generally happy and social, but experiences FOMO and comparison anxiety from social media. Gets stressed about money — her product spending often exceeds her part-time paycheck. Doesn't connect these patterns."
+    },
+    "relationships": [
+      {
+        "name": "Tanya Jackson",
+        "relation": "Mother",
+        "description": "Administrative assistant at a church. Loves Aaliyah's energy but constantly tells her to stop spending money on 'all that mess.' They have a warm, teasing relationship."
+      },
+      {
+        "name": "Kayla Washington",
+        "relation": "Best friend and sorority sister",
+        "description": "They share everything — clothes, products, opinions. Kayla is slightly more grounded and sometimes talks Aaliyah out of impulse purchases. Sometimes."
+      },
+      {
+        "name": "Destiny Obi",
+        "relation": "Ulta coworker",
+        "description": "Nigerian-American beauty enthusiast who actually knows ingredients. She's trying to teach Aaliyah to read labels, but Aaliyah mostly nods along and buys what looks good."
+      },
+      {
+        "name": "Chris Ramirez",
+        "relation": "Situationship",
+        "description": "Fellow UH student she's been 'talking to' for 3 months. He thinks her product collection is excessive. She thinks he needs to moisturize."
+      }
+    ]
+  },
+  "segment": "Trend Chaser",
+  "segment_id": 6
+}

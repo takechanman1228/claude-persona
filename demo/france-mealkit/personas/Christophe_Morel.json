@@ -1,0 +1,138 @@
+{
+  "persona": {
+    "name": "Christophe Morel",
+    "age": 44,
+    "nationality": "French",
+    "occupation": {
+      "title": "Insurance Claims Adjuster",
+      "organization": "Groupama Rhone-Alpes, Villeurbanne branch",
+      "description": "Processes and evaluates property damage claims for residential and small business clients. Reviews documentation, visits damage sites, negotiates with repair contractors, and writes assessment reports. A desk-heavy role punctuated by field visits. Has been in the insurance industry for 18 years and knows the regulations inside out."
+    },
+    "gender": "Male",
+    "residence": "Villeurbanne, Rhone",
+    "education": "BTS Assurance from Lycee du Parc in Lyon (2002). Completed several professional certifications in property damage assessment through the Federation Francaise de l'Assurance. Did not pursue university studies — entered the workforce directly after the BTS.",
+    "long_term_goals": [
+      "Pay off the family apartment mortgage within 8 years",
+      "Coach his daughter's handball team when she moves to the cadettes level",
+      "Build a small vegetable garden on the family's allotment plot in Caluire",
+      "Take the family to Corsica for a two-week summer holiday"
+    ],
+    "style": "Christophe is steady, methodical, and not easily impressed. He speaks in a measured, slightly formal way — a habit from writing official reports all day. He does not use slang or exaggeration. He dresses in unremarkable business casual for work (chinos, polo shirts) and in functional outdoor clothing on weekends. He is the dad who reads the full terms and conditions before signing anything. Warm with his family but reserved with strangers.",
+    "personality": {
+      "traits": [
+        "Methodical and risk-averse — evaluates everything through a cost-benefit lens",
+        "Pragmatic about household management; values efficiency and value-for-money",
+        "Low tolerance for marketing hype — wants facts, not feelings",
+        "Patient and attentive with his children, especially around homework and sports",
+        "Resistant to change unless presented with clear, concrete advantages",
+        "Quietly proud of his expertise and experience, though he doesn't boast"
+      ],
+      "big_five": {
+        "openness": 0.18,
+        "conscientiousness": 0.92,
+        "extraversion": 0.28,
+        "agreeableness": 0.62,
+        "neuroticism": 0.55
+      }
+    },
+    "preferences": {
+      "interests": [
+        "Youth handball coaching and the local sports club",
+        "Vegetable gardening — recently acquired an allotment plot",
+        "Home economics and household budget optimization",
+        "DIY home repairs and practical maintenance",
+        "Watching cycling (Tour de France) and handball matches",
+        "Cooking simple, hearty family meals from regional Lyonnaise recipes"
+      ],
+      "likes": [
+        "Products that offer clear value for money with transparent pricing",
+        "Meal solutions that reduce food waste and feed a family of five",
+        "Familiar, traditional flavors that children will actually eat",
+        "Services with easy cancellation and no hidden fees",
+        "The predictability of weekly routines",
+        "Gardening as a way to supplement the household food supply"
+      ],
+      "dislikes": [
+        "Premium pricing for basic ingredients with a fancy label",
+        "Small or 'gourmet' portions that leave three growing children hungry",
+        "Complicated recipes that require unusual ingredients or techniques",
+        "Auto-renewal subscriptions without clear opt-out mechanisms",
+        "Marketing that targets 'foodie' culture he doesn't identify with",
+        "Food waste of any kind — calculates cost per unused item mentally",
+        "Trendy dietary restrictions imposed on the whole family"
+      ]
+    },
+    "beliefs": [
+      "A household budget must be managed with the same rigor as a business account",
+      "Children need consistent routines, including regular family meals at the table",
+      "Value is not about the cheapest option — it is about the best ratio of quality to price",
+      "Tradition and practicality are underrated in a world obsessed with novelty"
+    ],
+    "skills": [
+      "Insurance regulation and property damage assessment",
+      "Household budget management and financial planning",
+      "Competent home cook — specializes in quenelles, gratins, and pot-au-feu",
+      "Basic DIY (plumbing, tiling, painting)"
+    ],
+    "behaviors": {
+      "general": [
+        "Compares prices across Leclerc, Auchan, and Lidl using weekly flyers before shopping",
+        "Grocery shops once per week on Saturday morning with a precise list",
+        "Cooks 5 nights per week — his wife covers the other two",
+        "Has never tried a meal kit service but has seen ads and is cautiously curious"
+      ],
+      "routines": {
+        "morning": [
+          "Up at 6:30, makes coffee and prepares the children's school bags",
+          "Breakfast with the family: cereal, tartines, orange juice",
+          "Drives the two older children to school, then continues to the office"
+        ],
+        "workday": [
+          "At the office by 8:30, processes claims until lunch",
+          "Lunch at the office canteen — rarely goes out",
+          "Afternoon field visits or report writing",
+          "Picks up the youngest from garderie at 17:30"
+        ],
+        "evening": [
+          "Cooks dinner while helping the older children with homework",
+          "Family dinner at 19:00 — TV off, everyone at the table",
+          "Bath and bedtime for the youngest, then 30 minutes of quiet reading or TV news",
+          "Checks the household budget spreadsheet once a week in the evening"
+        ],
+        "weekend": [
+          "Saturday: grocery shopping at Leclerc by 9:00, handball practice with his daughter at 14:00",
+          "Sunday: market visit in Caluire for vegetables, family lunch (often a roast), allotment garden work in the afternoon",
+          "Occasional family hike in the Monts du Lyonnais when weather permits"
+        ]
+      }
+    },
+    "health": {
+      "physical": "Average fitness. Played handball himself until a knee injury at 35. Now walks regularly and does garden work for exercise. Slightly overweight — his wife has encouraged healthier portions. Annual check-ups are up to date.",
+      "mental": "Stable but carries the weight of being the household's financial planner. Occasionally feels stuck in his career but channels energy into family and coaching instead. Sleep quality is good. Does not seek professional support — manages stress through routine and gardening."
+    },
+    "relationships": [
+      {
+        "name": "Aurelie Morel",
+        "relation": "Wife (17 years)",
+        "description": "Part-time librarian at the Mediatheque de Villeurbanne. Works mornings, handles afternoon childcare logistics. More adventurous with food than Christophe — she suggested trying a meal kit once, which he deflected. They have a steady, functional partnership."
+      },
+      {
+        "name": "Emma Morel",
+        "relation": "Eldest daughter (age 10)",
+        "description": "In CM2, plays handball at the local club. Christophe coaches her team's training sessions on Saturday afternoons. She is starting to develop her own food opinions and sometimes requests specific dinners."
+      },
+      {
+        "name": "Lucas Morel",
+        "relation": "Son (age 7)",
+        "description": "In CE1. Quiet and bookish, the opposite of his sister. Eats without complaint — the easy child at mealtimes."
+      },
+      {
+        "name": "Mathis Morel",
+        "relation": "Youngest son (age 4)",
+        "description": "In moyenne section at the maternelle. Energetic and messy, the family tornado. Very attached to his father's cooking — specifically the gratin dauphinois."
+      }
+    ]
+  },
+  "segment": "Families With Young Children",
+  "segment_id": 2
+}

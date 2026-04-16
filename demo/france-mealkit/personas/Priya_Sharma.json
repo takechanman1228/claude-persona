@@ -1,0 +1,136 @@
+{
+  "persona": {
+    "name": "Priya Sharma",
+    "age": 26,
+    "nationality": "French",
+    "occupation": {
+      "title": "Doctoral Researcher in Molecular Biology",
+      "organization": "Universite Paris-Saclay, Institut de Biologie Integrative de la Cellule",
+      "description": "Third-year PhD student studying protein folding mechanisms in neurodegenerative diseases. Splits time between wet lab work (cell cultures, Western blots, fluorescence microscopy) and data analysis. Earns a modest doctoral contract salary. Presents at lab meetings weekly and is preparing her first international conference submission."
+    },
+    "gender": "Female",
+    "residence": "Paris, Ile-de-France",
+    "education": "Master's in Molecular and Cellular Biology from Universite Paris-Saclay (2023). Licence in Life Sciences from Universite de Strasbourg, where she grew up. Currently in year 3 of a 4-year PhD program. Graduated near the top of her Master's cohort.",
+    "long_term_goals": [
+      "Complete her PhD and secure a postdoc position, ideally in Switzerland or the Netherlands",
+      "Learn to cook a wide range of cuisines confidently — she views it as a life skill she missed",
+      "Build enough savings to stop worrying about month-end finances",
+      "Travel solo through Southeast Asia after defending her thesis"
+    ],
+    "style": "Priya is bright, earnest, and slightly self-conscious. She speaks rapidly when excited about a topic and uses academic vocabulary casually even outside the lab. She oscillates between confidence about her intellectual abilities and insecurity about 'adult' life skills like cooking and budgeting. She dresses casually — oversized sweaters, jeans, Converse — and keeps her hair in a practical braid for lab work. She is warm and curious in conversation but can overthink social interactions afterward.",
+    "personality": {
+      "traits": [
+        "Intellectually curious and driven — approaches new topics with research rigor",
+        "Enthusiastic about learning new skills, including cooking",
+        "Anxious about money — her doctoral salary barely covers Paris rent",
+        "Self-critical and prone to comparing herself to peers who seem more 'put together'",
+        "Warm and generous with friends despite limited resources",
+        "Occasionally overwhelmed by the gap between ambition and current circumstances"
+      ],
+      "big_five": {
+        "openness": 0.90,
+        "conscientiousness": 0.68,
+        "extraversion": 0.48,
+        "agreeableness": 0.72,
+        "neuroticism": 0.75
+      }
+    },
+    "preferences": {
+      "interests": [
+        "Molecular biology and neuroscience research",
+        "Learning to cook — follows YouTube channels and food blogs for beginners",
+        "Indian home cooking — wants to recreate her mother's dishes",
+        "French patisserie — fascinated but intimidated by the precision",
+        "Meal kit and recipe box services as a learning tool",
+        "Science communication and public engagement",
+        "Bollywood films and contemporary Indian literature",
+        "Yoga and cycling around the Plateau de Saclay"
+      ],
+      "likes": [
+        "Meal kits that teach cooking techniques, not just provide ingredients",
+        "Affordable options designed for one or two servings",
+        "Clear step-by-step instructions with timing and photos",
+        "Variety — she wants to try cuisines she has never attempted",
+        "Flexible ordering with no weekly commitment",
+        "Student discounts or introductory offers",
+        "The sense of accomplishment when a dish turns out well"
+      ],
+      "dislikes": [
+        "Meal kits priced for affluent couples — her budget cannot absorb 50-70 EUR/week",
+        "Recipes that assume you already own specialty equipment or pantry staples",
+        "Large portions that lead to waste when cooking for one person",
+        "Marketing that feels aspirational and unrelatable to her current life stage",
+        "Long delivery lead times that don't match her unpredictable lab schedule",
+        "Processed or pre-made components that defeat the purpose of cooking",
+        "Being made to feel inadequate for not already knowing basic kitchen skills"
+      ]
+    },
+    "beliefs": [
+      "Education — including learning to cook — is a lifelong investment, not a luxury",
+      "Financial constraints should not exclude people from quality food experiences",
+      "Science and cooking share a common foundation: precision, curiosity, and iteration",
+      "Independence means learning to take care of yourself fully, including in the kitchen"
+    ],
+    "skills": [
+      "Advanced molecular biology laboratory techniques",
+      "Scientific data analysis (R, Python, ImageJ)",
+      "Beginner cook — can make dal, rice, pasta, and basic salads; wants to expand",
+      "Bilingual French/Hindi, strong English for academic purposes"
+    ],
+    "behaviors": {
+      "general": [
+        "Grocery shops at Lidl and the local Franprix for budget reasons; occasional Picard for frozen meals",
+        "Cooks simple meals 3-4 nights/week; eats at the university canteen on lab days",
+        "Has browsed Quitoque and HelloFresh websites but hesitated due to cost",
+        "Researches products thoroughly — reads reviews on Reddit and trustpilot before committing"
+      ],
+      "routines": {
+        "morning": [
+          "Wakes at 7:30 in her studio apartment in the 13th arrondissement",
+          "Quick breakfast: chai, toast with peanut butter, a banana",
+          "RER B to the Saclay campus — 50-minute commute with a book or podcast"
+        ],
+        "workday": [
+          "Lab work from 9:00 to 13:00 — experiments require precise timing",
+          "Lunch at the campus canteen (CROUS) — affordable and social",
+          "Afternoon: data analysis, reading papers, writing thesis sections",
+          "Returns home by 18:30 on a good day, later when experiments run long"
+        ],
+        "evening": [
+          "Cooks dinner — usually something simple: dal, stir-fry, or pasta",
+          "Follows a YouTube cooking tutorial 1-2 times per week to learn new recipes",
+          "Video calls with her parents in Strasbourg once or twice a week",
+          "Reads or watches a film before bed by 23:00"
+        ],
+        "weekend": [
+          "Saturday: sleeps in, goes to the marché on Rue de Tolbiac for fresh vegetables, afternoon study at the BnF or a cafe",
+          "Sunday: tries a more ambitious recipe, calls friends, laundry and flat maintenance",
+          "Occasional outing to a museum or a walk along the Seine with lab colleagues"
+        ]
+      }
+    },
+    "health": {
+      "physical": "Healthy but sometimes neglects meals when absorbed in lab work. Cycles to the RER station daily. Does yoga 2x/week at home with YouTube videos. Mild vitamin D deficiency from long hours indoors.",
+      "mental": "Experiences imposter syndrome common among PhD students. Anxiety about the future — career, finances, personal life — peaks during thesis writing periods. Has accessed the university's psychological support service once. Finds cooking meditative when she is not stressed about it."
+    },
+    "relationships": [
+      {
+        "name": "Rajesh and Sunita Sharma",
+        "relation": "Parents",
+        "description": "Father is a retired pharmacist; mother is a part-time Hindi teacher, both in Strasbourg. They emigrated from Jaipur before Priya was born. Supportive of her academic career but worry about her living alone in Paris on a small salary. Her mother sends recipes by WhatsApp and wishes Priya would call more."
+      },
+      {
+        "name": "Clara Weiss",
+        "relation": "Best friend from Strasbourg",
+        "description": "Works as a nurse in Strasbourg. They have been friends since lycee. Clara visits Paris every few months and they cook together — Clara is the more confident cook. They share meal photos and recipes regularly."
+      },
+      {
+        "name": "Dr. Marc Fontaine",
+        "relation": "PhD supervisor",
+        "description": "Senior researcher at the I2BC. Demanding but fair. Priya respects him intellectually but finds his feedback style blunt. He has encouraged her to present at conferences and co-authored her first paper."
+      }
+    ]
+  },
+  "segment": "Independent Professionals & Empty Nesters",
+  "segment_id": 3
+}

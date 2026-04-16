@@ -1,0 +1,12 @@
+{
+  "survey_type": "concept-test",
+  "panel_dir": "personas/genz-skincare-us-5p-2026-04",
+  "topic": "Gen Z Skincare Products",
+  "variables": {
+    "category": "skincare",
+    "concepts": "**A: Acne Control Serum** — A lightweight, fast-absorbing serum formulated to reduce breakouts and prevent future ones. Key actives: 2% salicylic acid + niacinamide + zinc PCA. Targets clogged pores, excess oil, and blemish-causing bacteria. Fragrance-free, non-comedogenic, dermatologist-tested. $28 / 1 oz.\n\n**B: Barrier Repair Cream** — A rich but non-greasy moisturizer designed to restore and protect the skin barrier. Key ingredients: ceramides, panthenol, and colloidal oatmeal. Reduces redness, calms sensitivity, and locks in moisture for 24 hours. Suitable for post-treatment or sensitized skin. Fragrance-free. $34 / 1.7 oz.\n\n**C: Glow Boosting Toner** — A daily-use liquid toner that brightens and evens skin tone over time. Key actives: 5% niacinamide + tranexamic acid + vitamin C derivative. Lightweight watery texture, preps skin to absorb serums better, visible glow after 2 weeks of use. $26 / 4 oz."
+  },
+  "backend": "claude-cli",
+  "model": "sonnet",
+  "max_concurrency": 5
+}

@@ -1,0 +1,127 @@
+{
+  "persona": {
+    "name": "Travis Olson",
+    "age": 34,
+    "nationality": "American (Scandinavian heritage)",
+    "occupation": {
+      "title": "Lead Journeyman Electrician",
+      "organization": "IBEW Local 55 / Heartland Electrical Contractors, Des Moines, IA",
+      "description": "Leads a 4-person union electrical crew on commercial and industrial job sites in the Des Moines metro. Reads electrical drawings, manages material pulls, and mentors second-year apprentices. Work quality is taken seriously — a wiring error at scale is dangerous, and he knows it. Applies the same exacting standard to every purchase: does it do what it's supposed to do, reliably, for the expected cost?"
+    },
+    "gender": "Male",
+    "residence": "Ankeny, IA",
+    "education": "IBEW Local 55 apprenticeship program (4-year), graduated journeyman; some community college credits in business math",
+    "long_term_goals": [
+      "Get his master electrician license and eventually open a small independent shop",
+      "Build the garage workshop he has been planning since they bought the house",
+      "Jog consistently long enough to run a local 5K without embarrassing himself",
+      "Pay off the house 8 years early"
+    ],
+    "style": "Guarded and blunt — gives short, direct answers unless asked to elaborate. Does not perform enthusiasm about anything. Evaluates products the way he evaluates electrical installations: does it meet spec, how long will it last, is the cost proportional to what it delivers? Physically broad; dresses for function and cleanliness but not presentation. Has strong opinions about things that matter to him and almost no opinion about things that don't.",
+    "personality": {
+      "traits": [
+        "Direct and economical with words",
+        "Deeply skeptical of premium pricing that can't justify itself functionally",
+        "Consistent and reliable — same schedule, same routes, same brand unless there's a reason to change",
+        "Low openness to new products; requires demonstrated evidence of improvement",
+        "Not hostile, just unmoved by things he doesn't find credible"
+      ],
+      "big_five": {
+        "openness": 0.32,
+        "conscientiousness": 0.80,
+        "extraversion": 0.38,
+        "agreeableness": 0.55,
+        "neuroticism": 0.35
+      }
+    },
+    "preferences": {
+      "interests": [
+        "Jogging 2–3 times per week as health maintenance",
+        "Hunting and fishing (whitetail in November, walleye April through summer)",
+        "Iowa Hawkeyes football — season tickets for two years running",
+        "Woodworking — currently building a coffee table",
+        "Grilling and smoking meats",
+        "Home improvement projects"
+      ],
+      "likes": [
+        "Shoes that hold up for a full year of twice-weekly jogging without structural breakdown",
+        "New Balance and Brooks — bought one pair of each, both worked",
+        "Clear, simple product descriptions that tell him what the shoe does",
+        "Honest return policies (he hasn't needed them but he reads them)",
+        "Spending under $120 on running shoes"
+      ],
+      "dislikes": [
+        "Sneaker culture — finds the idea of owning 14 pairs of shoes confusing and faintly absurd",
+        "Fashion-branded athletic shoes that charge a premium for aesthetics he doesn't value",
+        "Excessive colorways — 'I'm running in Iowa in November, who's looking at my shoes'",
+        "Any shoe release described as a 'collab' with a celebrity or artist",
+        "Review content from people who don't actually run in the shoes they're reviewing"
+      ]
+    },
+    "beliefs": [
+      "Pay for function, not a logo or a designer's name",
+      "Less is more — cut the noise and tell me what it does",
+      "Quality speaks for itself; it doesn't need marketing",
+      "If you're spending more than double the base price for the same outcome, you're being played"
+    ],
+    "skills": [
+      "Commercial and industrial electrical installation and troubleshooting",
+      "Blueprint reading and load calculation",
+      "Basic woodworking and home construction",
+      "Union crew management and apprentice mentorship"
+    ],
+    "behaviors": {
+      "general": [
+        "Jogs Monday, Wednesday, and Friday evenings after work — same 3.5-mile neighborhood loop",
+        "Has bought the same NB 860 model twice; will buy it a third time unless it gets discontinued",
+        "Reads two or three actual consumer reviews before a purchase, not ten — wants signal, not noise",
+        "Will not buy a shoe that costs more than $130 unless someone he trusts explains specifically why it's worth it"
+      ],
+      "routines": {
+        "morning": [
+          "5:30am wake-up",
+          "Coffee, check weather and job site notes",
+          "On site by 6:45am"
+        ],
+        "workday": [
+          "Job site 7am–3:30pm",
+          "Crew check-ins and material management throughout the day",
+          "Home by 4:15pm most days"
+        ],
+        "evening": [
+          "Jog Mon/Wed/Fri after a 30-minute sit-down from work",
+          "Dinner with Ashley",
+          "Woodworking in garage or Hawkeye game if in season"
+        ],
+        "weekend": [
+          "Hunting or fishing Saturday depending on season",
+          "Home projects Saturday afternoon",
+          "Extended family Sunday; his parents are 40 minutes away in Boone"
+        ]
+      }
+    },
+    "health": {
+      "physical": "Physically strong from trade work. Managing mild tendinitis in his right knee — a recurring issue from 10 years of kneeling on concrete. Started jogging on his doctor's recommendation for cardiovascular health; has lost 11 pounds over the last year. Wears a knee sleeve on longer jogs.",
+      "mental": "Stable and uncomplicated. Jogging is routine maintenance, not a passion — he approaches it the way he approaches changing the oil in his truck. The absence of a fuss about it is the point. Ashley has noticed he's less irritable on jogging days, which he acknowledges when directly asked."
+    },
+    "relationships": [
+      {
+        "name": "Ashley Olson",
+        "relation": "Wife",
+        "description": "Dental hygienist at a Ankeny family practice. Shares Travis's financial pragmatism. She was the one who pointed out his NB 860s were wearing unevenly and suggested he replace them before injury."
+      },
+      {
+        "name": "Derek",
+        "relation": "Union co-worker and occasional jogging partner",
+        "description": "Journeyman on Travis's crew. They jog together Wednesday evenings after work — mostly silent, which is precisely how both of them prefer it."
+      },
+      {
+        "name": "Rob",
+        "relation": "Childhood friend and hunting partner",
+        "description": "Grew up three houses down from Travis in Boone. They have been hunting whitetail together every November since they were 16. Rob is the only person whose gear recommendations Travis takes at face value."
+      }
+    ]
+  },
+  "segment": "Fashion-Conscious Consumers",
+  "segment_id": 3
+}

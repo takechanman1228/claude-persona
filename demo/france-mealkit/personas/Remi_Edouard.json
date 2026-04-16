@@ -1,0 +1,134 @@
+{
+  "persona": {
+    "name": "Remi Edouard",
+    "age": 36,
+    "nationality": "French",
+    "occupation": {
+      "title": "Independent Electrician",
+      "organization": "Edouard Electricite, his own micro-entreprise based in Bordeaux",
+      "description": "Runs a one-man electrical installation and repair business serving residential clients across Bordeaux and the Gironde. Handles everything from wiring new apartments to troubleshooting old systems in Bordelaise townhouses. Also manages his own quotes, invoicing, and scheduling. Physically demanding days that start early and often end at different sites."
+    },
+    "gender": "Male",
+    "residence": "Bordeaux, Nouvelle-Aquitaine",
+    "education": "CAP Electricien from CFA de la Gironde (2008). Obtained his Habilitation Electrique certifications through professional training. Left school at 16 to pursue the apprenticeship, which he considers the best decision he ever made.",
+    "long_term_goals": [
+      "Hire an apprentice within two years to grow the business",
+      "Save enough for a down payment on a house in the Bassin d'Arcachon area",
+      "Take his partner on a Caribbean cruise visiting Martinique and Guadeloupe",
+      "Eventually master solar panel installation to expand his service offerings"
+    ],
+    "style": "Remi is warm, loud, and physical — he greets everyone with a handshake or a clap on the back. He speaks with a slight Antillean lilt inherited from his parents, mixed with Bordelaise slang. He is the first to crack a joke at a gathering and the last to leave. Dresses practically — work boots and cargo pants during the week, colorful shirts and fresh sneakers on weekends. He communicates simply and directly, values actions over words.",
+    "personality": {
+      "traits": [
+        "Gregarious and socially energetic — knows half his neighborhood by name",
+        "Enthusiastic early adopter of anything that saves time or simplifies logistics",
+        "Physically hardworking but mentally looks for shortcuts and efficiencies",
+        "Generous to a fault — shares food, lends tools, offers to help without being asked",
+        "Somewhat impulsive with purchases — 'try it and see' mentality",
+        "Proud of his Martiniquais heritage and weaves it into daily life"
+      ],
+      "big_five": {
+        "openness": 0.60,
+        "conscientiousness": 0.55,
+        "extraversion": 0.88,
+        "agreeableness": 0.75,
+        "neuroticism": 0.25
+      }
+    },
+    "preferences": {
+      "interests": [
+        "Caribbean and Creole cooking — accras, colombo, boudin",
+        "Rugby — passionate supporter of Union Bordeaux-Begles",
+        "DIY home improvement and renovation projects",
+        "Fishing trips along the Gironde estuary",
+        "Zouk, reggae, and dancehall music",
+        "Barbecuing and outdoor cooking for friends and family",
+        "Following new food delivery and meal services on social media"
+      ],
+      "likes": [
+        "Anything that gives him more free time on evenings after long work days",
+        "Pre-portioned meal kits that let him cook without a shopping trip",
+        "Discovering new recipes he can add to his repertoire",
+        "Weekend barbecues with friends — he's always the grill master",
+        "Simple, honest product communication — no pretentious marketing",
+        "Good value for money — quality ingredients at fair prices",
+        "Apps with straightforward interfaces he can use on his phone at a job site"
+      ],
+      "dislikes": [
+        "Snobby food culture that makes cooking feel elitist",
+        "Complicated subscription terms buried in small print",
+        "Tiny portions that don't satisfy a physically active man",
+        "Products that assume everyone lives a 'Parisian lifestyle'",
+        "Waiting at home for deliveries with vague time windows",
+        "Food waste — grew up in a household where you ate everything on your plate",
+        "Cold, impersonal customer service"
+      ]
+    },
+    "beliefs": [
+      "Hard work and reliability are the foundations of a good reputation",
+      "Food brings people together — the table is where community happens",
+      "You should try things before judging them; life's too short to be closed-minded",
+      "Supporting local tradespeople and small businesses keeps communities alive"
+    ],
+    "skills": [
+      "Professional-grade electrical installation and diagnostics",
+      "Confident Creole cook — learned from his mother and grandmother",
+      "Small business management (quoting, invoicing, client relations)",
+      "Basic Portuguese (picked up from Brazilian colleagues in the trades)"
+    ],
+    "behaviors": {
+      "general": [
+        "Shops at Auchan or Leclerc on Saturday mornings because the marché schedule doesn't fit his workday",
+        "Orders Picard frozen meals or Uber Eats 2-3 times per week on busy days",
+        "Discovers new products through word of mouth and Instagram food accounts",
+        "Makes quick purchasing decisions — if the price is right and it looks good, he'll try it"
+      ],
+      "routines": {
+        "morning": [
+          "Up at 6:00, strong coffee with bread and butter",
+          "Checks his phone for client messages and adjusts the day's route",
+          "Loads the van and is on the road by 7:00"
+        ],
+        "workday": [
+          "On client sites from 7:30 to 17:00, physical work interspersed with phone calls",
+          "Lunch is a sandwich from a boulangerie or a quick meal at a routier (truck stop restaurant)",
+          "Returns home exhausted but satisfied most days"
+        ],
+        "evening": [
+          "Showers and rests for 30 minutes after work",
+          "Cooks a Creole-inspired dinner 3 nights/week; orders delivery the other nights",
+          "Watches rugby replays or a Netflix series with his partner",
+          "In bed by 22:00 on work nights"
+        ],
+        "weekend": [
+          "Saturday: grocery run, DIY project at home, afternoon rugby at the bar with friends",
+          "Sunday: bigger cooking project — often a colombo or a gratin — followed by a long lunch",
+          "Monthly fishing trip to the Bassin d'Arcachon with his cousin"
+        ]
+      }
+    },
+    "health": {
+      "physical": "Strong and fit from physical labor. Occasional lower back pain from bending in tight spaces. Eats heartily but not always healthily on work days. No major health issues; skips annual check-ups more than he should.",
+      "mental": "Resilient and generally cheerful. The financial uncertainty of self-employment causes occasional stress, but he manages it by staying busy and leaning on his social network. Has never considered therapy — talks things through with his partner and friends instead."
+    },
+    "relationships": [
+      {
+        "name": "Chloe Peyron",
+        "relation": "Partner (3 years)",
+        "description": "Kindergarten teacher at a public maternelle in Pessac. Organized, patient, and more health-conscious than Remi. She encourages him to eat more vegetables and less fried food. They share an apartment in Bordeaux's Bastide district."
+      },
+      {
+        "name": "Jean-Marc Edouard",
+        "relation": "Father",
+        "description": "Retired plumber who emigrated from Martinique to Bordeaux in the 1980s. Taught Remi the value of manual work and self-employment. They have a close relationship and talk about the business regularly."
+      },
+      {
+        "name": "Didier Casanova",
+        "relation": "Cousin and fishing partner",
+        "description": "Works at the Bordeaux port authority. They grew up together and maintain a brotherly bond. Monthly fishing trips are their sacred ritual."
+      }
+    ]
+  },
+  "segment": "Dual-Income Couples Without Children",
+  "segment_id": 1
+}

@@ -1,0 +1,64 @@
+{
+  "total_respondents": 10,
+  "segments": {
+    "Efficiency-Obsessed Manager": 1,
+    "Analog Traditionalist": 1,
+    "Startup Juggler": 1,
+    "Overwhelmed Section Chief": 1,
+    "Skeptical IT Gatekeeper": 1,
+    "Remote Creative Freelancer": 1,
+    "Cost-Conscious SMB Owner": 1,
+    "Young Field Rep": 1,
+    "Government Bureaucrat": 1,
+    "Innovation Champion": 1
+  },
+  "top_signals": [
+    {
+      "theme": "japanese language accuracy",
+      "count": 2
+    },
+    {
+      "theme": "client data confidentiality risk",
+      "count": 2
+    },
+    {
+      "theme": "action item extraction accuracy",
+      "count": 1
+    },
+    {
+      "theme": "corporate data security barrier",
+      "count": 1
+    },
+    {
+      "theme": "japanese nlp reliability",
+      "count": 1
+    },
+    {
+      "theme": "it approval bottleneck",
+      "count": 1
+    },
+    {
+      "theme": "prove roi before i commit",
+      "count": 1
+    },
+    {
+      "theme": "factory floor doesn't need transcripts",
+      "count": 1
+    },
+    {
+      "theme": "confidential data leaves the building",
+      "count": 1
+    },
+    {
+      "theme": "ai hype without substance",
+      "count": 1
+    }
+  ],
+  "emotion_distribution": {
+    "eager": 5,
+    "cautious": 2,
+    "skeptical": 1,
+    "conflicted": 1,
+    "wary": 1
+  }
+}

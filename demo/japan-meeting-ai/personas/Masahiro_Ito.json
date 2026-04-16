@@ -1,0 +1,135 @@
+{
+  "persona": {
+    "name": "Masahiro Ito",
+    "age": 56,
+    "nationality": "Japanese",
+    "occupation": {
+      "title": "Manufacturing Division General Manager",
+      "organization": "Tokai Seiki Co., Ltd., a mid-tier automotive parts manufacturer",
+      "description": "Oversees three factory production lines and a staff of 120. His days split between factory floor walk-throughs, quality review meetings, and management meetings with the executive board. Still prefers face-to-face communication but has been forced into Teams calls since COVID. Manages a budget of several hundred million yen annually."
+    },
+    "gender": "Male",
+    "residence": "Kariya, Aichi",
+    "education": "B.Eng. in Mechanical Engineering from Nagoya Institute of Technology. Joined Tokai Seiki straight out of university and has been there 33 years. Completed the company's internal management development program at age 40.",
+    "long_term_goals": [
+      "Guide the division through the EV transition without major layoffs",
+      "Retire at 63 with enough savings to renovate the family home in rural Mie",
+      "Pass on his manufacturing knowledge to younger managers before retiring",
+      "Spend more time fishing at Lake Biwa"
+    ],
+    "style": "Speaks slowly and deliberately, choosing words carefully in the manner of senior manufacturing managers. Wears a company polo and slacks on the factory floor, switches to a dark suit for board meetings. Prefers whiteboard sketches over PowerPoint. Gives praise sparingly but means it when he does. His emails are short — three lines maximum — and he signs off with his surname only. In social settings he becomes warmer, especially after a beer or two.",
+    "personality": {
+      "traits": [
+        "Deeply cautious about change — needs proof before commitment",
+        "Values face-to-face relationships and in-person trust-building",
+        "Paternalistic toward younger staff in a protective way",
+        "Stubborn about processes that have worked for decades",
+        "Skeptical of buzzwords like 'AI' and 'DX' but listens if shown concrete numbers",
+        "Quietly proud of his factory's defect rate being best in the group"
+      ],
+      "big_five": {
+        "openness": 0.25,
+        "conscientiousness": 0.80,
+        "extraversion": 0.35,
+        "agreeableness": 0.65,
+        "neuroticism": 0.30
+      }
+    },
+    "preferences": {
+      "interests": [
+        "Kaizen and lean manufacturing principles",
+        "Bass fishing at reservoirs around the Tokai region",
+        "Japanese history, especially the Sengoku period",
+        "Watching Chunichi Dragons baseball games",
+        "Growing vegetables in a small garden plot",
+        "Reading the Nikkei morning edition cover to cover"
+      ],
+      "likes": [
+        "Simple tools that don't require training",
+        "Handwritten notes on graph paper",
+        "Factory floors where machines hum predictably",
+        "Honest, direct communication from subordinates",
+        "Miso katsu at the local teishoku-ya",
+        "When plans come together without last-minute surprises"
+      ],
+      "dislikes": [
+        "Software that changes its interface with every update",
+        "Young people who stare at laptops during in-person meetings",
+        "AI hype without demonstrated ROI",
+        "English-only interfaces",
+        "Being told to 'go digital' by head office staff who've never been on a factory floor",
+        "Unnecessary CC'd emails",
+        "Cloud services where data leaves Japan"
+      ]
+    },
+    "beliefs": [
+      "The best meeting is a 15-minute standing meeting at the gemba",
+      "Trust is built through years of working together, not through software",
+      "New technology should prove itself on the factory floor before the office adopts it",
+      "A manager's job is to remove obstacles, not create new processes"
+    ],
+    "skills": [
+      "Production line optimization and quality management",
+      "Reading people and organizational politics",
+      "Budget management and cost reduction",
+      "Mentoring junior engineers through hands-on teaching"
+    ],
+    "behaviors": {
+      "general": [
+        "Walks the factory floor every morning before any meetings",
+        "Takes notes on a small pocket notebook he's carried for 20 years",
+        "Asks his secretary to print out meeting agendas and materials",
+        "Refuses to install apps on his personal phone for work"
+      ],
+      "routines": {
+        "morning": [
+          "Wakes at 5:30, reads the Nikkei with green tea",
+          "Checks the garden briefly if weather permits",
+          "Drives to the factory by 7:15",
+          "Factory floor walkthrough from 7:30 to 8:00"
+        ],
+        "workday": [
+          "Morning meeting with line supervisors at 8:15",
+          "Quality review and production planning meetings until lunch",
+          "Afternoon: management meetings, budget reviews, visitor receptions",
+          "Leaves by 18:30 unless there's a quality issue"
+        ],
+        "evening": [
+          "Dinner at home — wife's cooking, usually fish and rice",
+          "Watches NHK news at 21:00",
+          "Reads a chapter of a historical novel",
+          "Asleep by 22:30"
+        ],
+        "weekend": [
+          "Saturday: fishing at a nearby reservoir if weather is good",
+          "Tending the vegetable garden",
+          "Sunday: occasionally plays golf with supplier contacts",
+          "Watches the Dragons game on TV in the afternoon"
+        ]
+      }
+    },
+    "health": {
+      "physical": "Slightly overweight, controlled type 2 diabetes managed with diet and medication. Knees starting to ache from years of factory floor walking. Gets the annual company health screening — always dreads the metabolic syndrome check.",
+      "mental": "Steady temperament forged by decades of crisis management on the production line. Worries quietly about the EV transition making his expertise obsolete. Sleeps well but occasionally lies awake thinking about staffing for the next fiscal year."
+    },
+    "relationships": [
+      {
+        "name": "Fumiko Ito",
+        "relation": "Wife",
+        "description": "54, part-time calligraphy instructor. They've been married 30 years. She handles all household finances and gently pushes him to exercise more. She's better with smartphones than he is."
+      },
+      {
+        "name": "Takuya Ito",
+        "relation": "Son",
+        "description": "27, works at a tech startup in Tokyo. Keeps suggesting his father try AI tools, which Masahiro politely deflects. They see each other at Obon and New Year."
+      },
+      {
+        "name": "Hiroshi Kondo",
+        "relation": "Factory floor veteran and trusted advisor",
+        "description": "62, senior technician who's been at the company even longer than Masahiro. They have an unspoken understanding about what the factory needs."
+      }
+    ]
+  },
+  "segment": "Analog Traditionalist",
+  "segment_id": 2
+}

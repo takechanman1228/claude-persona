@@ -1,0 +1,13 @@
+{
+  "survey_type": "concept-test",
+  "panel_dir": "demo/japan-meeting-ai/personas",
+  "topic": "AI Meeting Notes Software / Productivity SaaS",
+  "variables": {
+    "category": "AI meeting notes software",
+    "concepts": "**A: Save Time**\nAI meeting notes software that records meetings, writes summaries, and captures action items automatically so teams spend less time on admin work.\n\n**B: Better Follow Through**\nAn AI meeting assistant that helps teams remember decisions, track next steps, and make sure important follow-ups do not get lost after meetings.\n\n**C: Cleaner CRM and Team Visibility**\nAI meeting notes software that turns conversations into structured notes and gives managers better visibility into customer calls, team activity, and pipeline discussions."
+  },
+  "backend": "claude-cli",
+  "model": "sonnet",
+  "max_concurrency": 5,
+  "output_dir": "demo/japan-meeting-ai/concept-test/results"
+}

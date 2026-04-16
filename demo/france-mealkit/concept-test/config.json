@@ -1,0 +1,12 @@
+{
+  "survey_type": "concept-test",
+  "panel_dir": "demo/france-mealkit/personas",
+  "topic": "Meal kit subscription",
+  "variables": {
+    "category": "Meal kit subscription",
+    "concepts": "**A: Easy First Step** — A meal kit subscription designed to feel simple and low pressure for first time users, with straightforward meals and an easy way to skip or cancel.\n\n**B: Risk Reduction** — A dinner kit offer focused on reducing the fear of wasting money, choosing the wrong meals, or getting stuck in a subscription that does not fit.\n\n**C: Better Weeknights Fast** — A meal service that promises to make weeknight dinners feel noticeably easier and more enjoyable within the first week of trying it."
+  },
+  "backend": "claude-cli",
+  "model": "sonnet",
+  "max_concurrency": 5
+}

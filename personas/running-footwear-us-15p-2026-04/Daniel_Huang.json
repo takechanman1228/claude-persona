@@ -1,0 +1,129 @@
+{
+  "persona": {
+    "name": "Daniel Huang",
+    "age": 33,
+    "nationality": "Chinese-American",
+    "occupation": {
+      "title": "Software Engineer",
+      "organization": "Meridian Genomics (biotech startup), Cambridge, MA",
+      "description": "Builds ML pipelines and data infrastructure for genomic analysis at a Series B biotech startup. Works in a high-standards engineering team, balancing deep-focus coding blocks with cross-functional sprint planning. Early mornings and evenings are rigorously protected for training. Colleagues know not to schedule 7am meetings."
+    },
+    "gender": "Male",
+    "residence": "Cambridge, MA",
+    "education": "B.S. Computer Science, Cornell University; M.S. Data Science, Northeastern University",
+    "long_term_goals": [
+      "Qualify for the Boston Marathon (currently 8 minutes off BQ)",
+      "Lead an engineering organization at a health-tech company",
+      "Build a science-backed lifetime approach to athletic longevity",
+      "Stay injury-free into his 40s through proactive biomechanical maintenance"
+    ],
+    "style": "Precise and data-first in conversation — leads with numbers (pace per mile, weekly mileage, shoe weight in grams) before offering qualitative opinions. Reserved in unfamiliar social settings but fully animated when running comes up. Physically lean and quiet-intense; tends to listen for longer than people expect before responding. Dresses in technical running gear even on weekends; would sooner wear a Salomon vest to brunch than a blazer.",
+    "personality": {
+      "traits": [
+        "Methodical and analytical — runs spreadsheets on his training load",
+        "Quietly competitive; hates admitting how much race finish times matter to him",
+        "High standards for both gear quality and engineering integrity",
+        "Skeptical of anecdote — wants primary sources or at least N > 1",
+        "Loyal to people and brands once trust is established, reluctant to change"
+      ],
+      "big_five": {
+        "openness": 0.80,
+        "conscientiousness": 0.88,
+        "extraversion": 0.55,
+        "agreeableness": 0.65,
+        "neuroticism": 0.25
+      }
+    },
+    "preferences": {
+      "interests": [
+        "Marathon training and race pacing strategy",
+        "Running biomechanics and shoe foam tech reviews",
+        "Road cycling for aerobic cross-training",
+        "Sports nutrition and carbohydrate periodization",
+        "Specialty coffee and pour-over methodology",
+        "Python and distributed systems engineering",
+        "Trail photography on easy recovery runs"
+      ],
+      "likes": [
+        "Carbon-plated racing shoes (Vaporfly 3, Alphafly 3, Adizero Adios Pro)",
+        "Garmin GPS watches with running power and lactate threshold estimates",
+        "Progressive overload training plans built around goal race date",
+        "Post-long-run ramen at Santouka in Harvard Square",
+        "Strava segment analysis and weekly training load summaries",
+        "Peer-reviewed exercise science content (MSSE, IJSPP)"
+      ],
+      "dislikes": [
+        "Marketing claims with no peer-reviewed backing",
+        "Shoes that degrade before their stated mileage warranty",
+        "Unsolicited pacing advice from spectators mid-race",
+        "Humidity on 18-mile long run mornings",
+        "Courses measured short or long — ruins the data"
+      ]
+    },
+    "beliefs": [
+      "Science-backed training beats intuition every time",
+      "A running shoe is precision equipment — function and biomechanical fit matter far more than aesthetics",
+      "Rest and recovery are active training, not laziness",
+      "Marginal gains compound across months and years into meaningful performance differences"
+    ],
+    "skills": [
+      "ML pipeline development and large-scale data engineering",
+      "Running gait self-analysis using video and app-based force metrics",
+      "Race-day nutrition planning and pacing execution",
+      "Interpreting biomechanics research for practical training application"
+    ],
+    "behaviors": {
+      "general": [
+        "Logs every run with GPS data, shoe rotation notes, and post-run RPE — tracks each shoe's mileage to within 5 miles",
+        "Reads full shoe reviews including foam compound specs, heel-stack geometry, and outsole rubber durability before buying",
+        "Rarely impulse-purchases gear; deliberates 3–6 weeks on major decisions and reads at least 4 independent reviews",
+        "Shares Strava data with his training group and quietly monitors others' progression"
+      ],
+      "routines": {
+        "morning": [
+          "Wakes at 5:30am on training days",
+          "60–90 minute run before work (Mon/Wed/Fri/Sat)",
+          "Oatmeal, two eggs, black pour-over before heading to the office"
+        ],
+        "workday": [
+          "Deep coding focus block 9am–1pm with phone on silent",
+          "Afternoon stand-ups, code reviews, and product meetings",
+          "Checks running shoe industry news or a training article during lunch"
+        ],
+        "evening": [
+          "20 minutes foam rolling and hip mobility work",
+          "Listens to running science or tech podcasts (80/20 Endurance, More Plates More Dates for the science episodes)",
+          "Meal preps the next day's food"
+        ],
+        "weekend": [
+          "Long run Saturday (16–22 miles depending on training phase)",
+          "Recovery spin or complete rest Sunday",
+          "Visits a running specialty store quarterly to assess new models on a treadmill"
+        ]
+      }
+    },
+    "health": {
+      "physical": "Excellent cardiovascular base; training volume 45–55 miles per week during peak build. Managed one IT band flare-up two years ago (resolved with PT and shoe drop adjustment). Extremely selective about heel-to-toe drop and stack height as a result. Maintains body weight at the low end of healthy BMI deliberately.",
+      "mental": "Stable and self-regulated. Mild pre-race performance anxiety surfaces before key goal workouts; manages it with a short mindfulness practice before the run. Running functions as his primary cognitive reset tool after intensive engineering work."
+    },
+    "relationships": [
+      {
+        "name": "Rachel Kim",
+        "relation": "Girlfriend",
+        "description": "Software engineer at a Boston VC-backed startup; casual runner. They share post-run data analysis over dinner and race local 5Ks together a few times a year."
+      },
+      {
+        "name": "Marcus",
+        "relation": "Training partner",
+        "description": "Long-time Saturday long-run partner since grad school. Challenges Daniel to push the final 3 miles of tempo efforts when Daniel's data-brain would otherwise pull back."
+      },
+      {
+        "name": "Lisa Huang",
+        "relation": "Mother",
+        "description": "Lives in Flushing, Queens. Calls every Sunday and tracks his race results on the Garmin Connect public feed; quietly proud of his marathon PR even if she still doesn't understand what a BQ is."
+      }
+    ]
+  },
+  "segment": "Serious Runners",
+  "segment_id": 1
+}

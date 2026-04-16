@@ -1,0 +1,144 @@
+{
+  "persona": {
+    "name": "Elijah Foster",
+    "age": 23,
+    "nationality": "American",
+    "occupation": {
+      "title": "Certified Personal Trainer",
+      "organization": "Equinox Cherry Creek, Denver, CO",
+      "description": "Trains 4-6 clients per day, designs workout programs, and leads occasional group fitness classes. His work is physical and social, built around helping people feel better about themselves. Recently started viewing skincare as part of the same holistic wellness approach he preaches to clients."
+    },
+    "gender": "Male",
+    "residence": "Denver, CO",
+    "education": "Some college — completed one year at Colorado State before dropping out to pursue personal training certification (NASM). No regrets about leaving college. Learns best by doing, not sitting in lectures.",
+    "long_term_goals": [
+      "Open his own boutique fitness and wellness studio",
+      "Build a personal brand around holistic men's wellness",
+      "Develop a simple, evidence-based skincare + supplement regimen he can recommend to clients",
+      "Compete in a natural bodybuilding show within the next 2 years"
+    ],
+    "style": "Elijah is upbeat, motivational, and physically present — the kind of person who makes eye contact and gives firm handshakes. He talks with the confident energy of someone used to leading people through hard things. He dresses in fitted athletic wear — Nike, Lululemon — and keeps himself groomed. His interest in skincare is newer and genuine, driven by the same self-improvement mindset that drives his fitness. He asks a lot of questions and absorbs information like a sponge. His communication style is encouraging and positive, sometimes to a fault.",
+    "personality": {
+      "traits": [
+        "Enthusiastic about self-improvement in all forms",
+        "Open-minded and curious — always learning something new",
+        "Naturally motivational — can't help but encourage people",
+        "Somewhat suggestible to wellness trends before vetting them",
+        "Disciplined about fitness but still developing discipline in skincare",
+        "Socially confident and comfortable in his own skin",
+        "Occasionally over-simplifies complex topics"
+      ],
+      "big_five": {
+        "openness": 0.55,
+        "conscientiousness": 0.72,
+        "extraversion": 0.80,
+        "agreeableness": 0.48,
+        "neuroticism": 0.18
+      }
+    },
+    "preferences": {
+      "interests": [
+        "Functional fitness and natural bodybuilding",
+        "Men's skincare and grooming as part of wellness",
+        "Nutrition science and supplement research",
+        "Wellness podcasts (Huberman Lab, Mind Pump)",
+        "Hiking Colorado's 14ers",
+        "Photography — mostly nature and fitness content",
+        "Cold plunges and recovery protocols",
+        "Cooking healthy meals in bulk"
+      ],
+      "likes": [
+        "Products that feel 'clean' and align with his health-first mindset",
+        "Simple routines he can explain to other guys",
+        "Brands that market to men without being cringey about it",
+        "Learning the science behind why products work",
+        "When skincare makes him look more refreshed for client sessions",
+        "Morning routines that set a positive tone for the day",
+        "Products recommended by dermatologists on podcasts"
+      ],
+      "dislikes": [
+        "Products that feel greasy or heavy on his skin",
+        "Overly gendered marketing that feels patronizing",
+        "Skincare routines with more than 4-5 steps",
+        "Ingredients he can't pronounce or research easily",
+        "Brands that don't align with a health-conscious lifestyle",
+        "Being mocked for caring about his skin as a guy",
+        "Products that cause breakouts after gym sessions"
+      ]
+    },
+    "beliefs": [
+      "Taking care of your skin is no different from taking care of your body",
+      "Wellness is holistic — fitness, nutrition, skincare, mental health are all connected",
+      "Men should feel comfortable investing in their appearance",
+      "Start simple, build up, and be consistent — same as fitness"
+    ],
+    "skills": [
+      "Breaking complex health topics into simple, actionable steps",
+      "Motivating others to build consistent habits",
+      "Meal prep and sports nutrition",
+      "Basic content creation for social media"
+    ],
+    "behaviors": {
+      "general": [
+        "Started his skincare journey 6 months ago after a Huberman Lab episode on skin health",
+        "Currently using a basic routine: cleanser, vitamin C, moisturizer, SPF",
+        "Asks his female clients what products they use — genuinely curious",
+        "Watches YouTube dermatologist videos while meal-prepping"
+      ],
+      "routines": {
+        "morning": [
+          "5:30 AM wake-up, cold shower",
+          "Cleanser, vitamin C serum, moisturizer, mineral SPF",
+          "High-protein breakfast — eggs, oats, fruit",
+          "First client session at 7 AM"
+        ],
+        "workday": [
+          "Trains clients back-to-back from 7 AM to 1 PM",
+          "Own workout from 1:30 to 3 PM",
+          "Afternoon clients from 3:30 to 6 PM",
+          "Quick face wash and moisturizer refresh between blocks"
+        ],
+        "evening": [
+          "Cleanser after his last shower of the day",
+          "Moisturizer — considering adding retinol but hasn't committed yet",
+          "Meal prep and content planning",
+          "Winds down with a podcast or a chapter of whatever book he's reading"
+        ],
+        "weekend": [
+          "Saturday morning hike — often invites clients or friends",
+          "Farmers market for produce",
+          "Batch-cooks meals for the week",
+          "Researches new wellness topics — lately it's been skincare ingredients"
+        ]
+      }
+    },
+    "health": {
+      "physical": "Excellent physical condition. Trains 6 days a week. Occasional post-workout breakouts on his forehead and back, which is what initially pushed him to look into skincare. Sweats heavily, which he's learning to manage with proper cleansing. Takes creatine, protein powder, and vitamin D.",
+      "mental": "Positive and mentally resilient. Has a growth mindset that extends to all areas. Occasionally worries about the financial instability of personal training. Meditates 10 minutes daily — picked it up from a podcast."
+    },
+    "relationships": [
+      {
+        "name": "Tamara Foster",
+        "relation": "Mother",
+        "description": "Single mom who works as a dental hygienist in Fort Collins. Proud of Elijah's career even though she wished he'd finished college. She has great skin and Elijah recently asked her what she uses."
+      },
+      {
+        "name": "James Foster",
+        "relation": "Younger brother (20)",
+        "description": "College student at CSU. Looks up to Elijah. Elijah is trying to get him on a skincare routine but James is resistant."
+      },
+      {
+        "name": "Natalie Kim",
+        "relation": "Close friend and fellow trainer",
+        "description": "Works at the same Equinox. She's Korean-American with an extensive skincare routine and has become Elijah's unofficial skincare mentor. She introduced him to vitamin C serum."
+      },
+      {
+        "name": "Coach Mike Delgado",
+        "relation": "Mentor",
+        "description": "Head trainer at Equinox who took Elijah under his wing. In his 40s, also recently got into skincare. They discuss wellness trends during slow hours."
+      }
+    ]
+  },
+  "segment": "Wellness Explorer",
+  "segment_id": 9
+}

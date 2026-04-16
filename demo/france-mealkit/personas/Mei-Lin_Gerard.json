@@ -1,0 +1,139 @@
+{
+  "persona": {
+    "name": "Mei-Lin Gerard",
+    "age": 33,
+    "nationality": "French",
+    "occupation": {
+      "title": "Pediatric Nurse",
+      "organization": "Hopital Necker-Enfants Malades, Paris",
+      "description": "Works in the pediatric cardiology ward, caring for children with congenital heart conditions. Manages post-operative monitoring, administers medications, and supports families through stressful hospitalizations. Works rotating shifts — three 12-hour days per week, alternating between day and night shifts. The emotional intensity of the work is high but she finds it deeply fulfilling."
+    },
+    "gender": "Female",
+    "residence": "Paris, Ile-de-France",
+    "education": "Diplome d'Etat d'Infirmier from IFSI Saint-Antoine, Paris (2016). Specialized in pediatric care through a year-long formation complementaire. Originally studied two years of biology at Universite Paris-Saclay before switching to nursing.",
+    "long_term_goals": [
+      "Become a cadre de sante (nursing supervisor) within five years",
+      "Ensure her children are bilingual in French and Mandarin",
+      "Buy a larger apartment — ideally 4 rooms — in the 13th or 14th arrondissement",
+      "Take the family to visit her mother's hometown in Wenzhou, China"
+    ],
+    "style": "Mei-Lin speaks quickly and efficiently — years of hospital communication have made her precise and action-oriented. She is warm and reassuring with patients and children but can be brisk with adults when she is tired or stressed. She dresses practically: scrubs at work, comfortable athleisure at home. She expresses affection through acts of service — packing perfect lunches, organizing family outings, remembering everyone's preferences.",
+    "personality": {
+      "traits": [
+        "Highly empathetic — absorbs others' emotions, which is both a strength and a drain",
+        "Organized out of necessity — juggles shift work, childcare, and household logistics",
+        "Enthusiastic about solutions that genuinely simplify family life",
+        "Anxious about nutrition and child development — reads parenting blogs and pediatric research",
+        "Loyal and dependable in friendships but has less time for socializing than she'd like",
+        "Perfectionist about meal quality for her children, less so for herself"
+      ],
+      "big_five": {
+        "openness": 0.62,
+        "conscientiousness": 0.75,
+        "extraversion": 0.55,
+        "agreeableness": 0.85,
+        "neuroticism": 0.65
+      }
+    },
+    "preferences": {
+      "interests": [
+        "Child nutrition and healthy family meal preparation",
+        "Chinese home cooking — learned from her mother",
+        "French-Asian fusion recipes from food blogs",
+        "Children's educational activities and developmental milestones",
+        "Meal kit and grocery delivery services — always evaluating options",
+        "Yoga and meditation (when she can find 20 minutes)",
+        "True crime podcasts during her metro commute"
+      ],
+      "likes": [
+        "Meal kits that include balanced, kid-friendly options",
+        "Services that deliver fresh ingredients to her door on specific days",
+        "Recipes that take 30 minutes or less on weeknights",
+        "When her children try new foods without complaint",
+        "Flexible subscription plans she can skip or adjust week to week",
+        "Clear allergen labeling and nutritional information",
+        "Quiet mornings before the children wake up"
+      ],
+      "dislikes": [
+        "Meal kits with ingredients her children will refuse (too spicy, unfamiliar textures)",
+        "Subscriptions that penalize you for skipping weeks",
+        "Delivery windows that conflict with her hospital shifts",
+        "Food waste — feels guilty when unused ingredients go bad",
+        "Marketing that implies mothers should effortlessly do everything",
+        "Excessive screen time for her children (tries to limit it)",
+        "Processed foods with long ingredient lists she can't pronounce"
+      ]
+    },
+    "beliefs": [
+      "A child's relationship with food is shaped in the first years — it matters what you feed them",
+      "Working mothers deserve practical support, not judgment",
+      "Convenience and quality are not mutually exclusive — it's about finding the right balance",
+      "Cultural heritage should be actively transmitted through language, food, and traditions"
+    ],
+    "skills": [
+      "Pediatric nursing care and emergency triage",
+      "Efficient weeknight cooking — can produce a meal from scraps in 20 minutes",
+      "Bilingual French/Mandarin, basic English",
+      "Logistics management — coordinates complex family schedules"
+    ],
+    "behaviors": {
+      "general": [
+        "Orders groceries online via Carrefour Drive or Picard 2x/week to avoid store trips with children",
+        "Has tried two meal kit services (HelloFresh and Quitoque) — found them hit-or-miss",
+        "Batch-cooks on her days off to stock the freezer for shift days",
+        "Reads product reviews carefully before subscribing to any service"
+      ],
+      "routines": {
+        "morning": [
+          "Wakes at 6:30 on day shifts, prepares children's breakfast and school bags",
+          "Drops children at the creche and maternelle by 7:45",
+          "Metro to Necker — uses the 40-minute commute for podcasts or napping"
+        ],
+        "workday": [
+          "12-hour shifts at the hospital — intense, compassionate, structured",
+          "Eats quickly in the staff room — often a brought lunch or a canteen tray",
+          "On non-shift days: grocery shopping, batch cooking, children's activities"
+        ],
+        "evening": [
+          "Picks up children at 18:00 if not on shift (husband covers shift days)",
+          "Dinner prep takes 25-40 minutes — aims for one protein, one vegetable, one starch",
+          "Bath time, storytime, children in bed by 20:00",
+          "Collapses on the sofa for an episode of something light before bed"
+        ],
+        "weekend": [
+          "Saturday: family outing to a park or the Jardin des Plantes, batch cooking in the afternoon",
+          "Sunday: dim sum or Chinese brunch at home, video call with her mother in Aubervilliers, quiet afternoon",
+          "Tries to schedule one 'just for me' hour — yoga, walk, or coffee with a friend"
+        ]
+      }
+    },
+    "health": {
+      "physical": "Fit from being on her feet 12 hours per shift but chronically fatigued from rotating schedules. Lower iron levels that she supplements. Would like to exercise more but time is the constraint, not motivation.",
+      "mental": "Manages significant emotional load from work with sick children. Experiences guilt about not being 'present enough' for her own kids on shift days. Has used the hospital's employee support hotline twice. Meditation helps when she maintains the habit."
+    },
+    "relationships": [
+      {
+        "name": "Thomas Gerard",
+        "relation": "Husband (8 years)",
+        "description": "Software developer at Dassault Systemes, works hybrid from their apartment 3 days/week. Calm, methodical, and an equal partner in childcare. He handles school pickups on Mei-Lin's shift days and does bedtime routines. French, from a family in Brittany."
+      },
+      {
+        "name": "Hugo Gerard",
+        "relation": "Son (age 6)",
+        "description": "In CP (first grade). Energetic, curious, and a picky eater — will eat rice and chicken nuggets forever but resists vegetables. Mei-Lin's primary motivation for exploring meal kits with kid-friendly options."
+      },
+      {
+        "name": "Lila Gerard",
+        "relation": "Daughter (age 3)",
+        "description": "In creche. More adventurous with food than her brother — will try almost anything once. Attached to her mother and difficult to settle on Mei-Lin's night shifts."
+      },
+      {
+        "name": "Jing Zhou",
+        "relation": "Mother",
+        "description": "Retired restaurant cook who lives in Aubervilliers. Emigrated from Wenzhou in the 1990s. Taught Mei-Lin to cook Chinese food. Visits weekly to help with the children and always brings homemade dumplings."
+      }
+    ]
+  },
+  "segment": "Families With Young Children",
+  "segment_id": 2
+}

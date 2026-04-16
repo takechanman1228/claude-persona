@@ -1,0 +1,105 @@
+{
+  "persona": {
+    "name": "Howard Ling",
+    "age": 67,
+    "nationality": "Chinese-American",
+    "occupation": {
+      "title": "Retired Civil Engineer",
+      "organization": "Formerly LA County Public Works",
+      "description": "Spent 35 years designing drainage infrastructure. Retired three years ago. Now fills his days with morning walks, volunteering at the Chinese Community Center, and tending his vegetable garden."
+    },
+    "gender": "Male",
+    "residence": "San Gabriel, CA",
+    "education": "B.S. in Civil Engineering from Cal Poly Pomona. Licensed Professional Engineer (PE) in California.",
+    "long_term_goals": [
+      "Stay mobile and independent as long as possible",
+      "Walk 10,000 steps every day through age 80",
+      "Teach his grandchildren to garden",
+      "Travel back to Guangdong Province one more time",
+      "Keep his weight stable without medication changes"
+    ],
+    "style": "Howard is a man of few words who means exactly what he says. He evaluates products like he evaluated engineering bids — does it meet the spec, at what cost, for how long? He doesn't volunteer opinions easily but gives them directly when asked. His wardrobe is functional: polo shirts, khakis, and walking shoes that he wears until the tread is smooth. He finds most marketing language ridiculous and ignores it.",
+    "personality": {
+      "traits": [
+        "Methodical and practical — buys for function, never trends",
+        "Patient and unhurried in conversation",
+        "Skeptical of claims that can't be measured",
+        "Loyal to products that work — wore the same shoe model for 8 years",
+        "Quiet authority from decades of professional competence",
+        "Private about health issues — doesn't complain"
+      ],
+      "big_five": {
+        "openness": 0.25,
+        "conscientiousness": 0.70,
+        "extraversion": 0.20,
+        "agreeableness": 0.45,
+        "neuroticism": 0.55
+      }
+    },
+    "preferences": {
+      "interests": [
+        "Morning walking routes through San Gabriel parks",
+        "Vegetable gardening (bok choy, winter melon, bitter gourd)",
+        "Chinese chess at the community center",
+        "News radio (KNX 1070)",
+        "Fixing things around the house",
+        "Walking shoes that last"
+      ],
+      "likes": [
+        "Shoes with wide toe boxes",
+        "Products that last years without replacement",
+        "Simple Velcro or slip-on designs",
+        "Firm support rather than soft cushioning",
+        "Brands he's heard of before",
+        "Buying in-store where he can try them on"
+      ],
+      "dislikes": [
+        "Shoes marketed as 'running shoes' when he needs walking shoes",
+        "Flashy neon colors",
+        "Products that assume you're young and athletic",
+        "Paying more than $100 for shoes",
+        "Online-only purchasing",
+        "Marketing that uses words like 'responsive foam' without explaining what that means",
+        "Being upsold at shoe stores"
+      ]
+    },
+    "beliefs": [
+      "Walking every day is the single best thing he does for his health",
+      "Good shoes are an investment in mobility, not a fashion statement",
+      "Products should last — planned obsolescence is wasteful engineering",
+      "If a product needs a paragraph to explain its technology, it's probably not that good"
+    ],
+    "skills": [
+      "Structural analysis and infrastructure design",
+      "Growing Chinese vegetables in Southern California climate",
+      "Basic home repair and maintenance",
+      "Reading product specs and cutting through marketing"
+    ],
+    "behaviors": {
+      "general": [
+        "Walks 2-3 miles every morning at 6:30 AM, same route",
+        "Replaces shoes only when the tread wears down — roughly every 18 months",
+        "Tries shoes on at a local store, compares two options, picks the more comfortable one",
+        "Keeps a small notebook tracking his daily steps"
+      ],
+      "routines": {
+        "morning": ["Wake at 6", "Light stretching", "Walk 2-3 miles through Alhambra Park", "Breakfast: congee or toast with tea", "Read the newspaper"],
+        "workday": ["Volunteer at community center twice a week", "Gardening", "Small home projects", "Afternoon rest"],
+        "evening": ["Dinner with wife", "Chinese drama on TV", "Phone call with daughter", "Light reading, bed by 9:30"],
+        "weekend": ["Dim sum with family on Sundays", "Longer walk (4 miles) on Saturday", "Visit grandchildren", "Grocery shopping at 99 Ranch"]
+      }
+    },
+    "health": {
+      "physical": "Mild osteoarthritis in both knees — manageable with walking and Tylenol. Slightly elevated blood pressure controlled with lisinopril. Good mobility for his age but avoids stairs when possible. Flat feet that require arch support.",
+      "mental": "Stable and content in retirement. Occasionally bored on days without plans. Misses the problem-solving aspect of engineering work. Sleep is lighter than it used to be."
+    },
+    "relationships": [
+      {"name": "Mei Ling", "relation": "Wife (64)", "description": "Retired elementary school teacher. They walk together on weekends but she prefers a slower pace."},
+      {"name": "Jennifer Ling-Park", "relation": "Daughter (38)", "description": "Lives in Irvine with two kids. Calls every evening. Keeps trying to buy him expensive shoes for Christmas."},
+      {"name": "David Park", "relation": "Son-in-law (40)", "description": "Runs marathons. Howard respects the discipline but doesn't understand the appeal."},
+      {"name": "Winston Chow", "relation": "Walking companion (70)", "description": "Retired pharmacist. They walk together three mornings a week and discuss the news."}
+    ]
+  },
+  "segment": "Daily Walker Retiree",
+  "segment_id": 3
+}

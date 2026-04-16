@@ -1,0 +1,108 @@
+{
+  "persona": {
+    "name": "Zoe Chen",
+    "age": 27,
+    "nationality": "Chinese-American",
+    "occupation": {
+      "title": "Social Media Manager",
+      "organization": "Glossier (beauty/lifestyle brand)",
+      "description": "Manages Glossier's TikTok and Instagram Reels strategy. Creates content briefs, coordinates with creators, tracks engagement analytics. Works from a WeWork in Dumbo — fully hybrid, in-office Tuesdays and Thursdays."
+    },
+    "gender": "Female",
+    "residence": "Brooklyn, NY",
+    "education": "B.A. in Communications from NYU. Minored in Studio Art. Built her personal brand through a college fashion blog that hit 50K followers.",
+    "long_term_goals": [
+      "Build a personal brand around wellness and running aesthetics",
+      "Run the NYC Marathon (for the content and the experience, equally)",
+      "Move into brand partnerships or influencer marketing management",
+      "Hit 100K followers on her personal account",
+      "Find a running routine that's sustainable, not performative"
+    ],
+    "style": "Zoe communicates in curated bursts — every sentence is slightly polished, as if she's composing a caption. She's enthusiastic, visually oriented, and genuinely fun to talk to, but there's always an awareness of how things look. She's honest about the fact that aesthetics matter to her as much as function. She uses contemporary language naturally ('giving', 'coded', 'obsessed'), dresses in coordinated running sets, and photographs everything before and after runs. Under the surface, she's more thoughtful about fitness than her content suggests.",
+    "personality": {
+      "traits": [
+        "Visually driven — evaluates products through an aesthetic lens first",
+        "Enthusiastic and expressive, especially about things she finds beautiful",
+        "Self-aware about the gap between content and reality",
+        "More committed to running than her casual content suggests",
+        "Anxious about falling behind peers professionally and physically",
+        "Generous with recommendations and genuinely wants to help others find good products"
+      ],
+      "big_five": {
+        "openness": 0.75,
+        "conscientiousness": 0.40,
+        "extraversion": 0.90,
+        "agreeableness": 0.65,
+        "neuroticism": 0.60
+      }
+    },
+    "preferences": {
+      "interests": [
+        "Running in photogenic locations (Brooklyn Bridge, Prospect Park)",
+        "Running fashion and athleisure styling",
+        "Content creation and visual storytelling",
+        "Wellness culture and boutique fitness",
+        "Skincare and beauty",
+        "Brunch culture and coffee shop scouting",
+        "Pilates and yoga for cross-training"
+      ],
+      "likes": [
+        "Shoes with unique colorways and limited edition drops",
+        "Brands with strong visual identity and Instagram presence",
+        "Running shoes that look good with everyday outfits",
+        "Products that photograph well (interesting textures, clean lines)",
+        "Collaborations between running brands and designers",
+        "Shoes that transition from run to coffee shop",
+        "Brands that feel aspirational but accessible"
+      ],
+      "dislikes": [
+        "Shoes that only come in neon or 'technical' looking colorways",
+        "Brands with boring or dated visual identities",
+        "Heavy shoes that look clunky with leggings",
+        "Running culture that gatekeeps or takes itself too seriously",
+        "Products that sacrifice aesthetics entirely for function",
+        "Being told she's 'not a real runner' because she cares about how shoes look",
+        "Shoes that give 'suburban dad at the mall' energy"
+      ]
+    },
+    "beliefs": [
+      "You can care about both performance and aesthetics — they're not opposites",
+      "Running should be joyful, not punishing — the vibes matter",
+      "Content creation around running inspires others to start, and that's valuable",
+      "The best running shoe is one you actually want to lace up"
+    ],
+    "skills": [
+      "Social media strategy and content creation",
+      "Visual storytelling and brand identity development",
+      "Photo and video editing (Lightroom, CapCut)",
+      "Trend forecasting in fashion and wellness",
+      "Building online communities"
+    ],
+    "behaviors": {
+      "general": [
+        "Runs 3x per week — usually Prospect Park loop (3.35 miles)",
+        "Takes before/after-run photos for potential content",
+        "Buys shoes partly for how they look in photos",
+        "Follows running brands on IG and notices every design detail"
+      ],
+      "routines": {
+        "morning": ["Wake at 7:30", "Matcha latte and skincare routine", "Check social analytics from overnight", "Run on Tue/Thu/Sat mornings"],
+        "workday": ["Content planning and briefs 10-12", "Creator coordination calls 1-3", "Analytics review and reporting 3-5", "Leave by 5:30 to avoid commute crush"],
+        "evening": ["Pilates or yoga class twice a week", "Dinner out or cooking with roommate", "Evening content batch — editing photos, writing captions", "Bed by midnight"],
+        "weekend": ["Saturday: longer run (5-6 miles) with a friend", "Brunch and content capture", "Sunday: rest day, errands, apartment cleaning", "Batch social media content for the week"]
+      }
+    },
+    "health": {
+      "physical": "Good overall health. Not competitively fast but improving steadily (current 5K around 28 minutes). Gets shin splints when she increases mileage too fast. Started running during COVID and stuck with it. Does Pilates for core strength.",
+      "mental": "Experiences comparison anxiety from social media (occupational hazard). Running is genuinely therapeutic — one of the few activities where she puts her phone away. Occasionally overcommits and burns out. Therapy every other week."
+    },
+    "relationships": [
+      {"name": "Grace Chen", "relation": "Mother (55)", "description": "Accountant in Flushing, Queens. Doesn't understand Zoe's job but is supportive. Thinks Zoe should run less and eat more."},
+      {"name": "Lily Kowalczyk", "relation": "Roommate / Running buddy", "description": "Works at a PR firm. They started running together during COVID and now do Saturday long runs. Lily is faster and Zoe is catching up."},
+      {"name": "Marcus Kim", "relation": "Boyfriend (29)", "description": "UX designer at a fintech startup. Non-runner. Takes photos of Zoe running when she asks. Patient about her shoe collection."},
+      {"name": "Jess Park", "relation": "College friend / Content collaborator", "description": "Runs a wellness TikTok. They occasionally create running content together."}
+    ]
+  },
+  "segment": "Athleisure Aesthete",
+  "segment_id": 11
+}

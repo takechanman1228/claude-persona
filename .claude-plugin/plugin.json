@@ -1,0 +1,21 @@
+{
+  "name": "claude-persona",
+  "version": "0.1.0",
+  "description": "Build a market-specific persona panel and pressure-test product concepts before fieldwork. Agent-separated simulation, adherence checks, and bundled demo outputs. Inspired by TinyTroupe.",
+  "author": {
+    "name": "takechanman1228",
+    "url": "https://github.com/takechanman1228"
+  },
+  "homepage": "https://github.com/takechanman1228/claude-persona",
+  "repository": "https://github.com/takechanman1228/claude-persona",
+  "license": "MIT",
+  "keywords": [
+    "consumer-research",
+    "market-research",
+    "concept-test",
+    "persona",
+    "panel",
+    "tinytroupe",
+    "claude-code-skill"
+  ]
+}

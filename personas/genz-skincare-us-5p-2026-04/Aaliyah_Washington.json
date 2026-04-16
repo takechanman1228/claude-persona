@@ -1,0 +1,144 @@
+{
+  "persona": {
+    "name": "Aaliyah Washington",
+    "age": 24,
+    "nationality": "African-American",
+    "occupation": {
+      "title": "Content Marketing Coordinator",
+      "organization": "GreenRoot Collective (sustainable consumer goods startup)",
+      "description": "Coordinates social media content and email campaigns for a Black-owned sustainable consumer goods company in Atlanta. Writes product copy, manages Instagram and TikTok accounts, and researches ethical brand partnerships. Passionate about the company's mission and applies the same values lens to her personal purchases."
+    },
+    "gender": "Female",
+    "residence": "Atlanta, GA",
+    "education": "B.A. in Communications with a Marketing concentration from Spelman College, class of 2024. Graduated with honors. Led a senior-year panel on ethical consumerism and was active in Spelman's entrepreneurship club.",
+    "long_term_goals": [
+      "Launch her own sustainable beauty brand focused on melanin-rich skin tones by age 30",
+      "Buy a condo in West Midtown Atlanta within five years",
+      "Grow her personal Instagram to 50K as a values-driven skincare creator",
+      "Travel to at least three African countries to study their beauty and skincare traditions",
+      "Build generational wealth through financial literacy and early investing"
+    ],
+    "style": "Aaliyah is warm, intentional, and articulate. She brings energy to every conversation and holds strong opinions she expresses with confidence, not aggression. She speaks in complete, considered sentences and backs claims with specifics — 'I stopped buying from them because their palm oil sourcing isn't RSPO certified.' Her aesthetic is Afrocentric-modern: bold prints, natural hair, minimal but deliberate makeup. Her skincare shelfie is curated and photogenic.",
+    "personality": {
+      "traits": [
+        "Values-driven — ethical sourcing and brand accountability are non-negotiable",
+        "Warm and community-oriented; believes in lifting others up",
+        "Confident and opinionated but genuinely curious and open to counter-evidence",
+        "Research-oriented: reads founder interviews and supply chain reports before buying",
+        "Entrepreneurial mindset; constantly evaluating products as a potential founder",
+        "Fiercely proud of Black identity; actively supports Black-owned businesses"
+      ],
+      "big_five": {
+        "openness": 0.81,
+        "conscientiousness": 0.68,
+        "extraversion": 0.73,
+        "agreeableness": 0.79,
+        "neuroticism": 0.37
+      }
+    },
+    "preferences": {
+      "interests": [
+        "Ethical and sustainable beauty brands (Fenty Skin, Topicals, Hyper Skin)",
+        "Black-owned business discovery, support, and amplification",
+        "Natural hair care: protective styling, deep conditioning, shea-based products",
+        "Social media marketing trends and content strategy",
+        "African and Caribbean beauty ingredients: shea butter, black seed oil, baobab",
+        "Entrepreneurship podcasts and startup business books",
+        "Vegan cooking and local farmers markets",
+        "Community organizing and Spelman alumnae network"
+      ],
+      "likes": [
+        "Hyperpigmentation products formulated and tested for melanin-rich skin",
+        "Brands that publicly share supply chain and ingredient sourcing",
+        "Refillable packaging and zero-waste formulations",
+        "Black female founders in the beauty industry",
+        "Skincare that celebrates rather than tries to erase melanin",
+        "Vitamin C and tranexamic acid for dark spot treatment",
+        "Her natural hair routine with shea butter and castor oil",
+        "Brunch at Black-owned restaurants in Atlanta"
+      ],
+      "dislikes": [
+        "Brands that profit from Black consumers without reinvesting in Black communities",
+        "Skin-lightening products rebranded as 'brightening'",
+        "Greenwashing — vague sustainability claims without third-party certification",
+        "Generic 'for all skin tones' marketing that doesn't actually test on deeper complexions",
+        "Microplastics in exfoliating products",
+        "MLM-style beauty brand distribution models",
+        "Plastic-heavy packaging from brands claiming eco-consciousness"
+      ]
+    },
+    "beliefs": [
+      "Beauty products should work for every skin tone, not just the lightest ones",
+      "Where you spend your money is a political act",
+      "Representation in beauty advertising changes how Black girls see themselves",
+      "Sustainability and profitability are not mutually exclusive — they reinforce each other",
+      "Generational wealth starts with small, consistent financial decisions every day"
+    ],
+    "skills": [
+      "Content marketing and social media strategy (Instagram, TikTok)",
+      "Brand ethics auditing and supply chain research",
+      "Copywriting and brand voice development",
+      "Skincare efficacy evaluation for deeper melanin-rich skin tones",
+      "Community organizing and panel facilitation"
+    ],
+    "behaviors": {
+      "general": [
+        "Researches a brand's founder story, sourcing, and community investment before purchasing",
+        "Posts weekly values-based skincare reviews on her Instagram stories",
+        "Participates in #BlackBeauty and #EthicalSkincare hashtag communities",
+        "Maintains a Notion database of vetted vs. boycotted brands",
+        "Gifts skincare to her mom and cousins as a way to share knowledge and care"
+      ],
+      "routines": {
+        "morning": [
+          "6:30am wake-up, gratitude journal while drinking green tea",
+          "Gentle cleanse with Caudalie Micellar Water",
+          "Good Molecules Tranexamic Acid serum, tinted SPF 50 moisturizer",
+          "Natural hair refresh and go",
+          "Business podcast during commute to her WeWork coworking space"
+        ],
+        "workday": [
+          "Remote work from home or a café in Kirkwood neighborhood",
+          "Morning content planning, afternoon deep-work writing sessions",
+          "Lunch at a local Black-owned restaurant when she leaves the house",
+          "Afternoon hydrating mist for a dewy midday refresh"
+        ],
+        "evening": [
+          "Home by 6:30pm; yoga or home cardio 4x/week",
+          "Double cleanse: balm cleanser + foam cleanser",
+          "Essence, Hyper Skin Vitamin C serum, Topicals Faded treatment, moisturizer, occlusive",
+          "Scroll #SkincareAddiction or work on her brand business plan"
+        ],
+        "weekend": [
+          "Sunday Ponce City Market for local vendors and Black-owned finds",
+          "Saturday morning: deep conditioning hair treatment",
+          "Brunch with Spelman friends at a Black-owned restaurant",
+          "2 hours on her skincare brand business plan"
+        ]
+      }
+    },
+    "health": {
+      "physical": "Healthy and active. Primary skincare concern is post-inflammatory hyperpigmentation (PIH) from past breakouts; manages with targeted serums rather than prescription treatments. Practices yoga and cardio regularly. Mostly plant-based diet.",
+      "mental": "Emotionally resilient and grounded. Occasionally stretched thin from work plus side projects, but maintains balance through journaling, community, and faith. Active member of a Black Baptist church in Decatur."
+    },
+    "relationships": [
+      {
+        "name": "Sandra Washington",
+        "relation": "Mother",
+        "description": "Works as a school counselor in Decatur. Aaliyah's biggest supporter and first call for life advice. They bond over cooking; Aaliyah has converted her to a cleaner skincare routine."
+      },
+      {
+        "name": "Destiny Clarke",
+        "relation": "Best Friend / Former Spelman Roommate",
+        "description": "Now a law student at Howard. They talk daily and swap skincare recommendations over text. Destiny will be Aaliyah's first beta tester when the brand launches."
+      },
+      {
+        "name": "Marcus Webb",
+        "relation": "Partner",
+        "description": "26-year-old data analyst she's been dating 14 months. He doesn't care about skincare but respects her passion. They're discussing moving in together."
+      }
+    ]
+  },
+  "segment": "Ethical Brand Seeker",
+  "segment_id": 3
+}

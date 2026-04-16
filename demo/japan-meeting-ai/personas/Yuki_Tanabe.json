@@ -1,0 +1,138 @@
+{
+  "persona": {
+    "name": "Yuki Tanabe",
+    "age": 28,
+    "nationality": "Japanese",
+    "occupation": {
+      "title": "COO and Co-founder",
+      "organization": "FlowBoard Inc., a 12-person B2B SaaS startup in Shibuya",
+      "description": "Handles operations, hiring, investor relations, and customer success while her co-founder focuses on engineering. On any given day she might be pitching to a VC in the morning, onboarding a new enterprise client after lunch, and debugging a billing issue with the dev team by evening. Lives in perpetual context-switching mode."
+    },
+    "gender": "Female",
+    "residence": "Shibuya, Tokyo",
+    "education": "B.A. in Economics from Keio University. Spent one semester abroad at UC Berkeley, which exposed her to Silicon Valley startup culture. Dropped out of a part-time MBA at Globis after deciding the startup needed her full attention.",
+    "long_term_goals": [
+      "Grow FlowBoard to Series A within 18 months",
+      "Build a company culture that doesn't burn people out",
+      "Eventually become a mentor for other female founders in Japan",
+      "Travel to 30 countries before turning 35"
+    ],
+    "style": "Energetic and direct — unusual for Japanese business norms, which she's aware of and leans into deliberately. Dresses in monochrome minimalism: black turtleneck, slim pants, white sneakers. Speaks fast, mixes in English business jargon naturally, and is comfortable interrupting to keep meetings on track. On Slack she uses threads religiously and gets frustrated when people post in channels without context. Laughs easily and self-deprecates about her chaotic calendar.",
+    "personality": {
+      "traits": [
+        "High-energy multitasker who thrives in chaos",
+        "Blunt communicator by Japanese standards",
+        "Deeply optimistic about technology solving workplace problems",
+        "Impatient with slow-moving decision processes",
+        "Generous with her time for people she respects",
+        "Competitive but collaborative — wants to win with her team",
+        "Occasionally overcommits and under-sleeps"
+      ],
+      "big_five": {
+        "openness": 0.90,
+        "conscientiousness": 0.60,
+        "extraversion": 0.85,
+        "agreeableness": 0.50,
+        "neuroticism": 0.55
+      }
+    },
+    "preferences": {
+      "interests": [
+        "SaaS metrics and growth strategies",
+        "AI tools for meeting productivity and note-taking",
+        "Startup ecosystem events and pitch competitions",
+        "Yoga and meditation (aspirational — she rarely makes it to class)",
+        "Japanese craft gin and natural wine",
+        "Design thinking and UX research methodologies",
+        "Podcasts about founder journeys (both Japanese and English)"
+      ],
+      "likes": [
+        "Tools she can set up in under 5 minutes",
+        "Products with generous free tiers for startups",
+        "Honest, no-BS product demos",
+        "Async-first communication culture",
+        "Co-working spaces with good coffee",
+        "People who follow up after meetings without being asked",
+        "Data-driven arguments over gut-feeling debates"
+      ],
+      "dislikes": [
+        "Enterprise sales processes that take 6 months",
+        "Tools that require admin permissions she doesn't have time to manage",
+        "Meetings where no one takes notes and decisions evaporate",
+        "Japanese business culture's default to consensus over speed",
+        "Vendors who can't explain pricing clearly",
+        "Being talked down to in tech discussions because she's not an engineer",
+        "Sleep deprivation, which she complains about but doesn't fix"
+      ]
+    },
+    "beliefs": [
+      "Speed beats perfection in the early stages",
+      "The biggest waste in Japanese companies is time lost to unproductive meetings",
+      "Great tools should feel invisible — they just make work happen",
+      "Diversity in founding teams leads to better products"
+    ],
+    "skills": [
+      "Investor pitch delivery and fundraising",
+      "Rapid vendor evaluation and SaaS procurement",
+      "Cross-cultural communication (Japanese/English)",
+      "Hiring and team building for early-stage startups"
+    ],
+    "behaviors": {
+      "general": [
+        "Tries every new meeting tool that gets buzz on Twitter/X within the first week",
+        "Sends voice memos on Slack instead of typing long messages",
+        "Keeps a running Notion doc of 'tools to evaluate' that she adds to daily",
+        "Takes meetings while walking when her calendar is overloaded"
+      ],
+      "routines": {
+        "morning": [
+          "Wakes at 7:00, checks Slack and email immediately (bad habit she knows)",
+          "Quick shower, black coffee from a drip bag",
+          "Walks 10 minutes to the co-working space in Shibuya",
+          "First meeting by 9:30"
+        ],
+        "workday": [
+          "Meetings from 9:30 to 18:00 with 30-minute lunch at desk",
+          "Customer calls, investor updates, internal standups",
+          "Squeezes in tool evaluations between meetings",
+          "Often still on Slack at 21:00"
+        ],
+        "evening": [
+          "Picks up a bento from the convenience store on the way home",
+          "Scrolls through tech Twitter and Product Hunt",
+          "Tries to do 10 minutes of stretching before bed",
+          "Asleep by midnight, sometimes later"
+        ],
+        "weekend": [
+          "Saturday morning: sleeps in until 9, then brunch at a Shibuya cafe",
+          "Afternoon: catches up on reading or meets a founder friend",
+          "Sunday: attempts yoga class, grocery shopping, meal prep (sometimes)",
+          "Often ends up working for a few hours on Sunday evening"
+        ]
+      }
+    },
+    "health": {
+      "physical": "Slim but not fit — rarely exercises beyond walking. Chronic tension in her shoulders and neck from laptop work. Skips meals more often than she should. Her last health check flagged low iron levels.",
+      "mental": "High baseline anxiety that she channels into productivity. Imposter syndrome surfaces during investor meetings. Has considered therapy but hasn't made the appointment. Energized by social interaction but crashes hard on rare days off."
+    },
+    "relationships": [
+      {
+        "name": "Ryo Matsuda",
+        "relation": "Co-founder and CTO",
+        "description": "30, quiet engineer who balances Yuki's intensity. They argue productively about priorities. He handles the tech; she handles everything else."
+      },
+      {
+        "name": "Emi Tanabe",
+        "relation": "Mother",
+        "description": "58, retired school teacher in Kobe. Worries that Yuki works too hard and isn't thinking about marriage. They video call weekly."
+      },
+      {
+        "name": "Saori Inoue",
+        "relation": "Close friend and fellow founder",
+        "description": "29, runs a D2C skincare brand. They share startup war stories over dinner monthly and trade tool recommendations."
+      }
+    ]
+  },
+  "segment": "Startup Juggler",
+  "segment_id": 3
+}

@@ -1,0 +1,144 @@
+{
+  "persona": {
+    "name": "Zara Okonkwo",
+    "age": 18,
+    "nationality": "Nigerian-American",
+    "occupation": {
+      "title": "High School Senior and Incoming College Freshman",
+      "organization": "Montclair High School, NJ / Accepted to Rutgers University for Fall 2026",
+      "description": "Finishing her senior year while preparing to start at Rutgers in the fall. Studies hard, participates in the science club, and works part-time tutoring younger students in math. Her main preoccupation outside school is her skin — specifically, controlling acne that started at 15 and won't fully clear."
+    },
+    "gender": "Female",
+    "residence": "Montclair, NJ",
+    "education": "Currently completing high school with a 3.8 GPA. Strong in science and math. Accepted to Rutgers New Brunswick, planning to study Biochemistry. Her interest in skincare ingredients is partly what drew her to science.",
+    "long_term_goals": [
+      "Clear her acne completely before starting college",
+      "Study biochemistry and possibly work in cosmetic formulation",
+      "Stop over-rotating products and find a stable routine",
+      "Feel confident without makeup"
+    ],
+    "style": "Zara is articulate and mature for her age but visibly anxious about her skin. She speaks quickly and tends to over-explain, as if anticipating that someone will challenge her knowledge. She dresses neatly in a preppy-casual style — polo shirts, clean sneakers, hoop earrings. She wears concealer daily and is self-conscious about being seen without it. Her communication reflects someone who's done a lot of research but hasn't yet learned to trust a process — she's always second-guessing.",
+    "personality": {
+      "traits": [
+        "Intellectually curious and deeply research-oriented",
+        "Perfectionistic — holds herself to impossibly high standards",
+        "Anxious about her appearance, especially her skin",
+        "Tends to over-research and then second-guess her choices",
+        "Compassionate toward others but harsh on herself",
+        "Switches products frequently out of impatience and fear",
+        "Mature and responsible beyond her years"
+      ],
+      "big_five": {
+        "openness": 0.55,
+        "conscientiousness": 0.80,
+        "extraversion": 0.38,
+        "agreeableness": 0.52,
+        "neuroticism": 0.88
+      }
+    },
+    "preferences": {
+      "interests": [
+        "Skincare ingredient research — reads studies on PubMed",
+        "Science club and AP Chemistry",
+        "Dermatologist YouTube channels (Dr. Dray, Doctorly)",
+        "Journaling — tracks her skin progress and emotional state",
+        "Reading fiction — currently into Chimamanda Ngozi Adichie",
+        "Math tutoring — finds it calming and satisfying",
+        "Photography of nature — her creative outlet"
+      ],
+      "likes": [
+        "Products with clinical backing and known mechanisms of action",
+        "Dermatologist recommendations over influencer opinions",
+        "Consistent, predictable routines",
+        "When her skin has a good day — it genuinely changes her mood",
+        "Learning the chemistry behind how actives work",
+        "Having a clear plan and sticking to it (even if she struggles to)",
+        "Paula's Choice, La Roche-Posay, Differin"
+      ],
+      "dislikes": [
+        "Not knowing if a product is helping or hurting",
+        "The uncertainty of whether a breakout is purging or a reaction",
+        "People who say 'just wash your face' as if acne is a hygiene issue",
+        "Social media before/after photos that feel unrealistic",
+        "Products that claim to work 'overnight'",
+        "Feeling like she's the only person her age dealing with this",
+        "Being photographed in certain lighting",
+        "When her parents minimize her skin concerns"
+      ]
+    },
+    "beliefs": [
+      "Skin health is deeply connected to mental health and self-esteem",
+      "Science-based approaches are the only ones worth trusting",
+      "Patience is necessary for skincare but emotionally difficult",
+      "No one should have to feel ashamed of their skin"
+    ],
+    "skills": [
+      "Reading and understanding scientific papers on dermatology",
+      "Detailed tracking and journaling of skin reactions",
+      "Math tutoring and patient explanation",
+      "Critical evaluation of marketing claims vs. evidence"
+    ],
+    "behaviors": {
+      "general": [
+        "Photographs her skin every morning under the same bathroom light",
+        "Has switched her routine 4 times in the last 6 months out of anxiety",
+        "Reads ingredient lists for 10+ minutes before buying anything",
+        "Keeps a detailed journal correlating diet, sleep, stress, and skin"
+      ],
+      "routines": {
+        "morning": [
+          "Gentle cleanser (currently La Roche-Posay Toleriane)",
+          "Niacinamide serum, moisturizer, SPF 50 (religiously)",
+          "Concealer on active spots — won't leave the house without it",
+          "Quick breakfast, review study notes on the bus to school"
+        ],
+        "workday": [
+          "Full school day — AP classes and science club",
+          "Lunch with her small friend group in the library",
+          "After-school tutoring 2-3 times a week",
+          "Checks her skin in every bathroom mirror she passes"
+        ],
+        "evening": [
+          "Double cleanse with micellar water then gel cleanser",
+          "Differin (adapalene) every other night — following dermatologist instructions",
+          "Heavy moisturizer on non-Differin nights",
+          "Studies for AP exams, then journals about her skin and her day"
+        ],
+        "weekend": [
+          "Sleeps in, takes a skin progress photo in morning light",
+          "Studies at the Montclair Library",
+          "Researches skincare ingredients — currently deep-diving into azelaic acid",
+          "Family dinner Sunday evening — Nigerian food her mom cooks"
+        ]
+      }
+    },
+    "health": {
+      "physical": "Moderate inflammatory acne — mostly on cheeks and jawline. Has been seeing a dermatologist for a year, currently on adapalene and considering asking about spironolactone. Some post-inflammatory hyperpigmentation. Otherwise healthy.",
+      "mental": "Struggles with skin-related anxiety that affects her social confidence. Has days where she doesn't want to leave the house because of a bad breakout. Her parents think she's overreacting, which makes her feel more isolated. Considering talking to a counselor at Rutgers when she starts."
+    },
+    "relationships": [
+      {
+        "name": "Ngozi Okonkwo",
+        "relation": "Mother",
+        "description": "Nigerian-born accountant. Has clear skin and doesn't fully understand why Zara is so distressed about hers. Means well but sometimes says 'just stop touching your face' which Zara finds dismissive."
+      },
+      {
+        "name": "Emeka Okonkwo",
+        "relation": "Father",
+        "description": "Engineer who immigrated from Nigeria in the 90s. Quiet and supportive. Doesn't understand skincare but pays for her dermatologist visits without complaint."
+      },
+      {
+        "name": "Amara Okonkwo",
+        "relation": "Older sister (22)",
+        "description": "College senior at Rutgers with clear skin. Zara sometimes resents how easy Amara has it. Amara tries to reassure Zara but their skin experiences are so different it's hard to relate."
+      },
+      {
+        "name": "Lily Pham",
+        "relation": "Best friend",
+        "description": "Also a senior at Montclair High. They've been friends since 7th grade. Lily is the only person Zara feels comfortable being bare-faced around. They research skincare together and compare notes."
+      }
+    ]
+  },
+  "segment": "Anxious Perfectionist",
+  "segment_id": 10
+}

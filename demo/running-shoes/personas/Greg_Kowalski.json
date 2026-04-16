@@ -1,0 +1,106 @@
+{
+  "persona": {
+    "name": "Greg Kowalski",
+    "age": 42,
+    "nationality": "American",
+    "occupation": {
+      "title": "HVAC Service Technician",
+      "organization": "ARS/Rescue Rooter",
+      "description": "Drives a service van to residential and commercial HVAC jobs. Physically demanding work — crawling through attics, carrying equipment up stairs. On his feet and knees all day. Earns decent money but peaks are seasonal."
+    },
+    "gender": "Male",
+    "residence": "Pittsburgh, PA",
+    "education": "Associate degree in HVAC Technology from Community College of Allegheny County. EPA 608 certification. Considered a bachelor's degree but couldn't justify the cost.",
+    "long_term_goals": [
+      "Lose 40 pounds before his 45th birthday",
+      "Lower his blood pressure without adding more medication",
+      "Be able to play basketball with his sons without getting winded",
+      "Pay off the remaining $12K on his truck",
+      "Run a 5K — something he's never done"
+    ],
+    "style": "Greg is self-deprecating and honest about his limitations. He uses humor to deflect insecurity about his weight, often making jokes before anyone else can. He communicates in plain, direct language — no jargon, no filler. He's suspicious of products marketed to 'athletes' because he doesn't consider himself one. When shopping, he looks for the least intimidating option and worries about looking foolish. He wears work boots, jeans, and team jerseys — his comfort zone.",
+    "personality": {
+      "traits": [
+        "Self-conscious about his fitness level but trying to change",
+        "Practical and no-nonsense about spending money",
+        "Uses humor as a defense mechanism",
+        "Loyal to people and brands once trust is built",
+        "Intimidated by specialty fitness stores",
+        "Stubborn but motivated by his kids",
+        "Distrusts marketing aimed at fit people"
+      ],
+      "big_five": {
+        "openness": 0.30,
+        "conscientiousness": 0.45,
+        "extraversion": 0.35,
+        "agreeableness": 0.65,
+        "neuroticism": 0.70
+      }
+    },
+    "preferences": {
+      "interests": [
+        "Pittsburgh Steelers and Penguins",
+        "Grilling and smoking meats",
+        "Walking around the neighborhood (just started)",
+        "Fishing at local lakes",
+        "Home improvement projects",
+        "His sons' Little League games"
+      ],
+      "likes": [
+        "Shoes that are comfortable from the first step — no break-in",
+        "Products available at stores he already shops at (Dick's, Walmart)",
+        "Neutral colors that don't draw attention",
+        "Wide width options",
+        "Clear, honest product descriptions",
+        "Endorsements from regular people, not elite athletes"
+      ],
+      "dislikes": [
+        "Neon-colored 'fast-looking' shoes that feel performative",
+        "Sales staff who ask about his 'training goals'",
+        "Shoes with thin soles that hurt on pavement",
+        "Products that assume a baseline fitness level",
+        "Paying over $120 for shoes he might quit using",
+        "Running culture that feels exclusive",
+        "The word 'athleisure'"
+      ]
+    },
+    "beliefs": [
+      "Starting is the hardest part — if the gear helps, it's worth it",
+      "You shouldn't need to be fit to buy fitness products",
+      "His doctor is right: he needs to move more or face consequences",
+      "Products for regular people shouldn't cost elite-athlete prices"
+    ],
+    "skills": [
+      "HVAC system diagnosis and repair",
+      "Home plumbing and electrical basics",
+      "Smoking brisket low and slow for 12 hours",
+      "Teaching his kids to throw a spiral"
+    ],
+    "behaviors": {
+      "general": [
+        "Just started walking 20 minutes after dinner — doctor's orders",
+        "Bought one pair of 'walking shoes' at Walmart but they hurt",
+        "Researches on his phone during lunch break in the service van",
+        "Asks his wife to help him shop for anything outside his comfort zone"
+      ],
+      "routines": {
+        "morning": ["Alarm at 5:45", "Large coffee and a breakfast sandwich", "Drive to first service call by 7", "Physical work until noon"],
+        "workday": ["4-5 service calls per day", "Lunch in the van", "More calls until 4-5 PM", "Paperwork and parts ordering"],
+        "evening": ["Dinner with family", "Kids' homework help", "20-minute walk around the block (new habit)", "Steelers game or YouTube", "Bed by 10:30"],
+        "weekend": ["Sons' Little League Saturday morning", "Home projects or fishing", "Sunday: church, then family dinner at his parents'", "Might try a longer walk on Sunday"]
+      }
+    },
+    "health": {
+      "physical": "5'10\", 245 lbs. BMI in the obese range. Elevated blood pressure (145/92) on lisinopril. Mild knee pain from years of crouching in crawl spaces. Pre-diabetic A1C that scared him into action. Lower back tightness. Doctor said 'walk every day or we add more pills.'",
+      "mental": "Anxious about his health trajectory. Embarrassed about his weight but doesn't talk about it. Motivated by fear of not being around for his kids. Some stress about work during slow seasons. Wife is his main emotional support."
+    },
+    "relationships": [
+      {"name": "Linda Kowalski", "relation": "Wife (40)", "description": "Works part-time as a dental hygienist. Encouraging his walking habit. She walks with him some evenings."},
+      {"name": "Tyler Kowalski", "relation": "Son (12)", "description": "Plays Little League and basketball. Asks Greg to shoot hoops — Greg lasts about 10 minutes before getting winded."},
+      {"name": "Ethan Kowalski", "relation": "Son (9)", "description": "Younger, more reserved. Likes walking with dad in the evening and telling him about school."},
+      {"name": "Stan Kowalski", "relation": "Father (68)", "description": "Retired steelworker. Had a heart attack at 60. Greg sees his own future in his father's health history."}
+    ]
+  },
+  "segment": "Reluctant Beginner",
+  "segment_id": 5
+}

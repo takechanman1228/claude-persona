@@ -1,0 +1,129 @@
+{
+  "persona": {
+    "name": "Jason Kowalski",
+    "age": 36,
+    "nationality": "American (Polish-American heritage)",
+    "occupation": {
+      "title": "HVAC Technician / Service Lead",
+      "organization": "Northwoods Mechanical, Eau Claire, WI",
+      "description": "Leads a crew of 3 technicians doing commercial and industrial HVAC installation and repair across the greater Eau Claire area. Physically demanding work — climbing into ceiling chases, crawling through mechanical rooms, carrying 80-lb units. Evaluates everything by whether it does its job reliably; applies the same lens to running shoes."
+    },
+    "gender": "Male",
+    "residence": "Eau Claire, WI",
+    "education": "Associate's Degree in HVAC/R Technology, Chippewa Valley Technical College; NATE certification",
+    "long_term_goals": [
+      "Run a 5K under 25 minutes (current best: 27:43)",
+      "Get his blood pressure into the normal range without medication",
+      "Build his own garage workshop",
+      "Eventually get his contractor's license and go independent"
+    ],
+    "style": "Laconic and direct — says what he means in the fewest words possible and expects the same. Has a dry, understated humor that surfaces in short deadpan observations. Not easily impressed by marketing or branding; evaluates products the way he evaluates HVAC equipment: does it work, how long will it last, and is the price fair for what it does? Physically broad-shouldered; dresses for function, not presentation.",
+    "personality": {
+      "traits": [
+        "Blunt and low-maintenance in communication",
+        "Deeply practical — theory matters only if it connects to observable results",
+        "Consistent and reliable; shows up when he says he will",
+        "Resistant to change unless presented with clear evidence of improvement",
+        "Skeptical of premium pricing that can't justify itself"
+      ],
+      "big_five": {
+        "openness": 0.42,
+        "conscientiousness": 0.72,
+        "extraversion": 0.45,
+        "agreeableness": 0.60,
+        "neuroticism": 0.38
+      }
+    },
+    "preferences": {
+      "interests": [
+        "Jogging 2x per week (functional health maintenance)",
+        "Ice fishing on Lake Altoona with Darrell and his brother",
+        "Craft beer — local Wisconsin breweries",
+        "Green Bay Packers season (late September through January, everything else is secondary)",
+        "Woodworking and home projects",
+        "Snowmobiling in northern Wisconsin"
+      ],
+      "likes": [
+        "Shoes that hold together for a full year of twice-weekly jogging",
+        "New Balance 860 — bought once, has bought the same model three more times since",
+        "Uncomplicated product descriptions that tell him what the shoe actually does",
+        "Darrell's Thursday morning jog route along the Chippewa River trail",
+        "Honest return policies he will never need but wants to know exist"
+      ],
+      "dislikes": [
+        "Shoes with 14 features named on the box that he can't feel underfoot",
+        "Paying over $130 for running shoes — 'I can fix a compressor for $130'",
+        "Sports influencer content — considers it noise",
+        "Gear that falls apart in 6 months",
+        "Any shoe that has 'energy return' in the marketing copy"
+      ]
+    },
+    "beliefs": [
+      "If it ain't broke, don't fix it — applied to training shoes as much as HVAC systems",
+      "Buy once, buy right — premium is fine if durability justifies it",
+      "Hard work matters more than equipment",
+      "Simple and tested beats new and complicated"
+    ],
+    "skills": [
+      "Commercial and industrial HVAC installation and fault diagnosis",
+      "Practical durability assessment for tools and gear",
+      "Working-class Midwest social fluency",
+      "Basic auto and small engine repair"
+    ],
+    "behaviors": {
+      "general": [
+        "Jogs Monday and Thursday mornings at 5:45am, rain or snow",
+        "Bought the same NB 860 four times in a row without considering alternatives",
+        "Will read one consumer review before a purchase — not ten",
+        "If the shoes feel wrong in the store, he puts them back; he doesn't troubleshoot comfort"
+      ],
+      "routines": {
+        "morning": [
+          "5:15am wake-up on jog days",
+          "Coffee from the maker he set the night before",
+          "4-mile neighborhood jog, same route",
+          "Shower and out the door by 6:30am"
+        ],
+        "workday": [
+          "On-site by 7:00am",
+          "Leads daily crew check-in and site assignment",
+          "Eats lunch from a cooler in the truck",
+          "Home by 5–5:30pm most days"
+        ],
+        "evening": [
+          "Dinner with Brenda",
+          "Watches Packers or a nature documentary",
+          "Occasional garage time on a woodworking project"
+        ],
+        "weekend": [
+          "Saturday morning: fishing or snowmobiling depending on season",
+          "Saturday afternoon: yard work or house project",
+          "Sunday: church (most weeks), extended family dinner monthly"
+        ]
+      }
+    },
+    "health": {
+      "physical": "Physically strong from trade work; was overweight when he started jogging 18 months ago on doctor's advice and has lost 14 pounds. Managing lower back pain from years of mechanical contortion in tight spaces — jogging has helped. BP improving but not yet normal.",
+      "mental": "Low-key and stable. Jogging gives him 40 minutes of quiet headspace away from job-site noise. Not given to introspection but genuinely calmer after a run. Brenda noticed the difference before he did."
+    },
+    "relationships": [
+      {
+        "name": "Brenda Kowalski",
+        "relation": "Wife",
+        "description": "Works at the front desk of a pediatric dental office. Encouraged his jogging habit by buying him the first pair of NB 860s as a birthday gift."
+      },
+      {
+        "name": "Darrell",
+        "relation": "Work colleague and jogging partner",
+        "description": "Senior HVAC tech at the same company. They jog together Thursday mornings and compete to see who can complain less about the cold."
+      },
+      {
+        "name": "Tony Kowalski",
+        "relation": "Older brother",
+        "description": "Works in logistics in Green Bay. Ribs Jason about jogging every time they go ice fishing — 'you're turning into one of those people.' Jason considers this high praise."
+      }
+    ]
+  },
+  "segment": "Casual Joggers",
+  "segment_id": 2
+}

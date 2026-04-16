@@ -1,0 +1,108 @@
+{
+  "persona": {
+    "name": "Diane Caldwell",
+    "age": 45,
+    "nationality": "American",
+    "occupation": {
+      "title": "High School PE Teacher & Head Track Coach",
+      "organization": "Lawrence North High School",
+      "description": "Teaches physical education to 9th-12th graders and coaches the varsity track and cross-country teams. On her feet from 7 AM to 5 PM during the season. Manages equipment budgets, parent communications, and college recruitment referrals for top athletes."
+    },
+    "gender": "Female",
+    "residence": "Indianapolis, IN",
+    "education": "B.S. in Kinesiology from Ball State University. Master's in Physical Education from Indiana University. Former NCAA Division II 800m runner.",
+    "long_term_goals": [
+      "Coach a state-championship track team",
+      "Stay running competitively into her 50s through masters events",
+      "Write a practical guide for high school running coaches",
+      "Help her athletes earn college scholarships",
+      "Retire at 55 and run full-time masters meets"
+    ],
+    "style": "Diane communicates like a coach: clear, structured, encouraging but honest. She speaks with authority built on 20+ years of running and coaching experience. She uses technical terminology correctly but explains it when she senses the listener is lost. She has no tolerance for marketing BS — she's fitted hundreds of student athletes and knows what works. Dresses in school athletic gear most days, owns exactly two pairs of 'nice' shoes.",
+    "personality": {
+      "traits": [
+        "Authoritative and experienced — trusts her own judgment over marketing",
+        "Nurturing with students but no-nonsense with adults",
+        "Knowledgeable about biomechanics, gait, and shoe construction",
+        "Frugal with personal spending but advocates for quality",
+        "Skeptical of trends — prefers proven models and designs",
+        "Recommends shoes to parents weekly — her opinion carries weight"
+      ],
+      "big_five": {
+        "openness": 0.40,
+        "conscientiousness": 0.80,
+        "extraversion": 0.75,
+        "agreeableness": 0.70,
+        "neuroticism": 0.25
+      }
+    },
+    "preferences": {
+      "interests": [
+        "Track and cross-country coaching strategy",
+        "Running shoe construction and biomechanics",
+        "Masters running competitions (800m, 1500m)",
+        "High school athletics administration",
+        "Gardening in her backyard",
+        "Indiana Pacers basketball",
+        "Youth sports development"
+      ],
+      "likes": [
+        "Shoes with proven track records over multiple model years",
+        "Brands that support high school athletics programs",
+        "Shoes available in both racing and training versions",
+        "Supportive midsoles for aging joints",
+        "Neutral trainers that work for varied foot types",
+        "Discount codes for coaches and educators",
+        "Simple, durable designs that hold up to daily use"
+      ],
+      "dislikes": [
+        "Brands that change successful models unnecessarily",
+        "Shoes that look fast but fall apart in 3 months",
+        "Overhyped 'super shoes' that cost $250+",
+        "Marketing that targets elite runners and ignores the 99%",
+        "Products with no information about stack height or drop",
+        "Trendy colorways that distract from function",
+        "Brands that don't offer team pricing for schools"
+      ]
+    },
+    "beliefs": [
+      "The right shoe prevents injuries — she's seen bad shoes derail promising athletes",
+      "You don't need expensive shoes to run well, but you need the right ones",
+      "Coaching is about developing the whole person, not just the athlete",
+      "Experience with hundreds of runners gives her better shoe insight than any review site"
+    ],
+    "skills": [
+      "Gait analysis and shoe fitting for teen athletes",
+      "Track and cross-country training program design",
+      "Sports injury prevention and first aid",
+      "Budget management for school athletic programs",
+      "Parent communication and athlete mentoring"
+    ],
+    "behaviors": {
+      "general": [
+        "Runs 5 days a week — 3 easy, 1 tempo, 1 long — year-round",
+        "Keeps a spreadsheet of shoes she's recommended to athletes and parents",
+        "Visits the local running store twice a year to see what's new",
+        "Wears shoes for at least 400 miles before judging them"
+      ],
+      "routines": {
+        "morning": ["Wake at 5:30", "Coffee while reviewing practice plans", "Own run (4-6 miles) before school", "At school by 7:15"],
+        "workday": ["PE classes 8-2:30", "Track/XC practice 3-5 PM", "Meet with athletes or parents after practice", "Home by 5:30"],
+        "evening": ["Dinner with husband", "Grade or plan practice", "Watch race footage (her athletes or pro meets)", "Stretch and foam roll", "Bed by 10"],
+        "weekend": ["Saturday: long run (10-12 miles)", "Watch meets or drive athletes to invitational", "Sunday: recovery, meal prep, laundry", "Review weekly training data"]
+      }
+    },
+    "health": {
+      "physical": "Strong for her age but feeling the accumulated miles. Right Achilles tendon gets stiff after hard workouts. Mild meniscus wear in left knee from years of track surfaces. Managing perimenopause symptoms that affect sleep and recovery. Still competitive in masters 800m events.",
+      "mental": "Motivated and purposeful. Coaching gives her daily meaning. Occasionally stressed during championship season. Worries about aging out of competitive running but channels it into coaching excellence."
+    },
+    "relationships": [
+      {"name": "Tom Caldwell", "relation": "Husband (47)", "description": "Works in IT at Eli Lilly. Not a runner. Supports her coaching schedule and handles dinner on practice nights."},
+      {"name": "Emma Caldwell", "relation": "Daughter (19)", "description": "Freshman at Purdue studying engineering. Was a decent sprinter in high school but chose not to run in college. Diane respects the decision."},
+      {"name": "Coach Ray Simmons", "relation": "Colleague", "description": "Assistant track coach. Former D1 hurdler. They debate shoe brands in the equipment room."},
+      {"name": "Maria Santos", "relation": "Running friend", "description": "Middle school PE teacher who runs masters meets. They train together on Saturdays."}
+    ]
+  },
+  "segment": "Veteran Coach",
+  "segment_id": 7
+}

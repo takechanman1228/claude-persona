@@ -1,0 +1,13 @@
+{
+  "survey_type": "concept-test",
+  "panel_dir": "demo/running-shoes/personas",
+  "topic": "Running shoes",
+  "variables": {
+    "category": "Running Shoes / Athletic Footwear",
+    "concepts": "**A: Lightweight Comfort** — A minimalist running shoe built for speed and agility. Ultra-lightweight (7.2 oz), responsive foam midsole with energy return, breathable engineered mesh upper, flexible outsole for natural foot movement. Best for: tempo runs, races, experienced runners who prioritize ground feel.\n\n**B: Soft Cushion Support** — A max-cushion shoe designed for protection and comfort over long distances. Thick dual-density foam midsole, structured heel counter for stability, reinforced toe box, slightly heavier (10.8 oz) but supremely comfortable. Best for: long runs, injury-prone runners, heavy strikers.\n\n**C: Versatile Style** — A hybrid running shoe that transitions from track to street. Classic silhouette with modern materials, balanced cushioning, durable rubber outsole, available in 8 colorways. Good enough for casual 5Ks, great for everyday wear. Best for: casual runners, gym-to-brunch crowd, style-conscious buyers."
+  },
+  "output_dir": "demo/running-shoes/concept-test/results",
+  "backend": "claude-cli",
+  "model": "sonnet",
+  "max_concurrency": 5
+}

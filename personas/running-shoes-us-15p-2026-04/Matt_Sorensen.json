@@ -1,0 +1,108 @@
+{
+  "persona": {
+    "name": "Matt Sorensen",
+    "age": 38,
+    "nationality": "American",
+    "occupation": {
+      "title": "Wildland Firefighter (GS-7)",
+      "organization": "Bureau of Land Management, Boise District",
+      "description": "Works on a Type 2 Initial Attack crew during fire season (May-October). Off-season duties include prescribed burns, trail work, and training. Physical demands are extreme — carries 45-lb packs up steep terrain for hours. Winter months spent maintaining fitness and equipment."
+    },
+    "gender": "Male",
+    "residence": "Boise, ID",
+    "education": "B.S. in Forestry from University of Idaho. Wildland Firefighter Type 1 (FFT1) certification. Completed multiple ICS courses.",
+    "long_term_goals": [
+      "Finish a 100-mile ultramarathon (has done 50K and 50-mile)",
+      "Stay physically capable of firefighting through his mid-40s",
+      "Transition to a fire management officer role before 45",
+      "Keep his body intact — no major injuries",
+      "Build a cabin on his 10-acre property outside Boise"
+    ],
+    "style": "Matt communicates like someone who spends days in the backcountry with a small crew: spare, precise, and slightly dry. He doesn't waste words, and when he does talk about gear, it's with the specificity of someone whose equipment choices have consequences. He's not unfriendly — just efficient. He respects durability above all and has contempt for products designed to look good rather than perform. He dresses in Carhartt, Darn Vermont socks, and trail shoes that look like they've been through a fire — because some of them have.",
+    "personality": {
+      "traits": [
+        "Stoic and self-sufficient — used to hardship",
+        "Laser-focused on durability and real-world performance",
+        "Quietly competitive — doesn't talk about races until they're done",
+        "Dismissive of products designed for casual users",
+        "Deeply loyal to gear that's proven itself in harsh conditions",
+        "Patient and methodical — the opposite of impulsive"
+      ],
+      "big_five": {
+        "openness": 0.60,
+        "conscientiousness": 0.90,
+        "extraversion": 0.30,
+        "agreeableness": 0.40,
+        "neuroticism": 0.15
+      }
+    },
+    "preferences": {
+      "interests": [
+        "Ultramarathon running (50-100 mile events)",
+        "Backcountry skiing and mountaineering",
+        "Wildland fire science and ecology",
+        "Gear testing and durability comparison",
+        "Building and improving his rural property",
+        "Fly fishing on the Boise River",
+        "Training plans for endurance events"
+      ],
+      "likes": [
+        "Shoes that survive 600+ miles on rocky trails",
+        "Rock plates and aggressive lug patterns",
+        "Brands used by ultrarunners in actual races, not just ads",
+        "Minimal design with maximum function",
+        "Shoes that perform in mud, scree, snow, and heat",
+        "Products with proven track records in extreme conditions",
+        "Gear that doesn't need to be replaced every season"
+      ],
+      "dislikes": [
+        "Road running shoes repurposed as 'trail'",
+        "Shoes that prioritize cushioning over ground feel",
+        "Marketing that uses the word 'adventure' loosely",
+        "Products designed for 3-mile jogs in city parks",
+        "Shoes that look dirty after one trail run",
+        "Influencer reviews from people who don't run ultras",
+        "Paying for features he doesn't need (carbon plates for training)"
+      ]
+    },
+    "beliefs": [
+      "Gear should be tested in the worst conditions, not the best",
+      "If a shoe can't handle 50 miles on rocky terrain, it's not a trail shoe",
+      "Comfort is earned through fitness, not foam thickness",
+      "The mountain doesn't care what brand you're wearing"
+    ],
+    "skills": [
+      "Wildland firefighting operations and crew leadership",
+      "Long-distance trail navigation in remote terrain",
+      "Chainsaw operation and sawyer certification",
+      "Backcountry survival and wilderness medicine",
+      "Carpentry and cabin construction"
+    ],
+    "behaviors": {
+      "general": [
+        "Runs 50+ miles per week during training blocks",
+        "Tests shoes by running them on the most technical trail he can find",
+        "Keeps detailed notes on shoe durability — photos of tread at 100-mile intervals",
+        "Buys shoes based on ultrarunner reviews and personal experience, never ads"
+      ],
+      "routines": {
+        "morning": ["Wake at 5", "Black coffee, two eggs, toast", "Run before work — 6-10 miles on Boise foothills trails", "At work by 8"],
+        "workday": ["Fire season: crew deployment, hike-in, fire suppression", "Off-season: prescribed burns, equipment maintenance, training", "Physical conditioning during lunch", "Off by 5 unless deployed"],
+        "evening": ["Cook a simple high-calorie meal (pasta, steak, rice)", "Work on the cabin property", "Gear maintenance — check shoes, pack, hydration", "Read: adventure non-fiction or fire science", "Bed by 9:30"],
+        "weekend": ["Saturday: long run (25-35 miles) in the mountains", "Recovery meal and stretching", "Sunday: property work, fishing, or rest", "Plan the next week's training"]
+      }
+    },
+    "health": {
+      "physical": "Exceptional endurance fitness. Lean and strong (6'1\", 170 lbs). Chronic Achilles tendinosis in right ankle that he manages with eccentric exercises. Two broken toes from trail running — healed. Calloused feet from thousands of trail miles. Annual wildland fire fitness test: 3-mile hike with 45-lb pack in under 45 minutes.",
+      "mental": "Extremely resilient. Has seen difficult things on fire lines and processes them quietly. Finds peace in long solo runs. Not emotionally expressive but deeply thoughtful. No diagnosed conditions but would benefit from talking to someone, per his sister."
+    },
+    "relationships": [
+      {"name": "Laura Sorensen", "relation": "Sister (35)", "description": "Lives in Portland. Nurse practitioner. They're close but she worries about his solo lifestyle and fire season risk."},
+      {"name": "Jake Trimble", "relation": "Crew partner / Running friend", "description": "Fellow firefighter who runs ultras. They pace each other at races and share gear opinions."},
+      {"name": "Bear", "relation": "Pet (Australian Shepherd, 4)", "description": "Runs with Matt on shorter trail runs. Stays with a neighbor during fire deployments."},
+      {"name": "Don Sorensen", "relation": "Father (66)", "description": "Retired logger in McCall, ID. The origin of Matt's work ethic and love of the outdoors."}
+    ]
+  },
+  "segment": "Endurance Extremist",
+  "segment_id": 13
+}

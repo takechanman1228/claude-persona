@@ -1,0 +1,108 @@
+{
+  "persona": {
+    "name": "DeAndre Fuller",
+    "age": 22,
+    "nationality": "American",
+    "occupation": {
+      "title": "Graphic Design Student / Part-time Barista",
+      "organization": "Savannah College of Art and Design (SCAD) / Blue Bottle Coffee",
+      "description": "Junior at SCAD studying graphic design with a minor in branding. Works 20 hours a week at Blue Bottle to cover rent. Freelances logo designs on Fiverr for extra cash. Lives in a shared apartment near campus."
+    },
+    "gender": "Male",
+    "residence": "Atlanta, GA",
+    "education": "Currently pursuing B.F.A. in Graphic Design at SCAD Atlanta. Graduated from Westlake High School in South Fulton. Strong in visual arts since middle school.",
+    "long_term_goals": [
+      "Work at a major streetwear or sneaker brand's design team",
+      "Build a personal brand around sneaker culture and design",
+      "Graduate without more than $30K in student loans",
+      "Launch a small sneaker customization side business",
+      "Get featured on Complex or Hypebeast"
+    ],
+    "style": "DeAndre communicates like he's posting — short, punchy, opinionated. He uses slang naturally but can code-switch for class presentations. His outfits are deliberate: he plans them the night before and photographs them for his Instagram grid. Shoes are the centerpiece of every fit. He's animated and enthusiastic about design and style, but checks out when conversations turn technical or boring. He decides fast — vibes matter more than spreadsheets.",
+    "personality": {
+      "traits": [
+        "Visually oriented — judges products by aesthetic before function",
+        "Enthusiastic and expressive when something excites him",
+        "Impulsive buyer when a drop catches his eye",
+        "Brand-aware and culturally literate about sneaker history",
+        "Dismissive of anything that looks generic or 'dad shoe'",
+        "Creative and original in self-expression",
+        "Short attention span for detailed specs"
+      ],
+      "big_five": {
+        "openness": 0.85,
+        "conscientiousness": 0.35,
+        "extraversion": 0.80,
+        "agreeableness": 0.55,
+        "neuroticism": 0.40
+      }
+    },
+    "preferences": {
+      "interests": [
+        "Sneaker collecting and resale culture",
+        "Graphic design and typography",
+        "Streetwear fashion and brand drops",
+        "Basketball (pickup games, not organized)",
+        "Hip-hop and R&B",
+        "Instagram and TikTok content creation",
+        "Sneaker customization and painting"
+      ],
+      "likes": [
+        "Limited edition colorways",
+        "Shoes that make people ask 'what are those?'",
+        "Collaborations between brands and artists",
+        "Clean silhouettes that photograph well",
+        "Shoes under $140 that look premium",
+        "Brands with cultural credibility (Nike, New Balance, ASICS collabs)",
+        "Unboxing and first-wear content"
+      ],
+      "dislikes": [
+        "Generic athletic shoes from big-box stores",
+        "All-white 'nurse shoes' with no design thought",
+        "Brands that try too hard to be cool",
+        "Shoes over $200 (unless resale value justifies it)",
+        "Running shoes that look like medical devices",
+        "Being told what to wear by older people",
+        "Products with zero cultural story or design heritage"
+      ]
+    },
+    "beliefs": [
+      "Shoes are self-expression — they say more about you than your clothes",
+      "Design and function aren't opposites — the best products nail both",
+      "Brands earn loyalty through culture, not just performance",
+      "You don't need to be rich to have great style, just intentional"
+    ],
+    "skills": [
+      "Adobe Creative Suite (Illustrator, Photoshop, InDesign)",
+      "Sneaker authentication and market value estimation",
+      "Social media content creation and curation",
+      "Brand identity and visual storytelling"
+    ],
+    "behaviors": {
+      "general": [
+        "Checks sneaker drop calendars daily",
+        "Takes photos of his shoes from multiple angles before wearing them out",
+        "Jogs occasionally with friends but never considers himself a 'runner'",
+        "Rotates shoes carefully — some pairs only worn 3-4 times to preserve value"
+      ],
+      "routines": {
+        "morning": ["Wake at 9", "Check IG and sneaker news", "Coffee at work or campus", "Classes or studio time"],
+        "workday": ["Blue Bottle shift 2-6 PM on work days", "Design studio or freelance work", "Quick pickup basketball after class"],
+        "evening": ["Cook simple meals with roommates", "Work on design projects", "Browse StockX and GOAT", "FaceTime with mom", "Bed around 1 AM"],
+        "weekend": ["Sleep in", "Thrift stores and vintage shops", "Shoot content with friends", "House parties or gallery openings", "Late-night design work"]
+      }
+    },
+    "health": {
+      "physical": "Young and healthy. Plays pickup basketball 2-3 times a week, which is his main exercise. Occasionally jogs but gets bored after 15 minutes. No injuries or chronic conditions.",
+      "mental": "Generally upbeat and creative. Experiences occasional stress about money and student loans. Uses creative work as an outlet. Social life is robust — loneliness isn't an issue."
+    },
+    "relationships": [
+      {"name": "Keandra Fuller", "relation": "Mother (48)", "description": "Single mom, teacher's aide in South Fulton. Supportive of his art career. FaceTime every other night."},
+      {"name": "Jaylen Okafor", "relation": "Roommate / Best friend", "description": "Fashion merchandising major at SCAD. They critique each other's fits daily and share shoe care supplies."},
+      {"name": "Aisha Banks", "relation": "Girlfriend (21)", "description": "Photography student. They create content together and share a sneaker-focused Instagram account."},
+      {"name": "Marcus Fuller", "relation": "Younger brother (17)", "description": "High school senior who looks up to DeAndre's style. DeAndre sends him shoes he's done wearing."}
+    ]
+  },
+  "segment": "Sneaker Culture Collector",
+  "segment_id": 4
+}

@@ -1,0 +1,135 @@
+{
+  "persona": {
+    "name": "Amadou Diallo",
+    "age": 35,
+    "nationality": "French",
+    "occupation": {
+      "title": "IT Project Manager",
+      "organization": "Capgemini, Nantes delivery center",
+      "description": "Manages agile software delivery projects for public sector clients, coordinating teams of 8-12 developers and testers. Runs daily standups, sprint planning, and client reviews. Spends most of his time in meetings, managing stakeholder expectations, and removing blockers for his team. Hybrid work — 3 days at the Capgemini office in Nantes, 2 days remote."
+    },
+    "gender": "Male",
+    "residence": "Nantes, Loire-Atlantique",
+    "education": "Diplome d'Ingenieur from Ecole Centrale de Nantes (2014), specializing in information systems. Completed a Scrum Master certification and a PMP preparation course through Capgemini's internal training program.",
+    "long_term_goals": [
+      "Transition to an independent consulting practice within five years",
+      "Raise his daughter to be confident in both French and Wolof culture",
+      "Purchase a house with a garden in the Nantes metropolitan area for his growing family",
+      "Return to Senegal annually to maintain family ties and eventually invest in a small project there"
+    ],
+    "style": "Amadou is articulate, analytical, and measured. He speaks precisely and chooses his words carefully — a habit from managing complex stakeholder dynamics. He asks probing questions before offering opinions. In professional settings he is polished (slim-fit suits, quality watch); at home he is relaxed in jeans and Senegalese-print shirts. He has a serious demeanor that softens dramatically around his daughter. He does not make quick purchasing decisions and views most marketing claims with suspicion.",
+    "personality": {
+      "traits": [
+        "Intellectually rigorous — approaches personal decisions with the same analytical framework as work projects",
+        "Skeptical by default — trusts verified data over testimonials or influencer endorsements",
+        "Deeply committed to family and cultural identity",
+        "Introverted in social settings but commanding in professional ones",
+        "High standards for quality — would rather pay more for fewer, better things",
+        "Occasionally rigid in his views, which his wife gently challenges"
+      ],
+      "big_five": {
+        "openness": 0.50,
+        "conscientiousness": 0.80,
+        "extraversion": 0.38,
+        "agreeableness": 0.42,
+        "neuroticism": 0.55
+      }
+    },
+    "preferences": {
+      "interests": [
+        "Senegalese and West African cooking — thieboudienne, yassa, mafe",
+        "Technology and software architecture",
+        "Parenting and early childhood development research",
+        "West African music — mbalax, Afrobeats, Youssou N'Dour",
+        "Running — trains for the semi-marathon de Nantes",
+        "Reading non-fiction (business, geopolitics, technology ethics)",
+        "Following the Senegalese national football team"
+      ],
+      "likes": [
+        "Products that clearly explain their sourcing, ingredients, and pricing",
+        "Services that respect cultural food diversity — not just 'French' or 'European' recipes",
+        "Transparent subscription terms with genuine flexibility",
+        "Quality ingredients that justify a premium price",
+        "Companies with genuine sustainability commitments, not greenwashing",
+        "Quiet evenings cooking for his family after the baby is asleep",
+        "Intellectual conversations about business and technology"
+      ],
+      "dislikes": [
+        "Meal kit services that only offer Western European recipes — feels culturally invisible",
+        "Vague claims like 'farm fresh' or 'artisanal' without provenance details",
+        "Being targeted by algorithms that assume his preferences based on demographics",
+        "Subscription models designed to be difficult to cancel",
+        "Overpackaged products — especially when labeled 'eco-friendly'",
+        "Unsolicited advice on parenting from strangers or marketers",
+        "Brands that appropriate African aesthetics without substance"
+      ]
+    },
+    "beliefs": [
+      "Food is an expression of cultural identity — what you cook for your family communicates who you are",
+      "Claims require evidence; marketing should be held to the same standard as technical documentation",
+      "Being a good father means being present, involved, and intentional about the values you transmit",
+      "Integration in France does not mean assimilation — maintaining Senegalese heritage enriches his children's lives"
+    ],
+    "skills": [
+      "Agile project management (Scrum, SAFe) and stakeholder communication",
+      "Accomplished home cook — specializes in Senegalese dishes that require long preparation",
+      "Data analysis and structured decision-making",
+      "Trilingual: French (native), Wolof (conversational), English (professional)"
+    ],
+    "behaviors": {
+      "general": [
+        "Researches any subscription service extensively — reads forum discussions, not just marketing pages",
+        "Shops at a combination of Biocoop for quality produce and Leader Price for staples",
+        "Cooks most evenings — Senegalese dishes take time, so he batch-preps sauces on weekends",
+        "Has been pitched meal kits by colleagues but remains unconvinced about cultural relevance and value"
+      ],
+      "routines": {
+        "morning": [
+          "Up at 6:15, checks work emails and Slack while making cafe touba (Senegalese spiced coffee)",
+          "Helps his wife with the baby's morning routine",
+          "Drives to the office or sets up his home workspace by 8:30"
+        ],
+        "workday": [
+          "Back-to-back meetings from 9:00 to 12:00 — standups, sprint reviews, client calls",
+          "Lunch at the office canteen or a brought lunch from home",
+          "Afternoon: documentation, risk tracking, one-on-ones with team members",
+          "Finishes by 18:00, drives home or closes the laptop"
+        ],
+        "evening": [
+          "Takes over baby care from 18:30 to 19:30 — bath time and play",
+          "Cooks dinner while his wife puts the baby to bed — usually ready by 20:00",
+          "Dinner with his wife, then 45 minutes of reading or a documentary",
+          "Bed by 22:30"
+        ],
+        "weekend": [
+          "Saturday: morning run along the Erdre, afternoon grocery shopping, batch-prepping sauces",
+          "Sunday: longer cooking project (thieboudienne or mafe), video call with family in Dakar, quiet afternoon",
+          "Monthly meetup with a group of Senegalese professionals in Nantes"
+        ]
+      }
+    },
+    "health": {
+      "physical": "Fit — runs 3x/week and is training for his second half-marathon. Watches his diet carefully. No significant health issues. Gets annual blood work done.",
+      "mental": "Carries a steady baseline of responsibility-driven stress — work deadlines, family finances, cultural identity navigation. Processes it through running and structured thinking. Has not sought therapy but would consider it if recommended by someone he trusts."
+    },
+    "relationships": [
+      {
+        "name": "Mariama Diallo",
+        "relation": "Wife (6 years)",
+        "description": "Dental hygienist at a private practice in central Nantes. Born in France to Senegalese parents from the same community as Amadou's family. Pragmatic and warmer in social settings than Amadou. She manages the household social calendar and gently pushes him to be more open to new things — including meal kits."
+      },
+      {
+        "name": "Awa Diallo",
+        "relation": "Daughter (age 2)",
+        "description": "In creche. Curious and active, starting to develop strong food preferences. She is the center of both parents' world and the primary reason Amadou thinks carefully about what comes into the household."
+      },
+      {
+        "name": "Ousmane Diallo",
+        "relation": "Father",
+        "description": "Retired bus driver, lives in the Nantes suburb of Saint-Herblain. Emigrated from Dakar in 1988. Visits weekly to see his granddaughter and often brings Senegalese groceries from the African market in Nantes. Amadou respects his father deeply but has chosen a very different career path."
+      }
+    ]
+  },
+  "segment": "Families With Young Children",
+  "segment_id": 2
+}

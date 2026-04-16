@@ -1,0 +1,140 @@
+{
+  "persona": {
+    "name": "Tyler Kowalski",
+    "age": 19,
+    "nationality": "American",
+    "occupation": {
+      "title": "Electrical Apprentice",
+      "organization": "Kowalski & Sons Electrical, a family-run contracting business in Scranton, PA",
+      "description": "Learning the trade from his uncle. Runs conduit, pulls wire, and handles basic residential work under supervision. Physical, dirty work that has him sweating and covered in drywall dust most days. Started right after high school graduation."
+    },
+    "gender": "Male",
+    "residence": "Dunmore, PA",
+    "education": "High school diploma from Dunmore High School, 2025. Took shop classes and auto tech. Decent grades but never considered college seriously — saw his uncle making good money in the trades and decided that was the smarter path.",
+    "long_term_goals": [
+      "Get his journeyman electrician license by age 22",
+      "Buy a truck — specifically a used F-150",
+      "Eventually take over the family business from his uncle",
+      "Build a house or at least a nice garage for his tools and truck"
+    ],
+    "style": "Tyler communicates in short, blunt sentences with a Northeast PA accent. He doesn't sugarcoat things and finds long explanations unnecessary. He wears work boots, Carhartt pants, and whatever t-shirt was on top of the pile. His hands are permanently a little rough and stained. He's not trying to impress anyone and is genuinely confused by people who spend money on their face. Friendly enough but won't go out of his way to make conversation about things he doesn't care about.",
+    "personality": {
+      "traits": [
+        "Straightforward and unfiltered — says what he thinks",
+        "Hands-on learner who respects practical skills",
+        "Dismissive of things he sees as frivolous or vain",
+        "Loyal to family and close friends",
+        "Stubborn about his habits and opinions",
+        "Physically tough and proud of it"
+      ],
+      "big_five": {
+        "openness": 0.18,
+        "conscientiousness": 0.42,
+        "extraversion": 0.55,
+        "agreeableness": 0.38,
+        "neuroticism": 0.22
+      }
+    },
+    "preferences": {
+      "interests": [
+        "Working on trucks and ATVs",
+        "Hunting and fishing in the Poconos",
+        "Penn State football",
+        "Call of Duty and Madden with friends online",
+        "Country music — Morgan Wallen, Luke Combs",
+        "Grilling and bonfires"
+      ],
+      "likes": [
+        "Cold beer after a long day on the job site",
+        "Things that work without being complicated",
+        "His uncle's no-BS approach to life",
+        "Getting his hands dirty",
+        "Friday nights at the local bar with coworkers",
+        "Cheap, effective products — Irish Spring, Old Spice"
+      ],
+      "dislikes": [
+        "Being told what to buy by ads or influencers",
+        "Anything that feels 'bougie' or pretentious",
+        "The idea of spending $30 on face cream",
+        "Social media culture in general",
+        "People who judge him for not having a college degree",
+        "Complicated routines for anything",
+        "Men who he perceives as overly concerned with appearance"
+      ]
+    },
+    "beliefs": [
+      "Hard work is worth more than any degree",
+      "Men don't need skincare products — soap and water are fine",
+      "If something isn't broken, don't mess with it",
+      "You earn respect through what you do, not what you look like"
+    ],
+    "skills": [
+      "Residential electrical wiring and troubleshooting",
+      "Basic vehicle maintenance and repair",
+      "Physical endurance and manual labor",
+      "Reading blueprints and wiring diagrams"
+    ],
+    "behaviors": {
+      "general": [
+        "Washes his face with whatever bar soap is in the shower",
+        "Has never purchased a skincare product in his life",
+        "Gets sunburned in summer but just deals with it",
+        "Would only consider a product if his skin was visibly, painfully problematic"
+      ],
+      "routines": {
+        "morning": [
+          "Up at 5:30, quick shower with Irish Spring",
+          "Breakfast is coffee and maybe a gas station sandwich on the way to the site",
+          "Throws on work clothes and steel-toe boots",
+          "In the work truck by 6:15"
+        ],
+        "workday": [
+          "Physical labor on job sites — pulling wire, mounting panels",
+          "Lunch from a cooler or the nearest Sheetz",
+          "Learns from his uncle and the journeymen on site",
+          "Home by 4, sometimes later if the job runs over"
+        ],
+        "evening": [
+          "Showers to get the dust and sweat off",
+          "Dinner — usually something his mom made or frozen pizza",
+          "Video games with friends online or watches YouTube truck builds",
+          "In bed by 10 because 5:30 comes fast"
+        ],
+        "weekend": [
+          "Sleeps in until 8 (his version of sleeping in)",
+          "Works on his truck or ATV in the garage",
+          "Hunting or fishing depending on the season",
+          "Bonfire and beers at a friend's property"
+        ]
+      }
+    },
+    "health": {
+      "physical": "Strong and fit from physical labor. Gets occasional windburn and chapped skin in winter that he ignores. Has a few acne scars from teenage breakouts he never treated. Doesn't wear sunscreen — ever.",
+      "mental": "Emotionally steady and not prone to anxiety. Doesn't overthink things. Content with his path in life. Occasionally defensive when people question his career choice or lifestyle."
+    },
+    "relationships": [
+      {
+        "name": "Steve Kowalski",
+        "relation": "Uncle and boss",
+        "description": "Owner of the family electrical business. Tyler's main mentor and role model. Tough but fair. Also thinks skincare is nonsense."
+      },
+      {
+        "name": "Linda Kowalski",
+        "relation": "Mother",
+        "description": "Works at a medical office. Has tried to get Tyler to at least use moisturizer in winter. He ignores her advice but loves her cooking."
+      },
+      {
+        "name": "Jake Brennan",
+        "relation": "Best friend",
+        "description": "Fellow trades apprentice (plumbing). They've been friends since middle school, hunt together, and play on the same Madden league."
+      },
+      {
+        "name": "Ashley Novak",
+        "relation": "On-and-off girlfriend",
+        "description": "Works at a hair salon in Scranton. She's the only person who's ever gotten him to use chapstick. Their relationship is casual and low-pressure."
+      }
+    ]
+  },
+  "segment": "Skincare Skeptic",
+  "segment_id": 5
+}

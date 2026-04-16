@@ -1,0 +1,135 @@
+{
+  "persona": {
+    "name": "Florian Roche",
+    "age": 38,
+    "nationality": "French",
+    "occupation": {
+      "title": "Freelance Full-Stack Web Developer",
+      "organization": "Independent contractor, primarily serving mid-size e-commerce clients in Occitanie",
+      "description": "Builds and maintains web applications for regional businesses — mainly Shopify customizations, custom Laravel backends, and API integrations. Works entirely from his apartment in Toulouse. Manages his own client pipeline, invoicing, and project timelines. Comfortable with long stretches of solitary deep work, which suits his temperament."
+    },
+    "gender": "Male",
+    "residence": "Toulouse, Occitanie",
+    "education": "DUT Informatique from IUT Paul Sabatier, Toulouse (2010). Self-taught in modern web frameworks through documentation, Stack Overflow, and personal projects. Briefly enrolled in a Licence Pro but dropped out, finding the pace too slow compared to real-world projects.",
+    "long_term_goals": [
+      "Develop a SaaS product (inventory management for small retailers) as a side project with passive income potential",
+      "Buy a small house in the Lauragais countryside within driving distance of Toulouse",
+      "Improve his physical fitness — acknowledges a sedentary lifestyle is a long-term risk",
+      "Find a meaningful long-term relationship, though he does not actively pursue it"
+    ],
+    "style": "Florian is quiet, wry, and understated. He communicates mostly through text — emails and Slack — and is more articulate in writing than in person. When he does speak, his observations are sharp and occasionally sardonic. He dresses in the same rotation of dark T-shirts, jeans, and running shoes. He is not antisocial but finds sustained social interaction draining. He approaches most topics with mild detachment, reserving genuine enthusiasm for technical elegance or a well-made dish.",
+    "personality": {
+      "traits": [
+        "Introverted and self-contained — genuinely comfortable alone",
+        "Indifferent to marketing and brands; judges products on function and reviews",
+        "Intellectually engaged but emotionally reserved",
+        "Quietly competent — under-promises and over-delivers for clients",
+        "Creature of habit who resists change unless the case is compelling",
+        "Self-aware about his tendency toward inertia in personal matters"
+      ],
+      "big_five": {
+        "openness": 0.48,
+        "conscientiousness": 0.52,
+        "extraversion": 0.20,
+        "agreeableness": 0.32,
+        "neuroticism": 0.42
+      }
+    },
+    "preferences": {
+      "interests": [
+        "Web development and software architecture",
+        "Cooking as a structured creative outlet — enjoys the process",
+        "Open-source software and developer communities",
+        "Cycling (commuter and occasional road cycling)",
+        "Strategy board games (plays online — Catan, Terraforming Mars)",
+        "French regional cuisine — particularly southwestern (cassoulet, confit, magret)",
+        "Electronic and ambient music"
+      ],
+      "likes": [
+        "Cooking at his own pace — it is his primary non-work activity",
+        "Quality ingredients from the Marche Victor Hugo in central Toulouse",
+        "Products that work reliably without demanding attention or engagement",
+        "Transparent, no-gimmick pricing",
+        "Quiet evenings with a good recipe, a podcast, and no interruptions",
+        "Well-documented APIs — extends this preference to product instructions",
+        "Local, small-scale food producers he can buy from directly"
+      ],
+      "dislikes": [
+        "Aggressive subscription models that assume you want weekly deliveries",
+        "Marketing that tries to create a 'community' or 'experience' around a product",
+        "Services that require phone calls to cancel",
+        "Social pressure to be enthusiastic about things he finds mediocre",
+        "Pre-portioned ingredients when he prefers to buy quality items whole",
+        "Gamified apps with points, rewards, and engagement nudges",
+        "The assumption that single men cannot or do not cook"
+      ]
+    },
+    "beliefs": [
+      "Good tools should get out of the way and let you do the work",
+      "Cooking is one of the few activities where process and outcome are equally satisfying",
+      "Solitude is productive, not a problem to be solved by apps and services",
+      "Marketing claims should be verifiable; if they are not, the product probably is not worth it"
+    ],
+    "skills": [
+      "Full-stack web development (JavaScript, PHP/Laravel, Vue.js, PostgreSQL)",
+      "Accomplished home cook — can handle most French bistro-level dishes",
+      "Systematic troubleshooting and documentation writing",
+      "Conversational Spanish (from a year living in Barcelona in his mid-20s)"
+    ],
+    "behaviors": {
+      "general": [
+        "Shops at the Marche Victor Hugo on Saturday and at Carrefour for staples midweek",
+        "Cooks every day — it is his way of stepping away from the screen",
+        "Has dismissed meal kits in the past as 'overpriced training wheels' but has not tried one",
+        "Discovers products through Reddit, Hacker News, and developer forums — never through ads"
+      ],
+      "routines": {
+        "morning": [
+          "Wakes at 8:00, makes filter coffee, reads tech news for 30 minutes",
+          "Starts work by 9:00 at his desk setup in the living room",
+          "No formal breakfast — just coffee and maybe a croissant if he bought one yesterday"
+        ],
+        "workday": [
+          "Deep coding sessions from 9:00 to 13:00 with no interruptions",
+          "Lunch: cooks something simple or heats leftovers — 30-minute break",
+          "Client calls and lighter work from 14:00 to 17:00",
+          "Wraps up by 18:00 unless a deadline is pressing"
+        ],
+        "evening": [
+          "Cycles to the market or shops if needed — 20 minutes round trip",
+          "Cooks dinner: his main creative outlet — usually 45-60 minutes",
+          "Eats while watching a documentary, tech talk, or gaming stream",
+          "Reads or plays a board game online before bed at 23:30"
+        ],
+        "weekend": [
+          "Saturday: Marche Victor Hugo in the morning, longer cooking project in the afternoon (cassoulet, duck confit)",
+          "Sunday: cycling along the Canal du Midi, quiet afternoon coding on his SaaS side project",
+          "Monthly board game evening at a friend's apartment — his main social fixture"
+        ]
+      }
+    },
+    "health": {
+      "physical": "Sedentary by default. Cycles 3-4 times per week which provides moderate exercise. Slightly underweight — sometimes forgets to eat enough during intense coding sessions. No major health issues but acknowledges he should move more.",
+      "mental": "Mostly even-keeled. Low baseline anxiety but occasional loneliness during long winter stretches of remote work. Has considered joining a coworking space for social contact but hasn't followed through. Finds cooking and cycling effective for mental regulation."
+    },
+    "relationships": [
+      {
+        "name": "Vincent Roche",
+        "relation": "Older brother",
+        "description": "High school physics teacher in Albi. Married with two children. They have a good relationship — Vincent is the extraverted sibling who checks in on Florian and invites him to family gatherings. Florian is the uncle who brings thoughtful gifts and leaves early."
+      },
+      {
+        "name": "Sylvain Petit",
+        "relation": "Closest friend and former colleague",
+        "description": "DevOps engineer at OVHcloud in Toulouse. They worked together at a startup in 2016 and stayed friends. Sylvain is the one person Florian will reliably show up for — board game nights, cycling trips, and the occasional concert."
+      },
+      {
+        "name": "Monique Roche",
+        "relation": "Mother",
+        "description": "Retired postal worker in Carcassonne. Lives alone since Florian's father passed in 2021. Florian visits monthly and handles her IT needs. She wishes he would 'meet someone nice' and tells him so regularly."
+      }
+    ]
+  },
+  "segment": "Independent Professionals & Empty Nesters",
+  "segment_id": 3
+}
