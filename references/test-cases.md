@@ -94,7 +94,7 @@ just "concept test").
 
 ```
 Test: /persona ask What frustrates you most about buying running shoes online?
-Given: personas/running-footwear-us-15p-2026-04 panel exists
+Given: demo/running-shoes/personas panel exists (15 topic-only personas)
 When: Skill completes ask workflow
 Then:
   - Panel auto-detected (no --panel flag needed)

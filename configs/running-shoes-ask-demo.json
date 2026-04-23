@@ -1,6 +1,6 @@
 {
   "survey_type": "ask",
-  "panel_dir": "personas/running-footwear-us-15p-2026-04",
+  "panel_dir": "demo/running-shoes/personas",
   "topic": "Running Shoes / Athletic Footwear",
   "variables": {
     "category": "Running Shoes / Athletic Footwear",

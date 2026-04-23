@@ -1,6 +1,6 @@
 {
   "survey_type": "concept-test",
-  "panel_dir": "personas/genz-skincare-us-5p-2026-04",
+  "panel_dir": "demo/genz-skincare/personas",
   "topic": "Gen Z Skincare Products",
   "variables": {
     "category": "skincare",
