@@ -72,11 +72,11 @@ Other examples: `Moms with babies shopping for strollers in the US`,
 ```
 
 Top themes surfaced:
-- Hidden ingredient concentrations and unverifiable efficacy claims
-- Greenwashing disguised as clean beauty
-- Too many choices, too much marketing noise
-- TikTok hype vs. real results
-- Overpriced basics with a prestige tax on identical ingredients
+- Ingredient and formula opacity — no concentrations, proprietary blends
+- Greenwashing and legally meaningless claims ("clean", "clinically proven")
+- Research burden pushed onto consumers — Reddit and INCIDecoder homework
+- Information and choice overload, producing paralysis or disengagement
+- Prestige pricing on identical actives
 
 **Step 3 — Run a concept test**
 
@@ -89,14 +89,15 @@ C: Glow Boosting Toner — everyday radiance, brightens skin tone
 ```
 
 Results:
+- **A: Acne Control Serum** — 4/10 (40%) first choice
 - **B: Barrier Repair Cream** — 4/10 (40%) first choice
-- **A: Acne Control Serum** — 3/10 (30%) first choice
-- **C: Glow Boosting Toner** — 3/10 (30%) first choice
-- **Purchase likelihood**: mean 3.3/5, range 2–5
+- **C: Glow Boosting Toner** — 2/10 (20%) first choice
+- **Purchase likelihood**: mean 3.2/5, range 1–5
 
-No clear majority — each concept appeals to a distinct attitudinal cluster.
-Barrier repair won among ingredient-conscious personas. Glow toner pulled
-trend-chasing personas. Acne control attracted problem-driven skeptics.
+A dead heat — each concept appeals to a distinct attitudinal cluster.
+Barrier repair won ingredient-conscious personas, acne control the
+problem-driven (and the skeptics, with low intent), and glow toner the
+smallest-but-most-enthusiastic camp.
 
 See the [full demo with verbatims](demo/genz-skincare/README.md).
 
@@ -109,6 +110,20 @@ The repository ships four complete demos with pre-generated personas and full re
 - [Demo: Running Shoes Concept Test](demo/running-shoes/README.md) — 15 personas, 3 shoe concepts
 - [Demo: France Meal Kit Concept Test](demo/france-mealkit/README.md) — 10 personas, France market, based on existing customer data
 - [Demo: Japan AI Meeting Notes SaaS](demo/japan-meeting-ai/README.md) — 10 personas, B2B SaaS, Japan market
+
+All demo results were generated on `claude-sonnet-4-6` (June 2026) with the
+exact serving model recorded in each `run_metadata.json`.
+
+## Why Trust the Results?
+
+We re-ran every demo across three Claude model generations and tracked each
+persona individually: **84–100% of personas gave the same answer regardless
+of model**, a repeated Claude Fable 5 run reproduced persona-level choices
+100%, and no demo's winning concept ever changed. Responses are driven by
+the persona definitions, not model noise — and because each persona answers
+in an isolated subprocess that can't see your project files, your own
+context can't bias them either. Full data:
+[model sensitivity study](docs/MODEL-COMPARISON.md).
 
 
 
@@ -125,6 +140,7 @@ The repository ships four complete demos with pre-generated personas and full re
 - [Commands](docs/COMMANDS.md)
 - [Troubleshooting](docs/TROUBLESHOOTING.md)
 - [Architecture](docs/ARCHITECTURE.md)
+- [Model Sensitivity Study](docs/MODEL-COMPARISON.md)
 
 ## Project Structure
 

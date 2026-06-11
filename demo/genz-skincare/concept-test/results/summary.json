@@ -13,8 +13,8 @@
     "Anxious Perfectionist": 1
   },
   "overall_preference": {
-    "B": 5,
-    "A": 3,
+    "A": 4,
+    "B": 4,
     "C": 2
   },
   "preference_by_segment": {
@@ -69,7 +69,7 @@
     "Wellness Explorer": {
       "count": 1,
       "preferences": {
-        "B": 1
+        "A": 1
       }
     },
     "Anxious Perfectionist": {
@@ -80,9 +80,9 @@
     }
   },
   "purchase_likelihood": {
-    "mean": 3.0,
+    "mean": 3.2,
     "median": 3.0,
     "min": 1.0,
-    "max": 4.0
+    "max": 5.0
   }
 }

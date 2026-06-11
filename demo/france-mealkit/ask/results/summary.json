@@ -7,52 +7,51 @@
   },
   "top_signals": [
     {
-      "theme": "ingredient provenance transparency",
+      "theme": "subscription flexibility and exit friction",
       "count": 1
     },
     {
-      "theme": "subscription lock-in distrust",
+      "theme": "packaging waste vs. convenience",
       "count": 1
     },
     {
-      "theme": "market ritual hard to replace",
+      "theme": "sourcing transparency matters",
       "count": 1
     },
     {
-      "theme": "packaging waste trade-off",
+      "theme": "already have a working system",
       "count": 1
     },
     {
-      "theme": "flexibility over subscription lock-in",
+      "theme": "no-commitment flexible ordering",
       "count": 1
     },
     {
-      "theme": "culinary discovery as motivation",
+      "theme": "cuisine diversity over basics",
       "count": 1
     },
     {
-      "theme": "bad ux is a dealbreaker",
+      "theme": "subscription lock-in fear",
       "count": 1
     },
     {
-      "theme": "lyon's food scene competes",
+      "theme": "app ux dealbreaker",
       "count": 1
     },
     {
-      "theme": "cooking as a non-negotiable skill",
+      "theme": "cooking as non-negotiable identity",
       "count": 1
     },
     {
-      "theme": "subscription auto-renewal distrust",
+      "theme": "distrust of sourcing opacity",
       "count": 1
     }
   ],
   "emotion_distribution": {
-    "skeptical": 3,
-    "curious": 2,
-    "conflicted": 2,
-    "resistant": 1,
-    "indifferent": 1,
-    "ambivalent": 1
+    "skeptical": 4,
+    "conflicted": 3,
+    "dismissive": 1,
+    "curious": 1,
+    "indifferent": 1
   }
 }

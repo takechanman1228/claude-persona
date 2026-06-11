@@ -1,6 +1,6 @@
 # Concept Test: Running Shoes — Virtual Research Report
 
-**Date**: 2026-04-21 | **Panel**: 15 personas
+**Date**: 2026-06-11 | **Panel**: 15 personas
 
 ---
 
@@ -11,16 +11,16 @@
 | 1 | Jake Morrison | 28 | Sales Account Executive | Marathon Purist | A | 4 |
 | 2 | Priya Raghavan | 34 | Pediatrician | Time-Starved Multitasker | B | 4 |
 | 3 | Howard Ling | 67 | Retired Civil Engineer | Daily Walker Retiree | B | 2 |
-| 4 | DeAndre Fuller | 22 | Graphic Design Student / Barista | Sneaker Culture Collector | C | 4 |
+| 4 | DeAndre Fuller | 22 | Graphic Design Student / Part-time Barista | Sneaker Culture Collector | C | 4 |
 | 5 | Greg Kowalski | 42 | HVAC Service Technician | Reluctant Beginner | B | 3 |
-| 6 | Elena Vasquez | 30 | Park Ranger | Trail Adventurer | A | 2 |
-| 7 | Diane Caldwell | 45 | HS PE Teacher & Track Coach | Veteran Coach | B | 3 |
+| 6 | Elena Vasquez | 30 | Park Ranger | Trail Adventurer | A | 3 |
+| 7 | Diane Caldwell | 45 | HS PE Teacher & Head Track Coach | Veteran Coach | B | 3 |
 | 8 | Ravi Mehta | 33 | Senior Data Scientist | Data-Driven Optimizer | A | 3 |
 | 9 | Jasmine Taylor | 20 | Student / Cross-Country Runner | Budget Racer | A | 3 |
-| 10 | Karen Yoshida | 52 | Physical Therapist (DPT) | Injury-Conscious Expert | A | 3 |
+| 10 | Karen Yoshida | 52 | Physical Therapist (DPT) | Injury-Conscious Expert | B | 3 |
 | 11 | Zoe Chen | 27 | Social Media Manager | Athleisure Aesthete | C | 4 |
 | 12 | Frank Novak | 55 | Owner / Lead Technician | Category Skeptic | B | 2 |
-| 13 | Matt Sorensen | 38 | Wildland Firefighter | Endurance Extremist | A | 2 |
+| 13 | Matt Sorensen | 38 | Wildland Firefighter | Endurance Extremist | A | 3 |
 | 14 | Tamara Mitchell | 48 | Assistant Principal | Weekend Warrior Mom | C | 4 |
 | 15 | Robert Garcia | 63 | Retired Firefighter | Post-Cardiac Walker | B | 3 |
 
@@ -28,94 +28,99 @@
 
 ## Preference Verdict
 
-**No winner; tied.** Concepts A and B each received 6 of 15 votes (40% each), with Concept C a distant third at 3 votes (20%). The A–B tie masks a clean demographic fault line rather than genuine overlap in appeal, but neither concept commands majority preference. Concept C, despite the smallest base, produced the highest average purchase likelihood among its own choosers (4.0 vs. 2.83 for both A and B), signaling a niche with strong conversion potential if the audience is correctly targeted.
+Concept B holds a narrow lead with 7 of 15 votes (47%), falling just below the clear-winner threshold; Concept A trails at 5/15 (33%) and Concept C at 3/15 (20%). The margin is real but not commanding — B's coalition spans clinicians, beginners, walkers, and high-mileage veterans for structurally different reasons, which introduces fragility if positioning or price narrows the funnel. With a panel mean purchase likelihood of 3.2/5.0 across all concepts, intent is moderate across the board and heavily suppressed by missing specifications.
 
 ---
 
 ## Key Findings
 
-1. **Concept A is a performance insider's shoe; Concept B is a protection-seeker's shoe — and the panel sorted itself accordingly by activity profile, not by age alone.** All six A-choosers are active runners or biomechanics-literate professionals (marathon training, cross-country racing, trail running, physical therapy) who cited weight (7.2 oz) and ground feel as primary rationale. All six B-choosers are either non-runners logging high on-feet hours (Frank Novak, Greg Kowalski, Howard Ling) or injury-conscious athletes who prioritize load management over speed (Priya Raghavan, Diane Caldwell, Robert Garcia). The split is about use-case identity, not demographics.
+1. **Concept B's 7-vote coalition is wide but heterogeneous.** Clinical professionals (Priya Raghavan, Karen Yoshida) chose it because the dual-density midsole and heel counter are medically credible features they would actually recommend; everyday walkers (Greg Kowalski, Robert Garcia, Frank Novak) chose it because it was the only concept that acknowledged protection needs; and Diane Caldwell chose it as a high-mileage masters runner. These groups share a preference outcome but not a purchase rationale — messaging that converts one sub-group may fail another.
 
-2. **Spec opacity is suppressing purchase intent across all three concepts.** No chooser of Concept A scored a 4 without caveating it on missing data; Elena Vasquez and Matt Sorensen scored 2 despite choosing A, explicitly because no trail specs existed. Ravi Mehta, Jasmine Taylor, Karen Yoshida, and Diane Caldwell all conditioned their likelihood scores on publishing heel-toe drop, stack height, foam energy-return percentage, or durability mileage. This is a cross-concept conversion bottleneck, not a per-shoe flaw.
+2. **Weight was the single most-cited rejection lever, and it cut both ways.** B's 10.8 oz was the primary reason all five Concept A choosers and all three Concept C choosers rejected it — the 3.6 oz differential against A was described as disqualifying for anyone training at pace. Simultaneously, Priya Raghavan — a B *chooser* — flagged that 10.8 oz "starts to feel heavy by mile 8 on a long run," signaling that even within B's coalition, the weight is a latent concern rather than a positive attribute.
 
-3. **Concept C's "gym-to-brunch" positioning is a precise double-edged sword.** It successfully identified its buyer (DeAndre Fuller, Zoe Chen, Tamara Mitchell all self-recognized immediately), but it functioned as active rejection language for every performance and functional-use persona — Jake Morrison, Matt Sorensen, Diane Caldwell, and Karen Yoshida all cited the phrase as disqualifying. The concept's 4.0 average purchase likelihood among its three choosers is the highest in the panel; the question is whether the addressable market is large enough to warrant the alienation of the performance segment.
+3. **Concept C generated the highest per-chooser purchase intent (mean 4.0/5) but the most concentrated rejection.** All three C-choosers were lifestyle-casual users (social fitness, 5Ks, errands) who found the positioning perfectly matched; the remaining 12 personas dismissed it in near-identical terms, frequently quoting the concept's own "gym-to-brunch" language back as a disqualifier. C's copy is simultaneously its strongest asset with its niche and its most effective repellent with everyone else.
 
-4. **Width and distribution channel are blocking B's highest-potential buyers.** Three of B's six choosers — Howard Ling, Greg Kowalski, and Robert Garcia — made purchase contingent on wide-width availability (D/EE), information absent from the concept description. Frank Novak separately flagged that specialty-store-only distribution would cause him to walk out. These are concrete, fixable barriers that are suppressing stated intent, not latent preference issues.
+4. **Concept A's 5-voter bloc was the most ideologically unified.** Every A-chooser is an active, pace-sensitive runner (marathon training, cross-country, ultramarathon, technical trails, data-driven tempo work) who cited weight and mechanical integrity as non-negotiables. The 7.2 oz spec was the only hard number in the entire study and functioned as a decisive anchor — Ravi Mehta explicitly noted it was "the only concept with a single hard number," and it drove a relative preference even while he remained skeptical of marketing language overall.
 
-5. **Concept B's weight (10.8 oz) undermines its own protection-seeker narrative.** Even committed B-choosers flagged it: Priya Raghavan explicitly said she would "order tonight" if B shed half an ounce; Frank Novak and Howard Ling showed the lowest intent scores (2) among B-choosers. A cushion-forward shoe that also feels laborious to wear creates a functional contradiction its target audience — people already fatigued from long on-feet days — is quick to notice.
+5. **Missing specs suppressed purchase intent across all three concepts.** Durability/mileage rating (A), stack height and heel-to-toe drop (B), price (B and C), and width options (B) were flagged by choosers — not just passers — as barriers to pulling the trigger. The panel's 3.2/5 mean likelihood likely understates latent demand; several personas with stated intent to buy cited spec gaps as the reason they didn't score higher.
 
 ---
 
 ## Segment / Profile Splits
 
-**Active runners (Marathon Purist, Budget Racer, Endurance Extremist) → A unanimously.** Shared driver: weight and energy return are the only metrics that matter; cushion is dead weight. Note: each of these segments is N=1, so treat as directional.
+**Performance runners** (Marathon Purist, Budget Racer, Endurance Extremist, Trail Adventurer, Data-Driven Optimizer — all N=1) → unanimously chose **A** → shared reason: weight efficiency and mechanical integrity; B's cushion was framed as a performance penalty and C was dismissed as non-functional.
 
-**Biomechanics / clinical professionals (Injury-Conscious Expert, Veteran Coach) → split A/B by philosophical school.** Karen Yoshida (DPT) chose A citing proprioceptive research concerns about max-cushion platforms; Diane Caldwell chose B applying the same injury-management logic in the opposite direction. Both cited missing specs as the primary purchase barrier.
+**Clinically-oriented / high-mileage veterans** (Time-Starved Multitasker, Veteran Coach, Injury-Conscious Expert — all N=1) → unanimously chose **B** → shared reason: stability architecture carried biomechanical credibility they validated professionally; A's flexibility framing raised clinical red flags about plantar and Achilles risk.
 
-**Protection-seeking non-runners (Reluctant Beginner, Category Skeptic, Post-Cardiac Walker, Daily Walker Retiree) → B unanimously.** Shared driver: these personas are not buying a running shoe — they are buying joint protection for sustained standing or walking. B is the only concept that acknowledged their use case explicitly ("injury-prone," "heavy strikers"). N=1 per segment.
+**Everyday walkers and utility users** (Reluctant Beginner, Category Skeptic, Post-Cardiac Walker, Daily Walker Retiree — all N=1) → unanimously chose **B** → shared reason: joint/foot protection for high-hour, non-performance use; notably, this group posted the lowest purchase likelihood scores (2–3), and Howard Ling explicitly stated he needs a walking shoe, not a running shoe — B is a compromise choice, not an enthusiast choice, for this cluster.
 
-**Lifestyle / dual-purpose users (Athleisure Aesthete, Weekend Warrior Mom, Sneaker Culture Collector) → C unanimously.** Shared driver: versatility across social contexts and visual identity. All three scored purchase likelihood at 4 — the highest concentration of high-intent respondents in the panel.
-
-**Trail and outdoor users (Trail Adventurer, Endurance Extremist) → A by default, not by fit.** Both explicitly said A was the "least wrong" answer and would not purchase without trail-specific upgrades (rock plate, lug depth). Concept fit here is low; purchase intent reflects the absence of alternatives, not genuine appeal.
+**Lifestyle / casual exercisers** (Sneaker Culture Collector, Athleisure Aesthete, Weekend Warrior Mom — all N=1) → unanimously chose **C** → shared reason: versatility across social contexts, colorway breadth, and identity alignment with non-runner self-image; all three scored purchase likelihood at 4/5, the panel's highest consistent cluster.
 
 ---
 
 ## Purchase-Intent Drivers
 
-The strongest intent scores (4/5) clustered around **identity fit** — personas who felt a concept was "coded for them" (DeAndre Fuller on C's lifestyle positioning, Jake Morrison on A's race-spec orientation) showed immediate willingness to buy. Conversely, **missing technical specifications** was the single most consistent intent-suppressor across concepts: heel-toe drop, stack height, foam energy-return percentage, and outsole durability mileage were each named by multiple personas as non-negotiable pre-purchase information. **Width availability** and **price** functioned as hard gates for functional-use B-choosers — without knowing either, Howard Ling, Greg Kowalski, and Robert Garcia would not proceed to purchase regardless of concept appeal. **Retail accessibility** (Frank Novak's "put it on a shelf at Academy or Walmart") represents a separate channel barrier distinct from the product itself.
+Concrete specifications drove intent up: A's explicit 7.2 oz weight was the most-cited positive anchor in the entire study, and B's named structural features (dual-density midsole, structured heel counter) were credited by clinical choosers as evaluable rather than generic. Intent was suppressed most consistently by absent data — specifically, mileage/durability ratings for A (flagged by Jake Morrison and Jasmine Taylor as changing the entire value calculation), stack height and heel drop for B (flagged by Diane Caldwell, Karen Yoshida, and Ravi Mehta as preconditions for any serious purchase), and price across all three concepts (Greg Kowalski and Frank Novak each indicated price uncertainty was a probable exit point). Width options emerged as a B-specific barrier: Robert Garcia and Greg Kowalski each made wide-width availability a purchase prerequisite, and Karen Yoshida added orthotic accommodation — none of which were addressed in the concept materials.
 
 ---
 
 ## Per-Concept Strengths and Weaknesses
 
-### Concept A — 6/15 chose this
-**Strengths (cross-persona):** The 7.2 oz weight figure is the only hard number provided across all three concepts, and it did significant work — Jake Morrison, Jasmine Taylor, and Ravi Mehta each cited it as the primary selection driver. Ground feel and natural foot movement positioning resonated with both performance runners and the clinically literate (Karen Yoshida), creating rare overlap between speed-oriented and biomechanics-oriented buyers. The lightweight narrative is coherent and self-consistent.
+### Concept A — 5/15 chose this
 
-**Weaknesses (cross-persona):** The spec sheet stops at weight. No foam compound name, no energy-return percentage, no stack height, no heel-toe drop, no durability estimate — and these absences were cited as purchase blockers by four of six choosers. The "experienced runners who prioritize ground feel" framing read as exclusionary to anyone outside that identity. Trail-adjacent personas (Elena Vasquez, Matt Sorensen) selected A by elimination, not affinity, and would not purchase the current version; both scored intent at 2 and explicitly required a rock plate and lug pattern to convert.
+**Strengths (cross-persona):** The 7.2 oz weight spec was the only hard number in the study and functioned as a credibility anchor, converting even a skeptic like Ravi Mehta who described B and C's descriptions as marketing vagueness. Lightweight platform resonated with pace-sensitive runners who already have recovery footwear and resist the idea of cushioning as a training tool. Ground-feel and flexible outsole framing validated natural mechanics for users with strong intrinsic biomechanics.
 
-### Concept B — 6/15 chose this
-**Strengths (cross-persona):** The explicit "injury-prone" and "heavy strikers" callout in positioning is the concept's strongest asset — it gave non-runner, protection-seeking personas (Greg Kowalski, Frank Novak, Robert Garcia) a clear permission slip to consider the shoe. Dual-density foam and structured heel counter conveyed engineering credibility to Diane Caldwell and Priya Raghavan, both of whom applied professional knowledge to evaluate it. The concept's breadth of appeal across age groups and use cases is its structural advantage over A.
+**Weaknesses (cross-persona):** Spec sheet is critically thin beyond weight — no mileage rating, no energy return percentage, no stack height or heel drop. Jasmine Taylor, who chose A, withheld a higher intent score specifically because "no durability data is listed." The "natural foot movement" language was flagged by Karen Yoshida as clinically risky marketing copy that has driven patients into her clinic. Zero accessibility for heavier, older, or injury-history users — it reads as aspirationally gating.
 
-**Weaknesses (cross-persona):** 10.8 oz is the concept's most cited liability, flagged even by its own choosers. "Supremely comfortable" is marketing language that provided no evaluable information to data-literate personas (Ravi Mehta called this out directly for the whole panel). Width availability and price are missing and together blocked three of six choosers from moving toward purchase. The weight-plus-vague-comfort combination risks positioning B as bulky rather than protective.
+---
+
+### Concept B — 7/15 chose this
+
+**Strengths (cross-persona):** Broadest coalition in the panel, crossing clinical professionals, everyday walkers, beginners, and masters athletes. The stability architecture (dual-density midsole, structured heel counter) was independently validated by two clinical professionals as real, evaluable biomechanical features rather than marketing language. Addresses the largest share of the panel's functional needs around protection and joint support.
+
+**Weaknesses (cross-persona):** 10.8 oz weight is the most-cited rejection driver in the study — named by all eight non-B-choosers and flagged as a concern even by Priya Raghavan within the B coalition. Critical specs (stack height, heel-to-toe drop, price, width options) are entirely absent; Diane Caldwell stated flatly that "without those numbers, 'thick dual-density foam' is just marketing copy." Two of B's seven choosers (Howard Ling, Frank Novak) posted purchase likelihood of 2/5, with Ling explicitly noting B isn't the right product category for his needs — suggesting the coalition includes forced-choice personas rather than enthusiast buyers.
+
+---
 
 ### Concept C — 3/15 chose this
-**Strengths (cross-persona):** Concept C produced the cleanest buyer self-identification of any concept tested — all three choosers recognized themselves in the "gym-to-brunch" description immediately, with no ambivalence. Purchase intent among C-choosers averaged 4.0, the highest in the panel. Eight colorways signals lifestyle optionality that resonated with Zoe Chen and DeAndre Fuller, both of whom cited visual identity as a purchase driver. Tamara Mitchell's case illustrates genuine unmet need: a shoe that works for 5Ks and school hallways is a real purchase occasion with no current winner.
 
-**Weaknesses (cross-persona):** "Good enough for casual 5Ks" is an admission of mediocrity that will not survive contact with a shopper who runs more than occasionally. The colorway promise is unsubstantiated — both DeAndre Fuller and Zoe Chen warned that "8 colorways" could mean 8 uninspiring options, and without visuals, the claim carries no weight. The positioning language actively repelled ten of the twelve personas outside C's target, making cross-segment rescue unlikely.
+**Strengths (cross-persona):** Achieved the panel's highest average purchase likelihood (4.0/5) among its three choosers, all of whom described it as purpose-built for their actual use case. Colorway variety is a genuine differentiator — DeAndre Fuller and Zoe Chen both cited it as a functional need, not a cosmetic preference. Classic silhouette framing avoids the "chunky tech shoe" aesthetic that alienates the lifestyle segment.
+
+**Weaknesses (cross-persona):** The "gym-to-brunch crowd" positioning language — appearing to be directly from the concept brief — was quoted back dismissively by at least eight of the twelve non-C-choosers, functioning as a self-disqualifier for anyone outside the lifestyle niche. C was not seriously evaluated as a running shoe by performance or utility segments; it was categorically rejected rather than comparatively weighed. Commercial upside is structurally limited to a narrow casual-fitness audience unless positioning is revised.
 
 ---
 
 ## Improvement Theme Clusters
 
-- **Technical spec disclosure** (8 mentions across A and B) — Heel-toe drop, stack height, foam energy-return percentage, and outsole durability mileage were each cited as missing and blocking by Ravi Mehta, Diane Caldwell, Karen Yoshida, Jake Morrison, Jasmine Taylor, and others. This is the highest-frequency improvement request in the panel and applies most acutely to Concept A.
+- **Technical spec disclosure — stack height, heel-to-toe drop, energy return %** (5 mentions across A and B; Ravi Mehta, Diane Caldwell, Karen Yoshida, Jasmine Taylor, Jake Morrison) — Multiple choosers in both camps withheld or conditioned purchase intent on these numbers; currently absent from all three concepts.
 
-- **Wide-width and fit options** (3 mentions, all Concept B) — Howard Ling, Greg Kowalski, and Robert Garcia each made purchase explicitly contingent on D/EE width availability; none of the three would buy without it. This is a hard gate, not a preference.
+- **Mileage/durability rating** (3 mentions, primarily A; Jake Morrison, Jasmine Taylor, Frank Novak) — Mileage rating described as the single number that changes the value calculation for training-volume users; without it, even enthusiastic A-choosers hedged at 3/5 intent.
 
-- **Price transparency and retail channel accessibility** (3 mentions, Concept B) — Greg Kowalski set a $120 ceiling; Frank Novak required mass-market shelf placement ("Academy or Walmart"); Howard Ling cited price as a potential dealbreaker above $100. Missing price information is functioning as a conversion blocker for the segment most likely to buy B.
+- **Width options and orthotic compatibility** (3 mentions, all B; Greg Kowalski, Robert Garcia, Karen Yoshida) — Wide-width availability (EE minimum for Robert Garcia) and removable footbed for orthotics are purchase prerequisites for B's utility/walker cluster; their absence was a firm barrier.
 
-- **Trail performance upgrades** (2 mentions, Concept A) — Elena Vasquez and Matt Sorensen independently specified the same fix: a rock plate and 3–4mm multidirectional lug depth. Without these, A is a road shoe for a trail-oriented buyer.
+- **Weight reduction for B** (2 explicit mentions; Priya Raghavan from within B coalition, echoed structurally by all A and C choosers as primary rejection reason) — Even B's own choosers flagged 10.8 oz as a latent concern; shaving meaningful weight could reduce rejection among on-the-fence clinical and multitasker personas.
 
-- **Colorway credibility and artist collaboration** (2 mentions, Concept C) — DeAndre Fuller and Zoe Chen both flagged that "8 colorways" is meaningless without visuals, and both called for a designer collab or limited drop to make the concept feel like a cultural object rather than a functional product.
+- **Rock plate / trail-capable outsole for A** (2 mentions; Elena Vasquez, Matt Sorensen) — Both Concept A choosers from outdoor/endurance segments named the absence of a rock plate as a functional gap; ground feel without underfoot protection is described as a liability in their use cases.
 
-- **Weight reduction for Concept B** (1 mention, Priya Raghavan) — Shaving half an ounce from B's 10.8 oz would convert a "probably yes" to an immediate purchase for Priya Raghavan. While single-respondent, the direction reinforces a broader concern that the weight undercuts the concept's all-day-wear credibility.
+- **Colorway visibility and collab strategy for C** (2 mentions; DeAndre Fuller, Zoe Chen) — Both C-choosers explicitly conditioned purchase on actually seeing the eight colorways before committing; a limited-edition collab or artist drop was named as a same-day-purchase trigger by both.
 
 ---
 
 ## Notable Verbatims
 
-> "7.2 oz and responsive foam — that's the spec sheet I care about. I run tempos at 6:30 pace and I'm not hauling extra weight through a 20-miler to 'feel comfortable.' Concept B is 10.8 oz, which is basically a trail shoe — no thanks. And C? 'Gym-to-brunch crowd' tells me everything I need to know — not my shoe." — Jake Morrison, 28, Sales Account Executive
+> "B is 10.8 oz, which is a non-starter for anyone trying to negative-split a marathon; all that cushion is just dead weight you're carrying through miles 20-26." — Jake Morrison, 28, Sales Account Executive
 
-> "I have a genuine clinical concern with max-cushion platforms like B, where the research on proprioceptive attenuation and weakened foot intrinsics gives me real pause, and I've seen too many patients who've been told thick cushioning will 'protect' them only to end up in my clinic with posterior tibialis dysfunction." — Karen Yoshida, 52, Physical Therapist (DPT)
+> "The dual-density midsole and structured heel counter are real, evaluable biomechanical features — that's more than I can say for Concept A's vague promise of 'natural foot movement,' which is marketing language that has sent more than a few of my patients to my clinic with plantar issues." — Karen Yoshida, 52, Physical Therapist (DPT)
 
-> "I don't run. But I'm on concrete for ten hours a day and my knees aren't what they were. B's the only one that sounds like it was built for a real person instead of a magazine cover." — Frank Novak, 55, Owner / Lead Technician
+> "C is essentially a lifestyle product dressed up as a running shoe; 'good enough for casual 5Ks' is not a performance specification, it's an apology." — Ravi Mehta, 33, Senior Data Scientist
 
-> "Ten-point-eight ounces is heavy — that's not a vibe, that's a statement, and the statement is 'I am going directly home after this run and nowhere else.'" — Zoe Chen, 27, Social Media Manager
+> "I'm on my feet for 10-hour clinic shifts before I even lace up for an evening jog, so the last thing I need is a shoe that sacrifices cushioning for ground feel." — Priya Raghavan, 34, Pediatrician
 
 ---
 
 ## Caveats
 
 - Virtual panel of 15 personas; directional only
-- Each segment is represented by exactly N=1 persona; segment-level conclusions should not be over-generalized
-- Not statistically representative; use for hypothesis generation and concept refinement, not go/no-go decisions
-- AI-generated responses may exhibit positivity bias; purchase likelihood scores may be inflated relative to real-world conversion
+- Not statistically representative; use for hypothesis generation
+- Each segment is represented by a single persona (N=1); segment-level patterns should be treated as hypotheses, not findings
+- AI-generated responses may exhibit positivity bias

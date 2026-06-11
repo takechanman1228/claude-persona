@@ -76,13 +76,21 @@ cross-contamination between personas.
 
 ### Step 4: Review Findings
 
-- **Distribution**: A 6 (40%), B 6 (40%), C 3 (20%)
-- **Purchase likelihood**: mean 3.1/5, median 3.0/5 — no persona scored 5
-- A and B tie at 6 each — but for entirely different reasons (performance vs. medical/comfort)
-- The physical therapist (Karen Yoshida) chose A over B — citing clinical concern about max-cushion platforms weakening foot intrinsics
+> Results generated on `claude-sonnet-4-6` (June 2026; exact model recorded in
+> `run_metadata.json`). Close-margin preferences are model-sensitive — see the
+> [model sensitivity study](../../docs/MODEL-COMPARISON.md).
+
+- **Distribution**: B 7 (47%), A 5 (33%), C 3 (20%)
+- **Purchase likelihood**: mean 3.2/5 — no persona scored 5
+- B leads on protection and evaluable features; A holds the performance-first runners
+- The physical therapist (Karen Yoshida) chose B *reluctantly* — at 52 with an
+  ACL reconstruction, she admits she needs the protection she recommends to her
+  own injury-prone patients, while still flagging her clinical concern that
+  max-cushion stacks can mask proprioceptive feedback
 - Concept C has the smallest volume but highest enthusiasm: all 3 choosers scored 4/5
-- Specs opacity (missing drop, stack height, energy return %) is the #1 barrier across all concepts
-- Wide-width availability was flagged by 3 of 15 personas as a deal-breaker
+- Specs opacity (missing drop, stack height, energy return %) remains the most
+  common barrier — raised by roughly half the panel
+- Wide-width / sizing availability was flagged by 4 of 15 personas as a deal-breaker
 
 [Summary](concept-test/results/summary.json) |
 [Results JSON](concept-test/results/results.json) |

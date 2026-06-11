@@ -14,43 +14,43 @@
   },
   "top_signals": [
     {
-      "theme": "japanese language accuracy",
-      "count": 2
-    },
-    {
-      "theme": "client data confidentiality risk",
-      "count": 2
-    },
-    {
-      "theme": "action item extraction accuracy",
+      "theme": "action item capture accuracy",
       "count": 1
     },
     {
-      "theme": "corporate data security barrier",
+      "theme": "enterprise security clearance friction",
       "count": 1
     },
     {
-      "theme": "japanese nlp reliability",
+      "theme": "quantifiable time savings",
       "count": 1
     },
     {
-      "theme": "it approval bottleneck",
+      "theme": "fast onboarding or fast exit",
       "count": 1
     },
     {
-      "theme": "prove roi before i commit",
+      "theme": "confidentiality over convenience",
       "count": 1
     },
     {
-      "theme": "factory floor doesn't need transcripts",
+      "theme": "prove it with numbers",
       "count": 1
     },
     {
-      "theme": "confidential data leaves the building",
+      "theme": "japanese language support required",
       "count": 1
     },
     {
-      "theme": "ai hype without substance",
+      "theme": "distrust of unstable software",
+      "count": 1
+    },
+    {
+      "theme": "japanese-english transcription accuracy",
+      "count": 1
+    },
+    {
+      "theme": "startup-friendly pricing transparency",
       "count": 1
     }
   ],
@@ -59,6 +59,6 @@
     "cautious": 2,
     "skeptical": 1,
     "conflicted": 1,
-    "wary": 1
+    "guarded": 1
   }
 }

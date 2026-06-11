@@ -80,12 +80,12 @@ Lyon, Nantes, Bordeaux, Toulouse, and Strasbourg.
 ```
 
 Top themes surfaced:
-- Subscription lock-in distrust — auto-renewal traps, opaque cancellation
-- Local market ritual competes — Marche d'Aligre, Halles Paul Bocuse, Talensac
-- Ingredient provenance demands — "which farm, not just 'French farms'"
-- Portions mismatch — too small for manual workers, too large for solo living
-- Cultural recipe invisibility — menus assume Mediterranean, ignore West African, South Asian cuisines
-- Food waste anxiety — shift workers fear ingredients going bad
+- Subscription lock-in distrust — auto-renewal traps, opaque cancellation (named by all 10)
+- Local market ritual competes — cooking is identity, not a chore to remove
+- Sourcing transparency demands — vague "local supplier" language actively distrusted
+- Portions mismatch — too small for heavy eaters and families, too large for solo living
+- Cultural recipe invisibility — generic Franco-European menus signal "not designed for me"
+- Food waste anxiety — rotating shifts make fixed deliveries a stress source
 
 ### Step 3: Run Concept Test
 
@@ -104,8 +104,13 @@ A meal service that promises to make weeknight dinners feel noticeably easier an
 
 ### Results
 
-- **B: Risk Reduction** — 6/10 (60%) first choice
-- **C: Better Weeknights Fast** — 4/10 (40%) first choice
+> Results generated on `claude-sonnet-4-6` (June 2026; exact model recorded in
+> `run_metadata.json`). The "zero votes for A" result reproduced across two
+> sonnet generations — but not on Claude Fable 5, where A picks up 30%. See the
+> [model sensitivity study](../../docs/MODEL-COMPARISON.md).
+
+- **B: Risk Reduction** — 7/10 (70%) first choice
+- **C: Better Weeknights Fast** — 3/10 (30%) first choice
 - **A: Easy First Step** — 0/10 (0%) first choice
 - **Purchase likelihood**: mean 3.1/5, range 2–4
 
@@ -117,16 +122,16 @@ subscription traps, wasted money, and cultural fit.
 
 | Segment | B (Risk Reduction) | C (Better Weeknights) |
 |---------|-------------------|-----------------------|
-| Dual-Income Couples (4) | 1 | 3 |
+| Dual-Income Couples (4) | 2 | 2 |
 | Families With Children (3) | 2 | 1 |
 | Independent Professionals (3) | 3 | 0 |
 
-- **DINKs prefer C** (3/4) — time-pressed but confident cooks who want a concrete weeknight improvement
-- **Families split** — risk concerns (cost, kid-friendliness) compete with time pressure
+- **DINKs split B/C** — time-pressed but confident cooks, torn between a concrete weeknight improvement and subscription wariness
+- **Families lean B** — risk concerns (cost, kid-friendliness) edge out time pressure
 - **Independents unanimously chose B** (3/3) — budget-conscious, subscription-wary, need risk removed first
 
-**Notable**: Two personas (Remi, Yassine) responded entirely in French — a
-natural behavior when the market is set to France.
+**Notable**: One persona (Yassine) responded entirely in French — a natural
+behavior when the market is set to France (frequency varies by run).
 
 [Summary](concept-test/results/summary.json) |
 [Results JSON](concept-test/results/results.json) |

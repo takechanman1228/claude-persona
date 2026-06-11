@@ -1,20 +1,20 @@
 # Concept Test: Meal Kit Subscription — Virtual Research Report
 
-**Date**: 2026-04-21 | **Panel**: 10 personas
+**Date**: 2026-06-11 | **Panel**: 10 personas
 
 ---
 
 ## Panel Overview
 
-| # | Name | Age | Occupation | Segment | Preferred | Purchase Likelihood |
+| # | Name | Age | Occupation | Profile | Preferred | Purchase Likelihood |
 |---|------|-----|------------|---------|-----------|---------------------|
-| 1 | Camille Renaud | 34 | Senior UX Designer | Dual-Income Couples Without Children | C | 3 |
-| 2 | Yassine Benali | 28 | Motion Graphics Designer | Dual-Income Couples Without Children | C | 4 |
-| 3 | Nathalie Guerin | 42 | Regional HR Director | Dual-Income Couples Without Children | B | 2 |
-| 4 | Remi Edouard | 36 | Independent Electrician | Dual-Income Couples Without Children | C | 4 |
-| 5 | Mei-Lin Gerard | 33 | Pediatric Nurse | Families With Young Children | C | 4 |
-| 6 | Christophe Morel | 44 | Insurance Claims Adjuster | Families With Young Children | B | 3 |
-| 7 | Amadou Diallo | 35 | IT Project Manager | Families With Young Children | B | 3 |
+| 1 | Camille Renaud | 34 | Senior UX Designer | Dual-Income Couples, No Kids | B | 3 |
+| 2 | Yassine Benali | 28 | Motion Graphics Designer | Dual-Income Couples, No Kids | C | 4 |
+| 3 | Nathalie Guerin | 42 | Regional HR Director | Dual-Income Couples, No Kids | B | 2 |
+| 4 | Remi Edouard | 36 | Independent Electrician | Dual-Income Couples, No Kids | C | 4 |
+| 5 | Mei-Lin Gerard | 33 | Pediatric Nurse | Families with Young Children | C | 4 |
+| 6 | Christophe Morel | 44 | Insurance Claims Adjuster | Families with Young Children | B | 3 |
+| 7 | Amadou Diallo | 35 | IT Project Manager | Families with Young Children | B | 3 |
 | 8 | Priya Sharma | 26 | Doctoral Researcher | Independent Professionals & Empty Nesters | B | 3 |
 | 9 | Florian Roche | 38 | Freelance Full-Stack Developer | Independent Professionals & Empty Nesters | B | 2 |
 | 10 | Katarina Novak | 54 | Deputy School Principal | Independent Professionals & Empty Nesters | B | 3 |
@@ -23,86 +23,95 @@
 
 ## Preference Verdict
 
-**Narrow lead for Concept B** (6 of 10 chose B; 4 of 10 chose C; Concept A received zero votes). At exactly 60%, B does not clear the "clear winner" threshold, and the margin is driven largely by two segments breaking uniformly for B while a third broke three-to-one for C. Confidence in B's overall lead is moderate; the result is segment-contingent enough that targeting strategy matters more than headline preference share.
+Concept B is a **clear winner**, chosen by 7 of 10 personas (70%), with Concept C a distant second at 3 of 10 (30%). Concept A received zero votes. The margin is substantial enough to be directionally decisive, though a critical caveat tempers confidence: all three Concept C choosers scored purchase likelihood at 4/5, while the seven Concept B choosers averaged approximately 2.7/5 — meaning B dominates preference but lags in commercial conversion energy.
 
 ---
 
 ## Key Findings
 
-1. **The concept split is a pain-point split, not a demographic one.** Personas whose dominant friction is *subscription risk and financial exposure* (Priya on a doctoral stipend, Christophe feeding five, Florian averse to lock-in, Katarina with a variable schedule) chose B unanimously. Personas whose dominant friction is *weeknight time pressure* (Remi after 10-hour labour shifts, Mei-Lin after 10-hour hospital shifts, Yassine finishing renders at 10pm) chose C. The divide is situational, not age or income.
+1. **Concept A's beginner framing was actively alienating, not neutral.** Personas across all three segments rejected A not by ignoring it but by calling it out explicitly as condescending. Confident home cooks — the majority of this panel — read "straightforward meals" and "low pressure" as a signal that the product is not for them, eliminating A from consideration before any evaluation of its actual merits.
 
-2. **Concept A is a liability — it received no votes and was used as a negative reference point.** Yassine dismissed it as "training wheels energy," Katarina called it "patronizing," and Nathalie said it "addresses nothing I care about." Including A in a future iteration risks anchoring respondents toward B and C rather than generating genuine split data.
+2. **Concept B won on trust, not excitement — and that gap has a cost.** B's risk-reduction framing (subscription transparency, easy exit, money protection) aligned precisely with the subscription trap anxiety that dominated the panel's stated hesitations. However, B choosers described themselves as reassured rather than enthused; their purchase likelihood clustered at 2–3, reflecting barrier reduction rather than genuine desire.
 
-3. **B wins preference but C wins purchase intensity among its choosers.** All four C-choosers rated purchase likelihood at 3–4 (mean ≈ 3.75), while B-choosers ranged from 2–3 (mean ≈ 2.67). B clears the preference bar, but the commercial conversion risk is that B's risk-reduction framing may reduce sign-up anxiety without generating the enthusiasm that drives actual checkout. Nathalie and Florian both chose B yet rated likelihood at 2.
+3. **Concept C's outcome promise drove the panel's highest purchase intent, but only among personas with acute time-pressure pain points.** All three C choosers — a physical tradesman (Remi), a pediatric nurse on long shifts (Mei-Lin), and a late-night freelancer (Yassine) — described their weeknight dinner problem in visceral, urgent terms. For them, C's "better weeknights in the first week" was a credible, testable commitment worth acting on. For everyone else, it read as unsubstantiated marketing language.
 
-4. **C's "noticeably easier within the first week" claim functioned as a credibility test, not a universal converter.** Camille valued it precisely because it is *verifiable*; Priya and Amadou rejected it for the same reason — neither could verify it from the concept alone. The claim is structurally sound but operationally unsupported; backing it with a specific mechanic (e.g., a satisfaction guarantee or sample week) would neutralise the objection.
+4. **"Easy cancellation" is now table stakes, not a differentiator.** Amadou stated this explicitly, and the sentiment was echoed across segments: easy cancellation is an expected minimum. What B did more effectively than A was treat cancellation as a structural design promise, not a feature. Even so, seven personas demanded proof — specifically, the exact cancellation procedure, notice period, and absence of phone-call requirements — before their likelihood would rise.
 
-5. **Neither concept fully addresses the cancellation mechanism, and this gap caps purchase likelihood across the panel.** Nine of ten improvement suggestions either explicitly or implicitly request plain-language cancellation terms. This is not a B-specific strength — B *names* the problem but does not resolve it any more concretely than C, and multiple B-choosers (Katarina, Christophe, Amadou, Florian) said the promise remains a "claim, not a commitment" without operational detail.
+5. **Meal content remains an unaddressed gap across all three concepts.** No concept was evaluated favorably on what it actually delivers to cook. Personas' improvements overwhelmingly referenced cuisine diversity, ingredient quality, portion sizing, and kid-suitability — concerns that risk-reduction or outcome framing alone cannot resolve. This gap suppressed purchase likelihood even among B choosers who found the framing credible.
 
 ---
 
 ## Segment / Profile Splits
 
-**Dual-Income Couples Without Children (4 personas) → C wins 3–1.** The shared driver is post-work time pressure with no child-related coordination overhead; these personas are confident cooks who want speed, not risk mitigation. The exception is Nathalie (HR Director, 42), a principled from-scratch cook who chose B as the least-bad option, not out of genuine interest — her likelihood score of 2 reflects category reluctance, not concept preference.
+**Independent Professionals & Empty Nesters (N=3) → Unanimous B.** All three cited subscription trap anxiety as the primary barrier, whether framed as stipend constraints (Priya), cancellation friction (Florian), or silent renewal while travelling (Katarina). This segment is the most homogeneous in preference; B was not a close call for any of them.
 
-**Families With Young Children (3 personas) → B wins 2–1.** Christophe and Amadou both flagged household financial exposure (family of five; culturally irrelevant recipes) as the primary concern; B's explicit risk framing spoke to that. Mei-Lin (Pediatric Nurse, 33) was the outlier, choosing C because post-shift exhaustion outweighed subscription caution — her situation more closely resembles the Dual-Income time-pressure pattern than the family-budget-risk pattern.
+**Families with Young Children (N=3) → Majority B (2/3).** Christophe and Amadou prioritized financial protection for household budgets with multiple dependents; C's promise felt unverifiable. The outlier, Mei-Lin, chose C because shift-work exhaustion made time-pressure relief a more urgent signal than financial risk protection.
 
-**Independent Professionals & Empty Nesters (3 personas) → B wins 3–0.** The most uniform segment. All three cited subscription architecture — lock-in, auto-renewal, inflexible delivery cadence — as the dominant barrier. Note that this is N=1 per persona within a small segment; the unanimity is directional, not statistically conclusive.
+**Dual-Income Couples Without Children (N=4) → Evenly split B/C (2 each).** This is the only divided segment. The split tracks lifestyle intensity: Nathalie and Camille cook regularly and distrust vague promises, gravitating toward B's honest friction acknowledgment; Yassine and Remi work demanding, irregular hours and responded to C's outcome energy. Note that N=2 per sub-group makes this pattern directional, not conclusive.
 
 ---
 
 ## Purchase-Intent Drivers
 
-Across concepts, the factors that *lifted* likelihood were a concrete, time-bounded outcome promise (Camille, Yassine, Remi, and Mei-Lin all credit C's "first week" framing), and explicit acknowledgment of real-world constraints rather than aspirational positioning (Amadou and Katarina both raised likelihood one point for B because it "suggests the company actually talked to people"). The factors that *capped* likelihood were the absence of transparent cancellation terms — cited as a missing commitment by Katarina, Christophe, Florian, and Amadou — and vague sourcing claims, which Camille and Nathalie identified as potential dealbreakers regardless of preferred concept. No persona reached 5; the ceiling effect suggests the category itself carries residual skepticism that neither concept fully overcomes.
+The factor most consistently credited for raising likelihood was **explicit, procedural subscription transparency** — not a reassuring phrase but documented steps for pausing, skipping, and cancelling. Conversely, **vague flexibility language** ("easy to cancel," "no pressure") actively lowered intent among analytical personas who treated it as evasion. **Concept C choosers' intent was driven by outcome specificity**: a concrete, time-bound promise ("first week") that they could personally test and verify resonated more than structural guarantees with time-poor, action-oriented respondents. Across all concepts, **residual uncertainty about meal content** — ingredient sourcing, cuisine range, portion adequacy, and child-suitability — functioned as a ceiling on likelihood regardless of which concept was preferred.
 
 ---
 
 ## Per-Concept Strengths and Weaknesses
 
 ### Concept A — 0/10 chose this
-**Strengths (cross-persona):** None identified; no persona selected it or cited it favorably.
-**Weaknesses (cross-persona):** Perceived as patronizing toward competent cooks (Katarina, Yassine) and insufficiently differentiated from generic category messaging. Its "easy cancellation" language was noted as necessary but insufficient — subsumed by B's more explicit risk framing without adding anything beyond it. Recommend retiring or substantially repositioning before further testing.
 
-### Concept B — 6/10 chose this
-**Strengths (cross-persona):** Directly names the real friction points of first-time meal kit subscribers — wasted money, poor meal fit, subscription lock-in — which created a sense of category empathy across financially cautious and schedule-variable personas. Priya credited it as evidence that "whoever designed it actually talked to people in my situation," and Katarina valued that it named "what actually goes wrong for new customers" rather than using cheerful reassurance.
-**Weaknesses (cross-persona):** The risk-reduction promise remains at the level of positioning, not mechanism. Multiple B-choosers (Christophe, Florian, Amadou) explicitly said the concept needs to back its claims with operational specifics — precise cancellation terms, per-meal pricing, and a genuine pause mechanic — before the claim becomes a commitment. Purchase likelihood among B-choosers is moderate (mean ~2.7) and noticeably below C-choosers, suggesting the concept reduces anxiety without generating desire.
+**Strengths (cross-persona):** The skip/cancel flexibility mentioned in A was positively noted in passing by Priya and Nathalie, suggesting the underlying mechanism has value.
 
-### Concept C — 4/10 chose this
-**Strengths (cross-persona):** The time-bound outcome promise ("noticeably easier within the first week") functions as a testable hypothesis rather than vague lifestyle language, which resonated strongly with time-pressed personas across shift-work and freelance contexts. Remi appreciated that it "speaks direct" without hedging; Camille valued that it gives her "a hypothesis I can test." Among its choosers, it produced the highest purchase likelihood scores in the panel (three of four at 4).
-**Weaknesses (cross-persona):** Skeptical and analytical personas (Priya, Amadou, Katarina) flagged the same claim as "marketing copy" or "unverifiable" — not because it is implausible, but because the concept provides no mechanism to substantiate it. Without a satisfaction guarantee, money-back policy, or sample week, the boldness of the claim becomes a credibility risk for the very audience most likely to read terms carefully.
+**Weaknesses (cross-persona):** Zero votes signals a fundamental positioning problem. "Low pressure," "straightforward meals," and the implied beginner audience were read as condescending by a panel of confident adult cooks. Multiple personas explicitly ruled A out on this basis alone, before evaluating any other attribute. The concept appears to have a mismatch between its intended reassurance and how competent cooks interpret that framing.
+
+---
+
+### Concept B — 7/10 chose this
+
+**Strengths (cross-persona):** B was credited for intellectual honesty — it acknowledged the subscription trap rather than papering over it. Personas who chose it described feeling that their actual concerns (financial waste, cancellation difficulty, poor fit) were taken seriously. Katarina appreciated that B "is honest and practical"; Priya felt it was "almost designed for her situation." This framing was broadly applicable across segments and age ranges.
+
+**Weaknesses (cross-persona):** B generates trust but not desire. Purchase likelihood among its seven choosers averaged ~2.7 — a hesitant, barrier-reduced interest rather than motivated intent to buy. B also says nothing about what's inside the box: Amadou and Camille both flagged that risk-reduction framing becomes irrelevant if the meal catalog itself is a poor fit. Florian additionally noted that "flexibility" language without a concrete cancellation mechanism still reads as evasion.
+
+---
+
+### Concept C — 3/10 chose this
+
+**Strengths (cross-persona):** Among its three choosers, C produced the panel's highest purchase likelihood scores (all 4/5). The time-bound outcome promise ("noticeably better within the first week") was experienced as testable and energizing by respondents with acute weeknight pain. Remi and Mei-Lin described C as directly solving a felt problem; Yassine responded to its assertive tone as a signal of product confidence.
+
+**Weaknesses (cross-persona):** The majority of the panel — including analytical personas like Amadou and Christophe — treated C's promise as an assertion without a mechanism. "Noticeably easier and more enjoyable" was flagged as unmeasurable marketing language that raised rather than lowered skepticism. C also offers no structural protection against subscription risk, which is the dominant barrier for six of the ten personas.
 
 ---
 
 ## Improvement Theme Clusters
 
-- **Cancellation transparency** (7 mentions across B and C) — Personas want the actual mechanism, notice period, and "no phone call required" phrasing surfaced prominently, not buried in terms. Cited by Katarina, Christophe, Florian, Amadou, Nathalie, Priya, and implied by Camille. This is the single highest-frequency cluster and spans all three segments.
+- **Cancellation procedure specificity** (6 mentions across B, C — Nathalie, Christophe, Florian, Katarina, Priya, Amadou indirectly) — Personas want the exact cancellation path documented: a single link or click, stated notice period, no telephone required, and no pre-ticked renewal. Reassuring language without mechanics was widely dismissed.
 
-- **Pricing transparency before sign-up** (3 mentions, B and C) — Per-serving or per-meal cost should appear in the concept/acquisition flow, not the FAQ. Priya (single-portion tier on a doctoral stipend), Christophe (per-meal price for a family of five), and Nathalie (front-and-centre cost disclosure) all raised this independently.
+- **Cuisine and menu diversity** (3 mentions across B, C — Yassine, Amadou, and implied by Mei-Lin) — The panel anticipates Euro-centric defaults and explicitly flags this as a dealbreaker. Yassine cited North African and Japanese cuisines; Amadou flagged catalog range as a precondition for the risk-reduction framing to be relevant at all.
 
-- **Portion sizing calibrated to actual household type** (3 mentions, B and C) — Remi requests portions for physically active male workers ("not the small plates from a Parisian magazine"); Priya needs a genuine single-person tier for a 22 m² studio; Christophe needs explicit family-of-five sizing. The current concepts appear to imply a default two-person household.
+- **Ingredient sourcing and quality transparency** (2 mentions, B — Camille, Nathalie) — Quality-conscious cooks want provenance detail before subscribing. For this sub-group, financial-risk framing does not substitute for food-quality assurance.
 
-- **Ingredient sourcing and packaging disclosure** (2 mentions, both C) — Camille and Nathalie both condition trial on upfront provenance information and packaging format; sourcing vagueness or excessive packaging are stated dealbreakers. Neither B nor C addresses this.
+- **Pricing transparency and per-serving clarity** (2 mentions, B — Priya, implied by Christophe) — "From X euros" anchoring was explicitly identified as trust-destroying. Upfront, unambiguous per-serving pricing, including for single-portion configurations, was requested.
 
-- **Cuisine diversity and cultural relevance** (2 mentions, B and C) — Yassine wants ambitious international menus (Moroccan tagine, Japanese ramen) to justify subscription; Amadou specifically flags the risk that the service defaults to European recipes irrelevant to his household's cooking. This cluster overlaps with the broader "wrong meal fit" concern in B but is more specific.
-
-- **Family-tested recipe labelling / kids' menu filter** (1 mention, C) — Mei-Lin would convert immediately if C added a children's meal tag or family-tested label, reducing the risk of post-shift dinner conflict with young children. Single-persona attribution; directional only.
+- **Portion sizing and serving customization** (3 mentions across B, C — Remi for generous sizing, Priya for single-serve options, Mei-Lin for child-appropriate sizes) — The panel encompasses solo diners, large physical workers, and parents of picky eaters; no concept addressed how serving configurations flex to these needs.
 
 ---
 
 ## Notable Verbatims
 
-> "Concept C makes a concrete, time-bound promise — 'noticeably easier within the first week' — which is something I can actually verify rather than just take on faith. As someone who already cooks regularly, I'm not looking for a service to hold my hand or shield me from subscription anxiety; I'm looking for a measurable improvement to a specific problem, which is weeknight time pressure." — Camille Renaud, 34, Senior UX Designer
+> "The subscription trap is exactly what puts me off these offers: you sign up once, you forget to cancel, and three months later you're still receiving boxes you don't need. At least this concept acknowledges that risk openly rather than pretending it doesn't exist." — Nathalie Guerin, 42, Regional HR Director
 
-> "B is the only one that explicitly names the anxieties I actually have: wrong meal selection, wasted money, subscription lock-in — which suggests whoever designed it actually talked to people in my situation rather than just aspirational home-cook archetypes." — Priya Sharma, 26, Doctoral Researcher in Molecular Biology
+> "C is like, okay, your weeknights will actually slap within the first week? That's a real promise, that's energy. I'm already on my laptop at midnight grinding motion projects, so if something makes dinner feel like less of a chore AND actually tastes interesting, I'm in." — Yassine Benali, 28, Motion Graphics Designer
 
-> "The explicit acknowledgment of wasted money and poor-fit meals tells me the company has thought seriously about what actually goes wrong for new customers. Concept A felt somewhat patronizing, as though the difficulty were the recipes themselves, and concept C struck me as a marketing promise rather than a structural guarantee." — Katarina Novak, 54, Deputy School Principal
+> "Concept C raises immediate skepticism — 'noticeably easier and more enjoyable within the first week' is an assertion, not a commitment, and I have no way to evaluate it without knowing what 'easier' means in practice or how they measure 'enjoyable.'" — Amadou Diallo, 35, IT Project Manager
 
-> "C, c'est simple — après dix heures sur un chantier, je rentre chez moi et je veux pas passer quarante minutes à chercher ce qu'il y a dans le frigo et ce qui me manque. Si ce truc me promet que la première semaine je sens déjà la différence, ça me parle direct." — Remi Edouard, 36, Independent Electrician
+> "The moment I feel like I'm being nudged toward a price I can't see clearly, I close the tab immediately. It would also help a lot if they explicitly offered single-portion options, because right now I'm genuinely not sure if these services even cater to someone cooking for one person." — Priya Sharma, 26, Doctoral Researcher in Molecular Biology
 
 ---
 
 ## Caveats
 
-- Virtual panel of 10 personas; directional only
-- Not statistically representative; use for hypothesis generation
-- AI-generated responses may exhibit positivity bias
+- Virtual panel of 10 personas; findings are directional only
+- Not statistically representative; use for hypothesis generation and stimulus refinement, not go/no-go decisions
+- AI-generated personas may exhibit positivity bias; actual consumer skepticism could be higher
+- Segment sub-groups of N=2–3 are too small to generalize; splits within Dual-Income Couples Without Children and Families with Young Children require validation with a larger sample

@@ -79,7 +79,7 @@
     }
   },
   "purchase_likelihood": {
-    "mean": 3.1,
+    "mean": 3.2,
     "median": 3.5,
     "min": 2.0,
     "max": 4.0

@@ -56,11 +56,11 @@ complexion and gives skin a healthy, dewy glow.
 ```
 
 Top themes surfaced:
-- Hidden ingredient concentrations and unverifiable efficacy claims
-- Greenwashing disguised as clean beauty
-- Too many choices, too much marketing noise
-- TikTok hype vs. real results
-- Overpriced basics with a prestige tax on identical ingredients
+- Ingredient and formula opacity — no concentrations, proprietary blends (5/10)
+- Greenwashing and legally meaningless claims ("clean", "clinically proven") (5/10)
+- Research burden pushed onto consumers — Reddit, INCIDecoder, PubMed homework (5/10)
+- Information and choice overload, producing paralysis or disengagement (5/10)
+- Prestige pricing on identical actives, verified by personal comparison (3/10)
 
 ### Step 3: Run Concept Test
 
@@ -74,16 +74,22 @@ C: Glow Boosting Toner — everyday radiance, brightens skin tone
 
 ### Results
 
-- **B: Barrier Repair Cream** — 4/10 (40%) first choice
-- **A: Acne Control Serum** — 3/10 (30%) first choice
-- **C: Glow Boosting Toner** — 3/10 (30%) first choice
-- **Purchase likelihood**: mean 3.3/5, range 2–5
+> Results generated on `claude-sonnet-4-6` (June 2026; exact model recorded in
+> `run_metadata.json`). Close-margin preferences are model-sensitive — see the
+> [model sensitivity study](../../docs/MODEL-COMPARISON.md).
 
-No clear majority — each concept appeals to a distinct attitudinal cluster.
-Barrier repair won among ingredient-conscious personas who valued its
-mechanistic clarity. Glow toner pulled the routine-devoted and trend-chasing
-personas drawn to its aesthetic appeal. Acne control attracted problem-driven
-and skeptical personas who wanted something that "actually does something."
+- **A: Acne Control Serum** — 4/10 (40%) first choice
+- **B: Barrier Repair Cream** — 4/10 (40%) first choice
+- **C: Glow Boosting Toner** — 2/10 (20%) first choice
+- **Purchase likelihood**: mean 3.2/5, range 1–5
+
+A dead heat — each concept appeals to a distinct attitudinal cluster, and no
+single positioning carries this panel. Barrier repair won the
+ingredient-conscious and value-driven personas who liked its mechanistic
+clarity. Acne control attracted the problem-driven personas — and the
+skeptics, who picked the "most functional" option while still doubting it
+(purchase likelihood 1–2). Glow toner had the smallest camp but the most
+enthusiasm: its two choosers scored 4 and 5, the panel's highest.
 
 [Summary](concept-test/results/summary.json) |
 [Results JSON](concept-test/results/results.json) |
