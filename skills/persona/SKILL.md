@@ -16,7 +16,7 @@ license: MIT
 compatibility: claude-code
 metadata:
   author: Hajime Takeda
-  version: "0.1.0"
+  version: "0.2.0"
 ---
 
 # AI Persona Panels for Customer Research
@@ -295,15 +295,57 @@ python scripts/simulate_survey.py --config {config-path} --backend claude-cli
 How it works:
 1. Builds a per-persona system prompt (simulation instructions + single persona profile + survey questions)
 2. Launches parallel `claude -p` processes (controlled by `--concurrency`, default 5)
-3. Each process uses `--output-format json --tools "" --no-session-persistence`
-4. Parses JSON response, validates structure, retries on failure (up to 3 attempts)
+3. Each process uses `--output-format json --tools "" --no-session-persistence`, plus
+   `--safe-mode` (context isolation: no CLAUDE.md/plugins/hooks leak into persona calls) and
+   `--json-schema` (server-validated structured output) when the installed CLI supports them
+4. Parses the response (`structured_output` preferred, text extraction as fallback),
+   validates structure, retries on failure (up to 3 attempts)
 5. Saves `results.json` + `run_metadata.json` to `config.output_dir` when provided, otherwise to `outputs/{YYYY-MM-DD}/{HHMMSS}/{survey_type}/`
 6. Runs a backend preflight before persona fan-out; if it fails, stop immediately and record `failure_stage: "preflight"`
 
-Options: `--dry-run`, `--analyze`, `--report-llm`, `--no-adherence-check`, `--model`, `--concurrency`, `--report-backend`
+Options: `--dry-run`, `--analyze`, `--report-llm`, `--no-adherence-check`, `--model`,
+`--concurrency`, `--report-backend`, `--no-structured-output`, `--no-isolation`,
+`--fallback-model`, `--effort`
+
+#### Model Selection
+
+The default simulation model is `sonnet` — the best cost/quality balance for
+10-15-way persona fan-outs. All `claude` model aliases and full model IDs work:
+
+| Model | When to use | Notes |
+|-------|-------------|-------|
+| `sonnet` (default) | Standard panels | Best cost balance for fan-out |
+| `haiku` | Quick smoke tests, large panels | Cheapest; does NOT support `--effort` |
+| `fable` (Claude Fable 5) | Highest-fidelity simulation, final runs | ~4x sonnet cost (higher price + denser tokenizer); slower turns |
+| `opus` | High-fidelity alternative | Between sonnet and fable in cost |
+
+Config keys (all optional, omit for current behavior):
+
+```json
+{
+  "model": "sonnet",
+  "report_model": "fable",
+  "fallback_model": "sonnet",
+  "effort": "medium",
+  "max_budget_usd_per_call": 0.50,
+  "structured_output": true,
+  "isolation": true
+}
+```
+
+- `"report_model": "fable"` — recommended upgrade: keep the fan-out on sonnet but
+  synthesize the final report with Fable 5 (one call, small cost increase, richer narrative).
+- `"fallback_model": "sonnet"` — recommended when running the fan-out on `fable`/`opus`:
+  automatically falls back when the primary model is overloaded.
+- `"effort"` — lower (`low`/`medium`) for cheaper, faster persona answers; not supported by haiku.
+- `"max_budget_usd_per_call"` — hard cost cap per subprocess call.
+- Run metadata records both the requested alias (`resolved_model`) and the exact
+  model IDs that actually served the calls (`actual_model_ids`), plus `total_cost_usd`.
 
 **Why agent-separated**: Shared-context simulation suffers from anchoring bias,
 consensus bias, and style contamination. Agent separation eliminates all three.
+Context isolation (`--safe-mode`) extends this: persona subprocesses do not read
+the user's CLAUDE.md, plugins, or hooks, so project context cannot bias responses.
 
 **Error handling**: If `simulate_survey.py` exits non-zero, read `run_metadata.json`
 for `failure_stage`, `preflight.error`, `per_persona[].error`, and

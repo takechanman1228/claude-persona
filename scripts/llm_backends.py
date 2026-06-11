@@ -190,9 +190,128 @@ def build_codex_prompt(system_prompt: str, user_message: str, output_mode: str) 
     )
 
 
-def preview_command(backend: str, model: str | None = None, structured_output: bool = False) -> str:
+# Optional claude CLI flags introduced after the original release. Each is
+# emitted only when the installed CLI advertises it, so older CLIs keep the
+# legacy command line unchanged.
+CLAUDE_CAPABILITY_FLAGS = (
+    "--json-schema",
+    "--safe-mode",
+    "--fallback-model",
+    "--effort",
+    "--max-budget-usd",
+)
+
+_claude_capabilities_cache: dict[str, bool] | None = None
+
+
+def detect_claude_capabilities(help_text: str | None = None) -> dict[str, bool]:
+    """Detect which optional claude CLI flags this installation supports.
+
+    Runs `claude --help` once per process and caches the result. Pass
+    `help_text` to parse a known help output instead (used by tests).
+    """
+    global _claude_capabilities_cache
+    if help_text is not None:
+        return {flag: flag in help_text for flag in CLAUDE_CAPABILITY_FLAGS}
+    if _claude_capabilities_cache is None:
+        try:
+            proc = subprocess.run(
+                ["claude", "--help"],
+                capture_output=True,
+                text=True,
+                timeout=30,
+            )
+            detected = proc.stdout or ""
+        except (OSError, subprocess.TimeoutExpired, subprocess.SubprocessError):
+            detected = ""
+        _claude_capabilities_cache = {
+            flag: flag in detected for flag in CLAUDE_CAPABILITY_FLAGS
+        }
+    return _claude_capabilities_cache
+
+
+def _build_claude_print_command(
+    system_prompt: str,
+    model: str | None = None,
+    json_schema: dict | None = None,
+    isolation: bool = True,
+    fallback_model: str | None = None,
+    effort: str | None = None,
+    max_budget_usd: float | None = None,
+    capabilities: dict[str, bool] | None = None,
+) -> list[str]:
+    """Build the claude -p command, gating newer flags on CLI capabilities."""
+    caps = capabilities if capabilities is not None else detect_claude_capabilities()
+    cmd = [
+        "claude",
+        "-p",
+        "--system-prompt",
+        system_prompt,
+        "--output-format",
+        "json",
+        "--tools",
+        "",
+        "--no-session-persistence",
+    ]
+    if isolation and caps.get("--safe-mode"):
+        cmd.append("--safe-mode")
+    if json_schema is not None and caps.get("--json-schema"):
+        cmd.extend(["--json-schema", json.dumps(json_schema)])
+    if fallback_model and caps.get("--fallback-model"):
+        cmd.extend(["--fallback-model", fallback_model])
+    if effort and caps.get("--effort"):
+        cmd.extend(["--effort", effort])
+    if max_budget_usd is not None and caps.get("--max-budget-usd"):
+        cmd.extend(["--max-budget-usd", str(max_budget_usd)])
+    if model:
+        cmd.extend(["--model", model])
+    return cmd
+
+
+def _parse_claude_envelope(stdout: str) -> dict:
+    """Parse the claude -p --output-format json envelope defensively.
+
+    With --json-schema the CLI leaves `result` empty and returns the parsed
+    object in a separate top-level `structured_output` key, so both fields
+    are surfaced and the caller picks whichever is populated.
+    """
+    try:
+        payload = json.loads(stdout)
+    except json.JSONDecodeError as error:
+        raise RuntimeError(
+            f"claude CLI returned non-JSON output: {stdout.strip()[:1000]}"
+        ) from error
+    if not isinstance(payload, dict):
+        raise RuntimeError(f"Unexpected claude CLI payload: {str(payload)[:1000]}")
+    if payload.get("is_error"):
+        detail = payload.get("result") or payload.get("subtype") or "unknown error"
+        raise RuntimeError(f"claude CLI reported an error: {str(detail)[:1000]}")
+
+    usage = payload.get("usage") or {}
+    return {
+        "text": payload.get("result") or "",
+        "structured": payload.get("structured_output"),
+        "input_tokens": usage.get("input_tokens", 0),
+        "output_tokens": usage.get("output_tokens", 0),
+        "cache_creation_input_tokens": usage.get("cache_creation_input_tokens", 0),
+        "cache_read_input_tokens": usage.get("cache_read_input_tokens", 0),
+        "total_cost_usd": payload.get("total_cost_usd"),
+        "model_usage": payload.get("modelUsage") or {},
+    }
+
+
+def preview_command(
+    backend: str,
+    model: str | None = None,
+    structured_output: bool = False,
+    isolation: bool = True,
+    fallback_model: str | None = None,
+    effort: str | None = None,
+    capabilities: dict[str, bool] | None = None,
+) -> str:
     """Render a backend command preview for dry-run output."""
     if backend == "claude-cli":
+        caps = capabilities if capabilities is not None else detect_claude_capabilities()
         lines = [
             "claude -p \\",
             '  --system-prompt "..." \\',
@@ -200,6 +319,14 @@ def preview_command(backend: str, model: str | None = None, structured_output: b
             '  --tools "" \\',
             "  --no-session-persistence \\",
         ]
+        if isolation and caps.get("--safe-mode"):
+            lines.append("  --safe-mode \\")
+        if structured_output and caps.get("--json-schema"):
+            lines.append("  --json-schema '{...}' \\")
+        if fallback_model and caps.get("--fallback-model"):
+            lines.append(f"  --fallback-model {fallback_model} \\")
+        if effort and caps.get("--effort"):
+            lines.append(f"  --effort {effort} \\")
         if model:
             lines.append(f"  --model {model}")
         return "\n".join(lines)
@@ -300,43 +427,65 @@ async def run_json_completion_async(
     json_schema: dict | None = None,
     cwd: Path | None = None,
     timeout_s: int = 300,
+    isolation: bool = True,
+    structured_output: bool = True,
+    fallback_model: str | None = None,
+    effort: str | None = None,
+    max_budget_usd: float | None = None,
 ) -> dict:
     """Run a single JSON completion against the resolved backend."""
     resolved_backend = resolve_backend(backend)
     resolved_model = resolve_model(model, resolved_backend)
 
     if resolved_backend == "claude-cli":
-        cmd = [
-            "claude",
-            "-p",
-            "--system-prompt",
+        claude_schema = json_schema if structured_output else None
+        cmd = _build_claude_print_command(
             system_prompt,
-            "--output-format",
-            "json",
-            "--tools",
-            "",
-            "--no-session-persistence",
-        ]
-        if resolved_model:
-            cmd.extend(["--model", resolved_model])
-
+            model=resolved_model,
+            json_schema=claude_schema,
+            isolation=isolation,
+            fallback_model=fallback_model,
+            effort=effort,
+            max_budget_usd=max_budget_usd,
+        )
         returncode, stdout, stderr = await _communicate_async(
             cmd, user_message, cwd=cwd, timeout_s=timeout_s
         )
+        if returncode != 0 and claude_schema is not None and "schema" in (
+            (stderr or stdout).lower()
+        ):
+            # Per-run degradation: if the CLI rejected this particular schema,
+            # retry once without --json-schema and fall back to text extraction.
+            cmd = _build_claude_print_command(
+                system_prompt,
+                model=resolved_model,
+                isolation=isolation,
+                fallback_model=fallback_model,
+                effort=effort,
+                max_budget_usd=max_budget_usd,
+            )
+            returncode, stdout, stderr = await _communicate_async(
+                cmd, user_message, cwd=cwd, timeout_s=timeout_s
+            )
         if returncode != 0:
             raise RuntimeError((stderr or stdout).strip()[:1000])
 
-        payload = json.loads(stdout)
-        text = payload.get("result", "")
-        usage = payload.get("usage", {})
+        envelope = _parse_claude_envelope(stdout)
+        if envelope["structured"] is not None:
+            data = envelope["structured"]
+        else:
+            data = extract_json_from_text(envelope["text"])
         return {
             "backend": resolved_backend,
             "resolved_model": resolved_model,
-            "text": text,
-            "data": extract_json_from_text(text),
-            "input_tokens": usage.get("input_tokens", 0),
-            "output_tokens": usage.get("output_tokens", 0),
-
+            "text": envelope["text"],
+            "data": data,
+            "input_tokens": envelope["input_tokens"],
+            "output_tokens": envelope["output_tokens"],
+            "cache_creation_input_tokens": envelope["cache_creation_input_tokens"],
+            "cache_read_input_tokens": envelope["cache_read_input_tokens"],
+            "total_cost_usd": envelope["total_cost_usd"],
+            "model_usage": envelope["model_usage"],
             "usage_supported": True,
         }
 
@@ -368,7 +517,10 @@ async def run_json_completion_async(
             "data": extract_json_from_text(text),
             "input_tokens": 0,
             "output_tokens": 0,
-
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 0,
+            "total_cost_usd": None,
+            "model_usage": {},
             "usage_supported": False,
         }
 
@@ -381,41 +533,41 @@ def run_text_completion(
     model: str | None = None,
     cwd: Path | None = None,
     timeout_s: int = 300,
+    isolation: bool = True,
+    fallback_model: str | None = None,
+    effort: str | None = None,
+    max_budget_usd: float | None = None,
 ) -> dict:
     """Run a single text completion against the resolved backend."""
     resolved_backend = resolve_backend(backend)
     resolved_model = resolve_model(model, resolved_backend)
 
     if resolved_backend == "claude-cli":
-        cmd = [
-            "claude",
-            "-p",
-            "--system-prompt",
+        cmd = _build_claude_print_command(
             system_prompt,
-            "--output-format",
-            "json",
-            "--tools",
-            "",
-            "--no-session-persistence",
-        ]
-        if resolved_model:
-            cmd.extend(["--model", resolved_model])
-
+            model=resolved_model,
+            isolation=isolation,
+            fallback_model=fallback_model,
+            effort=effort,
+            max_budget_usd=max_budget_usd,
+        )
         returncode, stdout, stderr = _communicate_sync(
             cmd, user_message, cwd=cwd, timeout_s=timeout_s
         )
         if returncode != 0:
             raise RuntimeError((stderr or stdout).strip()[:1000])
 
-        payload = json.loads(stdout)
-        usage = payload.get("usage", {})
+        envelope = _parse_claude_envelope(stdout)
         return {
             "backend": resolved_backend,
             "resolved_model": resolved_model,
-            "text": payload.get("result", ""),
-            "input_tokens": usage.get("input_tokens", 0),
-            "output_tokens": usage.get("output_tokens", 0),
-
+            "text": envelope["text"],
+            "input_tokens": envelope["input_tokens"],
+            "output_tokens": envelope["output_tokens"],
+            "cache_creation_input_tokens": envelope["cache_creation_input_tokens"],
+            "cache_read_input_tokens": envelope["cache_read_input_tokens"],
+            "total_cost_usd": envelope["total_cost_usd"],
+            "model_usage": envelope["model_usage"],
             "usage_supported": True,
         }
 
@@ -435,6 +587,9 @@ def run_text_completion(
             "text": output_path.read_text(encoding="utf-8"),
             "input_tokens": 0,
             "output_tokens": 0,
-
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 0,
+            "total_cost_usd": None,
+            "model_usage": {},
             "usage_supported": False,
         }

@@ -6,7 +6,7 @@
 
 $ErrorActionPreference = "Stop"
 
-$Version = "0.1.0"
+$Version = "0.2.0"
 $SkillDir = Join-Path $env:USERPROFILE ".claude\skills\persona"
 $RepoUrl = "https://github.com/takechanman1228/claude-persona"
 $ScriptDir = Split-Path -Parent $MyInvocation.MyCommand.Path

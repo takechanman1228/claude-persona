@@ -7,7 +7,7 @@ skill copied into `~/.claude/skills/persona/`.
 
 | Requirement | Version | Purpose |
 |-------------|---------|---------|
-| Claude Code | latest | Runs `/persona` commands |
+| Claude Code | 2.1.173 tested; older versions degrade gracefully (no structured output / context isolation) | Runs `/persona` commands |
 | Python | 3.10+ | Simulation and analysis scripts |
 | git | latest | Clone or install script |
 | pip | latest | Optional dependency install for analysis |

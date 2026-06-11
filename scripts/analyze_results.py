@@ -1536,6 +1536,8 @@ def generate_llm_report(
     model: str | None = None,
     report_date: str | None = None,
     topic: str | None = None,
+    isolation: bool = True,
+    effort: str | None = None,
 ) -> str:
     """Generate a narrative one-pager report using the resolved LLM backend."""
     system_prompt = _select_report_system_prompt(survey_type).format(
@@ -1562,6 +1564,8 @@ def generate_llm_report(
             user_message=user_message,
             model=model,
             cwd=output_dir,
+            isolation=isolation,
+            effort=effort,
         )
     except (FileNotFoundError, RuntimeError, TimeoutError, json.JSONDecodeError) as error:
         print(f"WARNING: LLM report generation failed: {error}", file=sys.stderr)
@@ -1635,6 +1639,16 @@ def main():
         default="same",
         help="Backend for LLM report generation (`same` uses --backend)",
     )
+    parser.add_argument(
+        "--no-isolation",
+        action="store_true",
+        help="Disable claude CLI --safe-mode context isolation for the report call",
+    )
+    parser.add_argument(
+        "--effort",
+        choices=["low", "medium", "high", "xhigh", "max"],
+        help="claude CLI effort level for the report call (not supported by haiku)",
+    )
     args = parser.parse_args()
 
     input_path = Path(args.input).resolve()
@@ -1698,6 +1712,8 @@ def main():
             model=resolved_report_model,
             report_date=report_date,
             topic=args.topic,
+            isolation=not args.no_isolation,
+            effort=args.effort,
         )
     else:
         generate_markdown_report(

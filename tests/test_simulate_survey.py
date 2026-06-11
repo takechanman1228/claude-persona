@@ -321,6 +321,37 @@ class RuntimeConfigTests(unittest.TestCase):
         self.assertEqual(resolved["_resolved_report_backend"], "codex-cli")
         self.assertIsNone(resolved["_resolved_report_model"])
 
+    def test_claude_call_options_default_to_current_behavior(self):
+        options = simulate_survey.claude_call_options({})
+
+        self.assertEqual(
+            options,
+            {
+                "isolation": True,
+                "structured_output": True,
+                "fallback_model": None,
+                "effort": None,
+                "max_budget_usd": None,
+            },
+        )
+
+    def test_claude_call_options_respect_config_overrides(self):
+        options = simulate_survey.claude_call_options(
+            {
+                "isolation": False,
+                "structured_output": False,
+                "fallback_model": "sonnet",
+                "effort": "medium",
+                "max_budget_usd_per_call": 0.5,
+            }
+        )
+
+        self.assertFalse(options["isolation"])
+        self.assertFalse(options["structured_output"])
+        self.assertEqual(options["fallback_model"], "sonnet")
+        self.assertEqual(options["effort"], "medium")
+        self.assertEqual(options["max_budget_usd"], 0.5)
+
 
 class RunMetadataTests(unittest.TestCase):
     def test_usage_fields_become_null_when_backend_has_no_usage_metadata(self):
@@ -354,7 +385,76 @@ class RunMetadataTests(unittest.TestCase):
         self.assertIsNone(metadata["total_input_tokens"])
         self.assertIsNone(metadata["total_output_tokens"])
         self.assertIsNone(metadata["total_tokens"])
+        self.assertIsNone(metadata["total_cache_creation_input_tokens"])
+        self.assertIsNone(metadata["total_cache_read_input_tokens"])
+        self.assertIsNone(metadata["total_cost_usd"])
+        self.assertEqual(metadata["actual_model_ids"], [])
         self.assertIsNone(metadata["per_persona"][0]["input_tokens"])
+        self.assertIsNone(metadata["per_persona"][0]["cost_usd"])
+
+    def test_cost_and_actual_model_ids_are_aggregated_for_claude(self):
+        def make_result(name, cost, model_id, cache_read=100):
+            return {
+                "persona_name": name,
+                "success": True,
+                "input_tokens": 1000,
+                "output_tokens": 200,
+                "cache_creation_input_tokens": 50,
+                "cache_read_input_tokens": cache_read,
+                "cost_usd": cost,
+                "model_ids": [model_id],
+                "latency_ms": 10,
+                "attempts": 1,
+                "adherence_score": None,
+                "adherence_passed": None,
+                "adherence_retried": False,
+                "validation_issues": [],
+                "error": None,
+                "usage_supported": True,
+            }
+
+        metadata = simulate_survey.build_run_metadata(
+            {
+                "_resolved_backend": "claude-cli",
+                "_resolved_model": "fable",
+                "_config_path": "demo.json",
+            },
+            [
+                make_result("Ava Cole", 0.05, "claude-fable-5"),
+                # A fallback-served persona reports a different exact model ID.
+                make_result("Ben Hart", 0.012, "claude-sonnet-4-6"),
+            ],
+            total_elapsed_ms=50,
+            preflight_result={
+                "success": True,
+                "backend": "claude-cli",
+                "resolved_model": "fable",
+                "check": "minimal-json-completion",
+                "usage_supported": True,
+                "input_tokens": 100,
+                "output_tokens": 10,
+                "cost_usd": 0.003,
+                "model_ids": ["claude-fable-5"],
+                "latency_ms": 5,
+                "error": None,
+            },
+        )
+
+        self.assertEqual(metadata["schema_version"], 3)
+        self.assertEqual(metadata["resolved_model"], "fable")
+        self.assertEqual(
+            metadata["actual_model_ids"],
+            ["claude-fable-5", "claude-sonnet-4-6"],
+        )
+        self.assertEqual(metadata["total_cost_usd"], 0.065)
+        self.assertEqual(metadata["total_cache_creation_input_tokens"], 100)
+        self.assertEqual(metadata["total_cache_read_input_tokens"], 200)
+        self.assertEqual(metadata["per_persona"][0]["cost_usd"], 0.05)
+        self.assertEqual(metadata["preflight"]["cost_usd"], 0.003)
+        self.assertEqual(
+            metadata["runtime_options"],
+            simulate_survey.claude_call_options({}),
+        )
 
     def test_preflight_failure_stage_is_recorded_in_metadata(self):
         metadata = simulate_survey.build_run_metadata(

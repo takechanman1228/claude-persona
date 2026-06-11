@@ -127,6 +127,21 @@ def load_config(path: Path) -> dict:
     return config
 
 
+def claude_call_options(config: dict) -> dict:
+    """Collect per-call backend options resolved from config.
+
+    All keys default to current behavior when absent; the claude-cli backend
+    ignores unsupported flags on older CLI versions (capability-gated).
+    """
+    return {
+        "isolation": config.get("isolation", True),
+        "structured_output": config.get("structured_output", True),
+        "fallback_model": config.get("fallback_model"),
+        "effort": config.get("effort"),
+        "max_budget_usd": config.get("max_budget_usd_per_call"),
+    }
+
+
 def resolve_runtime_settings(config: dict) -> dict:
     """Resolve runtime backend/model settings after config + CLI overrides."""
     resolved_backend = resolve_backend(config.get("backend"))
@@ -577,6 +592,8 @@ async def run_backend_preflight(config: dict) -> dict:
         "usage_supported": config["_resolved_backend"] == "claude-cli",
         "input_tokens": 0,
         "output_tokens": 0,
+        "cost_usd": None,
+        "model_ids": [],
         "latency_ms": 0,
         "error": None,
     }
@@ -604,6 +621,7 @@ async def run_backend_preflight(config: dict) -> dict:
             },
             cwd=SKILL_DIR,
             timeout_s=60,
+            **claude_call_options(config),
         )
         payload = completion["data"]
         if payload.get("status") != "ok":
@@ -613,6 +631,8 @@ async def run_backend_preflight(config: dict) -> dict:
         result["usage_supported"] = completion["usage_supported"]
         result["input_tokens"] = completion["input_tokens"]
         result["output_tokens"] = completion["output_tokens"]
+        result["cost_usd"] = completion.get("total_cost_usd")
+        result["model_ids"] = sorted(completion.get("model_usage", {}))
     except Exception as error:
         result["error"] = str(error)
     finally:
@@ -803,7 +823,8 @@ async def check_persona_adherence(
     Returns dict with pass/fail, score, feedback, and token tracking.
     """
     result = {"pass": True, "score": None, "feedback": "", "error": None,
-              "input_tokens": 0, "output_tokens": 0}
+              "input_tokens": 0, "output_tokens": 0,
+              "cost_usd": None, "model_ids": []}
 
     # Build the checking prompt
     system_prompt = adherence_prompt_template.replace(
@@ -833,9 +854,12 @@ async def check_persona_adherence(
                 model=config.get("_resolved_model"),
                 json_schema=scoring_schema,
                 cwd=SKILL_DIR,
+                **claude_call_options(config),
             )
             result["input_tokens"] = completion["input_tokens"]
             result["output_tokens"] = completion["output_tokens"]
+            result["cost_usd"] = completion.get("total_cost_usd")
+            result["model_ids"] = sorted(completion.get("model_usage", {}))
             scoring = completion["data"]
             score = scoring.get("overall_score", 7)
             result["score"] = int(score)
@@ -871,6 +895,10 @@ async def call_backend_for_persona(
         "validation_issues": [],
         "input_tokens": 0,
         "output_tokens": 0,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cost_usd": None,
+        "model_ids": [],
         "latency_ms": 0,
         "attempts": 0,
         "error": None,
@@ -888,6 +916,31 @@ async def call_backend_for_persona(
         config["survey_type"],
         allowed_options=allowed_options,
     )
+    model_ids: set[str] = set()
+
+    def track_completion(completion: dict) -> None:
+        result["input_tokens"] += completion.get("input_tokens", 0)
+        result["output_tokens"] += completion.get("output_tokens", 0)
+        result["cache_creation_input_tokens"] += completion.get(
+            "cache_creation_input_tokens", 0
+        )
+        result["cache_read_input_tokens"] += completion.get(
+            "cache_read_input_tokens", 0
+        )
+        cost = completion.get("total_cost_usd")
+        if cost is not None:
+            result["cost_usd"] = (result["cost_usd"] or 0.0) + cost
+        model_ids.update(completion.get("model_usage", {}))
+        result["model_ids"] = sorted(model_ids)
+
+    def track_adherence(adherence: dict) -> None:
+        result["input_tokens"] += adherence.get("input_tokens", 0)
+        result["output_tokens"] += adherence.get("output_tokens", 0)
+        cost = adherence.get("cost_usd")
+        if cost is not None:
+            result["cost_usd"] = (result["cost_usd"] or 0.0) + cost
+        model_ids.update(adherence.get("model_ids", []))
+        result["model_ids"] = sorted(model_ids)
 
     async with semaphore:
         for attempt in range(1, max_retries + 1):
@@ -901,9 +954,9 @@ async def call_backend_for_persona(
                     model=config.get("_resolved_model"),
                     json_schema=response_schema,
                     cwd=SKILL_DIR,
+                    **claude_call_options(config),
                 )
-                result["input_tokens"] = completion["input_tokens"]
-                result["output_tokens"] = completion["output_tokens"]
+                track_completion(completion)
                 result["usage_supported"] = completion["usage_supported"]
                 parsed = completion["data"]
                 issues = validate_response(
@@ -957,9 +1010,8 @@ async def call_backend_for_persona(
             persona_profile, result["response"],
             adherence_prompt, config, semaphore,
         )
-        # Accumulate tokens from adherence check
-        result["input_tokens"] += adherence.get("input_tokens", 0)
-        result["output_tokens"] += adherence.get("output_tokens", 0)
+        # Accumulate tokens/cost from adherence check
+        track_adherence(adherence)
 
         if adherence.get("error"):
             print(
@@ -995,9 +1047,9 @@ async def call_backend_for_persona(
                         model=config.get("_resolved_model"),
                         json_schema=response_schema,
                         cwd=SKILL_DIR,
+                        **claude_call_options(config),
                     )
-                    result["input_tokens"] += regen_completion["input_tokens"]
-                    result["output_tokens"] += regen_completion["output_tokens"]
+                    track_completion(regen_completion)
                     regen_parsed = regen_completion["data"]
                     regen_issues = validate_response(
                         regen_parsed,
@@ -1012,8 +1064,7 @@ async def call_backend_for_persona(
                             persona_profile, regen_parsed,
                             adherence_prompt, config, semaphore,
                         )
-                        result["input_tokens"] += recheck.get("input_tokens", 0)
-                        result["output_tokens"] += recheck.get("output_tokens", 0)
+                        track_adherence(recheck)
                         if recheck.get("score") is not None:
                             result["adherence_score"] = recheck["score"]
                             result["adherence_passed"] = recheck["pass"]
@@ -1106,6 +1157,12 @@ def build_run_metadata(
     if usage_supported:
         total_input = sum(r["input_tokens"] for r in api_results)
         total_output = sum(r["output_tokens"] for r in api_results)
+        total_cache_creation = sum(
+            r.get("cache_creation_input_tokens", 0) or 0 for r in api_results
+        )
+        total_cache_read = sum(
+            r.get("cache_read_input_tokens", 0) or 0 for r in api_results
+        )
         if preflight_result and preflight_result.get("usage_supported"):
             total_input += preflight_result.get("input_tokens", 0)
             total_output += preflight_result.get("output_tokens", 0)
@@ -1114,6 +1171,24 @@ def build_run_metadata(
         total_input = None
         total_output = None
         total_tokens = None
+        total_cache_creation = None
+        total_cache_read = None
+
+    # Cost and exact model attribution (claude-cli only; None/[] elsewhere).
+    # `resolved_model` keeps the requested alias; `actual_model_ids` records
+    # the full model IDs the CLI reported actually serving the calls.
+    cost_values = [
+        r.get("cost_usd") for r in api_results if r.get("cost_usd") is not None
+    ]
+    if preflight_result and preflight_result.get("cost_usd") is not None:
+        cost_values.append(preflight_result["cost_usd"])
+    total_cost_usd = round(sum(cost_values), 6) if cost_values else None
+
+    actual_model_ids: set[str] = set()
+    for r in api_results:
+        actual_model_ids.update(r.get("model_ids", []) or [])
+    if preflight_result:
+        actual_model_ids.update(preflight_result.get("model_ids", []) or [])
 
     def first_adherence_score(result: dict):
         if result.get("first_adherence_score") is not None:
@@ -1171,6 +1246,7 @@ def build_run_metadata(
                 "usage_supported": r.get("usage_supported", False),
                 "input_tokens": r["input_tokens"] if r.get("usage_supported") else None,
                 "output_tokens": r["output_tokens"] if r.get("usage_supported") else None,
+                "cost_usd": r.get("cost_usd"),
                 "latency_ms": r["latency_ms"],
                 "attempts": r["attempts"],
                 "first_adherence_score": persona_first_adherence_score,
@@ -1184,18 +1260,23 @@ def build_run_metadata(
         )
 
     return {
-        "schema_version": 2,
+        "schema_version": 3,
         "isolation_mode": "agent-separated",
         "backend": config["_resolved_backend"],
         "resolved_model": config.get("_resolved_model"),
+        "actual_model_ids": sorted(actual_model_ids),
         "failure_stage": failure_stage,
         "usage_supported": usage_supported,
         "temperature": f"N/A ({config['_resolved_backend']})",
+        "runtime_options": claude_call_options(config),
         "total_personas": len(api_results),
         "successful": successful,
         "total_input_tokens": total_input,
         "total_output_tokens": total_output,
         "total_tokens": total_tokens,
+        "total_cache_creation_input_tokens": total_cache_creation,
+        "total_cache_read_input_tokens": total_cache_read,
+        "total_cost_usd": total_cost_usd,
         "total_elapsed_ms": total_elapsed_ms,
         "timestamp": datetime.now(timezone.utc).isoformat(),
         "topic": config.get("topic"),
@@ -1217,6 +1298,7 @@ def build_run_metadata(
                 if preflight_result.get("usage_supported")
                 else None
             ),
+            "cost_usd": preflight_result.get("cost_usd"),
             "latency_ms": preflight_result.get("latency_ms"),
             "error": preflight_result.get("error"),
         } if preflight_result else None,
@@ -1266,6 +1348,14 @@ async def run_simulation(config: dict, dry_run: bool = False) -> list[dict]:
     print(f"Model: {format_model_label(config.get('_resolved_model'))}")
     print(f"Execution: {describe_backend(config['_resolved_backend'])}")
     print(f"Max concurrency: {config['max_concurrency']}")
+    if config["_resolved_backend"] == "claude-cli":
+        options = claude_call_options(config)
+        print(f"Structured output: {'on' if options['structured_output'] else 'off'}")
+        print(f"Context isolation: {'on' if options['isolation'] else 'off'}")
+        if options["fallback_model"]:
+            print(f"Fallback model: {options['fallback_model']}")
+        if options["effort"]:
+            print(f"Effort: {options['effort']}")
     print()
 
     if not dry_run:
@@ -1337,11 +1427,19 @@ async def run_simulation(config: dict, dry_run: bool = False) -> list[dict]:
         print(f"DRY RUN — Prompt for: {name}")
         print(f"{'='*60}")
         print(f"\n--- BACKEND COMMAND ---\n")
+        preview_structured = (
+            config.get("structured_output", True)
+            if config["_resolved_backend"] == "claude-cli"
+            else True
+        )
         print(
             preview_command(
                 config["_resolved_backend"],
                 model=config.get("_resolved_model"),
-                structured_output=True,
+                structured_output=preview_structured,
+                isolation=config.get("isolation", True),
+                fallback_model=config.get("fallback_model"),
+                effort=config.get("effort"),
             )
         )
         print(f"\n--- SYSTEM PROMPT ({len(prompt)} chars) ---\n")
@@ -1411,6 +1509,11 @@ async def run_simulation(config: dict, dry_run: bool = False) -> list[dict]:
     # Summary
     successful = sum(1 for r in api_results if r["success"])
     print(f"\nCompleted: {successful}/{len(api_results)} successful ({total_elapsed_ms}ms total)")
+    cost_values = [r["cost_usd"] for r in api_results if r.get("cost_usd") is not None]
+    if preflight_result and preflight_result.get("cost_usd") is not None:
+        cost_values.append(preflight_result["cost_usd"])
+    if cost_values:
+        print(f"Total cost: ${sum(cost_values):.4f}")
 
     # 6. Assemble results
     results = assemble_results(api_results, personas)
@@ -1507,6 +1610,25 @@ def main():
         action="store_true",
         help="Skip persona adherence checking (faster, cheaper)",
     )
+    parser.add_argument(
+        "--no-structured-output",
+        action="store_true",
+        help="Disable claude CLI --json-schema structured output (fall back to text extraction)",
+    )
+    parser.add_argument(
+        "--no-isolation",
+        action="store_true",
+        help="Disable claude CLI --safe-mode context isolation for persona subprocesses",
+    )
+    parser.add_argument(
+        "--fallback-model",
+        help="claude CLI fallback model(s) when the primary model is overloaded (comma-separated)",
+    )
+    parser.add_argument(
+        "--effort",
+        choices=["low", "medium", "high", "xhigh", "max"],
+        help="claude CLI effort level (not supported by haiku)",
+    )
     args = parser.parse_args()
 
     # Load config
@@ -1532,6 +1654,14 @@ def main():
         config["report_backend"] = args.report_backend
     if args.no_adherence_check:
         config["_no_adherence_check"] = True
+    if args.no_structured_output:
+        config["structured_output"] = False
+    if args.no_isolation:
+        config["isolation"] = False
+    if args.fallback_model:
+        config["fallback_model"] = args.fallback_model
+    if args.effort:
+        config["effort"] = args.effort
     resolve_runtime_settings(config)
 
     # Run simulation
@@ -1592,6 +1722,10 @@ def main():
             analyze_cmd.append("--report-llm")
             if config.get("_resolved_report_model"):
                 analyze_cmd.extend(["--model", config["_resolved_report_model"]])
+        if config.get("isolation", True) is False:
+            analyze_cmd.append("--no-isolation")
+        if config.get("effort"):
+            analyze_cmd.extend(["--effort", config["effort"]])
         if config.get("topic"):
             analyze_cmd.extend(["--topic", config["topic"]])
         subprocess.run(analyze_cmd, check=True)

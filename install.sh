@@ -2,7 +2,7 @@
 set -euo pipefail
 
 main() {
-    VERSION="0.1.0"
+    VERSION="0.2.0"
     SKILL_DIR="${HOME}/.claude/skills/persona"
     REPO_URL="https://github.com/takechanman1228/claude-persona"
     SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"

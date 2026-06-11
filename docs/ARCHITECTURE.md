@@ -23,9 +23,16 @@ while Python owns repeatable file I/O, aggregation, charts, and schema checks.
 The core product claim is not just "AI personas." It is the execution model:
 
 - one persona per subprocess
-- per-response validation
+- context isolation per subprocess (`--safe-mode`): the user's CLAUDE.md,
+  plugins, and hooks never enter persona context
+- server-validated structured output (`--json-schema`) with text-extraction
+  fallback, plus per-response validation
 - optional adherence scoring across four axes
-- deterministic summary artifacts alongside narrative output
+- deterministic summary artifacts alongside narrative output, with cost and
+  exact serving-model attribution in `run_metadata.json`
+
+New CLI flags are capability-detected at runtime (`claude --help` probed once
+per process), so the engine runs unchanged on older Claude Code versions.
 
 That is why the skill can ship both `report.md` for humans and `results.json`
 for downstream reuse.

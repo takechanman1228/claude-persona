@@ -11,7 +11,7 @@
       "name": "claude-persona",
       "source": "./",
       "description": "Build a market-specific persona panel and pressure-test concepts before fieldwork. Inspired by TinyTroupe.",
-      "version": "0.1.0"
+      "version": "0.2.0"
     }
   ]
 }

@@ -83,3 +83,24 @@ in front of a panel and ask which one wins:
 - (Optional) Segment definitions (JSON or natural language)
 
 **Output**: JSON files saved to `personas/{survey-id}/` directory with manifest.
+
+## Engine Model & Reliability Options
+
+The simulation engine (`scripts/simulate_survey.py`) accepts model and
+reliability options on top of the command surface above. Defaults match
+prior behavior; new claude CLI flags are capability-detected and skipped
+on older CLI versions.
+
+| Config key | CLI flag | Effect |
+|------------|----------|--------|
+| `"model"` | `--model` | Simulation model: `sonnet` (default), `haiku`, `opus`, `fable` (Claude Fable 5, ~4x sonnet cost), or a full model ID |
+| `"report_model"` | — | Model for LLM report synthesis only (recommended: `"fable"` for the richest narrative at one extra call) |
+| `"fallback_model"` | `--fallback-model` | Automatic fallback when the primary model is overloaded (comma-separated list allowed) |
+| `"effort"` | `--effort` | `low`/`medium`/`high`/`xhigh`/`max`; not supported by haiku |
+| `"max_budget_usd_per_call"` | — | Hard cost cap per persona subprocess |
+| `"structured_output"` | `--no-structured-output` | Server-validated JSON via `--json-schema` (default on) |
+| `"isolation"` | `--no-isolation` | Context isolation via `--safe-mode` (default on) |
+
+Run metadata (`run_metadata.json`, schema_version 3) records `total_cost_usd`,
+per-persona `cost_usd`, and `actual_model_ids` — the exact model IDs that
+served the run, alongside the requested alias in `resolved_model`.
