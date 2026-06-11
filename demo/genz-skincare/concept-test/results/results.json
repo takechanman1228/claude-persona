@@ -7,9 +7,9 @@
     "occupation": "Social Media Coordinator",
     "responses": {
       "preferred_option": "C",
-      "reasoning": "Okay so honestly the Glow Boosting Toner was a no-brainer for me — toner is like THE cornerstone step of any K-beauty or J-beauty routine and I'm not skipping it, ever. I work in clean beauty and I can tell you that right now everyone is chasing that lit-from-within, glass-skin look, and a brightening toner that evens out your complexion just fits seamlessly into what I'm already doing every single night. Concept B is genuinely tempting because barrier repair is huge right now and I totally respect the science behind it, but I don't have super reactive skin so it's not my urgent need. Concept A I almost immediately passed on — salicylic or benzoyl actives are great but I'm not really in an active breakout phase and I don't want to over-strip my skin just to target occasional hormonal spots.",
+      "reasoning": "Okay so the Glow Boosting Toner is honestly calling my name — I live for that lit-from-within, glass-skin look and a good brightening toner is like the unsung hero of any multi-step routine. Toners are such a perfect delivery vehicle for actives and they layer so beautifully under serums and moisturizers, which is very K-beauty coded in the best way. I passed on A because I'm not currently dealing with active breakouts and I don't want to introduce unnecessary actives if I don't need them. B is genuinely tempting because barrier health is everything right now, but I already have a solid ceramide moisturizer I swear by, so I don't really have a gap there.",
       "purchase_likelihood": 4,
-      "improvement": "I need to see the actual brightening ingredients listed — like is it niacinamide, alpha-arbutin, tranexamic acid? Because I will absolutely Google every single one before I buy, and a vague 'brightens dull skin' claim with no transparency on actives is a yellow flag for me as someone who works in clean beauty."
+      "improvement": "I need the full ingredient list — like, are we talking niacinamide? Vitamin C? Alpha-arbutin? Because the concept copy is kind of vague and I need to know exactly what's doing the brightening before I commit, especially since I work in clean beauty and I have standards lol."
     }
   },
   {
@@ -20,9 +20,9 @@
     "occupation": "Auto Insurance Claims Adjuster",
     "responses": {
       "preferred_option": "A",
-      "reasoning": "If I'm gonna put something on my face, it needs to actually do something. Clearing up breakouts is a real problem with a real fix — I get that. The barrier cream and the toner sound like stuff I'd see on my girlfriend's side of the sink. I don't even know what a toner is supposed to do for me.",
+      "reasoning": "I'll get a pimple every now and then, so at least Option A has an actual job to do. It solves something. B is for 'sensitive skin' and all that — that's not really me. And C? 'Glow boosting toner'? Hard pass. That's not something I'm gonna say out loud at a register.",
       "purchase_likelihood": 2,
-      "improvement": "Tell me how much it costs and how long one bottle lasts. If it's over fifteen dollars I'm probably out."
+      "improvement": "Drop the word 'serum' — call it a spot treatment or something normal. And keep it under $12."
     }
   },
   {
@@ -33,9 +33,9 @@
     "occupation": "Pharmacy Technician",
     "responses": {
       "preferred_option": "B",
-      "reasoning": "Barrier function is foundational — if the barrier is compromised, nothing else works properly, and that's actually supported by the research. Concept B is the only one here that addresses a mechanism I can evaluate. Concept A says 'clinically proven actives' but doesn't tell me which ones or at what concentration, so that phrase is doing a lot of heavy lifting without actually saying anything. Concept C is basically marketing — 'glow boosting' isn't a mode of action, and 'more even complexion' without specifying whether we're talking niacinamide, alpha arbutin, azelaic acid, or what, is just noise.",
+      "reasoning": "Barrier function is basically the foundation everything else sits on — if your barrier is compromised, your actives aren't absorbing correctly and your skin is just inflamed baseline. Concept B at least speaks to a mechanism I can evaluate, which is more than I can say for C, where 'glow boosting' tells me absolutely nothing about what's actually in the formula. A sounds fine on paper but 'clinically proven actives' without naming them is exactly the kind of language brands use when they want credit for science without committing to a concentration. I'd still need to see the full INCI list before I actually bought anything here.",
       "purchase_likelihood": 3,
-      "improvement": "List the actual actives and their percentages — ceramide NP, cholesterol, fatty acid ratio, whatever's in there. If I can't cross-reference the formulation against published literature, I'm not buying it on faith."
+      "improvement": "Name the actives and their percentages — ceramides, cholesterol, fatty acids in what ratio? If it's just petrolatum and glycerin with a 'barrier repair' label slapped on, that's a different product than something with a proper lipid complex matching skin's natural composition."
     }
   },
   {
@@ -46,9 +46,9 @@
     "occupation": "Barista and Environmental Studies Student",
     "responses": {
       "preferred_option": "B",
-      "reasoning": "The barrier repair concept is the only one that feels like it's actually about skin health rather than, like... chasing some ideal of how you're supposed to look. Brightening and 'even complexion' from C — that's just the beauty industry telling you your natural skin tone isn't enough, and I'm really tired of that. A is fine if you need it, but 'clinically proven actives' doesn't tell me anything about what's actually in it or where it came from. B at least has this language around restoring what's already there, which resonates with me — though I'd honestly need to see the full ingredient list before I could feel good about any of these, because none of them say a word about cruelty-free status or how they're packaged.",
+      "reasoning": "The Barrier Repair Cream is the one that actually speaks to what I think skincare should be doing — like, working *with* your skin's natural systems instead of just... attacking a symptom. Between school and closing shifts at Stumptown, my skin is genuinely stressed, and something that helps restore what should already be there feels more aligned with how I think about body autonomy and, honestly, environmental philosophy too. The 'glow' toner feels like it's selling me an aesthetic standard I'm not really interested in chasing, and the acne serum — I'd want to know exactly what 'clinically proven actives' means before putting that anywhere near my face, because that phrase can hide a lot. I do still have questions about this one though — the ingredients, the packaging, whether the brand has done anything meaningful around cruelty-free certification — because without that I can't fully commit.",
       "purchase_likelihood": 3,
-      "improvement": "I'd want full ingredient transparency — not just 'formulated for sensitive skin' but an actual breakdown of what's in it and where it comes from. And please, please tell me it comes in something other than a single-use plastic tube."
+      "improvement": "I'd want full ingredient transparency — not just a marketing claim about 'soothing' or 'restoring,' but an actual commitment to cruelty-free and vegan formulation, ideally with refillable or minimal packaging. That's the difference between something I'd genuinely stand behind and something I'd just pass on."
     }
   },
   {
@@ -59,9 +59,9 @@
     "occupation": "Electrical Apprentice",
     "responses": {
       "preferred_option": "A",
-      "reasoning": "At least A has a point. Acne's an actual problem, not just wanting to glow or whatever. The other two sound like something you'd see at a spa. I don't know what a 'skin barrier' is and I don't care to find out.",
+      "reasoning": "If I'm picking one of these it's the acne thing. At least that's fixing an actual problem. The other two — 'barrier repair' and 'glow boosting' — sound like something from a spa commercial. I don't need to glow. I need to not have a zit before I show up to a job site.",
       "purchase_likelihood": 1,
-      "improvement": "Make it not a serum. Call it something that doesn't sound like a skincare commercial. Still probably not buying it — that's what soap is for."
+      "improvement": "Make it not be called a serum. Call it a spot treatment or something normal. Serum sounds like something my aunt buys at the mall."
     }
   },
   {
@@ -72,9 +72,9 @@
     "occupation": "College Student and Part-Time Sales Associate",
     "responses": {
       "preferred_option": "C",
-      "reasoning": "GIRL the glow toner?? That's literally what every skincare girlie on TikTok is talking about right now — glass skin, lit-from-within, all of that. I work at Ulta and I see customers ask for glow products every single shift, and honestly I want that for MYSELF too. The serum is cute but like, acne stuff takes forever to work and I need results I can see for my GRWM videos. The barrier cream sounds like something my mom would use, no shade — it's giving 'dry skin doctor visit' not 'selfie ready.'",
-      "purchase_likelihood": 4,
-      "improvement": "I need the packaging to be ADORABLE — like if it doesn't look good on my bathroom shelf for my TikTok background, I'm not buying it. Also add something about it being good under makeup because I'm not skipping my foundation for any skincare."
+      "reasoning": "OKAY so the Glow Boosting Toner?? Girl that is literally what every skincare TikTok is about right now — glass skin, dewy glow, even complexion — that's the whole VIBE. I see like five 'Get Ready With Me' videos a day and every single one of them has a toner step, so I already know I need one. The Acne serum is fine but honestly it sounds kinda harsh and clinical and I don't want to be stripping my skin before a party, and the Barrier Cream — okay I get it but 'soothing redness' just sounds like something my mom would use, no offense. The toner just makes me think instant glow for my selfies and that's literally all I need it to do.",
+      "purchase_likelihood": 5,
+      "improvement": "I would need the packaging to actually be CUTE — like a pretty bottle I can leave on my vanity for my GRWM videos, not some boring clear tube. Also if it came in a limited edition shade or had a little shimmer version that would send me FULLY into orbit."
     }
   },
   {
@@ -85,9 +85,9 @@
     "occupation": "Backend Software Developer",
     "responses": {
       "preferred_option": "B",
-      "reasoning": "Barrier function is basically the foundation — if that's compromised, nothing else you put on your face works efficiently. 'Strengthens your skin barrier' and 'restores natural protective layer' are mechanistically grounded phrases, not fluff. C is just vibes with no specificity — 'glow' is doing zero work as a functional claim. A is fine but I'm not in an active breakout situation, so it's not the right tool right now.",
+      "reasoning": "Barrier repair is foundational — if the barrier's compromised, nothing else in your routine is going to perform correctly. The framing here maps to actual skin science: ceramides, lipid matrix, that kind of thing. Option A is fine if acne is your primary problem, but it's more of a spot fix than a system fix. Option C is just vague — 'glow boosting' tells me nothing about the mechanism, which means it's probably mostly marketing.",
       "purchase_likelihood": 3,
-      "improvement": "List the actual actives — ceramides, niacinamide, what percentage. 'Formulated for sensitive skin' is not information, it's a label."
+      "improvement": "Tell me what's actually in it — specific actives, concentrations, ideally a link to the relevant studies. 'Formulated for sensitive skin' is not information."
     }
   },
   {
@@ -98,9 +98,9 @@
     "occupation": "Third-Grade Teacher",
     "responses": {
       "preferred_option": "B",
-      "reasoning": "Okay so B is basically speaking my love language — 'strengthens your skin barrier' is exactly the kind of language Dr. Dray uses, and it's why I've been loyal to CeraVe for three years. Teaching 22 eight-year-olds all day is genuinely stressful and my skin shows it every Thursday by getting tight and reactive, so a barrier repair formula makes practical sense for me. The Acne Control Serum would've been my pick in college but I'm not really breaking out right now, and Concept C telling me it 'brightens dull skin' without any ingredient hint is just marketing fluff — I can't compare that to anything on my shelf. At least with B I know what category of actives I'm looking for and whether it's a dupe for something I already like.",
-      "purchase_likelihood": 3,
-      "improvement": "I need to see the actual ingredient list and — most importantly — the price point before I commit to anything. If this is $30+ I'm finding the drugstore equivalent, but if it's under $15 and has ceramides or centella in there, I'm probably putting it in my Target cart this Sunday."
+      "reasoning": "Okay so the Barrier Repair Cream is basically what I'm already buying — my CeraVe Moisturizing Cream and Vanicream are doing exactly this job, so I know the concept works and I trust it. I teach 22 kids all day, I'm washing my hands constantly, and by Thursday my skin is stressed and red, so 'calms irritation and restores the protective layer' is literally speaking my language. The Glow Toner set off my vague-marketing alarm bells immediately — 'brightens' without telling me how? That's like saying 'supports learning' without a lesson plan. And the Acne Serum is great if you have acne, but that's not really my main concern right now — I need my barrier back after a long school week.",
+      "purchase_likelihood": 4,
+      "improvement": "Tell me the actual actives — is it ceramides, niacinamide, panthenol? Because if I'm going to buy this instead of my CeraVe, I need to see the ingredient list and the price per ounce before I commit."
     }
   },
   {
@@ -110,10 +110,10 @@
     "gender": "Male",
     "occupation": "Certified Personal Trainer",
     "responses": {
-      "preferred_option": "B",
-      "reasoning": "Okay so the Barrier Repair Cream just makes the most sense to me right now — think about it like recovery for your skin. I'm training clients all day, I'm outside hiking on weekends, Denver altitude is no joke on your skin, and I needed something that actually works on the structural level, not just masking stuff. The whole 'strengthens your skin barrier' angle hits different when you understand that your skin is literally your first line of defense, same way you build up your joints and connective tissue in the gym. Option A is great if you've got active acne, but that's not my main issue — I'll break out sometimes after a sweaty session but it's not chronic. And Option C honestly just felt thin on the details — 'brightens dull skin' is fine but I want to know WHY it works, not just THAT it works.",
+      "preferred_option": "A",
+      "reasoning": "Okay so the 'clinically proven actives' language immediately gets my attention — that's the same way I think about supplements or training protocols, like show me the mechanism, show me why it works. I'm 23, I sweat hard every day training clients, and I definitely get some breakouts around my jaw and forehead from that, so this is a real problem I'm trying to solve. B honestly sounds more like a recovery product for someone with already-damaged skin, and C is way too vague for me — 'glow boosting' doesn't tell me anything about how it actually works, and I need to be able to look up the ingredients. A feels targeted, functional, and purposeful — kind of like picking the right pre-workout for a specific goal.",
       "purchase_likelihood": 4,
-      "improvement": "I'd want a clear ingredient breakdown upfront — like show me the actives and let me actually look them up. Something like 'contains ceramides + niacinamide, here's the mechanism' would make me hit buy immediately instead of going down a 45-minute rabbit hole on PubMed first."
+      "improvement": "I'd want a full ingredient breakdown front and center — like give me the active percentages (salicylic acid? niacinamide? benzoyl peroxide?), because I'm going to go research it before I buy anyway. And it needs to be confirmed lightweight and non-greasy, because I'm putting this on before client sessions and I can't be walking around with a shiny face."
     }
   },
   {
@@ -124,9 +124,9 @@
     "occupation": "High School Senior and Incoming College Freshman",
     "responses": {
       "preferred_option": "A",
-      "reasoning": "Okay so I picked the Acne Control Serum because that's literally what I need the most right now — I've been dealing with persistent breakouts along my jawline for almost a year and I've tried so many things. The fact that it says 'clinically proven actives' matters a lot to me because I'm not going to put something on my face without knowing there's actual research behind it. I did consider B pretty seriously, honestly, because I've read a lot about how a damaged skin barrier can actually make acne worse — like, if you're using too many harsh actives your barrier gets compromised and then you're just in this awful cycle — but I think right now the active treatment is the more urgent priority. C I basically skipped over entirely, 'brighten dull skin' just sounds like marketing language to me and I don't even know what that means mechanistically.",
+      "reasoning": "Okay so I went back and forth on this a lot — because I actually know that barrier repair is really important for acne-prone skin, and Dr. Dray talks about that constantly — but at the end of the day my skin's primary issue is active breakouts, and I need something that's actually targeting that, not just calming redness. The fact that Concept A says 'clinically proven actives' is the only reason I'm choosing it over B, because at least it implies there's real research behind it, not just vague 'soothing' language. C is basically out for me — brightening and glow are not my concern right now, that feels like something I can worry about after I actually get my acne under control. I just really, really hope 'clinically proven' means something specific like niacinamide or benzoyl peroxide or tretinoin and not just... marketing speak.",
       "purchase_likelihood": 3,
-      "improvement": "I'd want to know exactly which actives are in it — like, is it benzoyl peroxide, salicylic acid, niacinamide, azelaic acid? Because the specific ingredients completely change whether I'd try it or not, especially given my skin's history with certain things. Saying 'clinically proven' without naming the ingredients feels a little vague and honestly makes me nervous."
+      "improvement": "I need to see the actual ingredient list and concentrations before I'd commit — 'clinically proven actives' could mean anything and I would 100% look it up on PubMed before putting it on my face. If they just told me exactly what's in it and linked to the study, I'd probably jump straight to a 5."
     }
   }
 ]

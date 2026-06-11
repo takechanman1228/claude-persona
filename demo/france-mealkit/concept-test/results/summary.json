@@ -6,15 +6,15 @@
     "Independent Professionals & Empty Nesters": 3
   },
   "overall_preference": {
-    "B": 6,
-    "C": 4
+    "B": 7,
+    "C": 3
   },
   "preference_by_segment": {
     "Dual-Income Couples Without Children": {
       "count": 4,
       "preferences": {
-        "C": 3,
-        "B": 1
+        "B": 2,
+        "C": 2
       }
     },
     "Families With Young Children": {

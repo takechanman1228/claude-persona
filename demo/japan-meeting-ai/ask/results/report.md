@@ -1,6 +1,6 @@
-# Ask: AI Meeting Notes Software — Interest Drivers and Purchase Barriers
+# Ask: AI Meeting Notes Software / Productivity SaaS
 
-**Date**: 2026-04-21 | **Panel**: 10 personas
+**Date**: 2026-06-11 | **Panel**: 10 personas
 
 ---
 
@@ -12,10 +12,10 @@
 | 2 | Masahiro Ito | 56 | Manufacturing Division General Manager | Analog Traditionalist | Skeptical |
 | 3 | Yuki Tanabe | 28 | COO and Co-founder | Startup Juggler | Eager |
 | 4 | Rina Ogawa | 43 | Section Chief, Corporate Planning | Overwhelmed Section Chief | Conflicted |
-| 5 | Takeshi Morimoto | 47 | IT Director | Skeptical IT Gatekeeper | Wary |
+| 5 | Takeshi Morimoto | 47 | IT Director | Skeptical IT Gatekeeper | Guarded |
 | 6 | Ayaka Nishimura | 32 | Freelance UX Designer | Remote Creative Freelancer | Eager |
 | 7 | Sachiko Harada | 53 | Managing Director | Cost-Conscious SMB Owner | Cautious |
-| 8 | Shota Kimura | 26 | Medical Representative | Young Field Rep | Eager |
+| 8 | Shota Kimura | 26 | Medical Representative (MR) | Young Field Rep | Eager |
 | 9 | Noboru Watanabe | 61 | Section Chief, Regional Promotion Division | Government Bureaucrat | Cautious |
 | 10 | Haruka Fujimoto | 36 | DX Promotion Lead | Innovation Champion | Eager |
 
@@ -23,65 +23,65 @@
 
 ## Direct Answer
 
-The panel recognizes a genuine daily pain — decisions evaporating, manual notes stealing focus, hours lost to post-meeting write-ups — and the value proposition lands conceptually for most. However, adoption is blocked by two near-universal barriers that must be cleared before any feature is evaluated: unresolved questions about where audio and transcript data are stored, and serious doubt about whether Japanese-language accuracy is production-grade. The purchase trigger is not transcription, but structured actionable output with named owners and deadlines; without that, the tool replaces nothing.
+The panel universally validates the category's pain point — meeting follow-up work consumes meaningful hours across every role — but treats data confidentiality and residency as a prerequisite gate, not a secondary concern. No persona questioned whether the problem was real; every objection was about trust. For this panel, the product doesn't compete on features until it clears the question of where audio goes.
 
 ---
 
 ## Key Findings
 
-1. **Data security is the baseline gate, not a niche objection.** Concerns about audio storage, data residency, client confidentiality, and regulatory compliance surface in 7 of 10 responses — spanning an enterprise IT director who has already blocked three tools this fiscal year, a bank section chief who fears formal reprimand, a tax accountant handling client financials, and a pharma field rep bound by promotional compliance rules. The shared logic is not technophobia; it is professional liability. Vendors who lead with features before producing a clear data residency statement are disqualifying themselves before the demo begins.
+1. **Data privacy and data residency are universal blockers, not a regulated-industry edge case.** Every single persona — from the 26-year-old field rep to the 61-year-old government official — named some version of "where does this recording go?" before discussing any feature. Even the most eager personas (startup COO, DX lead) cited client data exposure as their primary hesitation. No segment is insulated from this concern.
 
-2. **Japanese language accuracy is a mandatory threshold, not a localization checkbox.** Five personas name it explicitly as a deal-breaker, and the failure modes they describe are specific: inability to handle *keigo* and honorifics, mid-conversation Japanese-English switching, Hokkaido dialect, and industry-specific terms like *施策* and *KPI達成率*. Several note that a mediocre transcript creates more cleanup work than writing manually — inverting the value proposition entirely.
+2. **Japanese language performance is the make-or-break functional test, and the bar is higher than localization.** At least six personas require Japanese-only or Japanese-English mixed transcription; several explicitly described past tools "falling apart" on real Japanese audio. This is not a language-pack checkbox — it is the primary quality criterion, and demos conducted in polished English will actively generate distrust rather than purchase intent.
 
-3. **The eager cohort wants structured action, not a replay of the meeting.** Across the five eager personas, the consistent articulation of value is: named owners, assigned deadlines, structured minutes ready for the *ringi* process. Multiple respondents explicitly contrasted "beautiful transcripts with zero actionability" against what would actually change their workflow. A tool that only records and transcribes does not clear the bar.
+3. **The panel splits cleanly by age on friction tolerance.** Every "eager" response comes from a persona aged 36 or younger; every "cautious," "guarded," "skeptical," or "conflicted" response comes from someone aged 43 or older. Younger personas want to self-serve and trial immediately; older personas require vendor-supplied security documentation, institutional approval cycles, or trusted peer referrals before they will engage at all.
 
-4. **Institutional approval creates a structurally separate buyer journey.** Respondents with personal autonomy — a startup COO, a freelancer, a DX lead — would trial a tool within days. Respondents embedded in compliance-heavy institutions — enterprise IT, a regional bank, pharma, government — cannot act without formal approval cycles that may span months or effectively prevent adoption within the current fiscal year. This is not a trust deficit that marketing can close; it is a procurement architecture that requires a dedicated enterprise sales motion, local data agreements, and security documentation delivered before the feature demo.
+4. **IT gatekeepers are both the hardest barrier and the most winnable champion — if approached in the right order.** The IT Director is not categorically opposed; he has a precise checklist (ISO 27001 or SOC 2 Type II, Japan-region processing, M365 SSO, Japanese-language admin console). A vendor who leads with a security whitepaper rather than a feature demo could convert him into an internal advocate. The same cannot be said for organic sign-up flows, which he has already had to revoke twice this fiscal year as shadow IT.
 
-5. **Pricing opacity and enterprise-only plans are a conversion kill-switch for the self-serve segment.** Two of the most enthusiastic potential buyers — the startup COO and the solo freelancer — describe landing on pricing pages and leaving in under 30 seconds when no individual or startup tier is visible. "Contact sales for a quote" reads as a disqualifier, not a prompt to engage.
+5. **Structured output quality rivals transcription accuracy as the stated ROI driver.** Multiple personas across different segments are indifferent to verbatim transcripts — what they want is extracted commitments: action items, owners, deadlines, in a format they can act on immediately. For the IT project manager, the DX lead, and the medical rep, a tool that produces a wall of accurate text but buries decisions inside it fails the use case entirely.
 
 ---
 
 ## Where They Agreed
 
-Nearly every persona — regardless of eagerness or skepticism — accepted that the underlying pain is real: manual note-taking consumes meaningful time, decisions get lost, and action items fall through the gaps. The panel also converged on a shared mental checklist that any credible tool must clear: Japanese-language quality must be production-grade, and data handling must be transparent and compliant before anything else is evaluated. There is no segment that considers these optional.
+Across all ten segments, the panel agreed that post-meeting work — retyping notes, chasing action items, drafting visit reports — is genuinely wasteful and that the category addresses a real problem. They also agreed, with striking consistency, that no amount of productivity gain justifies introducing a tool that routes confidential conversations to an unauditable server. The value proposition was pre-accepted; the compliance question is what separates exploration from actual adoption.
 
 ---
 
 ## Where They Differed
 
-The clearest axis is organizational autonomy versus institutional constraint: personas who control their own tooling decisions (freelancer, startup COO, DX lead) respond with immediate intent to trial, while those embedded in governance-heavy organizations (enterprise IT director, bank section chief, government bureaucrat, pharma rep) describe multi-step approval requirements that effectively defer any decision. A secondary axis runs along role type: the two personas who generate no elaborate meeting content at all — the factory floor GM and the government bureaucrat — struggle to see the gap the product fills, while those in high-meeting-volume, decision-heavy roles feel the pain acutely. Emotionally, the panel split almost evenly between eager (5) and some form of guarded sentiment (cautious, conflicted, wary, skeptical — 5), with the guarded five skewing older and more senior in organizations with established compliance cultures.
+The most important split is generational and structural: under-37 personas with high personal meeting volume are ready to trial today given basic data assurances, while over-43 personas in regulated, institutional, or relationship-driven roles require formal procurement pathways, peer endorsement, or third-party certification first — and "ready to trial" means something fundamentally different in each context. A secondary split separates solo operators (freelancer, SMB owner, startup COO) from enterprise buyers: the former group is acutely sensitive to opaque pricing, enterprise-only seat minimums, and subscription cost creep in ways that corporate personas — who route costs through budget cycles — simply are not.
 
 ---
 
 ## Notable Verbatims
 
-> "Right now I'm the de facto note-taker for half of them because nobody else does it consistently, which is insane for a COO." — Yuki Tanabe, 28, COO and Co-founder
+> "What would actually make me receptive is a vendor who opens the conversation with their security whitepaper and a copy of their ISO 27001 or SOC 2 Type II certificate — not a feature walkthrough." — Takeshi Morimoto, 47, IT Director
 
-> "I've already blocked three AI-note tools this fiscal year because consultants signed up with their work email before anyone read the terms of service; the default data routing was to US-based servers with no opt-out." — Takeshi Morimoto, 47, IT Director
+> "Without that, it's a productivity fantasy that I quietly file away." — Rina Ogawa, 43, Section Chief, Corporate Planning Department
 
-> "I've been burned before: two tools I piloted last year looked phenomenal in the vendor demo, then fell apart on actual meetings because they couldn't handle keigo, overlapping speakers, or industry-specific terminology." — Haruka Fujimoto, 36, DX Promotion Lead
+> "I'm parked outside a convenience store at 9pm still pecking away at my tablet trying to remember what Dr. Tanaka said in the 8-minute window he gave me." — Shota Kimura, 26, Medical Representative
 
-> "Right now I'm spending like two hours every night in my apartment just writing up visit records from the day — who I saw, what I said, what the doctor's reaction was, all of it into our SFA system." — Shota Kimura, 26, Medical Representative
+> "I've seen too many 'AI meeting tools' demos that look incredible in a controlled, native-English environment and then fall apart on real Japanese audio." — Haruka Fujimoto, 36, DX Promotion Lead
 
 ---
 
 ## Top Signals
 
-- **Data security, residency, and confidentiality** (7) — The single most cited barrier; spans client data, audio storage location, foreign server risk, regulatory compliance, and shadow-IT incidents
-- **Japanese language accuracy** (5) — Explicit deal-breaker citing keigo, language switching, regional speech, and industry vocabulary as known failure modes
-- **Institutional approval / procurement process** (5) — IT governance reviews, procurement cycles, management greenlight, and security certification requirements; structural, not attitudinal
-- **Actionable output over transcription** (4) — Named owners, decisions, and deadlines are the real value hook; transcription alone is insufficient
-- **Manual note-taking as daily pain** (4) — Quantified as 15–20 minutes post-meeting, 2 hours nightly, or complete loss of presence during client calls
-- **ROI proof required before commitment** (3) — Hard numbers, peer testimony, or a demonstrable executive committee case needed before any trial
-- **Pricing accessibility for non-enterprise buyers** (2) — Absence of individual or startup tiers triggers immediate drop-off; "contact sales" is a disqualifier
+- **Data privacy, confidentiality & data residency** (10) — Named by every persona; several specifically required Japan-region server processing as a hard prerequisite
+- **Japanese language & mixed-transcription accuracy** (6) — Cited as the baseline quality test by Masahiro, Yuki, Sachiko, Haruka, Ayaka, and implicitly required by Rina and Noboru's Japanese-enterprise contexts
+- **IT approval, procurement & compliance gating** (5) — Formal security or ringi review named as the actual entry point by Kenji, Rina, Takeshi, Noboru, and Haruka
+- **Quantifiable time savings / ROI evidence** (4) — Kenji, Masahiro, Sachiko, and Shota each want hours-saved proof before committing budget or attention
+- **Structured output accuracy (action items, owners, deadlines)** (3) — Kenji, Haruka, and Shota prioritize extractable commitments over verbatim transcription
+- **Pricing transparency & solo / SMB accessibility** (3) — Yuki, Ayaka, and Sachiko each flag opaque pricing or enterprise-only economics as immediate deal-breakers
+- **Systems integration (SFA, M365 SSO, existing workflows)** (3) — Takeshi, Shota, and Kenji each require connectivity to incumbent tooling before adoption is viable
 
 ---
 
 ## Emotion Distribution
 
-Eager (5), Cautious (2), Skeptical (1), Conflicted (1), Wary (1)
+eager (5), cautious (2), skeptical (1), conflicted (1), guarded (1)
 
-The panel skews positive in raw count — five eager responses — but every single non-eager emotion maps to a persona with institutional compliance constraints or no visible use case, suggesting eagerness is largely a function of organizational context rather than product appeal; strip away structural barriers and the underlying desire to solve the pain is broadly shared.
+All five "eager" responses belong to the under-37 cohort; not a single positive emotion appears among the five personas aged 43 and older — a clean generational divide that reflects structural differences in decision-making authority as much as personal attitude toward technology.
 
 ---
 

@@ -78,12 +78,12 @@ freelance — covering the full spectrum of B2B buyer types in Japan.
 ```
 
 Top themes surfaced:
-- **Japanese language accuracy** — 8/10 personas cite keigo, code-switching, and industry terminology as critical
-- **Data residency** — 7/10 require Japan-region hosting; overseas-only data routing is a dealbreaker for finance, pharma, government
-- **IT/compliance approval gates** — Enterprise buyers face 4-6 month security review timelines
-- **Human review before circulation** — AI-generated meeting records must be reviewed before distribution
-- **Pricing transparency** — SMB and freelance buyers fear subscription creep; startups need free tiers
-- **ROI proof** — Skeptics demand concrete numbers from comparable Japanese companies
+- **Data privacy & residency** — named by all 10 personas; Japan-region hosting is a hard prerequisite for finance, pharma, government
+- **Japanese language accuracy** — 6/10 cite keigo, code-switching, and industry terminology as the baseline quality test
+- **IT/compliance approval gates** — formal security review and ringi named as the actual entry point by 5/10
+- **ROI proof** — buyers want quantified hours-saved evidence before committing budget
+- **Structured output over transcription** — extractable action items, owners, and deadlines beat verbatim text
+- **Pricing transparency** — SMB, startup, and freelance buyers flag opaque or enterprise-only pricing as immediate deal-breakers
 
 ### Step 3: Run Concept Test
 
@@ -102,10 +102,15 @@ AI meeting notes software that turns conversations into structured notes and giv
 
 ### Results
 
+> Results generated on `claude-sonnet-4-6` (June 2026; exact model recorded in
+> `run_metadata.json`). This 90% landslide is the most model-robust result in
+> the demo set — it reproduced with zero persona-level switches across sonnet
+> generations. See the [model sensitivity study](../../docs/MODEL-COMPARISON.md).
+
 - **B: Better Follow Through** — 9/10 (90%) first choice
 - **A: Save Time** — 1/10 (10%) first choice
 - **C: Cleaner CRM** — 0/10 (0%) first choice
-- **Purchase likelihood**: mean 3.1/5, range 2–4
+- **Purchase likelihood**: mean 3.2/5, range 2–4
 
 Concept B won decisively. The panel's message is clear: **automated
 transcription is "table stakes," not differentiation.** The real pain point
@@ -115,6 +120,8 @@ is what buyers will pay for.
 **The lone A voter** — Shota Kimura (Young Field Rep) — spends 2 hours every
 night writing visit reports. For him, time savings is the acute problem.
 Everyone else already sees transcription as commodity functionality.
+(Kimura was also the lone A voter in the original April run, for the same
+reason — persona-driven choices are stable across model versions.)
 
 **Concept C received zero votes.** CRM integration and manager visibility
 felt too narrow (sales-team-specific) and raised surveillance concerns in

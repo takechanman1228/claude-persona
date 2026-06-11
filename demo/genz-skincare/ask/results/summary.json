@@ -18,31 +18,31 @@
       "count": 1
     },
     {
-      "theme": "greenwashing disguised as clean beauty",
+      "theme": "greenwashing erodes trust",
       "count": 1
     },
     {
-      "theme": "marketing claims vs. real formulation",
+      "theme": "excitement overriding due diligence",
       "count": 1
     },
     {
-      "theme": "too much effort to verify",
+      "theme": "research fatigue despite expertise",
       "count": 1
     },
     {
-      "theme": "too many choices",
+      "theme": "too many confusing options",
       "count": 1
     },
     {
-      "theme": "marketing nonsense",
+      "theme": "overpriced for what it is",
       "count": 1
     },
     {
-      "theme": "overpriced basics",
+      "theme": "marketing hype i don't need",
       "count": 1
     },
     {
-      "theme": "don't need what they're selling",
+      "theme": "already got a routine",
       "count": 1
     },
     {
@@ -50,17 +50,16 @@
       "count": 1
     },
     {
-      "theme": "marketing language over clinical data",
+      "theme": "marketing masquerading as science",
       "count": 1
     }
   ],
   "emotion_distribution": {
     "frustrated": 4,
+    "overwhelmed": 2,
     "annoyed": 1,
     "exhausted": 1,
     "indifferent": 1,
-    "overwhelmed": 1,
-    "indignant": 1,
-    "anxious": 1
+    "skeptical": 1
   }
 }

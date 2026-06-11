@@ -6,10 +6,10 @@
     "gender": "Female",
     "occupation": "Senior UX Designer",
     "responses": {
-      "preferred_option": "C",
-      "reasoning": "Concept C makes a concrete, time-bound promise — 'noticeably easier within the first week' — which is something I can actually verify rather than just take on faith. As someone who already cooks regularly, I'm not looking for a service to hold my hand or shield me from subscription anxiety; I'm looking for a measurable improvement to a specific problem, which is weeknight time pressure. Concept A felt too focused on simplicity as an end in itself, and Concept B's framing around 'fear' and 'risk' doesn't really match how I approach a purchasing decision — I'd just read the terms before subscribing. C at least gives me a hypothesis I can test.",
+      "preferred_option": "B",
+      "reasoning": "The risk-reduction framing maps directly onto my actual hesitations with meal kit services — I've avoided them partly because I don't trust that pausing or cancelling will be straightforward, and partly because I suspect I'd receive meals that don't match how I actually cook. Concept A positions itself for beginners, which isn't where I am; I cook regularly and care about ingredient quality, so 'straightforward meals' sounds like a step down. Concept C's promise of transformation within a week feels like marketing language rather than a concrete mechanism — I'd want to know what specifically changes, not just that things become 'more enjoyable.' B at least acknowledges the real friction points without overselling.",
       "purchase_likelihood": 3,
-      "improvement": "I'd want C to include clear information on ingredient provenance and packaging format upfront — not buried in FAQ. If the sourcing is vague or the packaging is excessive, no amount of weeknight convenience justifies it for me."
+      "improvement": "The concept would be stronger if it also addressed ingredient sourcing transparency — knowing the provenance of the produce matters as much to me as the flexibility terms. Reducing financial risk is useful, but quality uncertainty is equally real."
     }
   },
   {
@@ -20,9 +20,9 @@
     "occupation": "Motion Graphics Designer",
     "responses": {
       "preferred_option": "C",
-      "reasoning": "C is clearly the move for me — I'm not here for the 'training wheels' energy of A, which sounds like it's made for someone who's never opened a fridge. And B? Bro, that whole 'don't be scared' angle is speaking to a different kind of person — I'm not sitting there stressing about my subscription, I'll just cancel if it's not working, c'est la vie. C actually promises me something concrete: my weeknights are gonna feel better, fast. I'm freelance, I finish client renders at 10pm sometimes, and I need dinner to just happen and be good — if this thing delivers on that in the first week, that's the pitch I actually believe.",
+      "reasoning": "Franchement, C c'est le seul qui me donne envie de cliquer direct. I don't need someone to hold my hand through 'straightforward meals' (A is lowkey insulting, comme si je savais pas cuisiner) and B sounds like it's talking to someone who's scared of everything — that's not me. C is like, okay, your weeknights will actually slap within the first week? That's a real promise, that's energy. I'm already on my laptop at midnight grinding motion projects, so if something makes dinner feel like less of a chore AND actually tastes interesting, I'm in.",
       "purchase_likelihood": 4,
-      "improvement": "The cuisine selection needs to be ambitious — not just coq au vin and pasta bolognese on repeat. If they can drop a proper Moroccan tagine or a Japanese ramen kit in that first week, that's when I'm telling every person I know to sign up."
+      "improvement": "Give me real cuisine diversity — like if I'm not seeing North African, Japanese, or something with actual personality in the recipe lineup, I'm bouncing. Don't give me 'lemon herb chicken' when you could give me a proper chermoula or a proper ramen situation."
     }
   },
   {
@@ -33,9 +33,9 @@
     "occupation": "Regional HR Director",
     "responses": {
       "preferred_option": "B",
-      "reasoning": "If I am being honest, none of these concepts appeal to me in any fundamental way — I cook from scratch because I believe that is the right way to feed yourself and your household, not because I lack the time or confidence. That said, concept B is at least honest about the real problem with these services: the risk of wasted money, ill-fitting meals, and subscriptions that are impossible to exit. A addresses nothing I care about, and C's promise to make my weeknights 'noticeably easier' within one week reads like the kind of claim I would reject immediately in a contract negotiation. B speaks to practical concerns rather than selling me a lifestyle I did not ask for.",
+      "reasoning": "If I were ever going to try one of these services — and I want to be clear that it is a significant 'if' — the only concept that speaks to a real concern is B. The subscription trap is exactly what puts me off these offers: you sign up once, you forget to cancel, and three months later you're still receiving boxes you don't need. At least this concept acknowledges that risk openly rather than pretending it doesn't exist. A feels condescending — I am not a first-time cook who needs 'low pressure,' I have been cooking proper meals since I was sixteen. C makes a promise I simply don't believe; weeknight dinners are not a problem I need solved.",
       "purchase_likelihood": 2,
-      "improvement": "The concept should explicitly state, in plain terms, how the cancellation process works and guarantee no automatic renewal — not buried in the conditions, but front and center. Transparency about ingredient sourcing would also help, because if I am ever going to try this, I need to know the food meets a standard I would apply at the Talensac market."
+      "improvement": "I would want a concrete, written guarantee that the subscription terminates automatically after a trial period unless I actively choose to renew — no pre-ticked boxes, no 'we sent you an email' — and I would need full ingredient sourcing information before I committed to anything."
     }
   },
   {
@@ -46,9 +46,9 @@
     "occupation": "Independent Electrician",
     "responses": {
       "preferred_option": "C",
-      "reasoning": "C, c'est simple — après dix heures sur un chantier, je rentre chez moi et je veux pas passer quarante minutes à chercher ce qu'il y a dans le frigo et ce qui me manque. Si ce truc me promet que la première semaine je sens déjà la différence, ça me parle direct. Les deux autres, A et B, ça tourne trop autour de 'on vous protège, pas de risque, facile à annuler' — mais moi j'ai pas peur d'essayer un service, je suis pas du genre à flipper pour ça. C me donne envie de cuisiner quelque chose de bon le soir sans que ça soit une corvée.",
+      "reasoning": "C is exactly what I need, man — I finish a job at 18h30, I'm tired, and I don't want to think. I just want dinner sorted fast and without stress. 'Better weeknights in the first week' — that's speaking my language, that's a promise I can test straight away. The other two, A and B, feel like they're talking to people who are scared of committing, always worrying about this or that — me, I'm not scared, I'll just try it and if it works, great, if not, I cancel. But C actually tells me what I'm getting: easier evenings, faster. That's worth it.",
       "purchase_likelihood": 4,
-      "improvement": "Je voudrais que les portions soient clairement calibrées pour un homme qui bosse de ses mains — pas les petites assiettes de magazine parisien. Et une livraison en point relais au lieu d'attendre à la maison, ça changerait tout."
+      "improvement": "I'd want them to be clear that the portions are generous — I'm a big guy who works physical all day, I can't be eating some little Parisian plate with three pieces of chicken. Show me the actual serving sizes and I'm probably clicking 'order' right away."
     }
   },
   {
@@ -59,9 +59,9 @@
     "occupation": "Pediatric Nurse",
     "responses": {
       "preferred_option": "C",
-      "reasoning": "C speaks directly to my actual problem — I get home after a 10-hour shift, the kids are hungry, and I have maybe 30 minutes before it becomes a crisis. I don't need someone to hold my hand through the process, I need dinner to actually be easier, and I need to feel that within the first week, not after some long ramp-up. A and B are both fine but they're focused on the fear of signing up, which honestly is not my biggest concern — I can manage a cancellation. What I can't manage is another evening where I'm exhausted and staring at the fridge. C is the only one that promises something concrete for my actual day-to-day.",
+      "reasoning": "Honestly, C is the one that actually speaks to my real problem — I don't need hand-holding as a first-timer, I need Tuesday nights to stop being a disaster when I get home after a 10-hour shift and my kids are already melting down. The fact that it promises a noticeable difference within the first week? That's what I want to hear. A is fine but it feels like it's talking to someone who's never cooked before, and B — okay, yes, I do worry about wasting money on ingredients nobody eats, but that framing feels more like managing anxiety than actually solving the dinner problem. C is focused on the outcome I actually care about.",
       "purchase_likelihood": 4,
-      "improvement": "I would want to know that the 'easier and more enjoyable' weeknights include meals my kids will actually eat — not just adult-friendly food with a side of stress. Add a clear kids' menu filter or a family-tested label on the recipes and I'd be clicking subscribe immediately."
+      "improvement": "I'd want them to be upfront about whether the meals are genuinely kid-friendly — not just 'family size,' I mean actually appropriate for a 4-year-old who will reject anything with visible onions. That one detail would take me from 'probably yes' to 'signing up tonight.'"
     }
   },
   {
@@ -72,9 +72,9 @@
     "occupation": "Insurance Claims Adjuster",
     "responses": {
       "preferred_option": "B",
-      "reasoning": "Concept B addresses what concerns me most about this type of service: the risk of committing to a subscription that turns out to be poorly suited to a family of five, or that is difficult to exit without penalty. With three children to feed, I cannot afford to experiment with portions that are too small or recipes that will be rejected at the table — the financial exposure needs to be clearly limited. Concept A also mentions easy cancellation, which I appreciate, but it says nothing about the practical risk of wasted money. Concept C sounds like an advertising promise rather than a structural guarantee.",
+      "reasoning": "The second option addresses the things that actually concern me before signing up for any subscription service — specifically, the risk of paying for something that does not suit us and then having difficulty getting out of it. With three children and a household budget I manage carefully, I cannot afford to discover after two weeks that the portions are too small or the meals are not something the children will eat. Option A mentions easy cancellation, which I appreciate, but it presents itself more as a beginner's product, which is not quite the framing I need. Option C reads to me like a marketing promise — 'noticeably easier and more enjoyable within the first week' — and I am skeptical of that kind of language without specific terms behind it.",
       "purchase_likelihood": 3,
-      "improvement": "I would need to see the specific cancellation terms written out clearly — not a marketing phrase, but the actual conditions and notice period — as well as transparent per-meal pricing for a family of five before I could consider this seriously."
+      "improvement": "I would want to see the exact cancellation and pause conditions written out clearly — not just the promise that it is easy, but the actual procedure, notice period, and whether there are any fees involved. That is the information I need before I would feel comfortable committing."
     }
   },
   {
@@ -85,9 +85,9 @@
     "occupation": "IT Project Manager",
     "responses": {
       "preferred_option": "B",
-      "reasoning": "Concept B is the only one that speaks to the actual friction I would experience as a first-time subscriber — specifically, the risk of committing financially to a service that turns out to be culturally irrelevant to what I cook for my family. Concept A talks about 'easy cancellation,' which is necessary but not sufficient; I need to understand what I'm cancelling before I subscribe. Concept C makes a bold promise — 'noticeably easier within the first week' — but that kind of claim is essentially unverifiable marketing language, and I would require evidence before I place any value on it. B at least acknowledges the legitimate concerns a careful buyer would have, which suggests the company has actually thought about the customer experience rather than just the acquisition funnel.",
+      "reasoning": "Concept B is the only one that addresses the actual structural concerns I have with meal kit subscriptions — specifically the risk of being locked into something that doesn't fit, and the cost of making the wrong initial choice. Concept A talks about 'easy cancellation,' which is a minimum requirement, not a differentiator; I expect that from any service worth considering. Concept C raises immediate skepticism — 'noticeably easier and more enjoyable within the first week' is an assertion, not a commitment, and I have no way to evaluate it without knowing what 'easier' means in practice or how they measure 'enjoyable.' What B gets right is framing the offer around protecting my interests rather than selling me on an experience — though I notice it still says nothing about the actual meal catalog, which for my household is a non-trivial concern.",
       "purchase_likelihood": 3,
-      "improvement": "The concept needs to be explicit about what 'reducing the risk of choosing wrong meals' means in practice — does that include access to non-European recipes, a genuine no-questions-asked pause mechanism, and transparent pricing with no hidden renewal terms? Without those specifics, 'risk reduction' is just another vague positioning claim."
+      "improvement": "The concept needs to explicitly address meal diversity — if the catalog is 90% French and Italian dishes, the risk-reduction framing becomes irrelevant to me. I'd want a clear breakdown of cuisine categories available before I ever consider subscribing."
     }
   },
   {
@@ -98,9 +98,9 @@
     "occupation": "Doctoral Researcher in Molecular Biology",
     "responses": {
       "preferred_option": "B",
-      "reasoning": "I keep coming back to B because the thing that genuinely paralyzes me every time I think about meal kits is the financial risk — I'm on a contrat doctoral stipend in Paris and if I subscribe and the portions are sized for a couple, or I end up with five delivery windows I can't honor because of lab schedule variability, that's not an abstract inconvenience, that's actual budget disruption. A is appealing for the skip-or-cancel framing but 'straightforward meals' sounds like it might just be... uninstructive? I want to learn technique, not just assemble ingredients. C reads like marketing copy to me — 'noticeably easier within the first week' is a claim someone should be asked to operationalize. B is the only one that explicitly names the anxieties I actually have: wrong meal selection, wasted money, subscription lock-in — which suggests whoever designed it actually talked to people in my situation rather than just aspirational home-cook archetypes.",
+      "reasoning": "Okay so honestly the thing that immediately resonated with me about B is that it names exactly what I'm scared of — spending money I don't really have on a box of ingredients I'll mess up or a subscription I forget to cancel and then suddenly it's November and I've been charged six times without noticing. My doctoral stipend is not... generous, let's say, and Paris is not cheap, so the idea that this service is specifically built around not trapping me or wasting my money feels almost designed for my situation. A was appealing too because of the skip/cancel flexibility — that matters a lot when my schedule in the lab is completely unpredictable — but B felt like it was actually taking my anxiety seriously rather than just simplifying things for me. C just didn't resonate at all; I'm not trying to optimize my weeknights, I actually want to learn how to cook properly, not just get dinner done faster.",
       "purchase_likelihood": 3,
-      "improvement": "I'd want completely transparent per-serving pricing surfaced before you even get to the sign-up flow — not buried in the FAQ — and ideally a genuine single-portion tier, because cooking for one in a 22-square-metre studio is a structurally different problem than cooking for a couple."
+      "improvement": "I'd want them to be completely upfront about the actual price per serving before I even sign up — not 'from X euros' buried somewhere — because the moment I feel like I'm being nudged toward a price I can't see clearly, I close the tab immediately. It would also help a lot if they explicitly offered single-portion options, because right now I'm genuinely not sure if these services even cater to someone cooking for one person."
     }
   },
   {
@@ -111,9 +111,9 @@
     "occupation": "Freelance Full-Stack Web Developer",
     "responses": {
       "preferred_option": "B",
-      "reasoning": "B is the only one that admits the actual problem with these services — the subscription trap. A is fine but 'straightforward meals' is a polite way of saying the food is boring, and I don't need simple, I need a reason to try it at all. C is just marketing language with a deadline attached. At least B is honest about the dynamic: you're worried about wasting money and getting stuck, and here's what we're doing about that.",
+      "reasoning": "B at least acknowledges what's actually annoying about these services — you try one box, decide it's not for you, and suddenly you're on the phone for twenty minutes trying to cancel while they offer you discounts. The other two don't address that. C is basically just a promise, and A is aimed at people who've never cooked before, which isn't me.",
       "purchase_likelihood": 2,
-      "improvement": "Give me the option to order individual meals without committing to a recurring delivery — weekly auto-shipments with pre-portioned ingredients are exactly what I don't want. A genuine à la carte or pause-anytime model with no phone call required to cancel would make it worth trying once."
+      "improvement": "Tell me upfront what cancellation actually looks like — a link, a click, done. Don't make me infer it from vague language about 'flexibility.'"
     }
   },
   {
@@ -124,9 +124,9 @@
     "occupation": "Deputy School Principal",
     "responses": {
       "preferred_option": "B",
-      "reasoning": "What drew me to concept B is that it names the actual concern rather than simply reassuring me with cheerful language about how 'easy' everything will be. I am not afraid of cooking — I have been cooking for twenty years — but I am very wary of services that make cancellation deliberately obscure, or that lock you into a rhythm that does not match a working professional's schedule. The explicit acknowledgment of wasted money and poor-fit meals tells me the company has thought seriously about what actually goes wrong for new customers. Concept A felt somewhat patronizing, as though the difficulty were the recipes themselves, and concept C struck me as a marketing promise rather than a structural guarantee.",
+      "reasoning": "Option B speaks directly to the concerns that have always made me hesitant about these services — I have no desire to find myself in a subscription that renews silently and charges my account while I am away at a conference in Lyon. The framing around not wasting money and not being trapped is honest and practical, which I appreciate far more than a cheerful promise about enjoying my weeknights. Option A addresses the cancellation question as well, but it feels oriented toward people who have never cooked before, which is not my situation — I simply need to recalibrate my portions and routine after years of cooking for a family. Option C makes a performance promise that I find difficult to verify without specifics, and I am generally skeptical of services that lead with enthusiasm rather than substance.",
       "purchase_likelihood": 3,
-      "improvement": "I would want the concept to specify, in plain language, exactly how cancellation works — not a vague 'easy to cancel' phrase, but the actual mechanism and notice period. Without that concrete detail, the risk-reduction promise remains a claim, not a commitment."
+      "improvement": "I would want a clear, written description of exactly how cancellation and skipping work — not a reassuring sentence in the marketing copy, but the actual procedure, the notice period required, and whether it can be done without a telephone call. That alone would move my confidence considerably."
     }
   }
 ]

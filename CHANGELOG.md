@@ -41,6 +41,12 @@ per process), so older CLI versions automatically degrade to the exact
   LLM report call; `simulate_survey.py --analyze` forwards them.
 - New example config: `configs/running-shoes-fable-concept-test.json`
   (fable fan-out with sonnet fallback and a per-call budget cap).
+- **Demos regenerated on `claude-sonnet-4-6`** with the 0.2.0 engine —
+  every published demo result now carries exact model attribution and
+  cost in its `run_metadata.json`, and demo READMEs match the committed
+  results. New `docs/MODEL-COMPARISON.md` documents result stability
+  across three model generations (84–100% persona-level agreement;
+  zero winner changes).
 
 ### Compatibility
 - No breaking changes to the config contract; every new key defaults to
