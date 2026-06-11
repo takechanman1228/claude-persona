@@ -9,7 +9,7 @@ A Claude Code skill (`/persona`) inspired by TinyTroupe that builds market-speci
 ## Common Commands
 
 ```bash
-# Run all tests (120 unit tests, no external dependencies needed)
+# Run all tests (150 unit tests, no external dependencies needed)
 python -m pytest tests/ -q
 
 # Run a single test file
@@ -26,6 +26,9 @@ python scripts/simulate_survey.py --config demo/running-shoes/concept-test/confi
 
 # Run with analysis + LLM report
 python scripts/simulate_survey.py --config demo/running-shoes/concept-test/config.json --analyze --report-llm
+
+# Run with a different model (aliases or full IDs; e.g. Claude Fable 5)
+python scripts/simulate_survey.py --config ... --model fable --fallback-model sonnet
 
 # Run analysis only on existing results
 python scripts/analyze_results.py --input outputs/.../results.json --survey-type concept-test
@@ -52,7 +55,7 @@ All runtime logic lives in `scripts/`. There is no `src/` package — scripts im
 
 2. **`analyze_results.py`** (1400 lines) — Reads `results.json`, normalizes response structures, generates CSV exports, cross-tabulations, charts (matplotlib/seaborn), and a markdown report. Can use an LLM backend for narrative report generation or fall back to deterministic Python templates.
 
-3. **`llm_backends.py`** (440 lines) — Backend abstraction for `claude-cli` and `codex-cli`. Handles CLI command construction, async/sync subprocess communication, JSON extraction from raw text, and model resolution. The `"auto"` backend infers which CLI is available via environment markers.
+3. **`llm_backends.py`** (~600 lines) — Backend abstraction for `claude-cli` and `codex-cli`. Handles CLI command construction (`_build_claude_print_command()`), defensive envelope parsing (`_parse_claude_envelope()` — `structured_output` preferred, fenced-text extraction as fallback), CLI capability detection (`detect_claude_capabilities()` greps `claude --help` once per process so new flags degrade gracefully on older CLIs), async/sync subprocess communication, and model resolution. The `"auto"` backend infers which CLI is available via environment markers.
 
 4. **`validate_panel.py`** (663 lines) — Panel quality gate. Runs 11 checks against a generated panel: count vs. requested, name uniqueness, segment balance, occupation/surname diversity, geo spread, age spread, gender distribution, Big Five cosine similarity (flags pairs ≥ 0.98), and slot-plan adherence. Returns structured JSON via `--json`; exits non-zero on any hard fail. Called automatically after panel generation; can also be run standalone for diagnosis.
 
@@ -85,9 +88,23 @@ report.md, results.csv, summary.json, charts (same output dir)
   "output_dir": "outputs/...",
   "backend": "claude-cli|codex-cli|auto",
   "model": "sonnet",
-  "max_concurrency": 5
+  "max_concurrency": 5,
+
+  "report_model": "fable",
+  "fallback_model": "sonnet",
+  "effort": "medium",
+  "max_budget_usd_per_call": 0.5,
+  "structured_output": true,
+  "isolation": true
 }
 ```
+
+The keys below the blank line are optional (added in 0.2.0) and default to
+current behavior when omitted: `structured_output` (claude CLI `--json-schema`,
+default true), `isolation` (claude CLI `--safe-mode`, default true),
+`fallback_model` / `effort` / `max_budget_usd_per_call` (omitted unless set).
+Model accepts any claude alias (`sonnet`, `haiku`, `opus`, `fable`) or full
+model ID; `fable` (Claude Fable 5) costs ~4x sonnet per run.
 
 The `variables` dict gets substituted into survey templates via `{{key}}` placeholders. The primary variable for concept-test is `concepts`.
 
@@ -117,6 +134,10 @@ Tests use `unittest` with a custom `load_module()` helper that imports scripts v
 
 - **Canonical output format**: Results are always `[{"name": "...", "segment": "...", "age": N, "gender": "...", "occupation": "...", "responses": {...}}]`
 - **Backend default model**: `claude-cli` defaults to `"sonnet"`; `codex-cli` has no default model
+- **Structured output first**: claude-cli calls pass the per-survey-type schema via `--json-schema` and read `structured_output` from the envelope; `extract_json_from_text()` remains the fallback for older CLIs, refusals, and the codex path
+- **Context isolation**: persona subprocesses and report calls run with `--safe-mode` by default so surrounding CLAUDE.md/plugins/hooks never enter persona context (`"isolation": false` / `--no-isolation` to disable)
+- **Model attribution**: `run_metadata.json` (schema_version 3) records the requested alias as `resolved_model` AND the exact serving model IDs as `actual_model_ids`, plus `total_cost_usd`, per-persona `cost_usd`, and cache token totals
+- **Capability gating**: never hard-require a new CLI flag — emit it only when `detect_claude_capabilities()` saw it in `claude --help`
 - **Profile extraction**: Full personas are compressed before simulation via `extract_simulation_profile()` — keeps response-driving fields (Big Five, style, topic-relevant interests) and drops verbose biography
 - **Prompt construction**: `build_single_persona_prompt()` transforms the multi-persona `simulation-prompt.md` template into single-persona format at runtime via string replacements
 - **`references/`** contains prompt templates and schema docs read by both the skill orchestrator (SKILL.md) and the Python scripts — treat these as the source of truth for prompt engineering

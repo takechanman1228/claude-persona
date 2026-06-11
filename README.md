@@ -11,6 +11,13 @@ Claude Code skill inspired by
 AI persona panels, runs agent-separated concept interviews, and delivers
 structured research reports in one flow.
 
+Each persona answers in its own `claude -p` subprocess with context isolation
+(`--safe-mode`) and server-validated structured output (`--json-schema`) —
+no inter-persona bias, no project-context leakage, no JSON parsing flakiness.
+Every run records its cost and the exact model IDs that served it. Works with
+all current Claude models (`sonnet` default; `haiku`, `opus`, and
+`fable` / Claude Fable 5 via `"model"` config or `--model`).
+
 
 ## Who This Is For
 - Marketers who need fast qualitative signal before paying for fieldwork

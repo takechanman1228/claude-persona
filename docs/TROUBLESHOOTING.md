@@ -31,6 +31,51 @@ Check:
 - the selected backend is available on `PATH`
 - the environment allows outbound model calls
 
+## Runs bill API credits instead of my Claude subscription / `Credit balance is too low`
+
+If `ANTHROPIC_API_KEY` is exported in your shell, the `claude` CLI uses it in
+preference to your claude.ai subscription login — every persona subprocess
+then bills the API key's workspace credits. When those credits run out, all
+calls fail with a 400 `Credit balance is too low` even though your
+subscription is fine.
+
+Diagnose:
+
+```bash
+claude auth status   # "apiKeySource": "ANTHROPIC_API_KEY" means the env var is winning
+```
+
+Fix — unset the key for persona runs so the CLI falls back to your
+subscription login:
+
+```bash
+env -u ANTHROPIC_API_KEY python3 scripts/simulate_survey.py --config ...
+```
+
+or remove the export from your shell profile if you don't need it elsewhere.
+
+## `--json-schema` or `--safe-mode` rejected by the CLI
+
+These flags are emitted only when `claude --help` advertises them, so an
+`unknown option` error normally cannot happen. If it does (e.g. a wrapper
+script intercepts `claude --help`):
+
+- disable per run: `--no-structured-output` and/or `--no-isolation`
+- or persistently in the config: `"structured_output": false`, `"isolation": false`
+
+If the API rejects one specific survey schema, the engine automatically
+retries that call once without `--json-schema` and falls back to text
+extraction — look for `attempts > 1` in `run_metadata.json`.
+
+## Fable/Opus runs time out or feel slow
+
+Claude Fable 5 turns can run noticeably longer than sonnet. Options:
+
+- lower the effort: `--effort medium` (or `"effort": "medium"` in the config)
+- pair with a fallback: `--fallback-model sonnet`
+- cap spend per call: `"max_budget_usd_per_call": 1.5`
+- note: `--effort` is not supported by haiku (the CLI errors if combined)
+
 ## All personas sound too similar
 
 Use the agent-separated path and keep adherence checks enabled:

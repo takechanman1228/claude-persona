@@ -39,12 +39,27 @@ price context.
 | `--segments` | use segment-driven generation flow | off |
 | free text | topic, concepts, or comparison items | asked only if missing |
 
+## Engine Options (simulate_survey.py)
+
+When running the engine directly, these flags map to optional config keys:
+
+| Flag | Config key | Meaning | Default |
+|------|------------|---------|---------|
+| `--model` | `"model"` | simulation model (`sonnet`, `haiku`, `opus`, `fable`, or full ID) | `sonnet` |
+| `--fallback-model` | `"fallback_model"` | fallback model(s) when the primary is overloaded | none |
+| `--effort` | `"effort"` | effort level `low`–`max` (not supported by haiku) | CLI default |
+| `--no-structured-output` | `"structured_output": false` | disable `--json-schema` structured output | enabled |
+| `--no-isolation` | `"isolation": false` | disable `--safe-mode` context isolation | enabled |
+| — | `"max_budget_usd_per_call"` | per-subprocess cost cap | none |
+| — | `"report_model"` | model for LLM report synthesis (e.g. `fable`) | same as simulation |
+
 ## Output Contract
 
 Every full run is expected to produce:
 
 - `results.json`: canonical persona responses
-- `run_metadata.json`: backend, latency, adherence, and failure-stage metadata
+- `run_metadata.json`: backend, cost (`total_cost_usd`), exact serving model IDs
+  (`actual_model_ids`), latency, adherence, and failure-stage metadata
 - `summary.json`: aggregated metrics for the study
 - `report.md`: executive narrative report
 - `results.csv` and optional charts when analysis is enabled
