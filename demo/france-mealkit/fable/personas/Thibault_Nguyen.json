@@ -1,0 +1,124 @@
+{
+  "persona": {
+    "name": "Thibault Nguyen",
+    "age": 27,
+    "nationality": "French",
+    "occupation": {
+      "title": "Head Barista and Shift Supervisor",
+      "organization": "A specialty coffee shop in Vieux-Lille",
+      "description": "Runs the bar, trains new hires, and manages morning rushes that start at 7h30. On his feet six hours straight most shifts, off at 16h on weekdays but works most Saturdays. His fiancee works a classic 9h-18h in logistics, so their evening schedules just barely overlap."
+    },
+    "gender": "Male",
+    "residence": "Lille, Hauts-de-France",
+    "education": "BTS in hospitality management in Lille; barista championships taught him more than the diploma did, he says.",
+    "long_term_goals": [
+      "Open a small coffee-and-brunch place with his fiancee",
+      "Get their wedding paid for without touching the shop fund",
+      "Cook more of his grandmother's Vietnamese dishes from memory",
+      "Take Linh to Vietnam for the first time since he was six"
+    ],
+    "style": "Warm, chatty, service-industry polished — he remembers names, orders, and your dog's name. Talks about food with genuine hunger and rates everything out of ten unprompted. Full sleeve tattoo, canvas apron energy even off shift. Says yes to new things quickly and figures out the budget after, which Linh gently audits.",
+    "personality": {
+      "traits": [
+        "People-energized",
+        "Food-curious and generous",
+        "Impulsive with small purchases",
+        "Hardworking to a fault on his feet",
+        "Optimistic about plans, vague on details",
+        "Sentimental about family food"
+      ],
+      "big_five": {
+        "openness": 0.6,
+        "conscientiousness": 0.35,
+        "extraversion": 0.85,
+        "agreeableness": 0.7,
+        "neuroticism": 0.42
+      }
+    },
+    "preferences": {
+      "interests": [
+        "Latte art and brewing gear",
+        "Street food festivals",
+        "Vietnamese home cooking",
+        "Five-a-side football on Mondays",
+        "Flea markets (the Braderie is sacred)",
+        "Trying every new restaurant opening in Lille"
+      ],
+      "likes": [
+        "Cooking with music on and Linh taste-testing",
+        "Anything with fish sauce and lime",
+        "Shift meals with the team",
+        "Services that surprise him positively",
+        "His espresso machine at home, an engagement gift to himself"
+      ],
+      "dislikes": [
+        "Cooking for one when Linh works late",
+        "Supermarket queues after a standing shift",
+        "Bland 'international' recipes that fear garlic",
+        "Waking before 6h",
+        "Wasting herbs — it feels disrespectful"
+      ]
+    },
+    "beliefs": [
+      "Food made with attention tastes different, even simple food",
+      "Spending on eating well is not wasted money",
+      "Service work deserves more respect than it gets",
+      "You learn a person by cooking with them"
+    ],
+    "skills": [
+      "Espresso calibration and latte art",
+      "High-volume service under pressure",
+      "Wok cooking (grandmother-certified, mostly)",
+      "Making regulars feel like family"
+    ],
+    "behaviors": {
+      "general": [
+        "Buys ingredients enthusiastically, forgets half a plan by Thursday",
+        "Cooks big weekend meals, survives on shop pastries weekdays",
+        "Follows a dozen food creators and actually tries their recipes",
+        "Splits everything 50/50 with Linh via an app"
+      ],
+      "routines": {
+        "morning": [
+          "6h10 up on shift days, first espresso at the shop before opening",
+          "Rush from 7h30 to 10h, then a real breakfast at 11h"
+        ],
+        "workday": [
+          "Bar until 16h, inventory and orders on Tuesdays",
+          "Walks home through Vieux-Lille, buys something he didn't plan to"
+        ],
+        "evening": [
+          "Cooks when energy allows, football Mondays",
+          "Dinner with Linh at 20h30 when their schedules align"
+        ],
+        "weekend": [
+          "Saturday shift until 17h",
+          "Sunday: big market run at Wazemmes, long cooking session, friends over"
+        ]
+      }
+    },
+    "health": {
+      "physical": "Sturdy but his knees and lower back complain from standing shifts; drinks more caffeine than any guideline permits.",
+      "mental": "High-energy and social; gets restless and a bit low on his rare solo evenings."
+    },
+    "relationships": [
+      {
+        "name": "Linh Tran",
+        "relation": "fiancee, lives together",
+        "description": "A logistics coordinator who plans their finances and pretends to be stricter than she is; she wants weeknight dinners to stop being 'whatever's left at Carrefour City at 19h50.'"
+      },
+      {
+        "name": "Ba noi (grandmother)",
+        "relation": "paternal grandmother",
+        "description": "Lives with his parents in Roubaix; measures nothing, teaches by hand-slaps and taste, and is the reason he cooks at all."
+      },
+      {
+        "name": "Max",
+        "relation": "best friend since BTS",
+        "description": "A sous-chef who mocks meal kits professionally but admits they'd suit Thibault's chaos."
+      }
+    ]
+  },
+  "segment": "Dual-Income Couples Without Children",
+  "segment_id": 1
+}

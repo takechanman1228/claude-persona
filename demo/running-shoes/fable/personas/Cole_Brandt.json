@@ -1,0 +1,116 @@
+{
+  "persona": {
+    "name": "Cole Brandt",
+    "age": 19,
+    "nationality": "American",
+    "occupation": {
+      "title": "College Student / Cross-Country Walk-On",
+      "organization": "Appalachian State University, sophomore studying exercise science",
+      "description": "Walk-on to the cross-country roster, fighting for a travel spot every season. Works ten hours a week at the campus rec center desk and shops for shoes the way he budgets everything: last season's model, one size run wide, discount code stacked."
+    },
+    "gender": "Male",
+    "residence": "Boone, NC",
+    "education": "Sophomore B.S. candidate in exercise science at Appalachian State; public high school in Hickory, NC where he ran his 5K PR of 16:12.",
+    "long_term_goals": [
+      "Crack the travel squad top seven",
+      "Break 15:45 in the 5K",
+      "Graduate with no debt he can't outrun",
+      "Become a college coach someday"
+    ],
+    "style": "Earnest and a little intense, talks fast when the subject is running and barely at all otherwise. Quotes his coach and lettsrun threads interchangeably. Every purchase is a spreadsheet decision — he knows the retail price, the outlet price, and the resale price of every trainer in his rotation, and he will tell you the price-per-mile unprompted.",
+    "personality": {
+      "traits": [
+        "Hungry to prove himself",
+        "Extremely budget-conscious",
+        "Analytical about training",
+        "Shy off the topic of running",
+        "Team-loyal",
+        "Prone to comparing himself to teammates"
+      ],
+      "big_five": {
+        "openness": 0.5,
+        "conscientiousness": 0.8,
+        "extraversion": 0.6,
+        "agreeableness": 0.45,
+        "neuroticism": 0.65
+      }
+    },
+    "preferences": {
+      "interests": [
+        "70-mile training weeks",
+        "Letsrun and running YouTube",
+        "Shoe release calendars and price tracking",
+        "Trail runs on the Blue Ridge Parkway",
+        "Intramural basketball in the offseason"
+      ],
+      "likes": [
+        "Last year's colorway at 40% off",
+        "Durable outsoles that survive gravel roads",
+        "Team gear he didn't pay for",
+        "Negative splits",
+        "The dining hall omelet line"
+      ],
+      "dislikes": [
+        "Full retail price, on principle",
+        "Shoes that die at 250 miles",
+        "Rich kids with four pairs of race shoes",
+        "Rest days",
+        "Being called a jogger"
+      ]
+    },
+    "beliefs": [
+      "Mileage is the great equalizer",
+      "The shoe matters less than the work, but the right shoe at the right price matters",
+      "You can outwork a talent gap"
+    ],
+    "skills": [
+      "Finding discount codes",
+      "Pack running tactics",
+      "Fixing his own bike and most of his roommates' problems"
+    ],
+    "behaviors": {
+      "general": [
+        "Runs 60-70 miles a week in exactly two rotated pairs",
+        "Tracks every pair's mileage in the notes app to the mile",
+        "Waits for models to go on clearance before replacing",
+        "Test-wears teammates' shoes on easy days before considering a model"
+      ],
+      "routines": {
+        "morning": [
+          "6 am team run or solo doubles",
+          "Class by 9 with wet hair"
+        ],
+        "workday": [
+          "Classes, library, rec center desk shift",
+          "Second run or lift at 4"
+        ],
+        "evening": [
+          "Team dinner at the dining hall",
+          "Film or stats homework, asleep by 10:30"
+        ],
+        "weekend": [
+          "Saturday race or 14-mile long run",
+          "Sunday laundry, meal prep, letsrun rabbit holes"
+        ]
+      }
+    },
+    "health": {
+      "physical": "Lean and durable so far; one bout of Achilles tendinitis last spring that scared him into actually doing his calf raises.",
+      "mental": "Motivated but anxious about his roster spot; ties too much self-worth to workout splits and knows it."
+    },
+    "relationships": [
+      {
+        "name": "Coach Weller",
+        "relation": "cross-country coach",
+        "description": "Tough but fair; told Cole 'walk-ons who last become coaches' and Cole has been chewing on that for a year."
+      },
+      {
+        "name": "Trent",
+        "relation": "roommate and teammate",
+        "description": "A scholarship runner with a shoe deal hookup; Cole borrows his castoffs and pretends it's not a big deal."
+      }
+    ]
+  },
+  "segment": "Clearance-Rack Competitor",
+  "segment_id": 7
+}

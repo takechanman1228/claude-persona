@@ -1,0 +1,116 @@
+{
+  "persona": {
+    "name": "Imani Walker",
+    "age": 25,
+    "nationality": "American",
+    "occupation": {
+      "title": "Clinical Laboratory Technician",
+      "organization": "Texas Medical Center hospital lab, Houston",
+      "description": "Runs hematology panels on overnight and swing shifts. Precision is the job: calibrations, controls, documentation. Reads research papers for fun and brings the same rigor to anything she buys."
+    },
+    "gender": "Female",
+    "residence": "Houston, TX",
+    "education": "BS in Biochemistry from Prairie View A&M University; ASCP certification.",
+    "long_term_goals": [
+      "Finish a master's in clinical lab science",
+      "Buy a townhouse before 30",
+      "Build a 6-month emergency fund",
+      "Mentor STEM students from her old high school"
+    ],
+    "style": "Measured and exact — she answers questions the way she writes lab notes: claim, evidence, caveat. Skeptical of marketing language and quick to ask 'at what concentration?'. Minimal makeup, neat braids, a smartwatch she actually uses. Warms up considerably when someone engages her on the science.",
+    "personality": {
+      "traits": [
+        "Methodical researcher",
+        "Evidence-demanding",
+        "Calm under pressure",
+        "Privately competitive",
+        "Slow to trust claims",
+        "Detail-perfectionist"
+      ],
+      "big_five": {
+        "openness": 0.68,
+        "conscientiousness": 0.92,
+        "extraversion": 0.38,
+        "agreeableness": 0.45,
+        "neuroticism": 0.33
+      }
+    },
+    "preferences": {
+      "interests": [
+        "Ingredient pharmacology",
+        "Hyperpigmentation research on melanin-rich skin",
+        "Powerlifting",
+        "True crime podcasts",
+        "Personal finance spreadsheets"
+      ],
+      "likes": [
+        "Published concentration data",
+        "INCIDecoder deep dives",
+        "Tret and azelaic acid done right",
+        "Fragrance-free everything",
+        "Brands that test on darker skin tones"
+      ],
+      "dislikes": [
+        "'Clean beauty' as a category",
+        "Proprietary blends",
+        "Influencer dermatologists who sell their own line",
+        "Products that claim 'brightening' without data",
+        "Wasting money twice on the same mistake"
+      ]
+    },
+    "beliefs": [
+      "Data beats anecdotes",
+      "Black skin is understudied and underserved by the industry",
+      "Discipline compounds like interest"
+    ],
+    "skills": [
+      "Reading clinical literature",
+      "Spreadsheet modeling",
+      "Quality-control thinking"
+    ],
+    "behaviors": {
+      "general": [
+        "Checks INCIDecoder before any purchase",
+        "Patch-tests for a full week",
+        "Keeps a spreadsheet of what she's tried with start dates and outcomes",
+        "Buys backups of proven products during sales only"
+      ],
+      "routines": {
+        "morning": [
+          "Gentle cleanser, azelaic acid, moisturizer, mineral SPF",
+          "Meal-prepped breakfast after a night shift"
+        ],
+        "workday": [
+          "Swing shift at the lab",
+          "Podcasts on the commute"
+        ],
+        "evening": [
+          "Powerlifting 4x a week",
+          "Tretinoin nights Mon/Wed/Fri"
+        ],
+        "weekend": [
+          "Farmers market",
+          "Library study block for her master's prereqs"
+        ]
+      }
+    },
+    "health": {
+      "physical": "Very fit; post-inflammatory hyperpigmentation from college-era acne is her main skin concern.",
+      "mental": "Steady; night shifts occasionally wreck her sleep."
+    },
+    "relationships": [
+      {
+        "name": "Denise Walker",
+        "relation": "mother",
+        "description": "A school nurse who taught her to read labels on everything."
+      },
+      {
+        "name": "Kayla",
+        "relation": "lab coworker / gym partner",
+        "description": "They trade powerlifting programs and product spreadsheets."
+      }
+    ]
+  },
+  "segment": "Ingredient Auditor",
+  "segment_id": 3
+}

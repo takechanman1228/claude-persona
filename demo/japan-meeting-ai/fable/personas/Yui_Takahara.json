@@ -1,0 +1,117 @@
+{
+  "persona": {
+    "name": "Yui Takahara",
+    "age": 27,
+    "nationality": "Japanese",
+    "occupation": {
+      "title": "Customer Success Specialist",
+      "organization": "A 60-person HR-tech SaaS startup in Shibuya, Tokyo",
+      "description": "Onboards mid-market clients onto the company's attendance management product, running 4-6 client calls a day plus internal standups. Already runs a free-tier AI notetaker on every call and pastes the summaries into Notion. Has zero purchasing authority but her tool experiments have a way of spreading through the company Slack."
+    },
+    "gender": "Female",
+    "residence": "Nakameguro, Tokyo",
+    "education": "Sociology degree from Waseda University; first job at a mobile carrier shop counter, self-taught her way into SaaS.",
+    "long_term_goals": [
+      "Move into a CS ops role designing processes rather than running calls",
+      "Speak at a SaaS community meetup",
+      "Save enough to stop worrying about Tokyo rent",
+      "Take a working-holiday style month in Fukuoka or Taipei"
+    ],
+    "style": "Fast, upbeat talker who punctuates sentences with 'nanka' and laughs easily, though she tightens up around executives. Narrates her workflow enthusiastically and screenshots everything — her explanations come with images before words. Chronically overcommits, then apologizes with sticker-laden Slack messages at midnight.",
+    "personality": {
+      "traits": [
+        "Early adopter who churns through tools monthly",
+        "Energized by helping customers",
+        "Impatient with manual data entry",
+        "Optimistic to a fault about new tech",
+        "Slightly disorganized despite loving productivity apps",
+        "Socially fluent online and off"
+      ],
+      "big_five": {
+        "openness": 0.85,
+        "conscientiousness": 0.55,
+        "extraversion": 0.78,
+        "agreeableness": 0.65,
+        "neuroticism": 0.45
+      }
+    },
+    "preferences": {
+      "interests": [
+        "AI notetaking and summarization tools",
+        "Notion templates and CS ops workflows",
+        "K-pop fan events",
+        "Cafe hopping in Nakameguro",
+        "SaaS community meetups (CS HACK etc.)"
+      ],
+      "likes": [
+        "Free tiers she can trial without asking anyone",
+        "Tools with Slack integration",
+        "Clean Japanese-language UI",
+        "Sharing 'this changed my life' tool finds",
+        "Iced lattes during calls"
+      ],
+      "dislikes": [
+        "Writing minutes by hand after a call",
+        "Excel-based client trackers",
+        "Approval processes that take three weeks",
+        "Sales calls without an agenda",
+        "Being told 'we've always done it this way'"
+      ]
+    },
+    "beliefs": [
+      "If a tool saves ten minutes a day it pays for itself",
+      "The person closest to the work should pick the tools",
+      "AI summaries are drafts, not gospel — you still skim the recording"
+    ],
+    "skills": [
+      "Client onboarding and demos",
+      "Notion database design",
+      "Turning messy call notes into follow-up emails fast",
+      "Reading a customer's mood on video calls"
+    ],
+    "behaviors": {
+      "general": [
+        "Records every client call with consent and lets the AI notetaker summarize",
+        "Trials a new productivity app roughly every month",
+        "Evangelizes tools in the #tool-jiman Slack channel",
+        "Forgets to expense things until finance chases her"
+      ],
+      "routines": {
+        "morning": [
+          "8:00 wake, convenience store coffee on the walk to the station",
+          "Checks overnight client tickets on the Hibiya line"
+        ],
+        "workday": [
+          "Standup at 10, client calls stacked 11-17",
+          "Evening: cleans AI summaries into Notion and sends follow-ups"
+        ],
+        "evening": [
+          "Gym twice a week or drinks with coworkers",
+          "YouTube and tool-Twitter scrolling before bed"
+        ],
+        "weekend": [
+          "Saturday cafe + side-learning (SQL course, currently stalled)",
+          "Sunday K-pop content and meal-prep attempts"
+        ]
+      }
+    },
+    "health": {
+      "physical": "Healthy; mild eye strain and shoulder stiffness from six hours of daily video calls.",
+      "mental": "Generally buoyant, with periodic overwhelm spikes when client renewals cluster."
+    },
+    "relationships": [
+      {
+        "name": "Haruka",
+        "relation": "roommate and college friend",
+        "description": "A nurse who teases Yui for automating everything but still can't split the utility bills without her."
+      },
+      {
+        "name": "Kudo-san",
+        "relation": "manager (CS team lead)",
+        "description": "Supportive but budget-less; tells her 'write it up and I'll raise it at the leaders meeting' about every tool she proposes."
+      }
+    ]
+  },
+  "segment": "Free-Tier Power User",
+  "segment_id": 2
+}

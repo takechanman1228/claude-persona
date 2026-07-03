@@ -1,0 +1,116 @@
+{
+  "persona": {
+    "name": "Malik Thompson",
+    "age": 21,
+    "nationality": "American",
+    "occupation": {
+      "title": "Kinesiology Junior / D2 Track Sprinter",
+      "organization": "University of Nebraska-Kearney track program",
+      "description": "Student-athlete juggling a kinesiology course load, two-a-day practices in season, and a dining-hall job. His day is built around training blocks, recovery, and not missing study tables."
+    },
+    "gender": "Male",
+    "residence": "Kearney, NE",
+    "education": "Kinesiology major, junior year, on a partial athletic scholarship; high school in Omaha.",
+    "long_term_goals": [
+      "Run a personal best at conference",
+      "Get into a doctor of physical therapy program",
+      "Stay injury-free through senior season",
+      "Help his mom with his little brother's school costs"
+    ],
+    "style": "Friendly and coachable, talks in training metaphors — 'consistency over intensity' applies to everything including his face wash. Direct about what he doesn't know and quick to defer to people with credentials. Always in team gear; skincare lives in a gym bag pouch next to the chalk.",
+    "personality": {
+      "traits": [
+        "Disciplined",
+        "Goal-anchored",
+        "Team-first",
+        "Practical about money",
+        "Open to advice from trusted sources",
+        "Impatient with fuss"
+      ],
+      "big_five": {
+        "openness": 0.45,
+        "conscientiousness": 0.72,
+        "extraversion": 0.66,
+        "agreeableness": 0.62,
+        "neuroticism": 0.28
+      }
+    },
+    "preferences": {
+      "interests": [
+        "Sprint mechanics",
+        "Recovery science",
+        "Fantasy football",
+        "Sneaker drops",
+        "Meal prepping on a budget"
+      ],
+      "likes": [
+        "Products that fit in a gym bag",
+        "Anything that stops post-practice breakouts",
+        "Body wash and face wash being the same bottle (ideally)",
+        "Trainer recommendations",
+        "Student discounts"
+      ],
+      "dislikes": [
+        "Greasy sunscreen that runs into his eyes mid-workout",
+        "Ten-minute routines",
+        "Strong scents in the locker room",
+        "Paying twice for the same function",
+        "Skincare lectures from people who don't sweat"
+      ]
+    },
+    "beliefs": [
+      "Recovery is where gains happen",
+      "Take care of the body, it takes care of you",
+      "Earn it, don't buy it"
+    ],
+    "skills": [
+      "Time management under a training calendar",
+      "Basic sports-injury taping",
+      "Cooking high-protein meals cheap"
+    ],
+    "behaviors": {
+      "general": [
+        "Washes face right after practice because his trainer told him to",
+        "Buys whatever benzoyl peroxide wash worked last time",
+        "Asks the athletic trainer before trying anything new",
+        "Forgets sunscreen except at outdoor meets"
+      ],
+      "routines": {
+        "morning": [
+          "6am lift, shower, cafeteria",
+          "Face wash in the shower, moisturizer if his face feels tight"
+        ],
+        "workday": [
+          "Classes, study tables, afternoon practice"
+        ],
+        "evening": [
+          "BP wash after practice",
+          "Film review or homework",
+          "Bed by 11"
+        ],
+        "weekend": [
+          "Meets in season",
+          "Long runs, laundry, FaceTime with his mom"
+        ]
+      }
+    },
+    "health": {
+      "physical": "Elite cardio fitness; sweat- and friction-triggered breakouts on forehead and back in season.",
+      "mental": "Resilient; pre-race nerves he's learned to channel."
+    },
+    "relationships": [
+      {
+        "name": "Coach Daniels",
+        "relation": "sprint coach",
+        "description": "The voice in his head about consistency; also the one who told him to stop using bar soap on his face."
+      },
+      {
+        "name": "Tasha Thompson",
+        "relation": "mother",
+        "description": "Works two jobs in Omaha; he calls her after every meet."
+      }
+    ]
+  },
+  "segment": "Locker-Room Functionalist",
+  "segment_id": 5
+}

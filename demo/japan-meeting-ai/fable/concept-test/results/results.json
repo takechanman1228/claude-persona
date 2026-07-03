@@ -1,0 +1,132 @@
+[
+  {
+    "name": "Kenji Morooka",
+    "segment": "Paper-First Bucho",
+    "age": 52,
+    "gender": "Male",
+    "occupation": "Production Planning Department Manager (Bucho)",
+    "responses": {
+      "preferred_option": "B",
+      "reasoning": "Hmm... sore wa dou kana, none of these I would sign off on quickly. But if I must choose, B is the least objectionable — in our company the gijiroku exists so that decisions are not forgotten and follow-ups are carried out, and B at least understands this purpose. A talks about saving time, but a record written by a machine is a record I cannot vouch for, so the time saved is time I would spend checking it anyway. C is dashboards for managers — the factory floor tells the truth, dashboards only summarize it, and I do not need software to tell me what my own team is doing.",
+      "purchase_likelihood": 2,
+      "improvement": "It must output a proper printed minutes format in Japanese that the responsible person can review, correct by hand, and stamp — and the data must stay on our own server here in Japan, not in some overseas cloud, with a one-time purchase rather than subscription."
+    }
+  },
+  {
+    "name": "Yui Takahara",
+    "segment": "Free-Tier Power User",
+    "age": 27,
+    "gender": "Female",
+    "occupation": "Customer Success Specialist",
+    "responses": {
+      "preferred_option": "B",
+      "reasoning": "Nanka, honestly A is what every AI notes tool already says, right? I've trialed like five of those this year alone (laughs). What actually kills me is the after — I promise a customer 'I'll send that by Friday!' and then it just... vanishes into my Slack backlog, so a tool that chases the follow-ups for me would genuinely change my life. C felt like it's built for my manager to watch me, not for me to do my job better — and I believe the person doing the work should pick the tool, not the boss dashboard.",
+      "purchase_likelihood": 4,
+      "improvement": "Give it a free tier I can try without asking anyone for approval, and push the next-step reminders straight into Slack — with a clean Japanese UI, please, not awkward machine-translated menus."
+    }
+  },
+  {
+    "name": "Hiroshi Kanemoto",
+    "segment": "Security Gatekeeper",
+    "age": 45,
+    "gender": "Male",
+    "occupation": "Information Systems Section Chief (Joho Seisaku Kacho)",
+    "responses": {
+      "preferred_option": "B",
+      "reasoning": "I selected B on the following conditions being understood: (1) my office's chronic problem is not note-taking speed but decisions evaporating after the meeting ends, so a tool that preserves decisions and follow-ups as written records aligns with how accountability actually works in an administration; (2) Concept A leads with 'records meetings automatically,' which immediately raises the question of where that audio resides and whether it is used for model training — a question no vendor has yet answered to my satisfaction; (3) Concept C is built around CRM and 'pipeline discussions,' which do not exist in a city hall, and giving managers visibility into recorded conversations creates a personal-data and labor-relations problem I would rather not own. B at least frames the value as follow-through, which is the one benefit I could defend in front of the security committee — provided the data handling is documented.",
+      "purchase_likelihood": 2,
+      "improvement": "Provide, unprompted, a completed security checklist covering data residency in domestic data centers, explicit non-use of audio for training, deletion request procedures, and ideally an on-premise or LGWAN-compatible deployment option; without that documentation in Japanese, evaluation cannot proceed."
+    }
+  },
+  {
+    "name": "Akiko Nishitani",
+    "segment": "Solo Efficiency Buyer",
+    "age": 38,
+    "gender": "Female",
+    "occupation": "Independent ERP Implementation Consultant",
+    "responses": {
+      "preferred_option": "A",
+      "reasoning": "A does exactly one thing I bill against: it kills the non-billable hours I spend writing up minutes after client meetings. B and C are built for teams — I have no 'team' to follow up with and no manager who needs 'visibility' into my pipeline, that would just be me watching myself. C in particular smells like enterprise software that assumes an IT admin I don't have. My only real question for A is whether it can handle SAP and manufacturing terminology in Japanese without mangling it, because my minutes are the deliverable — if the transcript is garbage, I'm editing anyway and saving nothing.",
+      "purchase_likelihood": 4,
+      "improvement": "Flat monthly pricing in yen for a single user — not per-seat plans designed for fifty people — plus clean export to Word and Excel in a format I can send to a client without reformatting."
+    }
+  },
+  {
+    "name": "Takumi Ezaki",
+    "segment": "Minutes-Drowned PM",
+    "age": 31,
+    "gender": "Male",
+    "occupation": "Project Manager, Public Sector Systems Division",
+    "responses": {
+      "preferred_option": "A",
+      "reasoning": "Sumimasen, this may sound self-serving, but I chose A because the gijiroku itself is what eats my evenings — after a two-hour client meeting I typically spend another two to three hours writing minutes, circulating them, and waiting for the client's stamp, so anything that automates the summary and action items directly gives me back time. B is honestly appealing too, since in my belief a decision isn't real until it's in the minutes, but tracking follow-ups is something I can already manage in our PM tools; the bottleneck is the writing, not the remembering. C I passed on quickly — 'manager visibility into pipeline' sounds like a sales tool, and frankly the last thing I need is another dashboard someone asks me to update.",
+      "purchase_likelihood": 3,
+      "improvement": "Please add templates matching Japanese government minutes formats and reliable speaker separation for large conference rooms — and ideally get it onto approved-tool security lists, because otherwise our clients' rooms where recording is forbidden make the whole thing moot."
+    }
+  },
+  {
+    "name": "Sachiko Umezawa",
+    "segment": "Compliance-First Director",
+    "age": 58,
+    "gender": "Female",
+    "occupation": "Administrative Director (Jimu-bucho)",
+    "responses": {
+      "preferred_option": "B",
+      "reasoning": "I chose B because in our committee meetings the real risk is not the writing — it is decisions that dissolve after everyone leaves the room. Minutes are legal and accreditation records; a tool that tracks what was decided and who owes what is the only one of the three that addresses that. Option A only promises speed, and speed is not my problem — accuracy is. Option C is built for sales managers watching a pipeline; we do not have a pipeline, we have patients, and I will not put customer-call surveillance logic anywhere near clinical discussions.",
+      "purchase_likelihood": 3,
+      "improvement": "Before anything else, show me exactly where the recordings and transcripts are stored, who can access them, and the audit trail — and give me a mode that captures decisions and action items without keeping the raw audio, because patient cases are discussed in those rooms. I would also want two hospital references I can telephone myself."
+    }
+  },
+  {
+    "name": "Ryo Hazama",
+    "segment": "Voice-Memo Rookie",
+    "age": 24,
+    "gender": "Male",
+    "occupation": "Junior Sales Representative, Industrial Materials",
+    "responses": {
+      "preferred_option": "A",
+      "reasoning": "A desu ne, sokketsu! Every evening I'm stuck at my desk writing visit reports when I could be, you know, actually talking to clients — if the AI just listens and writes the summary for me, that's my whole life fixed. B is fine but honestly follow-ups I remember, it's the TYPING that kills me. And C... naruhodo, 'managers get better visibility' — so basically my kacho watching my every call? No thank you, that one's made for the boss, not for me.",
+      "purchase_likelihood": 4,
+      "improvement": "Make it work from my phone voice memos in the company car — I record myself after every visit anyway, so if it turned those into the report and auto-filled the CRM's 14 fields, I'd use it every single day."
+    }
+  },
+  {
+    "name": "Naomi Kirishima",
+    "segment": "Honne-Nuance Skeptic",
+    "age": 43,
+    "gender": "Female",
+    "occupation": "HR Planning Group Manager",
+    "responses": {
+      "preferred_option": "B",
+      "reasoning": "B is the only concept framed around what the meeting is actually for — decisions and follow-through — rather than around producing a record for its own sake. A promises to 'record everything,' and I've yet to see that phrase survive contact with a works council review, or with the simple fact that people speak differently once they know the transcript exists. C, I'll be candid, is manager surveillance wearing a CRM badge — the moment my sales colleagues learn their calls feed a 'visibility' dashboard, the honest sentences move to the hallway afterward, and we've purchased a very expensive archive of tatemae. B at least confines itself to outcomes rather than utterances, which is a distinction I care about professionally.",
+      "purchase_likelihood": 3,
+      "improvement": "Granular access controls and retention settings as a first-class feature — who can search what, for how long, and a clear way to mark discussions as non-recorded from the outset. Without that, I could not put this in front of our labor relations team, let alone HR meetings."
+    }
+  },
+  {
+    "name": "Daisuke Wakamiya",
+    "segment": "Cost-Counting Owner",
+    "age": 35,
+    "gender": "Male",
+    "occupation": "Owner and Creative Director",
+    "responses": {
+      "preferred_option": "B",
+      "reasoning": "A written record of who decided what has saved me from unpaid scope disputes twice, so B is the only one speaking my language — 'remember decisions' is exactly the junior I can't afford to hire for minutes. A just says 'save time,' which every tool says, and time saved that doesn't displace a real hour of labor is a slide, not a product. C is for a manager watching a pipeline from above; we are five people around one table, I can see my team by turning my head.",
+      "purchase_likelihood": 3,
+      "improvement": "Show me flat pricing in yen for a five-person studio, not per-seat dollars that swing with the exchange rate — and prove it can transcribe a Kyoto client saying 'kentou shimasu' without mangling the Japanese."
+    }
+  },
+  {
+    "name": "Emi Furusawa",
+    "segment": "Onsite Ops Realist",
+    "age": 49,
+    "gender": "Female",
+    "occupation": "Area Manager, Hokkaido Region",
+    "responses": {
+      "preferred_option": "B",
+      "reasoning": "B, no hesitation. Look — the problem is never the meeting, it's what happens after. HQ decides something Tuesday, and by the time it reaches my 14 stores it's half-melted like April snow. A tool that keeps decisions and follow-ups alive until someone actually does them — that's the bridge I've been asking for. A just saves typing time, fine, but a fast summary nobody acts on is still a dead summary. And C? 'Manager visibility into team activity' — that's a dashboard for headquarters to watch us. I build trust standing in the stockroom, not staring at pipeline charts.",
+      "purchase_likelihood": 3,
+      "improvement": "Make it work completely by voice from a phone — I do half my day from a parked Prius with gloves half-on, and if my store managers can't learn it in one shift briefing, it's dead on arrival. Let me record a store visit conversation hands-free and have the follow-ups land with the right manager automatically."
+    }
+  }
+]

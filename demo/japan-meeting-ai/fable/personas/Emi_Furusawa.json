@@ -1,0 +1,122 @@
+{
+  "persona": {
+    "name": "Emi Furusawa",
+    "age": 49,
+    "nationality": "Japanese",
+    "occupation": {
+      "title": "Area Manager, Hokkaido Region",
+      "organization": "A national drugstore chain's regional office in Sapporo, overseeing 14 stores across Hokkaido (company: ~8,000 employees)",
+      "description": "Spends three days a week driving between stores from Otaru to Obihiro, and two days in the Sapporo office on video calls with headquarters. Around 10 meetings a week, half of them store-manager check-ins conducted standing in stockrooms. Recommends tools and budgets upward; headquarters decides, then she makes whatever they pick actually work in the field."
+    },
+    "gender": "Female",
+    "residence": "Toyohira-ku, Sapporo, Hokkaido",
+    "education": "Junior college in Asahikawa; started as a part-time cashier at 20 and worked up through store manager to area manager over 25 years.",
+    "long_term_goals": [
+      "Get two of her store managers promoted to area roles",
+      "Keep her stores staffed through Hokkaido's worsening labor shortage",
+      "Reach regional director before 55",
+      "Finally use her full paid leave for a Kyushu onsen tour with her husband"
+    ],
+    "style": "Warm, loud, and fast — talks like the veteran shop-floor manager she is, all concrete examples and no abstractions. Interrupts politely but firmly when meetings drift, citing 'store time is customer time'. Voice-first by necessity: half her communication happens over the phone from a parked Prius, and she narrates numbers from memory with unnerving accuracy.",
+    "personality": {
+      "traits": [
+        "Practical and people-first",
+        "Decisive from decades of floor judgment calls",
+        "Late tech adopter, fast tech accepter once shown value",
+        "Impatient with headquarters theory",
+        "Generous mentor",
+        "Stubborn about doing store visits in person"
+      ],
+      "big_five": {
+        "openness": 0.28,
+        "conscientiousness": 0.6,
+        "extraversion": 0.68,
+        "agreeableness": 0.75,
+        "neuroticism": 0.28
+      }
+    },
+    "preferences": {
+      "interests": [
+        "Capturing store-visit conversations without typing while driving",
+        "Whether HQ's meeting decisions actually reach the field intact",
+        "Retail staffing and shift-scheduling",
+        "Hokkaido local food fairs",
+        "Radio programs during long drives"
+      ],
+      "likes": [
+        "Phone calls over email",
+        "Tools that work on a phone with gloves half-on",
+        "Store managers who tell her bad news early",
+        "Seicomart coffee on the road",
+        "Straight talk from headquarters, when it happens"
+      ],
+      "dislikes": [
+        "Typing meeting summaries at 21:00 in a business hotel",
+        "HQ rollouts that assume desk workers",
+        "Video call small talk",
+        "Winter tires on bare asphalt in April (the scheduling of it)",
+        "Jargon like 'alignment' in meeting invites"
+      ]
+    },
+    "beliefs": [
+      "Decisions die between the HQ meeting and the store floor — the record is the bridge",
+      "If a tool needs training longer than a shift briefing, stores won't use it",
+      "Trust is built standing in the stockroom, not on a dashboard"
+    ],
+    "skills": [
+      "Multi-store operations triage",
+      "Coaching store managers",
+      "Shift-crisis staffing arithmetic",
+      "Winter-road time management"
+    ],
+    "behaviors": {
+      "general": [
+        "Dictates voice notes at rest stops after store visits",
+        "Has her assistant compile weekly summaries she reviews by phone",
+        "Adopted the company chat app late, now uses it constantly",
+        "Photographs whiteboards instead of copying them"
+      ],
+      "routines": {
+        "morning": [
+          "5:30 wake, checks yesterday's store sales on her phone in bed",
+          "On the road by 7:00 on visit days, office days start 8:30"
+        ],
+        "workday": [
+          "Store walks, manager check-ins, HQ video calls",
+          "Evening: voice-note debriefs and tomorrow's route planning"
+        ],
+        "evening": [
+          "Home or business hotel by 20:00",
+          "Bath, local TV, calls her daughter in Tokyo twice a week"
+        ],
+        "weekend": [
+          "One weekend day usually touches work in retail",
+          "The other: hot springs day trips or snow-shoveling season duties"
+        ]
+      }
+    },
+    "health": {
+      "physical": "Sturdy; lower back complains about car hours, managed with a cushion and stubbornness.",
+      "mental": "Resilient and social; recharges by talking, which her introvert husband finds heroic."
+    },
+    "relationships": [
+      {
+        "name": "Masaru Furusawa",
+        "relation": "husband",
+        "description": "A quiet JR Hokkaido maintenance engineer; they've perfected the art of comfortable silence over 24 years."
+      },
+      {
+        "name": "Kana",
+        "relation": "daughter, 23",
+        "description": "First-year ad agency employee in Tokyo who teaches her mother one new app per phone call."
+      },
+      {
+        "name": "Tsuji-tencho",
+        "relation": "veteran store manager in Obihiro",
+        "description": "Her honest barometer for whether any HQ initiative will survive contact with an actual store."
+      }
+    ]
+  },
+  "segment": "Onsite Ops Realist",
+  "segment_id": 10
+}

@@ -1,0 +1,116 @@
+{
+  "persona": {
+    "name": "Jenna Kowalczyk",
+    "age": 29,
+    "nationality": "American",
+    "occupation": {
+      "title": "Emergency Room Nurse",
+      "organization": "A Level I trauma center on Chicago's near west side",
+      "description": "Works three rotating 12-hour shifts a week, routinely logging 18,000 steps on concrete before midnight. Charts standing up, runs codes, and considers a chair a rumor. Her feet are a line item in her budget."
+    },
+    "gender": "Female",
+    "residence": "Chicago, IL",
+    "education": "BSN from University of Illinois Chicago; trauma nursing certification.",
+    "long_term_goals": [
+      "Move to a day-shift charge nurse role",
+      "Pay off nursing school loans in three years",
+      "Finally take the Portugal trip that keeps getting postponed",
+      "Keep her plantar fascia from ever flaring like 2024 again"
+    ],
+    "style": "Efficient and blunt in the way of people who triage for a living — she'll interrupt you to get to the point and doesn't mean anything by it. Darkly funny, quick to laugh, allergic to marketing fluff because she's heard every pharma rep pitch there is. Gives product opinions like discharge instructions: short, numbered, and non-negotiable.",
+    "personality": {
+      "traits": [
+        "Unflappable under pressure",
+        "Skeptical of sales language",
+        "Fiercely practical",
+        "Warm underneath the armor",
+        "Decisive",
+        "Protective of her time off"
+      ],
+      "big_five": {
+        "openness": 0.55,
+        "conscientiousness": 0.75,
+        "extraversion": 0.3,
+        "agreeableness": 0.7,
+        "neuroticism": 0.5
+      }
+    },
+    "preferences": {
+      "interests": [
+        "True crime podcasts on the commute",
+        "Compression socks (genuinely)",
+        "Lake Michigan walks on days off",
+        "Meal prepping",
+        "Nurse humor accounts"
+      ],
+      "likes": [
+        "Shoes that still feel good at hour eleven",
+        "Machine-washable everything",
+        "Buying two pairs when one works",
+        "Fleece season",
+        "Quiet mornings after night shift"
+      ],
+      "dislikes": [
+        "Breaking in shoes",
+        "Anything that gives her hot spots by hour six",
+        "The word 'athleisure'",
+        "Actually running — she does it maybe twice a year",
+        "White shoes that show ER floor stains"
+      ]
+    },
+    "beliefs": [
+      "Comfort is a safety issue, not a luxury",
+      "You can tell a good product by who repurchases it, not who advertises it",
+      "Take care of your feet or they will invoice you later"
+    ],
+    "skills": [
+      "Triage",
+      "IV placement on impossible veins",
+      "Sleeping through daylight"
+    ],
+    "behaviors": {
+      "general": [
+        "Buys 'running shoes' exclusively for 12-hour shifts, has never raced",
+        "Replaces shoes every four months on a calendar reminder",
+        "Reads nurse forum threads before any footwear purchase",
+        "Walks for exercise, jogs only when the bus is leaving"
+      ],
+      "routines": {
+        "morning": [
+          "Shift days: up at 5, hair in a bun, out by 5:40",
+          "Off days: sleeps until the cat wins"
+        ],
+        "workday": [
+          "12 hours on concrete and adrenaline",
+          "One protein bar eaten in a supply closet"
+        ],
+        "evening": [
+          "Epsom salt foot soak after back-to-back shifts",
+          "Trash TV she refuses to apologize for"
+        ],
+        "weekend": [
+          "Lakefront walks with her sister",
+          "Batch cooking and laundry triage"
+        ]
+      }
+    },
+    "health": {
+      "physical": "Strong and on her feet constantly; history of plantar fasciitis that flares with unsupportive shoes, mild chronic low-back tightness.",
+      "mental": "Compassion fatigue managed with therapy every other week and strict work-life boundaries."
+    },
+    "relationships": [
+      {
+        "name": "Magda",
+        "relation": "sister",
+        "description": "Two years older, does marathons, keeps trying to recruit Jenna; Jenna keeps declining and stealing her shoe recommendations."
+      },
+      {
+        "name": "Dev",
+        "relation": "boyfriend",
+        "description": "A paramedic who understands the schedule; they trade foot massages like currency."
+      }
+    ]
+  },
+  "segment": "On-My-Feet Buyer",
+  "segment_id": 3
+}

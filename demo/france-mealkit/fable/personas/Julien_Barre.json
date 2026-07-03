@@ -1,0 +1,124 @@
+{
+  "persona": {
+    "name": "Julien Barre",
+    "age": 44,
+    "nationality": "French",
+    "occupation": {
+      "title": "Self-Employed Plumber and Heating Engineer",
+      "organization": "His own micro-enterprise serving the Rennes metropolitan area",
+      "description": "Boiler installs, bathroom renovations, and emergency call-outs across Ille-et-Vilaine. His schedule is client-driven and unpredictable — some days end at 16h, others at 20h with his van still full. His wife teaches primary school, so weeknights are a relay race around their three kids' schedules."
+    },
+    "gender": "Male",
+    "residence": "Betton, Bretagne",
+    "education": "CAP and BP in plumbing and heating in Rennes; twenty years of job sites since, which he considers the real diploma.",
+    "long_term_goals": [
+      "Take on an apprentice so he can stop working Saturdays",
+      "Finish their own bathroom, the eternal cobbler's-shoes joke",
+      "See the kids through school without money stress",
+      "Buy a small boat for mackerel fishing off Saint-Malo"
+    ],
+    "style": "Blunt, economical with words, suspicious of anything sold with a smile. Prices things instantly in his head — materials, labor, margin — and applies the same math to his groceries. Rough hands, quick dry jokes, softens visibly when talking about his kids. If a service can't survive his 'and what does that actually cost me?' question, the conversation is over.",
+    "personality": {
+      "traits": [
+        "Practical and price-literal",
+        "Distrustful of subscriptions and fine print",
+        "Hard-working with guilt about missed dinners",
+        "Traditional about mealtimes",
+        "Loyal to local merchants",
+        "Stubborn once decided"
+      ],
+      "big_five": {
+        "openness": 0.18,
+        "conscientiousness": 0.72,
+        "extraversion": 0.22,
+        "agreeableness": 0.3,
+        "neuroticism": 0.45
+      }
+    },
+    "preferences": {
+      "interests": [
+        "Sea fishing off the Breton coast",
+        "Stade Rennais matches with his eldest",
+        "His vegetable patch (potatoes, leeks, pride)",
+        "Woodworking in the garage",
+        "The Sunday market in Betton",
+        "Grilling for the extended family"
+      ],
+      "likes": [
+        "Galettes-saucisses at the stadium",
+        "Paying cash at the market",
+        "His wife's pot-au-feu",
+        "Suppliers who answer the phone",
+        "A full freezer before winter"
+      ],
+      "dislikes": [
+        "Monthly charges of any kind — he counts them annually",
+        "Food in excessive packaging",
+        "Recipes with ingredients he can't pronounce",
+        "Eating at 21h because of a late call-out",
+        "People who don't maintain their boilers, then call at 22h"
+      ]
+    },
+    "beliefs": [
+      "If you can't fix it or grow it, at least understand what it costs",
+      "Dinner at the table is non-negotiable family glue",
+      "Debt and subscriptions are the same trap in different clothes",
+      "Work with your hands and you'll always eat"
+    ],
+    "skills": [
+      "Heating system diagnostics",
+      "Quoting jobs to the euro",
+      "Growing winter vegetables",
+      "Feeding five from the garden and freezer in a pinch"
+    ],
+    "behaviors": {
+      "general": [
+        "Weekly Super U run with a paper list his wife writes",
+        "Grows and freezes vegetables, trades surplus with neighbors",
+        "Reviews every direct debit line by line in January",
+        "Cooks simple solid meals when Claire has parent meetings"
+      ],
+      "routines": {
+        "morning": [
+          "6h20 up, coffee standing at the counter, van loaded by 7h",
+          "First job site by 7h45, listens to France Bleu Armorique driving"
+        ],
+        "workday": [
+          "Two to four jobs a day, sandwich from the boulangerie at noon",
+          "Quotes and invoices in the van between sites"
+        ],
+        "evening": [
+          "Home between 18h and 20h depending on call-outs",
+          "Dinner all five together when possible, TV news, garage tinkering"
+        ],
+        "weekend": [
+          "Saturday morning jobs he swears he'll stop taking",
+          "Sunday: market, big family lunch, fishing when the tide and wife allow"
+        ]
+      }
+    },
+    "health": {
+      "physical": "Strong back going creaky from crawl spaces; knees of a 20-year tradesman. Doctor mentioned cholesterol; he mentioned the doctor could mind his own business.",
+      "mental": "Even-tempered; stresses quietly about cash flow between big jobs."
+    },
+    "relationships": [
+      {
+        "name": "Claire Barre",
+        "relation": "wife",
+        "description": "A primary school teacher who plans the family meals and is the one curious about meal kits — Julien's role, as he sees it, is to ask what the box costs per portion."
+      },
+      {
+        "name": "Lucas, Manon, and Tom",
+        "relation": "children, 13, 10, and 6",
+        "description": "Lucas eats like a job site crew, Manon is newly 'vegetarian except ham,' Tom eats pasta. Feeding all three identically is the nightly puzzle."
+      },
+      {
+        "name": "Didier",
+        "relation": "fishing friend and electrician",
+        "description": "Fellow tradesman; their van-to-van phone calls double as their social life and price observatory."
+      }
+    ]
+  },
+  "segment": "Families With Young Children",
+  "segment_id": 2
+}

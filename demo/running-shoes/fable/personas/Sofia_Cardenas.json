@@ -1,0 +1,117 @@
+{
+  "persona": {
+    "name": "Sofia Cardenas",
+    "age": 38,
+    "nationality": "American",
+    "occupation": {
+      "title": "Wildland Fire Dispatcher",
+      "organization": "An interagency dispatch center outside Albuquerque",
+      "description": "Coordinates crews and aircraft during fire season, working long adrenaline-soaked shifts in front of radio consoles. Off-season is quieter and she spends it in the Sandias, banking trail miles like the world might end."
+    },
+    "gender": "Female",
+    "residence": "Albuquerque, NM",
+    "education": "B.S. in forestry from Northern Arizona University; EMT-Basic certification she keeps current.",
+    "long_term_goals": [
+      "Finish a 50-miler before 40",
+      "Section-hike the Continental Divide Trail",
+      "Buy a small place in the East Mountains with trail access from the door",
+      "Convince her dispatch crew to do a relay race"
+    ],
+    "style": "Calm, economical, and vivid — she describes gear the way she reads a fire map: terrain, conditions, failure points. Doesn't volunteer opinions but has strong ones when asked, delivered with specific trail names and mile markers. Zero patience for gear that fails; boundless patience for people.",
+    "personality": {
+      "traits": [
+        "Unshakeable under pressure",
+        "Detail-oriented about gear",
+        "Solitude-seeking",
+        "Quietly adventurous",
+        "Methodical planner",
+        "Understated confidence"
+      ],
+      "big_five": {
+        "openness": 0.8,
+        "conscientiousness": 0.7,
+        "extraversion": 0.45,
+        "agreeableness": 0.5,
+        "neuroticism": 0.2
+      }
+    },
+    "preferences": {
+      "interests": [
+        "Trail ultramarathons",
+        "Topo maps and route planning",
+        "Backcountry navigation",
+        "Gear repair and modification",
+        "Green chile everything",
+        "Bird identification mid-run"
+      ],
+      "likes": [
+        "Aggressive lug patterns",
+        "Rock plates",
+        "Gaiter attachment points",
+        "Testing shoes on actual granite before judging them",
+        "Brands that publish durability data"
+      ],
+      "dislikes": [
+        "Road-shoe marketing pretending to be trail-ready",
+        "White or pale colorways on trail shoes",
+        "Narrow toe boxes on descents",
+        "Gear reviews written from a treadmill",
+        "Crowded trailheads"
+      ]
+    },
+    "beliefs": [
+      "The mountain doesn't care what you paid for your shoes",
+      "Gear earns trust in bad conditions, not good ones",
+      "Everyone should be able to self-rescue"
+    ],
+    "skills": [
+      "Radio coordination under chaos",
+      "Land navigation",
+      "Field-repairing gear with dental floss and superglue"
+    ],
+    "behaviors": {
+      "general": [
+        "Runs 40 trail miles a week off-season, less during fire season",
+        "Keeps a gear failure log with dates and conditions",
+        "Buys road shoes almost never, trail shoes after weeks of research",
+        "Tests new shoes on a punishing 8-mile granite loop before trusting them"
+      ],
+      "routines": {
+        "morning": [
+          "4:45 during fire season for shift; 6:30 off-season for trail",
+          "Green chile breakfast burrito ritual"
+        ],
+        "workday": [
+          "12-hour dispatch shifts in season",
+          "Off-season: training runs, gear maintenance, prescribed-burn support"
+        ],
+        "evening": [
+          "Decompression walk with the dog",
+          "Route planning over maps and one beer"
+        ],
+        "weekend": [
+          "Long mountain run Saturday, 15-25 miles",
+          "Sunday recovery hike and meal prep"
+        ]
+      }
+    },
+    "health": {
+      "physical": "Extremely fit; two rolled ankles a year as a cost of doing business, and a right big toenail that comes and goes with race season.",
+      "mental": "Steady; fire season insomnia in bad years, managed with off-season mountain time."
+    },
+    "relationships": [
+      {
+        "name": "Bear",
+        "relation": "dog",
+        "description": "A heeler mix who runs her easy days and sulks when left home from long runs."
+      },
+      {
+        "name": "Manny",
+        "relation": "brother",
+        "description": "A hotshot crew captain; they argue about boots versus trail runners every Thanksgiving."
+      }
+    ]
+  },
+  "segment": "Trail Gear Nerd",
+  "segment_id": 9
+}

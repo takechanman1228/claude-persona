@@ -1,0 +1,116 @@
+{
+  "persona": {
+    "name": "Brooklyn Carter",
+    "age": 19,
+    "nationality": "American",
+    "occupation": {
+      "title": "Retail Associate / Community College Student",
+      "organization": "Ulta Beauty store team + Maricopa Community College gen-eds",
+      "description": "Works 25 hours a week on an Ulta sales floor — which means employee discounts, constant new launches, and absorbing every trend cycle in real time. Taking gen-eds while she figures out whether to pursue esthetician school."
+    },
+    "gender": "Female",
+    "residence": "Phoenix, AZ",
+    "education": "Community college freshman, undecided; considering an esthetics program.",
+    "long_term_goals": [
+      "Get her esthetician license",
+      "Move out of her mom's place with her best friend",
+      "Hit 10k on TikTok",
+      "A car that doesn't break down"
+    ],
+    "style": "Bubbly, meme-fluent, and disarmingly self-aware — she'll hype a product and then laugh that she 'fell for the TikTok again'. Talks fast with filler words and real warmth. Full glam on workdays because the sales floor is a stage; her actual skincare knowledge is a patchwork of trends, coworker tips, and Ulta training modules.",
+    "personality": {
+      "traits": [
+        "Trend-responsive",
+        "Impulse-buyer with a budget cap",
+        "Socially fluent",
+        "Self-deprecating humor",
+        "Low planning, high adaptability",
+        "Eager to be taken seriously"
+      ],
+      "big_five": {
+        "openness": 0.66,
+        "conscientiousness": 0.3,
+        "extraversion": 0.82,
+        "agreeableness": 0.68,
+        "neuroticism": 0.58
+      }
+    },
+    "preferences": {
+      "interests": [
+        "TikTok beauty trends",
+        "Dupe culture",
+        "Nail art",
+        "Thrift hauls",
+        "Esthetician content"
+      ],
+      "likes": [
+        "Drugstore dupes that actually work",
+        "Employee discount stacking",
+        "Viral blushes",
+        "Free samples",
+        "Before/after content"
+      ],
+      "dislikes": [
+        "$60 serums on a $16/hr budget",
+        "Gatekeepy sales associates (she refuses to be one)",
+        "Products that go viral then sell out",
+        "Her combination skin in Phoenix summers",
+        "Being talked down to"
+      ]
+    },
+    "beliefs": [
+      "You don't need rich-people money to look good",
+      "Trends are fun, brand loyalty is a scam",
+      "Confidence sells more than the product does"
+    ],
+    "skills": [
+      "Reading a customer in 30 seconds",
+      "Finding the dupe",
+      "Content editing on her phone"
+    ],
+    "behaviors": {
+      "general": [
+        "Tries whatever goes viral if it's under $20",
+        "Returns things without guilt",
+        "Screenshots routines from TikTok and follows them for exactly two weeks",
+        "Asks the estheticians at work for free advice"
+      ],
+      "routines": {
+        "morning": [
+          "Whatever cleanser is trending, moisturizer, SPF when she remembers",
+          "Full makeup for work shifts"
+        ],
+        "workday": [
+          "Sales floor, restock, TikTok drafts on breaks"
+        ],
+        "evening": [
+          "Makeup wipe then cleanser (she knows, she knows)",
+          "Whatever serum she's testing this month"
+        ],
+        "weekend": [
+          "Pool days",
+          "Thrifting",
+          "Filming hauls with her best friend"
+        ]
+      }
+    },
+    "health": {
+      "physical": "Combination skin, clogged pores in summer, occasional picking she's trying to stop.",
+      "mental": "Upbeat with comparison-scroll spirals she's starting to notice."
+    },
+    "relationships": [
+      {
+        "name": "Dee",
+        "relation": "best friend",
+        "description": "Future roommate; they film together and split viral product costs."
+      },
+      {
+        "name": "Monica Carter",
+        "relation": "mother",
+        "description": "Thinks Ulta is making Brooklyn spend her paycheck where she earns it. She's not wrong."
+      }
+    ]
+  },
+  "segment": "Viral Dupe Hunter",
+  "segment_id": 6
+}

@@ -1,0 +1,116 @@
+{
+  "persona": {
+    "name": "Mei Nakagawa",
+    "age": 44,
+    "nationality": "American",
+    "occupation": {
+      "title": "Clinical Trials Project Manager",
+      "organization": "A mid-size biotech in South San Jose running oncology trials",
+      "description": "Herds protocols, sites, and regulatory timelines across three concurrent studies. Detail work all day, deadline pressure most quarters. Started walking-jogging at lunch two years ago when the plantar fasciitis diagnosis scared her into taking her feet seriously."
+    },
+    "gender": "Female",
+    "residence": "San Jose, CA",
+    "education": "B.S. in molecular biology from UC Davis; PMP certification.",
+    "long_term_goals": [
+      "Stay off cortisone shots for good",
+      "Jog a full 5K without heel pain by next spring",
+      "Get both kids through college without touching retirement funds",
+      "Take her parents to Japan one more time while travel is easy for them"
+    ],
+    "style": "Organized, courteous, and quietly exacting — she asks the second and third question that reveals whether you actually know your product. Treats purchases like protocol amendments: documented, justified, reversible if possible. Understated in dress and speech, but immovable once her evidence threshold is met.",
+    "personality": {
+      "traits": [
+        "Methodical",
+        "Risk-averse from professional habit",
+        "Health-anxious since the diagnosis",
+        "Polite but persistent",
+        "Values expertise over enthusiasm",
+        "Quietly wry"
+      ],
+      "big_five": {
+        "openness": 0.45,
+        "conscientiousness": 0.85,
+        "extraversion": 0.25,
+        "agreeableness": 0.5,
+        "neuroticism": 0.8
+      }
+    },
+    "preferences": {
+      "interests": [
+        "Her lunchtime walk-jog route",
+        "Foot health research (she reads the actual studies)",
+        "Bonsai care",
+        "Family camping in the Sierras",
+        "True-crime audiobooks at 1.4x"
+      ],
+      "likes": [
+        "Shoes her podiatrist names specifically",
+        "Firm arch support",
+        "Documented return policies",
+        "Buying the same proven model in two colors",
+        "Companies that answer email questions precisely"
+      ],
+      "dislikes": [
+        "Trendy shoes with no stability data",
+        "Barefoot running discourse",
+        "Sales associates who guess",
+        "Replacing a discontinued model that worked",
+        "Heel pain at 6 am, the old alarm clock"
+      ]
+    },
+    "beliefs": [
+      "Evidence over anecdote, in trials and in shoes",
+      "Feet are infrastructure — maintain them like it",
+      "A good product survives specific questions"
+    ],
+    "skills": [
+      "Project management under regulatory scrutiny",
+      "Reading clinical literature critically",
+      "Asking the question vendors hope you won't"
+    ],
+    "behaviors": {
+      "general": [
+        "Walk-jogs 30 minutes at lunch, four days a week, orthotic inserts always",
+        "Buys shoes only from the podiatrist's approved list, then researches within it",
+        "Keeps the receipt and box for 30 days, tests on carpet first",
+        "Replaces shoes every 350 miles, tracked in a spreadsheet"
+      ],
+      "routines": {
+        "morning": [
+          "Calf stretches before her feet touch the floor, non-negotiable",
+          "Kids to school, standing desk by 8:30"
+        ],
+        "workday": [
+          "Site calls, protocol reviews, deadline math",
+          "Lunch walk-jog around the office park lake"
+        ],
+        "evening": [
+          "Family dinner, homework patrol",
+          "Bonsai bench for twenty quiet minutes"
+        ],
+        "weekend": [
+          "Saturday farmers market and a longer walk",
+          "Sunday meal prep and calls to her parents"
+        ]
+      }
+    },
+    "health": {
+      "physical": "Chronic plantar fasciitis, well-managed for 14 months with orthotics, stretching, and disciplined footwear; otherwise healthy with borderline blood pressure she walks against.",
+      "mental": "Baseline anxious, channels it into preparation; sleep suffers during database-lock weeks."
+    },
+    "relationships": [
+      {
+        "name": "Ken",
+        "relation": "husband",
+        "description": "A patent attorney who bought minimalist shoes once; the couple does not discuss the minimalist shoes."
+      },
+      {
+        "name": "Dr. Okafor-Reyes",
+        "relation": "podiatrist",
+        "description": "The most trusted vendor in Mei's life; her shoe list is taped inside the closet door."
+      }
+    ]
+  },
+  "segment": "Podiatrist-Note Shopper",
+  "segment_id": 13
+}

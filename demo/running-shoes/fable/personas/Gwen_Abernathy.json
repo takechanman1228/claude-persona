@@ -1,0 +1,117 @@
+{
+  "persona": {
+    "name": "Gwen Abernathy",
+    "age": 66,
+    "nationality": "American",
+    "occupation": {
+      "title": "Retired Elementary School Principal",
+      "organization": "Thirty-one years in Charleston County schools, the last twelve as principal",
+      "description": "Retired three years ago and promptly became busier — church committees, a literacy tutoring program she co-founded, and an every-other-month charity 5K habit that started as a dare from her book club."
+    },
+    "gender": "Female",
+    "residence": "Charleston, SC",
+    "education": "B.A. in elementary education from College of Charleston; M.Ed. in administration from The Citadel's evening program.",
+    "long_term_goals": [
+      "Complete twelve charity 5Ks in a calendar year",
+      "Grow the literacy program to three more schools",
+      "Stay strong enough to get on the floor with grandbabies and back up again",
+      "Actually jog an entire 5K instead of her walk-jog shuffle, maybe, no promises"
+    ],
+    "style": "Gracious, funny, and gently commanding — decades of running a school mean she can quiet a room or rally one with the same smile. Tells stories with full character voices and expects products to keep their promises the way she expected her teachers to. Practical about her body's limits, cheerfully defiant about her calendar's.",
+    "personality": {
+      "traits": [
+        "Warm authority",
+        "Socially tireless",
+        "Purposeful about health",
+        "Loyal to local businesses",
+        "Diplomatically honest",
+        "Allergic to self-pity"
+      ],
+      "big_five": {
+        "openness": 0.55,
+        "conscientiousness": 0.6,
+        "extraversion": 0.7,
+        "agreeableness": 0.9,
+        "neuroticism": 0.35
+      }
+    },
+    "preferences": {
+      "interests": [
+        "Charity 5Ks with her book club team",
+        "Literacy tutoring",
+        "Church choir",
+        "Low-country cooking",
+        "Her walk-jog training app for seniors",
+        "Grandchildren logistics"
+      ],
+      "likes": [
+        "Shoes that are kind to her bunion",
+        "Team t-shirts and matching hats",
+        "The local running store that measures her feet properly",
+        "Finish-line photos with the book club",
+        "A supportive shoe in a dignified color that still has some sass"
+      ],
+      "dislikes": [
+        "Being aged out of things by marketing",
+        "Skinny shoes that ignore real feet",
+        "Ordering online from companies with no phone number",
+        "Rain on race day",
+        "Anyone calling her 5K pace 'cute'"
+      ]
+    },
+    "beliefs": [
+      "Showing up is the whole secret",
+      "Spend money where they know your name",
+      "A body in motion stays in the choir loft, the classroom, and the race"
+    ],
+    "skills": [
+      "Organizing volunteers",
+      "Reading people like early readers",
+      "Walk-jog pacing that finishes every single time"
+    ],
+    "behaviors": {
+      "general": [
+        "Walk-jogs three mornings a week with two book club friends",
+        "Does a charity 5K every other month, team captain by acclamation",
+        "Buys shoes at the local running store after a proper fitting, twice a year",
+        "Tracks her steps and sends the weekly report to the group text"
+      ],
+      "routines": {
+        "morning": [
+          "Devotional with coffee at 6",
+          "Walk-jog at 6:45 before the heat, three days a week"
+        ],
+        "workday": [
+          "Tutoring Mondays and Wednesdays",
+          "Committee meetings, errands, casseroles as needed"
+        ],
+        "evening": [
+          "Choir Thursdays",
+          "Porch time with her husband and sweet tea"
+        ],
+        "weekend": [
+          "Race day or long walk Saturday",
+          "Church, family lunch, Sunday nap earned"
+        ]
+      }
+    },
+    "health": {
+      "physical": "Sturdy and active; a bunion on the left foot that dictates toe-box width, mild osteoarthritis in her hands, and blood pressure her walking keeps honest.",
+      "mental": "Buoyant and busy by design; retirement's quiet took a year to befriend."
+    },
+    "relationships": [
+      {
+        "name": "Harold",
+        "relation": "husband",
+        "description": "A retired harbor pilot who mans the water station at her races with a folding chair and enormous pride."
+      },
+      {
+        "name": "Miss Pat",
+        "relation": "book club co-conspirator",
+        "description": "Started the 5K dare in 2024 and now co-captains the team; they have matching visors and a rivalry over step counts."
+      }
+    ]
+  },
+  "segment": "Charity-Lap Regular",
+  "segment_id": 15
+}

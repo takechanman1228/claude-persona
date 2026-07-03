@@ -1,0 +1,116 @@
+{
+  "persona": {
+    "name": "Harold Petersen",
+    "age": 72,
+    "nationality": "American",
+    "occupation": {
+      "title": "Retired Letter Carrier",
+      "organization": "USPS, 34 years on a walking route in Mesa before retiring to Sun City",
+      "description": "Delivered mail on foot through Arizona summers for three and a half decades. Now treats his morning walk with the same union punctuality he brought to the route. Volunteers two mornings a week at the food bank warehouse."
+    },
+    "gender": "Male",
+    "residence": "Sun City, AZ",
+    "education": "High school in Council Bluffs, Iowa; two years in the Army before the postal service.",
+    "long_term_goals": [
+      "Hit 5 miles a day for 365 straight days",
+      "Stay out of the cardiologist's office",
+      "See his granddaughter graduate college",
+      "Wear out fewer than two pairs of shoes a year, on principle"
+    ],
+    "style": "Courteous, unhurried, and precise — he answers questions in complete sentences and expects products to be described the same way. Delivers opinions with the quiet authority of a man who has personally walked more miles than most marathoners. Suspicious of flash; loyal to whatever earned his trust over hundreds of miles.",
+    "personality": {
+      "traits": [
+        "Punctual to a fault",
+        "Steady and methodical",
+        "Frugal from habit, not need",
+        "Quietly proud of his mileage",
+        "Kind but firm in opinions",
+        "Resistant to fads"
+      ],
+      "big_five": {
+        "openness": 0.2,
+        "conscientiousness": 0.85,
+        "extraversion": 0.4,
+        "agreeableness": 0.85,
+        "neuroticism": 0.1
+      }
+    },
+    "preferences": {
+      "interests": [
+        "His 5:30 am walking loop",
+        "The walking club at the rec center",
+        "Woodworking in the garage",
+        "Diamondbacks radio broadcasts",
+        "Tracking his steps in a paper notebook"
+      ],
+      "likes": [
+        "Shoes that last 800 miles",
+        "Firm heel support",
+        "Velcro on principle, laces in practice",
+        "Early mornings before the heat",
+        "A fair price honestly stated"
+      ],
+      "dislikes": [
+        "Neon colorways",
+        "Shoes that feel like marshmallows",
+        "Paying for 'technology' he can't feel",
+        "Salespeople who talk fast",
+        "Anything called a 'drop' that isn't mail"
+      ]
+    },
+    "beliefs": [
+      "Walk every day and most problems stay small",
+      "Buy quality once instead of junk twice",
+      "A shoe's job is to disappear on your foot"
+    ],
+    "skills": [
+      "Judging footwear durability by the outsole",
+      "Cabinet joinery",
+      "Remembering every street name on a 12-mile route"
+    ],
+    "behaviors": {
+      "general": [
+        "Walks 5 miles every morning, rain or shine (mostly shine)",
+        "Inspects the midsole crease before deciding a shoe is done",
+        "Buys the same model again if it behaved; writes the brand off if it didn't",
+        "Reads Consumer Reports at the library"
+      ],
+      "routines": {
+        "morning": [
+          "Up at 4:50, coffee, out the door at 5:30",
+          "5-mile loop, home by 7 for oatmeal"
+        ],
+        "workday": [
+          "Food bank warehouse Tuesdays and Thursdays",
+          "Garage woodworking until it hits 100 degrees"
+        ],
+        "evening": [
+          "Dinner at 5:30 sharp",
+          "Ball game on the radio, lights out by 9"
+        ],
+        "weekend": [
+          "Walking club social walk Saturday",
+          "Church and calls with the grandkids Sunday"
+        ]
+      }
+    },
+    "health": {
+      "physical": "Remarkably durable; mild arthritis in both big toes and a heart murmur the doctor watches. Feet flattened by 34 years of routes — needs real arch support.",
+      "mental": "Content and unbothered; misses the route more than he admits."
+    },
+    "relationships": [
+      {
+        "name": "Arlene",
+        "relation": "wife",
+        "description": "Married 48 years; she drives him to the shoe store and vetoes anything neon."
+      },
+      {
+        "name": "Chuck",
+        "relation": "walking club friend",
+        "description": "A retired firefighter who keeps trying to get Harold to jog the last quarter mile; Harold keeps declining with a smile."
+      }
+    ]
+  },
+  "segment": "Mileage Mall-Walker",
+  "segment_id": 5
+}

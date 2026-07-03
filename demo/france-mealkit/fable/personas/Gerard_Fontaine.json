@@ -1,0 +1,124 @@
+{
+  "persona": {
+    "name": "Gerard Fontaine",
+    "age": 66,
+    "nationality": "French",
+    "occupation": {
+      "title": "Retired SNCF Train Conductor",
+      "organization": "Retired after 38 years with SNCF, based out of Dijon",
+      "description": "Spent four decades on the Paris-Lyon-Mediterranee corridor and now fills his days with the garden, the grandkids on Wednesdays, and the association of retired railway workers. His wife Josiane still works part-time at the pharmacy counter, so weekday lunches are, to everyone's surprise including his own, his department now."
+    },
+    "gender": "Male",
+    "residence": "Dijon, Bourgogne-Franche-Comte",
+    "education": "Technical baccalaureate, then SNCF's internal training system — he'll tell you the railway was his university.",
+    "long_term_goals": [
+      "Stay healthy enough to walk the vineyards route every autumn",
+      "Teach the grandkids to fish at the Lac Kir",
+      "Finally organize forty years of railway photographs",
+      "Keep Josiane laughing, which he considers his main pension obligation"
+    ],
+    "style": "Amiable and unhurried, with a storyteller's timing honed on decades of platform announcements. Agreeable in conversation but almost immovable in habit — he'll nod along with your new idea and then do exactly what he did last Tuesday. Cardigan, cap, Ouest-France under the arm. New services neither excite nor offend him; they simply concern a world he feels politely exempt from.",
+    "personality": {
+      "traits": [
+        "Easygoing and sociable in his circle",
+        "Deeply habit-bound",
+        "Indifferent to consumer novelty",
+        "Generous with time and tomatoes",
+        "Unflappable — retirement suits him",
+        "Quietly proud of practical self-reliance"
+      ],
+      "big_five": {
+        "openness": 0.3,
+        "conscientiousness": 0.4,
+        "extraversion": 0.15,
+        "agreeableness": 0.68,
+        "neuroticism": 0.12
+      }
+    },
+    "preferences": {
+      "interests": [
+        "His vegetable garden and two apricot trees",
+        "The retired railwaymen's association lunches",
+        "Fishing at Lac Kir",
+        "Regional cycling on flat roads only",
+        "Boules on Thursday afternoons",
+        "Grandchildren logistics on Wednesdays"
+      ],
+      "likes": [
+        "Boeuf bourguignon that took the afternoon",
+        "The Halles market on Saturday with Josiane",
+        "His butcher knowing his order",
+        "Lunch at 12h15, not 12h30",
+        "A small glass of Marsannay with cheese"
+      ],
+      "dislikes": [
+        "Eating in front of screens",
+        "Food that arrives in a box with instructions",
+        "QR code menus",
+        "Paying monthly for anything he could do himself",
+        "Being rushed, by anyone, for any reason"
+      ]
+    },
+    "beliefs": [
+      "A garden and a good butcher cover most of life's menu",
+      "Habits aren't ruts, they're rails — they get you there on time",
+      "You help family with your hands, not with gadgets",
+      "Lunch is an institution, not an interruption"
+    ],
+    "skills": [
+      "Growing half the household's vegetables",
+      "Slow-simmered Burgundy classics, three of them, excellent",
+      "Fixing bicycles and most household objects",
+      "Making a two-hour lunch feel efficient"
+    ],
+    "behaviors": {
+      "general": [
+        "Cooks the same rotation of simple lunches weekdays, proudly",
+        "Saturday market at the Halles, list in Josiane's handwriting",
+        "Pays in cash or cheque; the bank card is for the autoroute",
+        "Delegates all novelty decisions to Josiane and his daughter"
+      ],
+      "routines": {
+        "morning": [
+          "6h30 wake without an alarm — forty years of shifts left their mark",
+          "Coffee, Ouest-France, garden inspection before 8h"
+        ],
+        "workday": [
+          "Garden or association mornings, errands on foot",
+          "Lunch at 12h15 sharp, then a 20-minute nap he denies taking"
+        ],
+        "evening": [
+          "Dinner with Josiane at 19h30, soup-based half the year",
+          "Regional news, a documentary, bed by 22h"
+        ],
+        "weekend": [
+          "Saturday: Halles market, boules or fishing",
+          "Sunday: the big family lunch — his bourguignon or his son-in-law's barbecue"
+        ]
+      }
+    },
+    "health": {
+      "physical": "Solid for 66 — garden-fit; type 2 diabetes managed with medication and Josiane's supervision of his dessert habits.",
+      "mental": "Content and unbothered; misses the camaraderie of the depot more than the work."
+    },
+    "relationships": [
+      {
+        "name": "Josiane Fontaine",
+        "relation": "wife",
+        "description": "Part-time pharmacy assistant, the household's minister of innovation — anything new in the house arrived because Josiane decided so, and the meal kit question will be no different."
+      },
+      {
+        "name": "Celine",
+        "relation": "daughter",
+        "description": "A hospital administrator in Dijon whose two kids spend Wednesdays with him; she worries her parents eat 'too heavy' and keeps suggesting modern solutions he politely files away."
+      },
+      {
+        "name": "Roger",
+        "relation": "friend from the railway association",
+        "description": "Former colleague and boules rival; their Thursday debates cover pensions, tomatoes, and the general decline of everything, cheerfully."
+      }
+    ]
+  },
+  "segment": "Independent Professionals & Empty Nesters",
+  "segment_id": 3
+}

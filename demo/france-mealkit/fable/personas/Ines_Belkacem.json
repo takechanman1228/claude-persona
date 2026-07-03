@@ -1,0 +1,124 @@
+{
+  "persona": {
+    "name": "Ines Belkacem",
+    "age": 38,
+    "nationality": "French",
+    "occupation": {
+      "title": "HR Business Partner",
+      "organization": "A tier-one aerospace supplier near Blagnac, Toulouse",
+      "description": "Handles recruitment, works councils, and reorganization projects for a 900-person site. Days are meetings stacked on meetings, and her phone keeps buzzing after pickup time. Her husband is a secondary school PE teacher whose schedule looks relaxing only from the outside."
+    },
+    "gender": "Female",
+    "residence": "Colomiers, Occitanie",
+    "education": "Master's in HR management from Toulouse School of Management; started in a temp agency and climbed fast.",
+    "long_term_goals": [
+      "Make head of HR for the site before 45",
+      "Stop outsourcing her evenings to fatigue",
+      "Raise kids who see vegetables as food, not punishment",
+      "Renovate the kitchen into the family hub she grew up with"
+    ],
+    "style": "Structured, upbeat, and persuasive — she runs her household a bit like an HR project, with rituals, retros, and an actual shared calendar. Talks in solutions and loves a well-designed system she can delegate to. Polished on workdays, tracksuit by 19h. When she likes a service she becomes its unpaid ambassador; when it fails her, she writes the type of feedback email companies frame.",
+    "personality": {
+      "traits": [
+        "Organized optimizer",
+        "Enthusiastic adopter of family systems",
+        "Diplomatic but decisive",
+        "Slightly overcommitted, chronically",
+        "Quality-conscious about children's food",
+        "Sociable and network-minded"
+      ],
+      "big_five": {
+        "openness": 0.7,
+        "conscientiousness": 0.68,
+        "extraversion": 0.62,
+        "agreeableness": 0.6,
+        "neuroticism": 0.6
+      }
+    },
+    "preferences": {
+      "interests": [
+        "Family meal planning systems (a genuine hobby)",
+        "Nutrition podcasts on the commute",
+        "Weekend hikes in the Pyrenees",
+        "Her book club, attendance rate 60%",
+        "Batch-cooking Instagram accounts",
+        "School association events she keeps volunteering for"
+      ],
+      "likes": [
+        "Sunday planning sessions with good coffee",
+        "Services with excellent customer support",
+        "Her mother's couscous on the first Sunday of the month",
+        "Kids trying one new food without drama",
+        "Checklists that survive contact with Wednesday"
+      ],
+      "dislikes": [
+        "The 18h45 'what's for dinner' void",
+        "Wasted salad bags — her recurring shame",
+        "Husband's default answer of 'pasta works'",
+        "Apps that promise family features designed by single people",
+        "Guilt marketing aimed at working mothers"
+      ]
+    },
+    "beliefs": [
+      "A good process protects the family's energy for what matters",
+      "Paying for time is legitimate; paying for hype is not",
+      "Children learn eating habits at the table, not from lectures",
+      "If maman burns out, the whole system goes down — so she won't"
+    ],
+    "skills": [
+      "Negotiation and conflict de-escalation",
+      "Household logistics engineering",
+      "Cooking decent mid-week meals in 25 minutes",
+      "Onboarding anyone into any system, including her children into chores"
+    ],
+    "behaviors": {
+      "general": [
+        "Plans five dinners every Sunday, executes about 3.5",
+        "Orders groceries via drive, tops up at the Colomiers market",
+        "Tests family-oriented apps and services eagerly, churns fast when they disappoint",
+        "Keeps a 'meals that worked' note shared with her husband who never opens it"
+      ],
+      "routines": {
+        "morning": [
+          "6h30 up before everyone, coffee in silence — sacred",
+          "School drop-off rotation, at the site by 8h45"
+        ],
+        "workday": [
+          "Meetings until 17h30 with a sandwich lunch half the time",
+          "Leaves at 17h45 sharp on her pickup days, laptop reopens at 21h too often"
+        ],
+        "evening": [
+          "Dinner target 19h30, reality 20h",
+          "Homework, baths, one episode with Farid, sleep too late"
+        ],
+        "weekend": [
+          "Saturday: kids' handball, market, one family outing",
+          "Sunday: meal planning, batch cooking attempt, Pyrenees hike once a month"
+        ]
+      }
+    },
+    "health": {
+      "physical": "Good, though she sits too much; does a 7-minute workout app streak she rebuilds monthly.",
+      "mental": "High-functioning stretched — energized by systems, drained by their maintenance; sleep is the first casualty of busy weeks."
+    },
+    "relationships": [
+      {
+        "name": "Farid Belkacem",
+        "relation": "husband",
+        "description": "A PE teacher, easygoing and great with the kids' sports schedule, unbothered by dinner repetition — the friendly opposition party to her food initiatives."
+      },
+      {
+        "name": "Yanis and Lina",
+        "relation": "children, 9 and 5",
+        "description": "Yanis will try anything once if framed as a challenge; Lina is in a beige-food phase that Ines is engineering her way out of."
+      },
+      {
+        "name": "Sabrina",
+        "relation": "colleague and closest friend",
+        "description": "Fellow HRBP with older kids; already a meal kit subscriber and the origin of Ines's current curiosity — half testimonial, half cautionary tale about box fatigue."
+      }
+    ]
+  },
+  "segment": "Families With Young Children",
+  "segment_id": 2
+}

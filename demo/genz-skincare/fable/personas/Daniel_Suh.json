@@ -1,0 +1,115 @@
+{
+  "persona": {
+    "name": "Daniel Suh",
+    "age": 28,
+    "nationality": "Korean-American",
+    "occupation": {
+      "title": "Investment Banking Analyst (Second Year Associate Track)",
+      "organization": "A mid-market M&A advisory firm in Manhattan",
+      "description": "Eighty-hour weeks of models, decks, and client calls. Presentation is part of the job — clients read polish as competence. Skincare started as jet-lag damage control and became a fixed line item."
+    },
+    "gender": "Male",
+    "residence": "New York, NY",
+    "education": "BS in Economics from NYU Stern.",
+    "long_term_goals": [
+      "Make VP before 31",
+      "A one-bedroom in the West Village without a guarantor",
+      "Run the NYC marathon under 3:30",
+      "Take his parents to Seoul business class"
+    ],
+    "style": "Composed, efficient, and quietly status-aware — he speaks in conclusions first, details on request, like a deck summary. Doesn't gush about products; he 'rates' them. Tailored basics, clean fade every two weeks, the watch his dad gave him. Mild embarrassment about how much he spends on skincare, which he covers with irony.",
+    "personality": {
+      "traits": [
+        "Optimization-minded",
+        "Status-aware",
+        "Time-poor",
+        "Decisive",
+        "Privately health-anxious",
+        "Loyal to what performs"
+      ],
+      "big_five": {
+        "openness": 0.52,
+        "conscientiousness": 0.86,
+        "extraversion": 0.58,
+        "agreeableness": 0.38,
+        "neuroticism": 0.44
+      }
+    },
+    "preferences": {
+      "interests": [
+        "Marathon training at 5am",
+        "Watches",
+        "Korean skincare his mom ships him vs the SoHo brands he actually buys",
+        "Espresso setups",
+        "Real estate listings he can't afford yet"
+      ],
+      "likes": [
+        "Products that work overnight",
+        "Minimalist packaging that looks good on a shelf",
+        "Eye cream that hides all-nighters",
+        "Department store samples",
+        "Efficiency in all things"
+      ],
+      "dislikes": [
+        "Anything sticky under a collar",
+        "12-step routines",
+        "Being sold to by juniors at counters",
+        "Flying economy on red-eyes",
+        "Wasting Saturday mornings"
+      ]
+    },
+    "beliefs": [
+      "Presentation compounds — people decide in the first 10 seconds",
+      "Pay for quality once",
+      "Discipline is a competitive advantage"
+    ],
+    "skills": [
+      "Financial modeling",
+      "Sleeping on planes",
+      "Reading a room of MDs"
+    ],
+    "behaviors": {
+      "general": [
+        "Reorders the same 4 products on subscription",
+        "Upgrades one product per quarter after researching like a deal",
+        "Gets a facial before big client weeks",
+        "Tracks which eye cream survives earnings season"
+      ],
+      "routines": {
+        "morning": [
+          "5am run or lift",
+          "Cleanser, vitamin C, eye cream, SPF moisturizer — 4 minutes flat"
+        ],
+        "workday": [
+          "Desk by 8:30, deck reviews past midnight in live deals"
+        ],
+        "evening": [
+          "Retinol Tue/Thu/Sat",
+          "Hydrating mask on red-eyes, unapologetically"
+        ],
+        "weekend": [
+          "Long run Saturday",
+          "Sunday: laundry service pickup, meal delivery, one hour of nothing"
+        ]
+      }
+    },
+    "health": {
+      "physical": "Fit but chronically under-slept; dark circles and dehydration lines are his stated enemies.",
+      "mental": "High-functioning stress; the marathon training is half therapy."
+    },
+    "relationships": [
+      {
+        "name": "Grace Suh",
+        "relation": "mother",
+        "description": "Ships him Korean sunscreens with sticky notes; he uses them and doesn't tell his SoHo brands."
+      },
+      {
+        "name": "Marcus",
+        "relation": "college roommate",
+        "description": "A teacher in Queens who roasts him for his '$300 face' over monthly KBBQ."
+      }
+    ]
+  },
+  "segment": "Polished Optimizer",
+  "segment_id": 7
+}

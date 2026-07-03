@@ -1,0 +1,117 @@
+{
+  "persona": {
+    "name": "Keisha Boyd",
+    "age": 27,
+    "nationality": "American",
+    "occupation": {
+      "title": "Community Outreach Coordinator",
+      "organization": "A healthcare nonprofit in Baltimore focused on maternal health",
+      "description": "Organizes health fairs, runs the org's social media, and knows half the city by first name. Work bleeds into evenings and weekends, so her Tuesday and Thursday run club sessions are protected like doctor's appointments."
+    },
+    "gender": "Female",
+    "residence": "Baltimore, MD",
+    "education": "B.A. in public health from Morgan State University.",
+    "long_term_goals": [
+      "Grow her run club chapter past 200 members",
+      "Run a half marathon in every East Coast city with a crew chapter",
+      "Move into a program director role",
+      "Get her mom walking a 5K with her"
+    ],
+    "style": "Loud in the best way — greets strangers like reunions, narrates her runs on stories, and can rally forty people to a 6:30 am meetup with three voice notes. Talks about shoes the way people talk about outfits: fit, feel, and how they photograph at golden hour. Her recommendations move product because people trust her hype is earned.",
+    "personality": {
+      "traits": [
+        "Magnetic connector",
+        "Relentlessly encouraging",
+        "Community-first",
+        "Style-aware",
+        "Overcommitted and thriving",
+        "Impulsive buyer, zero regrets"
+      ],
+      "big_five": {
+        "openness": 0.65,
+        "conscientiousness": 0.3,
+        "extraversion": 0.95,
+        "agreeableness": 0.8,
+        "neuroticism": 0.5
+      }
+    },
+    "preferences": {
+      "interests": [
+        "Her Tuesday/Thursday run club",
+        "Race weekend trips with the crew",
+        "Running content creation",
+        "Line dancing",
+        "Community health advocacy",
+        "Brunch as an institution"
+      ],
+      "likes": [
+        "Colorways that pop in photos",
+        "Matching crew shoe drops",
+        "Post-run group photos",
+        "Shoes comfortable enough for the after-brunch",
+        "Brands that show up for run crews with more than logos"
+      ],
+      "dislikes": [
+        "Gatekeeping about 'real runners'",
+        "Boring black-and-white shoes",
+        "Pace shaming",
+        "Brands that use crew culture without paying crews",
+        "Solo running, honestly"
+      ]
+    },
+    "beliefs": [
+      "Running is a group chat that meets in person",
+      "Everybody's pace is a running pace",
+      "If the shoe makes you want to show up, it's a performance shoe"
+    ],
+    "skills": [
+      "Community organizing",
+      "Social content that actually converts",
+      "Remembering everyone's name, pace group, and birthday"
+    ],
+    "behaviors": {
+      "general": [
+        "Runs 3-4 miles twice a week with the club, one longer weekend run before brunch",
+        "Buys two to three pairs a year, at least one chosen by colorway",
+        "Posts unboxings that her group chat treats as buying signals",
+        "Tries whatever the crew's fast women are wearing"
+      ],
+      "routines": {
+        "morning": [
+          "Snooze twice, smoothie, voice notes on the walk to the car",
+          "Run club 6:30 Tuesday and Thursday"
+        ],
+        "workday": [
+          "Health fair logistics, partner calls, content batching",
+          "Lunch with a community partner most days"
+        ],
+        "evening": [
+          "Event setup or line dancing Wednesdays",
+          "Group chat triage and a reality show"
+        ],
+        "weekend": [
+          "Saturday crew long run then brunch, non-negotiable",
+          "Sunday church, meal prep, family dinner at her mom's"
+        ]
+      }
+    },
+    "health": {
+      "physical": "Healthy and active; occasional IT band tightness she foam-rolls when the group chat reminds her.",
+      "mental": "High energy with periodic burnout crashes; the run club is her therapy and she says so."
+    },
+    "relationships": [
+      {
+        "name": "Denise",
+        "relation": "mother",
+        "description": "A retired postal clerk who thinks running is 'chasing nothing' but keeps Keisha's race medals on her mantel."
+      },
+      {
+        "name": "Tasha",
+        "relation": "run club co-captain",
+        "description": "Her best friend since Morgan State; they split pace-group duties and disagree only about shoe brands."
+      }
+    ]
+  },
+  "segment": "Run-Crew Socialite",
+  "segment_id": 11
+}

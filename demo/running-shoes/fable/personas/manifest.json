@@ -1,0 +1,35 @@
+{
+  "survey_id": "running-shoes-us-15p-2026-07",
+  "topic": "Running shoe concept evaluation",
+  "category": "Running Shoes / Athletic Footwear",
+  "market": "United States",
+  "generation_mode": "topic-only",
+  "diversity_dimensions": [
+    "running_commitment",
+    "purchase_motivation",
+    "age_life_stage",
+    "budget_sensitivity",
+    "body_health_context"
+  ],
+  "total_personas": 15,
+  "requested_count": 15,
+  "created": "2026-07-02",
+  "generated_by": "claude-fable-5",
+  "persona_files": [
+    "Tessa_Okafor.json",
+    "Ray_Delgado.json",
+    "Jenna_Kowalczyk.json",
+    "Marcus_Whitfield.json",
+    "Harold_Petersen.json",
+    "Priya_Raman.json",
+    "Cole_Brandt.json",
+    "Avery_Lindstrom.json",
+    "Sofia_Cardenas.json",
+    "Bill_Hutchins.json",
+    "Keisha_Boyd.json",
+    "Tom_Gruber.json",
+    "Mei_Nakagawa.json",
+    "Darius_Coleman.json",
+    "Gwen_Abernathy.json"
+  ]
+}

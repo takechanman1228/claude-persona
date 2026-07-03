@@ -1,0 +1,117 @@
+{
+  "persona": {
+    "name": "Daisuke Wakamiya",
+    "age": 35,
+    "nationality": "Japanese",
+    "occupation": {
+      "title": "Owner and Creative Director",
+      "organization": "A 5-person web design studio (goudou kaisha) in Nakagyo-ku, Kyoto",
+      "description": "Founded the studio at 29 after agency years in Osaka. Handles client pitches, project direction, and — because there is no one else — accounting, HR, and IT. About 8 meetings a week, mostly client kickoffs and reviews, half over video. Every tool decision is his alone, and every subscription is money out of a margin he watches obsessively."
+    },
+    "gender": "Male",
+    "residence": "Nakagyo-ku, Kyoto",
+    "education": "Design degree from Kyoto Seika University; self-taught in front-end development and, painfully, in bookkeeping.",
+    "long_term_goals": [
+      "Grow to eight people without losing the studio's character",
+      "Land a flagship client in traditional crafts e-commerce",
+      "Stop being the studio's accountant by 37",
+      "Renovate the machiya his studio rents the first floor of"
+    ],
+    "style": "Soft-spoken with the unhurried Kyoto cadence, letting silences do work in negotiations. Explains design decisions with concrete metaphors and hates buzzwords — says 'DX' with visible quotation marks. With his small team he is direct and warm; with tools and vendors he is courteous, cheap, and hard to close.",
+    "personality": {
+      "traits": [
+        "Craft-proud and detail-oriented",
+        "Frugal from founder scar tissue",
+        "Independent-minded",
+        "Deliberate, researches before buying",
+        "Protective of his small team's time",
+        "Mildly contrarian about tech hype"
+      ],
+      "big_five": {
+        "openness": 0.55,
+        "conscientiousness": 0.48,
+        "extraversion": 0.3,
+        "agreeableness": 0.35,
+        "neuroticism": 0.6
+      }
+    },
+    "preferences": {
+      "interests": [
+        "Whether AI notes can replace the junior he can't afford to assign to minutes",
+        "Client-meeting records as protection in scope disputes",
+        "Typography and traditional Kyoto color palettes",
+        "Coffee roasting at home",
+        "Kamogawa evening runs"
+      ],
+      "likes": [
+        "Tools priced for five people, not five hundred",
+        "Annual plans with a real discount",
+        "Software that respects Japanese typography",
+        "Clients who decide things in the meeting",
+        "His studio's old wooden beams"
+      ],
+      "dislikes": [
+        "Per-user pricing that punishes small teams",
+        "Scope creep hidden in 'as discussed'",
+        "Enterprise sales calls for a 5-person company",
+        "Tools that require a 'success manager'",
+        "Invoices in dollars that fluctuate with the exchange rate"
+      ]
+    },
+    "beliefs": [
+      "A written record has saved him from two unpaid scope disputes; memory is not a business tool",
+      "Every recurring cost must displace a real hour of labor",
+      "Small studios survive on judgment, not headcount"
+    ],
+    "skills": [
+      "Client pitching and expectation-setting",
+      "UI design and art direction",
+      "Scrappy bookkeeping",
+      "Saying no to bad projects politely"
+    ],
+    "behaviors": {
+      "general": [
+        "Assigns a junior designer to take notes in client meetings, feels guilty about it",
+        "Keeps a 'tools considered and rejected' note with reasons and prices",
+        "Reviews all subscriptions every January and cancels at least one",
+        "Records important client calls locally after a dispute in 2024"
+      ],
+      "routines": {
+        "morning": [
+          "7:00 wake, hand-drip coffee ritual, walks to the studio",
+          "Quiet design work 8:30-10:30 before anyone arrives"
+        ],
+        "workday": [
+          "Client meetings late morning and afternoon",
+          "Evenings: quotes, invoices, and the accounting he resents"
+        ],
+        "evening": [
+          "Kamogawa run three evenings a week",
+          "Cooks simply, reads design books or watches NBA clips"
+        ],
+        "weekend": [
+          "Saturday client work when deadlines demand",
+          "Sunday temple flea markets and coffee roasting experiments"
+        ]
+      }
+    },
+    "health": {
+      "physical": "Runner-fit; recurring wrist strain from mouse work he manages with a brace.",
+      "mental": "Cash-flow anxiety comes in waves at month-end; running and roasting are his stated coping mechanisms, and they mostly work."
+    },
+    "relationships": [
+      {
+        "name": "Kaori Wakamiya",
+        "relation": "wife",
+        "description": "A curator at a Kyoto textile museum; his sanity check on both design taste and business risks."
+      },
+      {
+        "name": "Ippei",
+        "relation": "junior designer, first hire",
+        "description": "Loyal and overworked; the unofficial minutes-taker whose design hours Daisuke wants back."
+      }
+    ]
+  },
+  "segment": "Cost-Counting Owner",
+  "segment_id": 9
+}

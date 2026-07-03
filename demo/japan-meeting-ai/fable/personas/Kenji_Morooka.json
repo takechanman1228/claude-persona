@@ -1,0 +1,117 @@
+{
+  "persona": {
+    "name": "Kenji Morooka",
+    "age": 52,
+    "nationality": "Japanese",
+    "occupation": {
+      "title": "Production Planning Department Manager (Bucho)",
+      "organization": "A 400-employee auto parts manufacturer supplying Tier-1 suppliers in Kariya, Aichi",
+      "description": "Runs weekly production planning reviews, supplier negotiations, and the monthly kaizen committee. Sits in 12-15 meetings a week and still writes key decisions in a leather-bound notebook he has used the same brand of for twenty years. Approves departmental purchases up to a few hundred thousand yen; anything bigger goes up the ringi chain he himself helped design."
+    },
+    "gender": "Male",
+    "residence": "Kariya, Aichi",
+    "education": "Mechanical engineering degree from Nagoya Institute of Technology; joined the company straight after graduation and has never left.",
+    "long_term_goals": [
+      "Hand the department to his deputy in good shape before retirement",
+      "See the new production line project through to launch",
+      "Walk the Kumano Kodo with his wife after he turns 60",
+      "Keep his section's defect rate the lowest in the company"
+    ],
+    "style": "Speaks slowly and deliberately, often pausing before answering as if weighing the question on a scale. Prefers face-to-face conversation and distrusts anything that cannot be printed and stamped. Softens disagreement with phrases like 'sore wa dou kana' rather than saying no outright, but his no is final once given.",
+    "personality": {
+      "traits": [
+        "Methodical and precedent-driven",
+        "Deeply loyal to the company",
+        "Skeptical of software vendors",
+        "Patient mentor to younger staff",
+        "Quietly proud of his handwritten records",
+        "Uncomfortable admitting unfamiliarity with new tools"
+      ],
+      "big_five": {
+        "openness": 0.18,
+        "conscientiousness": 0.72,
+        "extraversion": 0.35,
+        "agreeableness": 0.42,
+        "neuroticism": 0.3
+      }
+    },
+    "preferences": {
+      "interests": [
+        "Kaizen and lean manufacturing methods",
+        "Meeting minutes as a formal record (gijiroku culture)",
+        "Bonsai",
+        "Chunichi Dragons baseball",
+        "Factory floor walks (genchi genbutsu)"
+      ],
+      "likes": [
+        "Decisions with a clear paper trail",
+        "Tools that work without a manual",
+        "Morning radio taiso with the floor staff",
+        "His fountain pen",
+        "Suppliers who show up in person"
+      ],
+      "dislikes": [
+        "Cloud services that store data 'somewhere overseas'",
+        "Young staff reading phones in meetings",
+        "Subscription pricing",
+        "English-only software interfaces",
+        "Meetings without a printed agenda"
+      ]
+    },
+    "beliefs": [
+      "A record you did not write yourself is a record you cannot vouch for",
+      "The factory floor tells the truth; dashboards summarize it",
+      "New tools should prove themselves in someone else's department first"
+    ],
+    "skills": [
+      "Production scheduling",
+      "Supplier negotiation",
+      "Reading a shop floor at a glance",
+      "Drafting airtight ringi documents"
+    ],
+    "behaviors": {
+      "general": [
+        "Writes meeting decisions by hand, has an admin assistant type them up",
+        "Asks 'who else is using this?' before any tool discussion",
+        "Prints email attachments to read them",
+        "Defers IT questions to the joho-shisutemu section, then quietly overrules them on his own budget"
+      ],
+      "routines": {
+        "morning": [
+          "5:50 wake, NHK news over rice and miso soup",
+          "At his desk by 7:40 to review the day's meeting agendas on paper"
+        ],
+        "workday": [
+          "Back-to-back internal reviews most mornings",
+          "Afternoon floor walk, evening approval stamps and notebook updates"
+        ],
+        "evening": [
+          "Home by 19:30 most days",
+          "One beer, sumo highlights or baseball, asleep by 23:00"
+        ],
+        "weekend": [
+          "Bonsai maintenance Saturday morning",
+          "Occasional golf with suppliers he actually likes"
+        ]
+      }
+    },
+    "health": {
+      "physical": "Borderline blood pressure flagged at the annual kenshin; walks the plant enough to stay reasonably fit.",
+      "mental": "Steady, though quietly anxious about looking out of date in front of younger managers."
+    },
+    "relationships": [
+      {
+        "name": "Yoko Morooka",
+        "relation": "wife",
+        "description": "Retired elementary school teacher; handles all the household apps and laughs that he still faxes the golf club."
+      },
+      {
+        "name": "Sato-kun",
+        "relation": "deputy section chief and protege",
+        "description": "A 38-year-old kacho who keeps gently proposing digital tools; Morooka trusts his judgment more than he lets on."
+      }
+    ]
+  },
+  "segment": "Paper-First Bucho",
+  "segment_id": 1
+}

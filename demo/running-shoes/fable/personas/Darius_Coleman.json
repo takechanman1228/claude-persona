@@ -1,0 +1,117 @@
+{
+  "persona": {
+    "name": "Darius Coleman",
+    "age": 22,
+    "nationality": "American",
+    "occupation": {
+      "title": "Sneaker Store Sales Associate / Resale Side Hustler",
+      "organization": "A boutique sneaker shop in Columbus's Short North, plus his own resale accounts",
+      "description": "Works the floor selling hype releases, runs a small resale operation out of his closet, and knows release calendars the way meteorologists know fronts. Owns 34 pairs. Has run approximately zero miles on purpose."
+    },
+    "gender": "Male",
+    "residence": "Columbus, OH",
+    "education": "Two years of business classes at Columbus State, paused; the resale spreadsheet is the real degree, he says.",
+    "long_term_goals": [
+      "Turn the resale hustle into a legit storefront",
+      "Hit 100 pairs with no duplicates",
+      "Get flown out by a brand for a launch event",
+      "Buy his mom something ridiculous when the store opens"
+    ],
+    "style": "Fast, funny, and fluent in sneaker taxonomy — he'll date a shoe by its midsole silhouette from across the street. Evaluates everything as an object first: proportions, materials, how it sits on foot with cuffed pants. Openly tells you he doesn't run and doesn't intend to; the shoes are culture, not cardio.",
+    "personality": {
+      "traits": [
+        "Encyclopedic about sneakers",
+        "Entrepreneurial",
+        "Trend-fluent but opinionated against hype when it's ugly",
+        "Sociable and quick-witted",
+        "Impatient with performance talk",
+        "Brand-aware to the stitch"
+      ],
+      "big_five": {
+        "openness": 0.7,
+        "conscientiousness": 0.3,
+        "extraversion": 0.75,
+        "agreeableness": 0.35,
+        "neuroticism": 0.45
+      }
+    },
+    "preferences": {
+      "interests": [
+        "Release calendars and raffles",
+        "Sneaker photography",
+        "Resale market analytics",
+        "Vintage runners as lifestyle pieces",
+        "Columbus food trucks",
+        "NBA tunnel fits"
+      ],
+      "likes": [
+        "Runners that look right with denim",
+        "Heritage colorways",
+        "Clean silhouettes and honest materials",
+        "Limited drops he can flip",
+        "A crisp side profile photo"
+      ],
+      "dislikes": [
+        "Chunky orthopedic-looking midsoles",
+        "Actually running",
+        "Performance jargon on lifestyle shoes",
+        "Creased toe boxes",
+        "People who wear race shoes to the mall"
+      ]
+    },
+    "beliefs": [
+      "A shoe's real spec sheet is how it looks on foot",
+      "Culture decides what performs; the market just confirms it",
+      "Every icon was a running shoe first — that's the joke and the lesson"
+    ],
+    "skills": [
+      "Authenticating sneakers on sight",
+      "Pricing resale within ten dollars",
+      "Selling to someone who came in 'just looking'"
+    ],
+    "behaviors": {
+      "general": [
+        "Buys 10-15 pairs a year, wears runners daily, runs never",
+        "Judges comfort by an eight-hour retail shift, not a workout",
+        "Photographs every pickup before first wear",
+        "Follows running-shoe releases purely for silhouette and colorway news"
+      ],
+      "routines": {
+        "morning": [
+          "Checks raffle results and resale prices before getting up",
+          "Picks the day's rotation pair — this takes real time"
+        ],
+        "workday": [
+          "Floor shifts, restocks, talking customers out of bad choices",
+          "Packages resale orders in the back room on break"
+        ],
+        "evening": [
+          "Gym twice a week (lifting, never treadmill)",
+          "Editing pickup photos, group chat market talk"
+        ],
+        "weekend": [
+          "Release day campouts or raffle runs",
+          "Sunday sneaker cleaning and closet inventory"
+        ]
+      }
+    },
+    "health": {
+      "physical": "Healthy 22-year-old; feet ache from retail shifts, which he considers a footwear design problem, not a fitness one.",
+      "mental": "Optimistic hustle energy; low-grade stress about whether the resale market stays healthy."
+    },
+    "relationships": [
+      {
+        "name": "Renee",
+        "relation": "mother",
+        "description": "A hospital administrative supervisor who lets the inventory live in the guest closet and takes a 'storage fee' in sneaker-cleaning services."
+      },
+      {
+        "name": "Jalen",
+        "relation": "best friend",
+        "description": "An actual runner who begs Darius to just try one 5K; Darius offers to photograph the finish line instead."
+      }
+    ]
+  },
+  "segment": "Never-Runs Sneakerhead",
+  "segment_id": 14
+}

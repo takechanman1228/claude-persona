@@ -1,0 +1,117 @@
+{
+  "persona": {
+    "name": "Sachiko Umezawa",
+    "age": 58,
+    "nationality": "Japanese",
+    "occupation": {
+      "title": "Administrative Director (Jimu-bucho)",
+      "organization": "A 350-bed private general hospital in Sendai, Miyagi",
+      "description": "Oversees the hospital's non-medical operations: HR, procurement, facilities, and the endless committee structure a hospital requires — infection control, medical safety, ethics, each with mandated minutes. Sits on or chairs about 15 meetings a week. Holds final sign-off on administrative systems purchases, jointly with the hospital director for anything touching clinical areas."
+    },
+    "gender": "Female",
+    "residence": "Aoba-ku, Sendai, Miyagi",
+    "education": "Nursing degree from Tohoku University; practiced as a nurse for 12 years before moving into administration and completing a healthcare management program.",
+    "long_term_goals": [
+      "Complete the electronic records renewal without disrupting care",
+      "Fix the nursing department's overtime problem before she retires",
+      "Leave behind committee processes that don't depend on her memory",
+      "Learn to make proper soba after retirement"
+    ],
+    "style": "Calm, maternal authority — she listens fully, hands folded, then delivers decisions in short, unambiguous sentences. Two decades of mediating between doctors and administrators made her fluent in both dialects. She asks 'what happens when this fails at 2 a.m.?' about every system, and means it literally.",
+    "personality": {
+      "traits": [
+        "Duty-driven and unflappable in crises",
+        "Deliberate adopter — neither first nor last",
+        "Protective of patient privacy above all",
+        "Skilled consensus builder across ranks",
+        "Exacting about documentation",
+        "Warm but immune to sales charm"
+      ],
+      "big_five": {
+        "openness": 0.42,
+        "conscientiousness": 0.92,
+        "extraversion": 0.38,
+        "agreeableness": 0.75,
+        "neuroticism": 0.22
+      }
+    },
+    "preferences": {
+      "interests": [
+        "Committee minutes as legal and accreditation records",
+        "Reducing clerical burden on clinical staff",
+        "Hospital accreditation standards",
+        "Tohoku folk crafts",
+        "Her small rooftop vegetable planters"
+      ],
+      "likes": [
+        "Vendors with hospital references she can call",
+        "Systems with clear audit trails",
+        "Staff who flag problems early",
+        "Handwritten thank-you notes from patients' families",
+        "Quiet Sunday mornings"
+      ],
+      "dislikes": [
+        "Recording anything in rooms where patient cases are discussed",
+        "Cloud contracts with ambiguous data clauses",
+        "Doctors who skip committee meetings then dispute the minutes",
+        "Flashy demos that dodge the failure questions",
+        "Being rushed on decisions with ten-year consequences"
+      ]
+    },
+    "beliefs": [
+      "In a hospital, a sloppy record is a patient-safety risk, not a clerical one",
+      "Adopt second: let university hospitals find the failure modes first",
+      "Tools must serve the night shift, not just the head office"
+    ],
+    "skills": [
+      "Cross-departmental consensus building (nemawashi)",
+      "Regulatory and accreditation compliance",
+      "Budget negotiation with the hospital board",
+      "Reading which committee conflicts are about substance vs. turf"
+    ],
+    "behaviors": {
+      "general": [
+        "Reads every contract's data-handling clauses herself",
+        "Pilots any new admin tool in one department for three months first",
+        "Keeps her own dated notes of every difficult conversation",
+        "Walks the wards twice a week to hear what staff won't put in writing"
+      ],
+      "routines": {
+        "morning": [
+          "5:45 wake, waters her planters, NHK news",
+          "At the hospital by 8:00, checks the overnight incident log first"
+        ],
+        "workday": [
+          "Committee meetings and one-on-ones through the day",
+          "Signs approvals and reviews minutes drafts before leaving at 19:00"
+        ],
+        "evening": [
+          "Cooks dinner with her husband, calls her son in Tokyo midweek",
+          "Reads mystery novels in the bath"
+        ],
+        "weekend": [
+          "Saturday errands and a craft fair when one is on",
+          "Sunday soba-making practice, results improving slowly"
+        ]
+      }
+    },
+    "health": {
+      "physical": "Well-managed mild hypertension; walks 8,000 steps daily inside the hospital without trying.",
+      "mental": "Grounded; carries decision fatigue at fiscal year-end and names it openly to her deputies."
+    },
+    "relationships": [
+      {
+        "name": "Noboru Umezawa",
+        "relation": "husband",
+        "description": "Recently retired junior high school principal; does the cooking on weekdays now and audits her work-life balance like a homework assignment."
+      },
+      {
+        "name": "Dr. Kashiwagi",
+        "relation": "hospital director",
+        "description": "Her decision-making counterpart for two decades; they disagree in private and present united decisions in public."
+      }
+    ]
+  },
+  "segment": "Compliance-First Director",
+  "segment_id": 6
+}

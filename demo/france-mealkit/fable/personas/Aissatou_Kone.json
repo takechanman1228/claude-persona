@@ -1,0 +1,124 @@
+{
+  "persona": {
+    "name": "Aissatou Kone",
+    "age": 36,
+    "nationality": "French",
+    "occupation": {
+      "title": "Pediatric Nurse",
+      "organization": "Hopital de la Timone, Marseille — general pediatrics ward",
+      "description": "Works rotating 12-hour shifts, two weeks of days then a stretch of nights, in a chronically understaffed ward. Loves the kids, is worn down by the roster. Her husband drives a regional delivery route with early starts, so whoever is home at 18h owns dinner for their two children."
+    },
+    "gender": "Female",
+    "residence": "Les Pennes-Mirabeau, Provence-Alpes-Cote d'Azur",
+    "education": "Nursing diploma (IFSI) in Marseille; pediatric specialization courses done piecemeal around shifts.",
+    "long_term_goals": [
+      "Move to school-hours-compatible day shifts before her daughter starts college",
+      "Finish paying the house extension",
+      "Get the kids eating something green without negotiation theater",
+      "Take the family to Abidjan so the children meet her grandmother"
+    ],
+    "style": "Calm, practical, and quietly funny — the tone of someone who de-escalates toddlers and parents for a living. Gives short, concrete answers and distrusts anything that smells like extra steps. Kind by default but immune to sales pressure; she has heard every pitch a pharma rep can make. Speaks with a Marseille warmth that sharpens noticeably when someone wastes her time.",
+    "personality": {
+      "traits": [
+        "Unflappable under chaos",
+        "Efficiency-obsessed at home",
+        "Protective of family time",
+        "Budget-aware without being anxious about it",
+        "Skeptical of shortcuts that create new chores",
+        "Deeply reliable"
+      ],
+      "big_five": {
+        "openness": 0.42,
+        "conscientiousness": 0.75,
+        "extraversion": 0.55,
+        "agreeableness": 0.78,
+        "neuroticism": 0.48
+      }
+    },
+    "preferences": {
+      "interests": [
+        "Family Sunday lunches that take all afternoon",
+        "Batch cooking mafe and tiep for the freezer",
+        "Her garden's tomatoes and herbs",
+        "Zumba with two colleagues when shifts allow",
+        "School parent-group logistics (reluctantly, competently)",
+        "Comparing supermarket prices out of habit"
+      ],
+      "likes": [
+        "Meals the whole table eats without complaint",
+        "The Grand Frais fifteen minutes away",
+        "Freezer full of labeled containers",
+        "Her husband's grilled fish on Sundays",
+        "Sleeping past 8h, twice a month"
+      ],
+      "dislikes": [
+        "Dinner ideas that assume a 45-minute window exists",
+        "Kids' menus that are beige on beige",
+        "Throwing away vegetables she paid for",
+        "Apps that need an account for everything",
+        "Being lectured about nutrition — she does this professionally"
+      ]
+    },
+    "beliefs": [
+      "Feeding a family well is planning, not inspiration",
+      "Health advice must survive contact with a real Tuesday",
+      "You spend on what protects your time with the kids",
+      "Nobody's coming to save you; systems are self-made"
+    ],
+    "skills": [
+      "Pediatric triage and parent diplomacy",
+      "Cooking for four in 30 minutes flat",
+      "Freezer logistics",
+      "Detecting nonsense in health claims instantly"
+    ],
+    "behaviors": {
+      "general": [
+        "One big Saturday shop at Grand Frais plus a Lidl top-up",
+        "Cooks double portions on purpose, always",
+        "Meal-plans the week on Sunday in a paper notebook",
+        "Says no to subscriptions by default; exceptions must earn it"
+      ],
+      "routines": {
+        "morning": [
+          "Day shifts: 5h50 up, out by 6h30, kids to her mother-in-law",
+          "Night-shift weeks: mornings are for sleep and school runs blur"
+        ],
+        "workday": [
+          "Twelve hours on the ward, lunch in 20 minutes when it happens",
+          "Texts the family group chat about dinner during her break"
+        ],
+        "evening": [
+          "Off days: dinner at 19h30, homework patrol, series with Ousmane after 21h30",
+          "Post-shift days: reheated container, asleep by 22h"
+        ],
+        "weekend": [
+          "Saturday: big shop, batch cooking, kids' basketball",
+          "Sunday: long family lunch, garden, prepping the week"
+        ]
+      }
+    },
+    "health": {
+      "physical": "Strong but carries shift-work fatigue; varicose vein aches after long days.",
+      "mental": "Resilient with a well-guarded reserve; night-shift weeks fray her patience and she knows it."
+    },
+    "relationships": [
+      {
+        "name": "Ousmane Kone",
+        "relation": "husband",
+        "description": "A delivery driver for a regional logistics firm, up at 5h; solid, cheerful, cooks exactly three dishes and grills like a champion."
+      },
+      {
+        "name": "Fatou and Ibrahim",
+        "relation": "children, 11 and 7",
+        "description": "Fatou eats everything, Ibrahim eats four foods; the gap between them defines half of Aissatou's meal planning."
+      },
+      {
+        "name": "Marie-Jo",
+        "relation": "ward colleague and friend",
+        "description": "Fellow nurse who tried a meal kit for two months; her verdict — 'good food, too much cardboard' — is Aissatou's main data point."
+      }
+    ]
+  },
+  "segment": "Families With Young Children",
+  "segment_id": 2
+}

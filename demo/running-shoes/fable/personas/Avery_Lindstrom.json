@@ -1,0 +1,116 @@
+{
+  "persona": {
+    "name": "Avery Lindstrom",
+    "age": 31,
+    "nationality": "American",
+    "occupation": {
+      "title": "Reference Librarian",
+      "organization": "Hennepin County Library system, working the downtown Minneapolis branch",
+      "description": "Runs the information desk, teaches seniors to spot online scams, and curates the zine collection. Bikes to work year-round including through Minnesota January, which they mention exactly as often as it deserves."
+    },
+    "gender": "Non-binary",
+    "residence": "Minneapolis, MN",
+    "education": "MLIS from St. Catherine University; B.A. in history from Macalester College.",
+    "long_term_goals": [
+      "Get through their partner's parkrun phase with grace",
+      "Bike the full Mississippi River Trail someday",
+      "Start a small-press zine archive at the library",
+      "Never own a car"
+    ],
+    "style": "Wry, precise, and lightly contrarian — answers questions accurately including the parts you didn't want to hear. Cites sources in casual conversation and enjoys puncturing marketing claims as a hobby. Underneath the deadpan is someone deeply loyal who shows up early to help friends move.",
+    "personality": {
+      "traits": [
+        "Skeptical by profession",
+        "Dry-humored",
+        "Organized and reliable",
+        "Averse to hype cycles",
+        "Stubborn about principles",
+        "Secretly softhearted"
+      ],
+      "big_five": {
+        "openness": 0.8,
+        "conscientiousness": 0.25,
+        "extraversion": 0.2,
+        "agreeableness": 0.7,
+        "neuroticism": 0.3
+      }
+    },
+    "preferences": {
+      "interests": [
+        "Year-round bike commuting",
+        "Zines and small-press publishing",
+        "Board game nights",
+        "The Saturday parkrun their partner drags them to",
+        "Native plant gardening"
+      ],
+      "likes": [
+        "Products with repair policies",
+        "Buying one good thing every five years",
+        "Cold mornings",
+        "The library's espresso machine",
+        "Their partner's post-parkrun pancakes"
+      ],
+      "dislikes": [
+        "Running (openly, cheerfully)",
+        "Planned obsolescence",
+        "Fitness influencer culture",
+        "Sneakers that cost more than their bike tires",
+        "Being upsold"
+      ]
+    },
+    "beliefs": [
+      "Most 'innovation' is marketing with a patent number",
+      "Buy less, buy better, repair always",
+      "Exercise should be transportation or joy, ideally both"
+    ],
+    "skills": [
+      "Research and fact-checking",
+      "Bike maintenance",
+      "Explaining complicated things patiently"
+    ],
+    "behaviors": {
+      "general": [
+        "Attends parkrun most Saturdays under protest, walks the hills, finishes mid-pack",
+        "Owns exactly one pair of running shoes, bought under partner duress two years ago",
+        "Reads independent reviews and lab-test sites before any purchase over $50",
+        "Rides 8 miles round-trip to work daily"
+      ],
+      "routines": {
+        "morning": [
+          "Oatmeal, NPR, bike commute along the greenway",
+          "First hour shelving and desk setup"
+        ],
+        "workday": [
+          "Reference desk, tech-help appointments, collection work",
+          "Lunch walk around Loring Park"
+        ],
+        "evening": [
+          "Bike home, garden inspection lap",
+          "Cooking with a podcast on"
+        ],
+        "weekend": [
+          "Saturday parkrun then pancakes",
+          "Sunday board games or zine fest tabling"
+        ]
+      }
+    },
+    "health": {
+      "physical": "Excellent cardio from cycling; knees complain on downhill running because they refuse to run downhill properly out of spite.",
+      "mental": "Even-keeled; guards their routines carefully and recharges alone."
+    },
+    "relationships": [
+      {
+        "name": "Sam",
+        "relation": "partner",
+        "description": "A cheerful hospital pharmacist eighteen months into a parkrun obsession; their negotiated settlement is Avery attends, Sam never mentions pace."
+      },
+      {
+        "name": "Ruthie",
+        "relation": "library colleague",
+        "description": "A retired-then-rehired cataloger who trades Avery seedlings for zine recommendations."
+      }
+    ]
+  },
+  "segment": "Reluctant Parkrunner",
+  "segment_id": 8
+}

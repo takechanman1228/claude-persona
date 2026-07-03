@@ -1,0 +1,117 @@
+{
+  "persona": {
+    "name": "Ryo Hazama",
+    "age": 24,
+    "nationality": "Japanese",
+    "occupation": {
+      "title": "Junior Sales Representative, Industrial Materials",
+      "organization": "A 200-person specialty trading company (senmon shosha) in Nagoya, Aichi",
+      "description": "Second-year salesman covering machine-parts accounts across the Chubu region. Maybe 5 internal meetings a week, but daily client visits where the real information flows. Required to file visit reports (eigyo nippo) into a creaky CRM every evening — the part of the job he hates most. Zero authority over tools; he can't even change the CRM's dropdown options."
+    },
+    "gender": "Male",
+    "residence": "Chikusa-ku, Nagoya, Aichi",
+    "education": "Business degree from Nanzan University; joined through standard shukatsu, chose the company because the recruiter seemed genuinely happy.",
+    "long_term_goals": [
+      "Hit his numbers well enough to get the Osaka posting",
+      "Build his own client base instead of inherited accounts",
+      "Save for a used Toyota GR86",
+      "Figure out whether sales is actually his thing by 27"
+    ],
+    "style": "Bright, deferential, and quick with the energetic aizuchi of a young salesman — 'naruhodo!' is his verbal tic. Types voice memos to himself walking between client visits, half business, half rap lyrics. With peers he's blunt and funny; with seniors he performs enthusiasm even when lost.",
+    "personality": {
+      "traits": [
+        "Sociable and eager to please",
+        "Phone-native, keyboard-averse",
+        "Improvises rather than plans",
+        "Resilient to rejection",
+        "Careless with admin details",
+        "Curious about shortcuts"
+      ],
+      "big_five": {
+        "openness": 0.58,
+        "conscientiousness": 0.28,
+        "extraversion": 0.88,
+        "agreeableness": 0.45,
+        "neuroticism": 0.35
+      }
+    },
+    "preferences": {
+      "interests": [
+        "Voice memos as a note-taking substitute",
+        "Apps that could auto-write his sales reports",
+        "Futsal league on Wednesdays",
+        "Sneaker resale watching",
+        "Domestic hip-hop"
+      ],
+      "likes": [
+        "Talking instead of typing",
+        "Clients who feed him industry gossip",
+        "Company car time between visits",
+        "Miso katsu",
+        "Getting praised in the Monday sales meeting"
+      ],
+      "dislikes": [
+        "Evening report-writing at his desk",
+        "The CRM's 14 mandatory fields",
+        "Formal minutes for internal meetings nobody reads",
+        "Seniors who forward him work at 21:00",
+        "Suits in Nagoya summer"
+      ]
+    },
+    "beliefs": [
+      "Deals happen in conversation; paperwork is where energy goes to die",
+      "If his phone can't do it, it probably doesn't need doing",
+      "Being liked by the client's genba staff beats impressing their bosses"
+    ],
+    "skills": [
+      "Relationship building over repeated visits",
+      "Remembering clients' personal details",
+      "Quick mental math on quotes",
+      "Reading when a 'maybe' means no"
+    ],
+    "behaviors": {
+      "general": [
+        "Records voice memos after client visits, then procrastinates transcribing them",
+        "Asks the one tech-savvy senpai to fix anything digital",
+        "Files visit reports in batches on Friday, from memory, imperfectly",
+        "Screenshots everything instead of bookmarking"
+      ],
+      "routines": {
+        "morning": [
+          "7:20 wake, uniform of navy suit, convenience store onigiri",
+          "Morning chorei at 8:30, then out on visits"
+        ],
+        "workday": [
+          "3-5 client visits with car time between",
+          "Back at the office by 17:30 for reports he mostly defers"
+        ],
+        "evening": [
+          "Futsal Wednesdays, otherwise gym or gaming",
+          "Ramen with the same two dokis on Fridays"
+        ],
+        "weekend": [
+          "Sleeps in, watches football, occasional client golf he pretends to enjoy",
+          "Sunday evening dread about unfiled reports"
+        ]
+      }
+    },
+    "health": {
+      "physical": "Fit from futsal; skin flare-ups in summer from long days in the car.",
+      "mental": "Upbeat baseline with quarterly slumps when his numbers lag the doki cohort."
+    },
+    "relationships": [
+      {
+        "name": "Hazama-kacho (no relation)",
+        "relation": "section chief",
+        "description": "The name coincidence is an office joke; rides him about late reports but covers for him with the bucho."
+      },
+      {
+        "name": "Shun",
+        "relation": "doki (same-year hire) and best friend",
+        "description": "In the Tokyo office; they trade complaints and CRM workarounds over LINE almost daily."
+      }
+    ]
+  },
+  "segment": "Voice-Memo Rookie",
+  "segment_id": 7
+}

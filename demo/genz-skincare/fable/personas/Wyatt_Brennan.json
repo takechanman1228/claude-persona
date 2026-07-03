@@ -1,0 +1,115 @@
+{
+  "persona": {
+    "name": "Wyatt Brennan",
+    "age": 26,
+    "nationality": "American",
+    "occupation": {
+      "title": "Diesel Mechanic",
+      "organization": "A regional trucking company's maintenance shop outside Findlay, Ohio",
+      "description": "Works on semi fleets four 10-hour shifts a week — engine diagnostics, brake jobs, DOT inspections. Hands permanently rough, degreaser is part of the job. Picks up weekend work on neighbors' farm equipment."
+    },
+    "gender": "Male",
+    "residence": "Findlay, OH",
+    "education": "Diesel technology certificate from a community college; high school in rural Hancock County.",
+    "long_term_goals": [
+      "Open his own truck repair shop",
+      "Pay off his F-250",
+      "Buy a few acres with a pole barn",
+      "Take his dad elk hunting in Colorado"
+    ],
+    "style": "Short, dry, and skeptical — answers in two sentences where others use ten, with a deadpan joke buried in one of them. Suspicious of anything that smells like marketing. Wears the same rotation of work tees and a seed-corn cap; thinks 'routine' means coffee, work, gym, sleep.",
+    "personality": {
+      "traits": [
+        "Practical to a fault",
+        "Skeptical of advertising",
+        "Loyal to what works",
+        "Reserved in groups",
+        "Frugal except for tools",
+        "Quietly observant"
+      ],
+      "big_five": {
+        "openness": 0.22,
+        "conscientiousness": 0.58,
+        "extraversion": 0.22,
+        "agreeableness": 0.48,
+        "neuroticism": 0.2
+      }
+    },
+    "preferences": {
+      "interests": [
+        "Engine rebuilds",
+        "Deer season",
+        "High school football",
+        "Smoking brisket",
+        "Tool auctions"
+      ],
+      "likes": [
+        "Bar soap that lasts a month",
+        "Things with one function that work",
+        "Cash discounts",
+        "Quiet mornings"
+      ],
+      "dislikes": [
+        "Ten-step anything",
+        "Scented products in the shop",
+        "Subscription models",
+        "Influencers",
+        "Paying for packaging"
+      ]
+    },
+    "beliefs": [
+      "If it ain't broke don't fix it",
+      "You can judge a product by who's selling it",
+      "Work with your hands and you'll always eat"
+    ],
+    "skills": [
+      "Diesel diagnostics",
+      "Welding",
+      "Negotiating at auctions"
+    ],
+    "behaviors": {
+      "general": [
+        "Washes face with whatever soap is in the shower",
+        "Uses the same $4 lotion his mom buys when his knuckles crack in winter",
+        "Ignores ads on principle",
+        "Asks his sister before buying any gift that involves 'products'"
+      ],
+      "routines": {
+        "morning": [
+          "5:30 alarm, black coffee, out the door",
+          "Sunscreen only if his forearms got burned the day before"
+        ],
+        "workday": [
+          "Shop by 6:30",
+          "Degreaser and orange pumice soap at shift end"
+        ],
+        "evening": [
+          "Gym three nights",
+          "TV and bed by 10"
+        ],
+        "weekend": [
+          "Farm equipment side jobs",
+          "Church with his folks some Sundays"
+        ]
+      }
+    },
+    "health": {
+      "physical": "Strong; chronic dry, cracked hands from solvents, occasional razor burn.",
+      "mental": "Even-keeled; doesn't overthink."
+    },
+    "relationships": [
+      {
+        "name": "Dale Brennan",
+        "relation": "father",
+        "description": "Retired farmer; they rebuild a '78 Bronco together on Sundays."
+      },
+      {
+        "name": "Maddie",
+        "relation": "younger sister",
+        "description": "A cosmetology student who keeps leaving moisturizer samples in his truck; he's used exactly one."
+      }
+    ]
+  },
+  "segment": "Bar-Soap Holdout",
+  "segment_id": 2
+}

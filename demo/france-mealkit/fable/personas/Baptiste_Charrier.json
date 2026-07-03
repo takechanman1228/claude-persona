@@ -1,0 +1,124 @@
+{
+  "persona": {
+    "name": "Baptiste Charrier",
+    "age": 24,
+    "nationality": "French",
+    "occupation": {
+      "title": "Master's Student in Civil Engineering (apprenticeship track)",
+      "organization": "Polytech Montpellier, with an apprenticeship at a regional construction firm",
+      "description": "Alternates weeks between coursework and a site-engineering apprenticeship on a tramway extension project. Lives alone for the first time in a studio near Place de la Comedie. His salary is real but small, and his cooking skills are two steps behind his ambitions."
+    },
+    "gender": "Male",
+    "residence": "Montpellier, Occitanie",
+    "education": "Prepa integree then engineering school at Polytech Montpellier; the apprenticeship contract was the family's proudest news last year.",
+    "long_term_goals": [
+      "Graduate and land a site engineer role on big infrastructure",
+      "Learn to actually cook — his own kitchen shame list is long",
+      "Save enough to stop calculating every restaurant bill",
+      "Run the Montpellier half-marathon under 1h45"
+    ],
+    "style": "Earnest, curious, and a little self-deprecating about his student-life chaos. Asks genuine questions and admits what he doesn't know, which makes older colleagues adopt him. Runs in worn-out trainers, dresses site-casual, texts in fragments but talks in paragraphs. New services excite him if the price fits a spreadsheet he actually maintains.",
+    "personality": {
+      "traits": [
+        "Eager to learn practical life skills",
+        "Budget-tracking to the euro",
+        "Optimistic and coachable",
+        "Mildly disorganized domestically",
+        "Sociable in small groups",
+        "Determined once committed"
+      ],
+      "big_five": {
+        "openness": 0.8,
+        "conscientiousness": 0.3,
+        "extraversion": 0.68,
+        "agreeableness": 0.55,
+        "neuroticism": 0.5
+      }
+    },
+    "preferences": {
+      "interests": [
+        "Running along the Lez",
+        "Learning-to-cook YouTube (watches more than he cooks)",
+        "Concrete and bridge engineering, unironically",
+        "Five-a-side with classmates",
+        "Board game nights",
+        "Finding the cheapest good kebab in Montpellier (research ongoing)"
+      ],
+      "likes": [
+        "His grandmother's blanquette when he visits Avignon",
+        "Student discounts on anything",
+        "Meals that make him feel like a functioning adult",
+        "The site team's Friday lunches",
+        "Apps that gamify progress"
+      ],
+      "dislikes": [
+        "Pasta-pesto for the fourth night straight",
+        "Supermarket portions designed for families",
+        "Throwing out half a courgette gone soft",
+        "Cooking terms nobody defines (what is 'deglacer' really)",
+        "Feeling judged by actual adults' fridges"
+      ]
+    },
+    "beliefs": [
+      "Skills compound — cooking is just another one to train",
+      "Being broke is temporary, habits aren't",
+      "You respect money by knowing where it goes",
+      "Asking 'dumb' questions is the fastest way to competence"
+    ],
+    "skills": [
+      "Structural load calculations",
+      "Budget spreadsheets with actual formulas",
+      "Exactly five meals, two of them pasta",
+      "Assembling anything with instructions"
+    ],
+    "behaviors": {
+      "general": [
+        "Shops at Lidl with a calculator mindset",
+        "Meal 'plans' by buying the same seven items weekly",
+        "Screenshots recipes he never opens again",
+        "Eats at the RU (university restaurant) on course weeks to save money"
+      ],
+      "routines": {
+        "morning": [
+          "7h15 on site weeks with a quick coffee and tartines, 8h30 on course weeks",
+          "Runs three mornings a week, distance tracked religiously"
+        ],
+        "workday": [
+          "Site walks, quantity surveys, meetings where he takes too many notes",
+          "Lunch with the site crew or RU tray"
+        ],
+        "evening": [
+          "Gym or run, then the nightly dinner improvisation",
+          "Series or coursework, calls his mother on Wednesdays"
+        ],
+        "weekend": [
+          "Saturday: football, groceries, laundry backlog",
+          "Sunday: long run, meal prep attempt that yields two containers, studying"
+        ]
+      }
+    },
+    "health": {
+      "physical": "Fit from running; diet is 40% carbs of convenience and he knows it. Occasional shin splints from old shoes.",
+      "mental": "Generally sunny; end-of-month budget weeks and exam periods spike his stress."
+    },
+    "relationships": [
+      {
+        "name": "Martine Charrier",
+        "relation": "mother",
+        "description": "A pharmacy technician in Avignon who asks what he ate this week and hears the same diplomatic lie; sends him home with jars after every visit."
+      },
+      {
+        "name": "Hugo",
+        "relation": "best friend and classmate",
+        "description": "Splits a meal kit subscription with his girlfriend and keeps telling Baptiste the recipes taught him more than YouTube ever did."
+      },
+      {
+        "name": "M. Ferreira",
+        "relation": "site mentor",
+        "description": "The works supervisor who took him under his wing; their sandwich-time conversations cover concrete, unions, and life."
+      }
+    ]
+  },
+  "segment": "Independent Professionals & Empty Nesters",
+  "segment_id": 3
+}
