@@ -164,10 +164,11 @@ claude-persona/
 │   ├── genz-skincare/
 │   ├── france-mealkit/
 │   └── japan-meeting-ai/
-├── personas/
-├── tests/
-└── outputs/
+└── tests/
 ```
+
+Generated panels (`personas/`) and results (`outputs/`) are created in your
+own working directory when you run the skill, not inside this repository.
 
 
 ## How It Compares to TinyTroupe
