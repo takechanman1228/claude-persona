@@ -1,0 +1,197 @@
+[
+  {
+    "name": "Tessa Okafor",
+    "segment": "Split-Chasing Racer",
+    "age": 34,
+    "gender": "Female",
+    "occupation": "Physical Therapist Assistant",
+    "responses": {
+      "preferred_option": "A",
+      "reasoning": "A is the only one built for what I actually do — tempo Tuesdays and race day. 7.2 oz is a real number I can work with, and I'm on my feet all day telling patients most injuries are training errors, so I don't need B's max-cushion insurance policy for my long runs either — I rotate a daily trainer for those anyway. C is a lifestyle shoe wearing a race bib; 'gym-to-brunch' tells me everything. That said, A gives me weight but no stack height, no drop, no midsole foam spec — 'energy return' without a number is exactly the vague marketing I don't buy.",
+      "purchase_likelihood": 3,
+      "improvement": "Publish the full spec sheet: stack height, heel-to-toe drop, and weight per size, not just one number. If the geometry works for my forefoot strike, I'd bump this to a 4 or 5."
+    }
+  },
+  {
+    "name": "Ray Delgado",
+    "segment": "Doctor's-Orders Beginner",
+    "age": 58,
+    "gender": "Male",
+    "occupation": "HVAC Service Technician",
+    "responses": {
+      "preferred_option": "B",
+      "reasoning": "Look, I'm built for comfort, not speed, so that lightweight racing shoe A ain't for me — I'd probably fold it in half just standing on it, ha. B is the one that sounds like it was made for a guy like me: all that cushion, the sturdy heel thing, and it says it's got a reinforced toe box, which I'm hoping means roomy, because my feet are wide as a work boot. My diabetes educator has me doing this run-walk deal and my knees bark at me the next day if the shoe's too thin, so heavier don't scare me — I'm not winning any races anyway. C looks nice for church or the barbecue, but I need something that keeps me showing up, not something that matches my shirt.",
+      "purchase_likelihood": 3,
+      "improvement": "Tell me straight if it comes in wide sizes and what it costs — if it's over a hundred bucks, I'm waiting for it to hit the outlet mall. And maybe have somebody like my doctor say it's good for beginners, not just marathon guys."
+    }
+  },
+  {
+    "name": "Jenna Kowalczyk",
+    "segment": "On-My-Feet Buyer",
+    "age": 29,
+    "gender": "Female",
+    "occupation": "Emergency Room Nurse",
+    "responses": {
+      "preferred_option": "B",
+      "reasoning": "B, easy. I'm on my feet 12-plus hours in an ER, so max cushion and a structured heel is the only pitch here that isn't fluff — 'supremely comfortable' better be true at hour eleven, not hour two. A is for people who actually run, which I do roughly twice a year under protest, and C is a 'gym-to-brunch' shoe, which tells me it's built for Instagram, not for standing on concrete over a trauma bay.",
+      "purchase_likelihood": 4,
+      "improvement": "Make it machine-washable and give me a dark colorway that doesn't show every ER floor stain — nobody in my line of work is buying white foam. Do that and I'm buying two pairs."
+    }
+  },
+  {
+    "name": "Marcus Whitfield",
+    "segment": "Faded-Glory Weekender",
+    "age": 41,
+    "gender": "Male",
+    "occupation": "Regional Sales Manager",
+    "responses": {
+      "preferred_option": "A",
+      "reasoning": "Man, A is the one — that's a race-day shoe, that's the shoe that looks FAST just sitting in the box. I ran the 400 in college and let me tell you, 7.2 ounces with energy return foam? That's a game changer for my Saturday 5Ks with the kids — I'm still outkicking guys half my age down the last stretch, or at least trying to. B sounds like something my podiatrist would prescribe, no offense, and C is fine for the brunch crowd but I don't need a shoe that's 'good enough' — I need the best one on the starting line.",
+      "purchase_likelihood": 5,
+      "improvement": "Give me some loud colorways — a screaming red or my old school colors — because if I'm wearing the fastest shoe out there, everybody at the finish line photo better know it."
+    }
+  },
+  {
+    "name": "Harold Petersen",
+    "segment": "Mileage Mall-Walker",
+    "age": 72,
+    "gender": "Male",
+    "occupation": "Retired Letter Carrier",
+    "responses": {
+      "preferred_option": "B",
+      "reasoning": "I chose B because the structured heel counter and reinforced toe box tell me somebody designed this shoe to hold up, and firm heel support is the first thing I check after thirty-four years on a walking route. Option A is built for racers, which I am not, and Option C spends more words on colorways than on how it wears — eight colors doesn't move the mail. My only hesitation with B is that 'supremely comfortable' thick foam business; I don't want to walk on marshmallows, I want the shoe to disappear on my foot. The extra weight doesn't bother a man who carried a mailbag through Mesa summers.",
+      "purchase_likelihood": 3,
+      "improvement": "Tell me plainly how many miles the outsole and midsole are rated for and firm up that foam a touch — if it can't give me 800 miles at an honest price, I'll pass."
+    }
+  },
+  {
+    "name": "Priya Raman",
+    "segment": "Headspace Jogger",
+    "age": 25,
+    "gender": "Female",
+    "occupation": "UX Designer",
+    "responses": {
+      "preferred_option": "C",
+      "reasoning": "C is the only one I could imagine actually living with — a classic silhouette I can wear with wide-leg pants and not feel like I'm in costume as an athlete. My runs are slow loops along the ship canal to quiet my head, so 'tempo runs and races' in A is basically a description of everything I avoid, and B sounds like an orthopedic marshmallow, which is fine but not something I'd photograph. That said, 'gym-to-brunch crowd' as copy makes me wince a little — I'd still buy it, I'd just pretend I didn't read that.",
+      "purchase_likelihood": 3,
+      "improvement": "Show me the actual eight colorways before asking me to commit — if even three of them are muted (sage, clay, oatmeal, please) and the logo is small and quiet, I'm in. If they're neon, I'm out entirely, no matter how balanced the cushioning is."
+    }
+  },
+  {
+    "name": "Cole Brandt",
+    "segment": "Clearance-Rack Competitor",
+    "age": 19,
+    "gender": "Male",
+    "occupation": "College Student / Cross-Country Walk-On",
+    "responses": {
+      "preferred_option": "B",
+      "reasoning": "I'm running 70-mile weeks and my coach says the daily trainer is the workhorse — you save the light stuff for workouts and race day. A sounds fun but a 7.2 oz minimalist shoe on Boone gravel roads is dead at 250 miles, and that's a terrible price-per-mile no matter what the sticker says. C is a gym-to-brunch shoe, no thanks, I'm not buying a shoe for how it looks walking to class. B with the dual-density foam and reinforced toe box is the one that survives 500+ miles, which is the whole math.",
+      "purchase_likelihood": 3,
+      "improvement": "Tell me the price — I can't do the price-per-mile math without it, and if it's over like $120 retail I'm waiting for last year's colorway at 40% off anyway. Also cut an ounce; 10.8 oz is heavy even for easy days."
+    }
+  },
+  {
+    "name": "Avery Lindstrom",
+    "segment": "Reluctant Parkrunner",
+    "age": 31,
+    "gender": "Non-binary",
+    "occupation": "Reference Librarian",
+    "responses": {
+      "preferred_option": "C",
+      "reasoning": "I run exactly one Saturday parkrun because my partner has weaponized pancakes, so a shoe marketed for 'tempo runs' is aspirational fiction for me — see Option A. Option B's max-cushion arms race is mostly marketing; the actual literature on injury prevention and cushioning is way murkier than the ad copy implies. C at least admits what most people do with running shoes: wear them everywhere. 'Durable rubber outsole' is the only phrase in all three descriptions that speaks my language, though 'gym-to-brunch crowd' made me physically wince.",
+      "purchase_likelihood": 3,
+      "improvement": "Publish an actual repair or resole policy and expected mileage instead of eight colorways — I'd rather have one boring color and a shoe that isn't landfill in eighteen months."
+    }
+  },
+  {
+    "name": "Sofia Cardenas",
+    "segment": "Trail Gear Nerd",
+    "age": 38,
+    "gender": "Female",
+    "occupation": "Wildland Fire Dispatcher",
+    "responses": {
+      "preferred_option": "B",
+      "reasoning": "None of these are trail shoes, so I'm grading on a curve. B is the only one I'd trust past mile 30 — the reinforced toe box matters when you're kicking granite on the La Luz descent, and dual-density foam holds up better than the fast stuff at hour six. A is a race-day toy that'd shred in one outing on Sandia scree, and C is for people whose run ends at brunch, plus 'classic silhouette in 8 colorways' tells me nothing about the outsole compound.",
+      "purchase_likelihood": 3,
+      "improvement": "Give it an actual trail outsole — aggressive 4-5mm lugs, a rock plate, and a gaiter attachment point — and publish the durability data instead of just calling it 'supremely comfortable.'"
+    }
+  },
+  {
+    "name": "Bill Hutchins",
+    "segment": "Post-Op Cushion Seeker",
+    "age": 63,
+    "gender": "Male",
+    "occupation": "High School Chemistry Teacher, semi-retired",
+    "responses": {
+      "preferred_option": "B",
+      "reasoning": "B is the only one my knee and my physical therapist would both sign off on — max cushioning, a structured heel counter, an actual stable platform instead of a suggestion of one. Option A is for the version of me that existed before the knee replacement; a 7.2 ounce shoe with 'ground feel' is just a fancy way of saying every step gets transmitted straight up my tibia, no thank you. C is fine for the gym-to-brunch crowd but 'balanced cushioning' is marketing-speak for 'not enough of it.' My one question — and I'd genuinely like an answer — is what that dual-density foam actually IS, chemically: EVA, TPU, some PEBA blend? The dose makes the poison and the polymer makes the cushion.",
+      "purchase_likelihood": 4,
+      "improvement": "Publish the actual midsole composition and durometer numbers on the spec sheet instead of adjectives — and offer it in a wide width, because a stable platform only works if my whole foot fits on it."
+    }
+  },
+  {
+    "name": "Keisha Boyd",
+    "segment": "Run-Crew Socialite",
+    "age": 27,
+    "gender": "Female",
+    "occupation": "Community Outreach Coordinator",
+    "responses": {
+      "preferred_option": "C",
+      "reasoning": "Okay listen — EIGHT colorways?? Say less. C is the shoe that goes from Tuesday run club straight to brunch without me carrying a whole second bag, and you KNOW it's gonna photograph beautiful at golden hour for the crew pics. A is cute for the sub-7 folks but I'm not out here chasing PRs, I'm chasing vibes and community, and B sounds comfy but 'structured heel counter' is not a personality — it's giving orthopedic, no shade. If the shoe makes you want to show up, it's a performance shoe, and C is the one that makes people show up.",
+      "purchase_likelihood": 5,
+      "improvement": "Drop a crew-exclusive colorway and actually partner with local run clubs on the launch — pay the crews, don't just borrow the culture. And maybe a touch more cushion for when brunch turns into being on my feet all day."
+    }
+  },
+  {
+    "name": "Tom Gruber",
+    "segment": "Farm-Store Frugalist",
+    "age": 52,
+    "gender": "Male",
+    "occupation": "Corn and Soybean Farmer",
+    "responses": {
+      "preferred_option": "B",
+      "reasoning": "B's the closest thing to a boot in the bunch. Reinforced toe box, sturdy heel — that's a shoe built to take something. The extra weight doesn't scare me; my work boots weigh more than all three put together. A is for fellas who run races, and I don't. C has eight colorways. I need one shoe, one color, that can touch mud on the walk to the creek and back.",
+      "purchase_likelihood": 3,
+      "improvement": "Tell me the price and put it on a shelf at the farm store where I can try it on. If it's north of a hundred dollars, that's a set of oil changes, and I'll pass."
+    }
+  },
+  {
+    "name": "Mei Nakagawa",
+    "segment": "Podiatrist-Note Shopper",
+    "age": 44,
+    "gender": "Female",
+    "occupation": "Clinical Trials Project Manager",
+    "responses": {
+      "preferred_option": "B",
+      "reasoning": "I chose B because the structured heel counter and dual-density midsole are the only features here that speak to actual stability — I've dealt with plantar heel pain, and my podiatrist has been specific about needing support, not just softness. A is exactly what I avoid; a 7.2 oz minimalist shoe with 'ground feel' is how people like me end up back in the podiatrist's office, and C is selling colorways when I'd want to know about the arch geometry. That said, 'supremely comfortable' is marketing language, not data — I'd want to know the heel-to-toe drop, whether the arch support is firm or just foam, and whether there's any published stability testing before I commit.",
+      "purchase_likelihood": 3,
+      "improvement": "Publish the actual specs — drop height, arch support firmness, and any independent stability or injury-prevention data — and pair it with a clearly documented 30-day return policy for worn shoes. If it passes those questions, I'd buy it in two colors."
+    }
+  },
+  {
+    "name": "Darius Coleman",
+    "segment": "Never-Runs Sneakerhead",
+    "age": 22,
+    "gender": "Male",
+    "occupation": "Sneaker Store Sales Associate / Resale Side Hustler",
+    "responses": {
+      "preferred_option": "C",
+      "reasoning": "C is the only one of these three that understands the assignment — classic silhouette, 8 colorways, built to live with cuffed denim instead of on a treadmill. Every icon started as a running shoe, and C is the one actually trying to become an icon; A is a race-day sock for people who wear split-shorts to brunch, and B sounds like a chunky orthopedic marshmallow, which is a hard pass from me. My only worry is 'hybrid' can mean confused — half performance, half lifestyle, all ugly — so the proportions on that midsole better be honest.",
+      "purchase_likelihood": 4,
+      "improvement": "Kill the performance jargon and lean into heritage colorways — give me a suede/mesh mix and a couple limited drops per season so it photographs clean and actually moves on resale."
+    }
+  },
+  {
+    "name": "Gwen Abernathy",
+    "segment": "Charity-Lap Regular",
+    "age": 66,
+    "gender": "Female",
+    "occupation": "Retired Elementary School Principal",
+    "responses": {
+      "preferred_option": "B",
+      "reasoning": "Honey, at sixty-six with a bunion that has opinions of its own, that Soft Cushion Support is the only one of these three that talked to me like a grown woman. A reinforced toe box and a sturdy heel? That's a shoe keeping its promises, and I'll be needing every bit of that cushion for the Bridge Run 5K with my book club team. Option A is for the gazelles, bless their hearts, and Option C is trying awful hard to be brunch-cute — I need a shoe that works first and flirts second. The extra weight doesn't scare me one bit; I carried a walkie-talkie and a coffee mug through hallways for thirty-one years.",
+      "purchase_likelihood": 4,
+      "improvement": "Give it some colors with a little sass — a coral or a teal, not just the gray-and-more-gray they always hand us ladies of a certain age. And make sure my local running store carries it, because I buy where they measure my feet and know my name."
+    }
+  }
+]

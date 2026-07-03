@@ -1,0 +1,116 @@
+{
+  "persona": {
+    "name": "Ray Delgado",
+    "age": 58,
+    "nationality": "American",
+    "occupation": {
+      "title": "HVAC Service Technician",
+      "organization": "A commercial heating and cooling contractor serving the San Antonio metro",
+      "description": "Thirty years crawling through attics and mechanical rooms, diagnosing rooftop units in Texas heat. Knees and back feel every year of it. Trains two younger techs and drives a company van full of gauges and fittings."
+    },
+    "gender": "Male",
+    "residence": "San Antonio, TX",
+    "education": "HVAC certification from St. Philip's College; high school on the south side of San Antonio.",
+    "long_term_goals": [
+      "Get his A1C back out of the danger zone like the doctor asked",
+      "Walk his daughter down the aisle without huffing",
+      "Retire at 62 with his knees still working",
+      "Take his wife to see the Grand Canyon"
+    ],
+    "style": "Warm, talkative, and self-deprecating — jokes about being 'built for comfort, not speed' before anyone else can. Asks a lot of questions because he genuinely doesn't know the category and doesn't pretend to. Trusts people over ads; if his doctor or his cousin says it works, that carries more weight than any label.",
+    "personality": {
+      "traits": [
+        "Good-humored about hard things",
+        "Loyal customer once won",
+        "Anxious about his health but hides it with jokes",
+        "Practical with money",
+        "People-oriented",
+        "New to exercise and a little intimidated by it"
+      ],
+      "big_five": {
+        "openness": 0.3,
+        "conscientiousness": 0.4,
+        "extraversion": 0.65,
+        "agreeableness": 0.8,
+        "neuroticism": 0.6
+      }
+    },
+    "preferences": {
+      "interests": [
+        "Spurs basketball",
+        "Backyard barbecue",
+        "His run-walk program from the diabetes educator",
+        "Classic trucks",
+        "Church softball league (retired from playing)"
+      ],
+      "likes": [
+        "Shoes that don't make his knees bark the next day",
+        "Wide toe boxes",
+        "Clear simple instructions",
+        "A good deal at the outlet mall",
+        "Encouragement that doesn't feel like pity"
+      ],
+      "dislikes": [
+        "Skinny-people gear that doesn't come in his size",
+        "Jargon like 'energy return'",
+        "Paying over a hundred dollars for sneakers",
+        "Gyms full of mirrors",
+        "Being lectured about his weight"
+      ]
+    },
+    "beliefs": [
+      "Start slow and keep showing up",
+      "Your body tells you the truth if you listen",
+      "Companies charge extra for the logo, not the shoe"
+    ],
+    "skills": [
+      "Reading mechanical systems by sound",
+      "Mentoring apprentices",
+      "Sticking to a plan once someone he trusts writes it down"
+    ],
+    "behaviors": {
+      "general": [
+        "Does run-walk intervals three evenings a week at the school track",
+        "Bought his current shoes because the podiatrist's office had a brochure",
+        "Checks his blood sugar before and after exercise",
+        "Asks his daughter to look things up online for him"
+      ],
+      "routines": {
+        "morning": [
+          "Up at 5:45, tacos and coffee from the same taqueria",
+          "First service call by 7"
+        ],
+        "workday": [
+          "Six to eight service calls, lots of ladder time",
+          "Eats lunch in the van with the AC running"
+        ],
+        "evening": [
+          "Track intervals Monday, Wednesday, Friday",
+          "Novela reruns with his wife"
+        ],
+        "weekend": [
+          "Grandkids' soccer games",
+          "Sunday mass and family barbecue"
+        ]
+      }
+    },
+    "health": {
+      "physical": "Overweight with pre-diabetes and creaky knees; doctor prescribed walking-to-jogging progression six months ago and he has mostly stuck with it.",
+      "mental": "Cheerful on the surface, privately worried about ending up like his father, who had a heart attack at 61."
+    },
+    "relationships": [
+      {
+        "name": "Yolanda",
+        "relation": "wife",
+        "description": "Married 33 years; walks the first mile with him then waits in the bleachers with water."
+      },
+      {
+        "name": "Dr. Patel",
+        "relation": "primary care doctor",
+        "description": "The reason he started; Ray quotes him like scripture — 'motion is the medicine, Ray.'"
+      }
+    ]
+  },
+  "segment": "Doctor's-Orders Beginner",
+  "segment_id": 2
+}

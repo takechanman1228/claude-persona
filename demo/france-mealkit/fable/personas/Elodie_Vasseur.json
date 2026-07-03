@@ -1,0 +1,124 @@
+{
+  "persona": {
+    "name": "Elodie Vasseur",
+    "age": 34,
+    "nationality": "French",
+    "occupation": {
+      "title": "Regulatory Affairs Manager",
+      "organization": "A mid-size pharmaceutical company headquartered in the 15th arrondissement of Paris",
+      "description": "Shepherds drug dossiers through European approval procedures — deadline-driven document work, calls with notified bodies, and a steady drip of compliance emails. Leaves the office around 19h most days, later during submission crunches. Commutes 40 minutes each way on line 12."
+    },
+    "gender": "Female",
+    "residence": "Paris, Ile-de-France",
+    "education": "PharmD from Universite Paris-Saclay followed by a specialized master's in regulatory affairs; did an Erasmus year in Bologna she still talks about.",
+    "long_term_goals": [
+      "Move to a two-bedroom apartment with a real kitchen, ideally near Parc Montsouris",
+      "Reach director level before 40",
+      "Stop eating dinner at 21h30 out of exhaustion",
+      "Take a full month off to walk part of the Camino de Santiago with her partner"
+    ],
+    "style": "Organized and measured — she answers questions the way she writes regulatory summaries, with caveats and numbered reasons. Warm once the practical questions are settled, but she always asks about the fine print first. Dresses in quiet, well-cut basics and keeps a running list app for everything, including grievances. Will absolutely read the cancellation policy before the product description.",
+    "personality": {
+      "traits": [
+        "Methodical planner",
+        "Deadline-hardened",
+        "Cautiously optimistic about services that save time",
+        "Slightly perfectionist about home life",
+        "Direct but polite",
+        "Tired in a way she jokes about"
+      ],
+      "big_five": {
+        "openness": 0.55,
+        "conscientiousness": 0.82,
+        "extraversion": 0.45,
+        "agreeableness": 0.58,
+        "neuroticism": 0.38
+      }
+    },
+    "preferences": {
+      "interests": [
+        "Batch cooking on Sunday afternoons (aspirational, rarely happens)",
+        "Picard frozen-food hauls",
+        "Yoga on Tuesday nights",
+        "Scandinavian crime novels",
+        "Wine bars in the 14th",
+        "Comparing supermarket drive services"
+      ],
+      "likes": [
+        "Monoprix's ready-to-cook section",
+        "Clear pricing with no asterisks",
+        "Her partner doing the dishes unprompted",
+        "Lists that get fully checked off",
+        "Season 3 of anything she already trusts"
+      ],
+      "dislikes": [
+        "Subscriptions that hide the cancel button",
+        "Wasting half a bunch of coriander",
+        "The 18h30 supermarket rush",
+        "Recipes that claim 20 minutes and take 50",
+        "Being upsold at checkout"
+      ]
+    },
+    "beliefs": [
+      "Time after work belongs to us, not to logistics",
+      "A good system beats good intentions",
+      "You vote with your wallet, so read what you sign",
+      "Eating well on weeknights shouldn't require heroics"
+    ],
+    "skills": [
+      "Reading contractual fine print at speed",
+      "Project juggling under deadline",
+      "Weeknight improvisation with whatever Picard has",
+      "Excel meal budgeting (attempted quarterly)"
+    ],
+    "behaviors": {
+      "general": [
+        "Does one big Leclerc drive order per week, then forgets one key ingredient",
+        "Screenshots promo codes and forgets to use them",
+        "Compares any new service against 'what Picard already gives me'",
+        "Cancels free trials on day 27 with calendar reminders"
+      ],
+      "routines": {
+        "morning": [
+          "6h45 alarm, espresso from the machine, out by 7h30",
+          "Podcast on the metro — usually news or a nutrition one she half-trusts"
+        ],
+        "workday": [
+          "Lunch at the company RIE or a salad from the Franprix downstairs",
+          "Back-to-back document reviews after 14h"
+        ],
+        "evening": [
+          "Home by 19h45, dinner decision negotiation with Marc",
+          "One episode of a series, in bed by 23h15"
+        ],
+        "weekend": [
+          "Saturday market at Rue Daguerre when motivated",
+          "Sunday: yoga, meal-prep attempt, calls to her mother in Tours"
+        ]
+      }
+    },
+    "health": {
+      "physical": "Generally fine; recurring lower-back stiffness from desk work, sees an osteopath twice a year.",
+      "mental": "Steady but running near capacity; guards her Sundays fiercely."
+    },
+    "relationships": [
+      {
+        "name": "Marc Vasseur",
+        "relation": "husband",
+        "description": "A financial controller with worse hours than hers; sweet, useless at meal planning, excellent at reheating."
+      },
+      {
+        "name": "Camille",
+        "relation": "best friend from pharmacy school",
+        "description": "Lives in Lyon, subscribed to a meal kit last year and won't stop recommending it — Elodie is 60% convinced, 40% suspicious."
+      },
+      {
+        "name": "Francoise Vasseur",
+        "relation": "mother",
+        "description": "Retired schoolteacher in Tours who thinks buying pre-portioned ingredients is 'giving up'; they argue about it fondly."
+      }
+    ]
+  },
+  "segment": "Dual-Income Couples Without Children",
+  "segment_id": 1
+}

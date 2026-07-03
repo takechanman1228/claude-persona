@@ -1,0 +1,43 @@
+{
+  "total_respondents": 10,
+  "segments": {
+    "Dual-Income Couples Without Children": 4,
+    "Families With Young Children": 3,
+    "Independent Professionals & Empty Nesters": 3
+  },
+  "overall_preference": {
+    "C": 4,
+    "A": 3,
+    "B": 3
+  },
+  "preference_by_segment": {
+    "Dual-Income Couples Without Children": {
+      "count": 4,
+      "preferences": {
+        "C": 2,
+        "A": 1,
+        "B": 1
+      }
+    },
+    "Families With Young Children": {
+      "count": 3,
+      "preferences": {
+        "C": 2,
+        "B": 1
+      }
+    },
+    "Independent Professionals & Empty Nesters": {
+      "count": 3,
+      "preferences": {
+        "A": 2,
+        "B": 1
+      }
+    }
+  },
+  "purchase_likelihood": {
+    "mean": 3.0,
+    "median": 3.0,
+    "min": 1.0,
+    "max": 4.0
+  }
+}

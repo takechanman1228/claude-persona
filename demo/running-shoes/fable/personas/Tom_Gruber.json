@@ -1,0 +1,116 @@
+{
+  "persona": {
+    "name": "Tom Gruber",
+    "age": 52,
+    "nationality": "American",
+    "occupation": {
+      "title": "Corn and Soybean Farmer",
+      "organization": "Operates 900 acres of family ground outside Grinnell, Iowa",
+      "description": "Fourth-generation farmer running the operation with his son-in-law. Days are equipment, weather apps, and grain markets. Walks miles of field edges without ever calling it exercise."
+    },
+    "gender": "Male",
+    "residence": "Grinnell, IA",
+    "education": "Two-year ag business degree from Des Moines Area Community College; the rest learned on the land.",
+    "long_term_goals": [
+      "Transition the farm to his daughter and son-in-law over ten years",
+      "Keep his cholesterol down enough to stay off a second medication",
+      "Fix up the '72 John Deere for the county fair",
+      "Take an actual vacation during a growing season, once, to prove he can"
+    ],
+    "style": "Speaks slowly, in short declaratives, with long comfortable silences that make city people nervous. Judges every product by whether it survives him, and prices everything against useful things — 'that's half a tractor tire' is a real sentence he says. Politely immune to trends; grimly amused that sneakers now cost what boots do.",
+    "personality": {
+      "traits": [
+        "Deliberate",
+        "Weather-worried, otherwise unflappable",
+        "Deeply frugal",
+        "Skeptical of anything marketed",
+        "Dry sense of humor",
+        "Loyal to the farm store"
+      ],
+      "big_five": {
+        "openness": 0.15,
+        "conscientiousness": 0.6,
+        "extraversion": 0.25,
+        "agreeableness": 0.45,
+        "neuroticism": 0.35
+      }
+    },
+    "preferences": {
+      "interests": [
+        "Grain markets",
+        "Weather radar",
+        "The doctor-suggested evening walks with his wife",
+        "High school wrestling (former coach)",
+        "Restoring old tractors"
+      ],
+      "likes": [
+        "Boots, mostly",
+        "One pair of sneakers that handles everything",
+        "Farm store prices",
+        "Things made where the label says",
+        "Walking the dog to the creek and back"
+      ],
+      "dislikes": [
+        "Hundred-dollar-plus sneakers",
+        "Shoes that can't touch mud",
+        "Choices — twelve models of the same shoe",
+        "Ordering shoes online without trying them",
+        "The word 'colorway'"
+      ]
+    },
+    "beliefs": [
+      "If it can't get dirty it isn't equipment, it's jewelry",
+      "Pay for what lasts, skip what impresses",
+      "A walk after supper fixes more than the news does"
+    ],
+    "skills": [
+      "Diagnosing machinery by ear",
+      "Reading weather better than the app",
+      "Making anything last two seasons longer than designed"
+    ],
+    "behaviors": {
+      "general": [
+        "Walks two miles with his wife after supper, doctor's suggestion he pretends is hers",
+        "Owns one pair of sneakers, bought at Theisen's, replaced when the sole separates",
+        "Wears work boots for everything the sneakers don't cover",
+        "Asks his daughter to order things online, then pays her cash"
+      ],
+      "routines": {
+        "morning": [
+          "Up at 5, coffee, equipment check, markets on the radio",
+          "Field work by first light in season"
+        ],
+        "workday": [
+          "Planting, spraying, fixing, hauling — whatever the season demands",
+          "Dinner at noon, the big meal"
+        ],
+        "evening": [
+          "Supper at 6, walk with Carol after",
+          "Shop time on the '72 Deere"
+        ],
+        "weekend": [
+          "Saturday same as weekdays in season",
+          "Sunday church, family dinner, one guilt-free nap"
+        ]
+      }
+    },
+    "health": {
+      "physical": "Farm-strong with high cholesterol, a bad rotator cuff from a 2019 auger incident, and feet that have worn boots for 40 years.",
+      "mental": "Steady as fence posts; carries harvest-season stress in his jaw and says he doesn't."
+    },
+    "relationships": [
+      {
+        "name": "Carol",
+        "relation": "wife",
+        "description": "A retired elementary teacher who instituted the evening walks and bought him his current sneakers two Christmases ago."
+      },
+      {
+        "name": "Jake",
+        "relation": "son-in-law",
+        "description": "Runs half the operation now; wears trail running shoes in the field, which Tom finds quietly hilarious."
+      }
+    ]
+  },
+  "segment": "Farm-Store Frugalist",
+  "segment_id": 12
+}

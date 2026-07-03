@@ -1,0 +1,124 @@
+{
+  "persona": {
+    "name": "Margaux Lefort",
+    "age": 43,
+    "nationality": "French",
+    "occupation": {
+      "title": "Freelance Graphic Designer",
+      "organization": "Her own one-woman studio, working from a coworking space near the Ile de Nantes",
+      "description": "Designs brand identities and packaging for regional food producers and cultural festivals. Feast-or-famine workload — some weeks are invoice-chasing, others are 60 hours of deadline. Her partner works in insurance with rigid hours, so dinner logistics land unevenly on whoever is least underwater."
+    },
+    "gender": "Female",
+    "residence": "Nantes, Pays de la Loire",
+    "education": "Ecole de design Nantes Atlantique; a year in Brussels at a branding agency that taught her what she didn't want.",
+    "long_term_goals": [
+      "Keep the studio independent without taking a salaried job",
+      "Buy the small house in Bouguenais they keep visiting online",
+      "Do one gallery-worthy personal project a year",
+      "Get their weeknights back from screens and takeaway"
+    ],
+    "style": "Dry, precise, and allergic to marketing language — she designs it for a living, so she dismantles it on sight. Speaks in complete, considered sentences and asks the question the salesperson hoped nobody would. Wears architect black with one loud accessory and drinks her coffee black. Compliments from her are rare and therefore currency.",
+    "personality": {
+      "traits": [
+        "Professionally skeptical of claims",
+        "Aesthetically demanding",
+        "Independent to the point of stubbornness",
+        "Anxious about irregular income",
+        "Loyal to local producers",
+        "Privately soft-hearted"
+      ],
+      "big_five": {
+        "openness": 0.68,
+        "conscientiousness": 0.48,
+        "extraversion": 0.3,
+        "agreeableness": 0.35,
+        "neuroticism": 0.55
+      }
+    },
+    "preferences": {
+      "interests": [
+        "Typography and print",
+        "The Talensac market on Saturdays",
+        "Natural wine",
+        "Ceramics classes she keeps rescheduling",
+        "Food packaging design (professionally and critically)",
+        "Cycling along the Erdre"
+      ],
+      "likes": [
+        "Knowing which farm her chicken came from",
+        "Brands that say less and mean it",
+        "Her partner's Thursday risotto",
+        "Empty inbox at 18h (twice a year)",
+        "Loyalty to the same fromager for a decade"
+      ],
+      "dislikes": [
+        "The word 'artisanal' on industrial products",
+        "Subscription pricing psychology",
+        "Plastic-wrapped single carrots",
+        "Being told a service will 'change her life'",
+        "Wasting food she chose badly"
+      ]
+    },
+    "beliefs": [
+      "If the branding is louder than the product, run",
+      "Cooking from a market is a cultural act, not a chore",
+      "Freelance freedom is worth the income anxiety, most months",
+      "Convenience always costs something invisible"
+    ],
+    "skills": [
+      "Visual identity design",
+      "Detecting weasel words in copy",
+      "Market shopping without a list",
+      "Negotiating rates while sounding relaxed"
+    ],
+    "behaviors": {
+      "general": [
+        "Shops at Talensac on Saturday and Biocoop midweek",
+        "Cooks properly maybe three nights a week, toast-level the rest",
+        "Reads terms and conditions out loud in a sarcastic voice",
+        "Photographs badly designed packaging as ammunition"
+      ],
+      "routines": {
+        "morning": [
+          "7h50 up, black coffee, checks invoices before email",
+          "Cycles 15 minutes to the coworking space"
+        ],
+        "workday": [
+          "Client calls before noon, design work after",
+          "Lunch from the good boulangerie or leftovers in the shared kitchen"
+        ],
+        "evening": [
+          "Home by 19h30 on good days, 22h on deadline days",
+          "Dinner quality inversely proportional to the week's deadlines"
+        ],
+        "weekend": [
+          "Saturday: market, then cooking the one ambitious dish of the week",
+          "Sunday: cycling, drawing, dread-adjacent Monday planning"
+        ]
+      }
+    },
+    "health": {
+      "physical": "Good baseline from cycling; wrist strain flares during heavy design periods.",
+      "mental": "Income-cycle anxiety she manages with spreadsheets and long rides; otherwise sturdy."
+    },
+    "relationships": [
+      {
+        "name": "Vincent",
+        "relation": "partner (PACS)",
+        "description": "An insurance claims manager, kind and unadventurous; he'd sign up for a meal kit tomorrow and she suspects that's exactly what the marketing counts on."
+      },
+      {
+        "name": "Helene Lefort",
+        "relation": "older sister",
+        "description": "A pediatrician in Angers with three kids who calls Margaux's food principles 'a luxury of the childless.'"
+      },
+      {
+        "name": "Marc",
+        "relation": "coworking friend",
+        "description": "A copywriter who trades her design critiques for his supplier gossip; they share a standing Friday lunch."
+      }
+    ]
+  },
+  "segment": "Dual-Income Couples Without Children",
+  "segment_id": 1
+}

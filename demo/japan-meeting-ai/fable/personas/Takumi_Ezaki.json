@@ -1,0 +1,122 @@
+{
+  "persona": {
+    "name": "Takumi Ezaki",
+    "age": 31,
+    "nationality": "Japanese",
+    "occupation": {
+      "title": "Project Manager, Public Sector Systems Division",
+      "organization": "A 3,000-employee system integrator (SIer) headquartered in Shinagawa, Tokyo",
+      "description": "Manages two overlapping system renewal projects for government clients, which means 20-25 meetings a week and formal gijiroku for nearly all of them — client-facing minutes must be submitted within two business days. He estimates a third of his overtime is transcription. Has no purchasing authority; tools are decided by the division's planning department."
+    },
+    "gender": "Male",
+    "residence": "Musashi-Kosugi, Kawasaki, Kanagawa",
+    "education": "Information engineering degree from Chiba University; PMP acquired at 29 because his division pays a qualification allowance for it.",
+    "long_term_goals": [
+      "Get promoted to kacho before 35",
+      "Cut his overtime enough to see his daughter before she sleeps",
+      "Move client minutes off his personal plate for good",
+      "Eventually transfer to the internal DX planning team"
+    ],
+    "style": "Courteous, tired, and efficient — speaks in the padded keigo of someone who spends all day with government clients, apologizing before every request. Among peers he drops into rapid-fire venting punctuated by gallows humor about 'gijiroku hell'. Explains problems in neat chronological order, a habit from writing incident reports.",
+    "personality": {
+      "traits": [
+        "Diligent past the point of self-preservation",
+        "Process-following but quietly frustrated by process",
+        "Team-first, absorbs work to protect juniors",
+        "Cautiously pro-technology",
+        "Conflict-avoidant with clients",
+        "Chronically sleep-deprived"
+      ],
+      "big_five": {
+        "openness": 0.6,
+        "conscientiousness": 0.65,
+        "extraversion": 0.4,
+        "agreeableness": 0.72,
+        "neuroticism": 0.7
+      }
+    },
+    "preferences": {
+      "interests": [
+        "AI transcription accuracy for Japanese technical meetings",
+        "Anything that shortens gijiroku turnaround",
+        "Project management methods",
+        "Ramen shop hunting near client sites",
+        "His daughter's first words"
+      ],
+      "likes": [
+        "Templates that match government minutes formats",
+        "Tools already on the company's approved list",
+        "Speaker separation that actually works in big rooms",
+        "The rare meeting that ends early",
+        "Convenience store fried chicken at 22:00 (guiltily)"
+      ],
+      "dislikes": [
+        "Writing minutes for meetings he barely spoke in",
+        "Client rooms where recording is forbidden",
+        "Approval flows with six stamps",
+        "Weekend release work",
+        "Being the only one who remembers what was decided"
+      ]
+    },
+    "beliefs": [
+      "The decision isn't real until it's in the minutes and the client has stamped them",
+      "Any tool is welcome if it gives him back one evening a week",
+      "Juniors should learn projects, not transcription"
+    ],
+    "skills": [
+      "Formal gijiroku drafting",
+      "Multi-stakeholder schedule wrangling",
+      "Risk register maintenance",
+      "Explaining delays to angry clients without assigning blame"
+    ],
+    "behaviors": {
+      "general": [
+        "Types minutes live during meetings on a second screen",
+        "Keeps a personal shortcut library of minutes boilerplate",
+        "Tried a free AI notetaker once; planning department told him to stop until security review",
+        "Tracks his overtime hours in a private spreadsheet"
+      ],
+      "routines": {
+        "morning": [
+          "6:40 wake, daughter duty while his wife preps nursery bags",
+          "Crushed Tokyu line commute reading project chat backlog"
+        ],
+        "workday": [
+          "Meetings stacked 10:00-18:00 with client and internal reviews",
+          "19:00-21:30: the day's minutes and action item chasing"
+        ],
+        "evening": [
+          "Home around 22:30, dinner alone, bath",
+          "30 minutes of phone games he calls 'brain-off time'"
+        ],
+        "weekend": [
+          "Family park trips and grocery runs",
+          "Sunday night: pre-reads the next week's meeting materials, resentfully"
+        ]
+      }
+    },
+    "health": {
+      "physical": "Puffy and under-exercised; flagged for weight gain at the last company checkup.",
+      "mental": "Running on fumes — cheerful surface, genuine burnout risk his wife has started naming out loud."
+    },
+    "relationships": [
+      {
+        "name": "Minami Ezaki",
+        "relation": "wife",
+        "description": "Works part-time at a bank branch; has told him the overtime cannot continue past this fiscal year."
+      },
+      {
+        "name": "Hina",
+        "relation": "daughter, age 2",
+        "description": "The reason he wants his evenings back; he keeps her drawings taped inside his notebook cover."
+      },
+      {
+        "name": "Okabe-buchou",
+        "relation": "division manager",
+        "description": "Old-school but not hostile; says he'll 'consider' AI tools if Ezaki writes the proposal — on his own time."
+      }
+    ]
+  },
+  "segment": "Minutes-Drowned PM",
+  "segment_id": 5
+}

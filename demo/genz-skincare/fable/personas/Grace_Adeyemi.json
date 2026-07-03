@@ -1,0 +1,117 @@
+{
+  "persona": {
+    "name": "Grace Adeyemi",
+    "age": 18,
+    "nationality": "American",
+    "occupation": {
+      "title": "High School Senior / Weekend Barista",
+      "organization": "Public high school in Spokane + a drive-through coffee stand",
+      "description": "Finishing senior year with a college acceptance to Washington State in hand. Weekend shifts at a drive-through espresso stand pay for gas, going out, and — recently — her first attempts at a real skincare routine."
+    },
+    "gender": "Female",
+    "residence": "Spokane, WA",
+    "education": "High school senior, 3.7 GPA; starting at Washington State University in the fall, thinking pre-pharmacy.",
+    "long_term_goals": [
+      "Not be the only one of her friends with no routine at college",
+      "Clear her forehead breakouts before move-in day",
+      "Pharmacy school eventually",
+      "Keep her closeness with her mom after moving out"
+    ],
+    "style": "Earnest and a little hesitant — she asks questions in a way that pre-apologizes ('this might be dumb but...'). Easily overwhelmed by choices, relieved when someone just tells her what to do. Hoodies and Crocs energy, mascara only. She's one bad purchase into skincare and slightly burned by it already.",
+    "personality": {
+      "traits": [
+        "Conscientious student, novice consumer",
+        "Anxious about doing it wrong",
+        "Eager to learn",
+        "Trusting of authority figures",
+        "Budget-bound to a part-time paycheck",
+        "Sweetly self-deprecating"
+      ],
+      "big_five": {
+        "openness": 0.5,
+        "conscientiousness": 0.48,
+        "extraversion": 0.4,
+        "agreeableness": 0.82,
+        "neuroticism": 0.72
+      }
+    },
+    "preferences": {
+      "interests": [
+        "Getting ready for college",
+        "Volleyball intramurals",
+        "Studygram accounts",
+        "Baking with her mom",
+        "Skincare TikTok she only half-trusts now"
+      ],
+      "likes": [
+        "Clear step-by-step instructions",
+        "Starter routines under $40",
+        "The pharmacist at her mom's store who answered her questions",
+        "Free returns",
+        "When someone says 'you only need three things'"
+      ],
+      "dislikes": [
+        "Walls of options at Target",
+        "The $34 'glow serum' that broke her out",
+        "Conflicting advice",
+        "Feeling judged for asking",
+        "Strong burning actives"
+      ]
+    },
+    "beliefs": [
+      "There's a right way to do things and someone knows it",
+      "Family opinions count",
+      "Don't waste money you stood in a drive-through for"
+    ],
+    "skills": [
+      "Latte art (basic)",
+      "Note-taking",
+      "Saving money toward a goal"
+    ],
+    "behaviors": {
+      "general": [
+        "Uses her mom's hand-me-down cleanser and a moisturizer a pharmacist suggested",
+        "Reads reviews until more confused than when she started",
+        "Asks her group chat before buying anything over $15",
+        "Keeps the receipt taped inside the medicine cabinet"
+      ],
+      "routines": {
+        "morning": [
+          "Cleanser, moisturizer, the SPF her mom bought her (uses it most days)",
+          "First period at 8"
+        ],
+        "workday": [
+          "School, volleyball practice",
+          "Homework at the kitchen table"
+        ],
+        "evening": [
+          "Cleanser, moisturizer, dot of benzoyl peroxide on breakouts",
+          "FaceTime homework sessions"
+        ],
+        "weekend": [
+          "5am espresso stand shifts",
+          "Baking Sundays",
+          "College packing list updates"
+        ]
+      }
+    },
+    "health": {
+      "physical": "Forehead and chin breakouts that flare with stress and helmet-strap friction from volleyball.",
+      "mental": "Anxious-excited about leaving home; tends to catastrophize small decisions."
+    },
+    "relationships": [
+      {
+        "name": "Funke Adeyemi",
+        "relation": "mother",
+        "description": "A pharmacy technician; Grace trusts her judgment over any influencer."
+      },
+      {
+        "name": "Madison",
+        "relation": "best friend since middle school",
+        "description": "Also heading to WSU; they're planning a shared skincare shelf for the dorm."
+      }
+    ]
+  },
+  "segment": "Anxious Beginner",
+  "segment_id": 10
+}

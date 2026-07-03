@@ -1,0 +1,124 @@
+{
+  "persona": {
+    "name": "Sylvie Aubertin",
+    "age": 55,
+    "nationality": "French",
+    "occupation": {
+      "title": "Chartered Accountant (Expert-Comptable)",
+      "organization": "Partner in a small accounting practice in Schiltigheim, serving Alsatian SMEs",
+      "description": "Manages a portfolio of family businesses — bakeries, garages, a brewery — through their fiscal lives. January to May is a tunnel; the rest of the year is almost civilized. Widowed four years ago, her two sons now live in Lyon and Berlin, and the house cooks for one more slowly than she expected."
+    },
+    "gender": "Female",
+    "residence": "Schiltigheim, Grand Est",
+    "education": "DEC (accounting qualification) after business studies in Strasbourg; twenty-five years of continuing education she actually attends.",
+    "long_term_goals": [
+      "Transition the practice to her junior partner over five years",
+      "Relearn cooking for one without it feeling like subtraction",
+      "Walk a section of the GR5 through the Vosges each summer",
+      "Be the grandmother whose house smells like baking, eventually"
+    ],
+    "style": "Precise, courteous, and quietly witty — the client-facing polish of someone who delivers bad fiscal news kindly. Weighs decisions like balance sheets: she'll list a service's costs and benefits aloud, then decide overnight, never in the moment. Elegant in an understated Alsatian way, silk scarf as punctuation. Detests waste in all its forms — of food, money, and especially of her time.",
+    "personality": {
+      "traits": [
+        "Analytically prudent",
+        "Self-sufficient, sometimes to isolation",
+        "Discreetly warm",
+        "Routine-loving with flashes of wanderlust",
+        "Exacting about quality",
+        "Slow to adopt, loyal once convinced"
+      ],
+      "big_five": {
+        "openness": 0.35,
+        "conscientiousness": 0.88,
+        "extraversion": 0.25,
+        "agreeableness": 0.62,
+        "neuroticism": 0.22
+      }
+    },
+    "preferences": {
+      "interests": [
+        "Hiking the Vosges trails",
+        "Her wine cellar, modest but curated",
+        "Alsatian cooking she rarely makes for one",
+        "Chamber music season at the Palais de la Musique",
+        "The Schiltigheim Saturday market",
+        "Gardening — her rhubarb is locally famous"
+      ],
+      "likes": [
+        "Well-kept books, fiscal and literary",
+        "Her Tuesday bridge group",
+        "Single portions that aren't sad",
+        "Suppliers and services that respect appointments",
+        "Sunday calls with both sons"
+      ],
+      "dislikes": [
+        "Cooking a proper choucroute for one — absurd",
+        "Half-used jars expiring in the fridge door",
+        "Companies that make cancellation a treasure hunt",
+        "Eating standing up — a defeat",
+        "Being marketed to as 'senior'"
+      ]
+    },
+    "beliefs": [
+      "Read every contract; the important line is never in bold",
+      "A meal eaten with attention is self-respect",
+      "Money buys time or quality, everything else is decoration",
+      "Independence is a skill you maintain, like double-entry"
+    ],
+    "skills": [
+      "Financial analysis and tax law",
+      "Classic Alsatian cuisine (dormant, family-scale)",
+      "Detecting inflated claims in any prospectus",
+      "Growing vegetables that outperform the market's"
+    ],
+    "behaviors": {
+      "general": [
+        "Market on Saturday morning, same three stalls, twenty years",
+        "Cooks properly on weekends, improvises modestly on weeknights",
+        "Reviews her direct debits quarterly like client accounts",
+        "Eats at 19h30 at the table, radio on, always"
+      ],
+      "routines": {
+        "morning": [
+          "6h50 up, proper breakfast — bread, butter, jam from her own rhubarb",
+          "At the office by 8h15, first coffee with her assistant"
+        ],
+        "workday": [
+          "Client meetings mornings, file work afternoons",
+          "Lunch at the winstub nearby twice a week, otherwise a tidy homemade tartine"
+        ],
+        "evening": [
+          "Home by 18h45 outside tax season",
+          "Cooks or assembles dinner, reads, bed by 22h30"
+        ],
+        "weekend": [
+          "Saturday: market, garden, one good cooking session",
+          "Sunday: hike or bridge, calls with the sons, prep for the week"
+        ]
+      }
+    },
+    "health": {
+      "physical": "Excellent for her age thanks to hiking; mild hypertension, monitored, medicated, unremarkable.",
+      "mental": "Steady and self-aware; the quiet of the house still ambushes her some evenings, which she treats with walks and Brahms."
+    },
+    "relationships": [
+      {
+        "name": "Antoine and Mathieu",
+        "relation": "sons, 28 and 31",
+        "description": "Antoine, in Berlin, keeps sending her links to services 'to make her life easier'; Mathieu in Lyon just asks if she's eating properly. Both mean the same thing."
+      },
+      {
+        "name": "Denise",
+        "relation": "bridge partner and oldest friend",
+        "description": "A retired pharmacist who tried a meal kit after her husband's diet changed; her meticulous verdict — good portions, uneven vegetables — carries audit-grade weight with Sylvie."
+      },
+      {
+        "name": "Pierre",
+        "relation": "junior partner at the practice",
+        "description": "The 38-year-old she's grooming to take over; their lunches are half succession planning, half him teasing her about her paper agenda."
+      }
+    ]
+  },
+  "segment": "Independent Professionals & Empty Nesters",
+  "segment_id": 3
+}

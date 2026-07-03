@@ -1,0 +1,87 @@
+{
+  "total_respondents": 10,
+  "segments": {
+    "Paper-First Bucho": 1,
+    "Free-Tier Power User": 1,
+    "Security Gatekeeper": 1,
+    "Solo Efficiency Buyer": 1,
+    "Minutes-Drowned PM": 1,
+    "Compliance-First Director": 1,
+    "Voice-Memo Rookie": 1,
+    "Honne-Nuance Skeptic": 1,
+    "Cost-Counting Owner": 1,
+    "Onsite Ops Realist": 1
+  },
+  "overall_preference": {
+    "B": 7,
+    "A": 3
+  },
+  "preference_by_segment": {
+    "Paper-First Bucho": {
+      "count": 1,
+      "preferences": {
+        "B": 1
+      }
+    },
+    "Free-Tier Power User": {
+      "count": 1,
+      "preferences": {
+        "B": 1
+      }
+    },
+    "Security Gatekeeper": {
+      "count": 1,
+      "preferences": {
+        "B": 1
+      }
+    },
+    "Solo Efficiency Buyer": {
+      "count": 1,
+      "preferences": {
+        "A": 1
+      }
+    },
+    "Minutes-Drowned PM": {
+      "count": 1,
+      "preferences": {
+        "A": 1
+      }
+    },
+    "Compliance-First Director": {
+      "count": 1,
+      "preferences": {
+        "B": 1
+      }
+    },
+    "Voice-Memo Rookie": {
+      "count": 1,
+      "preferences": {
+        "A": 1
+      }
+    },
+    "Honne-Nuance Skeptic": {
+      "count": 1,
+      "preferences": {
+        "B": 1
+      }
+    },
+    "Cost-Counting Owner": {
+      "count": 1,
+      "preferences": {
+        "B": 1
+      }
+    },
+    "Onsite Ops Realist": {
+      "count": 1,
+      "preferences": {
+        "B": 1
+      }
+    }
+  },
+  "purchase_likelihood": {
+    "mean": 3.1,
+    "median": 3.0,
+    "min": 2.0,
+    "max": 4.0
+  }
+}

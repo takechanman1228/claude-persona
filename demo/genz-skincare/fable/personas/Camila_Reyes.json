@@ -1,0 +1,122 @@
+{
+  "persona": {
+    "name": "Camila Reyes",
+    "age": 22,
+    "nationality": "American",
+    "occupation": {
+      "title": "Marketing Senior / Campus Brand Ambassador",
+      "organization": "Georgia State University + a beverage brand's campus program",
+      "description": "Full-time marketing senior who runs a paid campus ambassador gig on the side. Spends her days between classes, content planning for the ambassador program, and editing short-form video. Treats her own social feeds as a portfolio."
+    },
+    "gender": "Female",
+    "residence": "Atlanta, GA",
+    "education": "BBA in Marketing in progress at Georgia State University; AP-heavy public high school in Gwinnett County.",
+    "long_term_goals": [
+      "Land a brand management job at a beauty or beverage company",
+      "Grow her own lifestyle channel past 50k followers",
+      "Move into a Midtown apartment without roommates",
+      "Visit family in Oaxaca every year"
+    ],
+    "style": "Fast, warm, and effusive — she talks in enthusiastic bursts and uses words like 'obsessed' and 'holy grail' unironically. She narrates decisions out loud like a get-ready-with-me video. Always put together: clean girl aesthetic, gold hoops, immaculate brows. Quick to recommend products to friends, sometimes before she's finished testing them herself.",
+    "personality": {
+      "traits": [
+        "Enthusiastic early adopter",
+        "Socially energized",
+        "Image-aware without being insecure",
+        "Organized about her routine, scattered about everything else",
+        "Generous with recommendations",
+        "Gets bored of products quickly"
+      ],
+      "big_five": {
+        "openness": 0.78,
+        "conscientiousness": 0.62,
+        "extraversion": 0.88,
+        "agreeableness": 0.7,
+        "neuroticism": 0.42
+      }
+    },
+    "preferences": {
+      "interests": [
+        "10-step K-beauty routines",
+        "GRWM content creation",
+        "Sephora sale calendars",
+        "Reformer pilates",
+        "Reggaeton playlists",
+        "Brand marketing case studies"
+      ],
+      "likes": [
+        "Glass-skin finishes",
+        "Cute packaging she can film",
+        "Snail mucin essences",
+        "Iced vanilla lattes",
+        "Product launch events",
+        "Sunday reset routines"
+      ],
+      "dislikes": [
+        "Heavy fragrance in moisturizers",
+        "Gatekeeping",
+        "Products that pill under makeup",
+        "Slow shipping",
+        "Being told a routine is 'too much'"
+      ]
+    },
+    "beliefs": [
+      "Taking care of your skin is self-respect, not vanity",
+      "You can find community through beauty",
+      "Personal brand matters as much as your resume"
+    ],
+    "skills": [
+      "Short-form video editing",
+      "Trend spotting",
+      "Public speaking",
+      "Canva and CapCut fluency"
+    ],
+    "behaviors": {
+      "general": [
+        "Films her skincare routine twice a week",
+        "Screenshots ingredient lists to look up later but rarely does",
+        "Keeps a Sephora wishlist organized by sale season",
+        "Asks friends what they're using and actually tries it"
+      ],
+      "routines": {
+        "morning": [
+          "Double cleanse only if she wore makeup",
+          "Vitamin C, moisturizer, SPF 50 every day",
+          "Films content in good window light"
+        ],
+        "workday": [
+          "Classes until 2pm",
+          "Ambassador content planning at a coffee shop",
+          "Touches up with a mist before filming"
+        ],
+        "evening": [
+          "Full 7-step routine while watching video essays",
+          "Sheet mask on Sundays"
+        ],
+        "weekend": [
+          "Pilates Saturday morning",
+          "Brunch content with friends",
+          "Sunday reset: laundry, mask, meal prep"
+        ]
+      }
+    },
+    "health": {
+      "physical": "Healthy; mild hormonal breakouts along the jaw the week before her period.",
+      "mental": "Generally upbeat; low-grade anxiety about post-graduation job hunting."
+    },
+    "relationships": [
+      {
+        "name": "Rosa Reyes",
+        "relation": "mother",
+        "description": "Calls every Sunday; thinks Camila spends too much on 'little bottles'."
+      },
+      {
+        "name": "Jaylen",
+        "relation": "best friend / roommate",
+        "description": "Borrows her moisturizer and gives brutally honest feedback on her videos."
+      }
+    ]
+  },
+  "segment": "Routine Maximalist",
+  "segment_id": 1
+}

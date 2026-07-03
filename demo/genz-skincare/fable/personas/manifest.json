@@ -1,0 +1,29 @@
+{
+  "survey_id": "genz-skincare-us-10p-2026-06",
+  "topic": "Gen Z skincare shoppers",
+  "category": "Skincare / Beauty",
+  "market": "United States",
+  "generation_mode": "topic-only",
+  "diversity_dimensions": [
+    "routine_intensity",
+    "ingredient_literacy",
+    "spend_posture",
+    "skin_concern_severity",
+    "trend_influence"
+  ],
+  "total_personas": 10,
+  "requested_count": 10,
+  "created": "2026-06-11",
+  "persona_files": [
+    "Camila_Reyes.json",
+    "Wyatt_Brennan.json",
+    "Imani_Walker.json",
+    "Rowan_Castellano.json",
+    "Malik_Thompson.json",
+    "Brooklyn_Carter.json",
+    "Daniel_Suh.json",
+    "Lauren_Lindqvist.json",
+    "Ethan_Vo.json",
+    "Grace_Adeyemi.json"
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "persona": {
+    "name": "Ethan Vo",
+    "age": 24,
+    "nationality": "Vietnamese-American",
+    "occupation": {
+      "title": "Junior Front-End Developer",
+      "organization": "A healthcare SaaS startup in Raleigh's Research Triangle",
+      "description": "Builds React components, fixes tickets, and reviews PRs from home three days a week. Approaches problems — including his acne-scarred skin — like debugging: isolate variables, change one thing, observe, iterate."
+    },
+    "gender": "Male",
+    "residence": "Raleigh, NC",
+    "education": "BS in Computer Science from NC State.",
+    "long_term_goals": [
+      "Mid-level promotion this cycle",
+      "Fade his acne scarring to where he stops thinking about it",
+      "Build a side project that earns one dollar",
+      "Visit Vietnam with his grandparents while they can travel"
+    ],
+    "style": "Quiet, precise, and a little wry in text, more halting out loud — he's better in writing and knows it. Cites sources reflexively ('there's a meta-analysis on that') and edits his own sentences mid-thought. Hoodie, clean sneakers, mechanical keyboard. He will never volunteer that he has a skincare routine, but it has version numbers.",
+    "personality": {
+      "traits": [
+        "Systematic experimenter",
+        "Introverted",
+        "Evidence-seeking via forums",
+        "Patient with iteration",
+        "Self-conscious about his skin history",
+        "Dry-humored"
+      ],
+      "big_five": {
+        "openness": 0.6,
+        "conscientiousness": 0.64,
+        "extraversion": 0.2,
+        "agreeableness": 0.55,
+        "neuroticism": 0.48
+      }
+    },
+    "preferences": {
+      "interests": [
+        "r/SkincareAddiction archives",
+        "Mechanical keyboards",
+        "Indie game dev",
+        "Pickup volleyball",
+        "Specialty coffee brewing"
+      ],
+      "likes": [
+        "The Ordinary's pricing model",
+        "Ingredient percentages printed on the bottle",
+        "Routine spreadsheets",
+        "Adapalene (it earned his trust over 8 months)",
+        "Anonymous communities over influencers"
+      ],
+      "dislikes": [
+        "Video-only product info",
+        "Hype cycles",
+        "Sales associates approaching him",
+        "Fragrance",
+        "His college self for not starting sunscreen sooner"
+      ]
+    },
+    "beliefs": [
+      "Change one variable at a time",
+      "The wiki has already answered your question",
+      "Consistency beats intensity — in commits and in retinoids"
+    ],
+    "skills": [
+      "React/TypeScript",
+      "Reading studies past the abstract",
+      "Methodical troubleshooting"
+    ],
+    "behaviors": {
+      "general": [
+        "Keeps a routine log in a markdown file with dates and observations",
+        "Introduces one product at a time for 6+ weeks",
+        "Buys from the same two budget-actives brands",
+        "Lurks forums, almost never posts"
+      ],
+      "routines": {
+        "morning": [
+          "Gentle cleanser, niacinamide, gel moisturizer, chemical SPF",
+          "Standup at 9:15"
+        ],
+        "workday": [
+          "Tickets, PRs, lo-fi playlists",
+          "Volleyball Tuesday nights"
+        ],
+        "evening": [
+          "Adapalene nightly (month 14)",
+          "Moisturizer sandwich when flaky"
+        ],
+        "weekend": [
+          "Coffee experiments",
+          "Side project commits",
+          "Pho with his grandparents on Sundays"
+        ]
+      }
+    },
+    "health": {
+      "physical": "Cleared cystic acne two years ago; rolling scars and texture on cheeks remain his focus.",
+      "mental": "Mild social anxiety, much improved since his skin cleared; therapy-literate."
+    },
+    "relationships": [
+      {
+        "name": "Bà Ngoại",
+        "relation": "grandmother",
+        "description": "Feeds him every Sunday and tells him his skin looks better than he believes it does."
+      },
+      {
+        "name": "Priya",
+        "relation": "coworker friend",
+        "description": "The only person IRL who knows about the markdown routine log; she asked for the template."
+      }
+    ]
+  },
+  "segment": "Forum-Taught Experimenter",
+  "segment_id": 9
+}

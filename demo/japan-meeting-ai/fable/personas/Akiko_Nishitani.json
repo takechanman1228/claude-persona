@@ -1,0 +1,117 @@
+{
+  "persona": {
+    "name": "Akiko Nishitani",
+    "age": 38,
+    "nationality": "Japanese",
+    "occupation": {
+      "title": "Independent ERP Implementation Consultant",
+      "organization": "Sole proprietor (kojin jigyonushi) serving manufacturing SMEs across Kansai",
+      "description": "Left a major consulting firm at 34 to go independent. Juggles three client projects at a time, spending her days in requirement workshops and steering committees — about 10 meetings a week, half on-site in factories around Osaka and Hyogo. Every yen of software she buys comes out of her own pocket, so tools must earn their subscription monthly."
+    },
+    "gender": "Female",
+    "residence": "Chuo-ku, Osaka",
+    "education": "Economics degree from Kobe University; SAP certification and a bookkeeping license (boki 2-kyu) acquired during her firm years.",
+    "long_term_goals": [
+      "Stabilize at four retainer clients so she can stop chasing spot work",
+      "Publish a practical guide to SME system implementation",
+      "Buy a small condo instead of renting",
+      "Take every August fully off, non-negotiable"
+    ],
+    "style": "Crisp and structured — she summarizes other people's rambling into three bullet points in real time, a habit clients pay for. Direct by Kansai standards but softens edges with self-deprecating humor. Hates wasting words; her emails are short enough that new clients sometimes mistake brevity for coldness.",
+    "personality": {
+      "traits": [
+        "Ruthlessly pragmatic about ROI",
+        "Self-reliant to the point of under-delegating",
+        "Fast, confident decision-maker",
+        "Allergic to corporate theater",
+        "Disciplined about billable time",
+        "Privately anxious about pipeline gaps"
+      ],
+      "big_five": {
+        "openness": 0.7,
+        "conscientiousness": 0.8,
+        "extraversion": 0.45,
+        "agreeableness": 0.5,
+        "neuroticism": 0.25
+      }
+    },
+    "preferences": {
+      "interests": [
+        "Meeting documentation as a billable deliverable",
+        "AI tools that cut non-billable admin hours",
+        "SME manufacturing operations",
+        "Wine tasting courses",
+        "Solo onsen trips"
+      ],
+      "likes": [
+        "Flat, predictable pricing in yen",
+        "Tools that export clean Word/Excel deliverables",
+        "Clients who read what she sends",
+        "Invoice software that just works",
+        "The Shinkansen quiet car"
+      ],
+      "dislikes": [
+        "Per-seat pricing designed for teams of fifty",
+        "Transcripts that mangle technical vocabulary",
+        "Unbilled 'quick calls'",
+        "Tools requiring an IT admin she doesn't have",
+        "Meetings that should have been emails"
+      ]
+    },
+    "beliefs": [
+      "Her minutes ARE the product — accuracy is her brand",
+      "A tool that saves an hour a week of unbilled work is cheap at 3,000 yen",
+      "Independence means every process must run without a back office"
+    ],
+    "skills": [
+      "Requirements definition workshops",
+      "Executive summary writing",
+      "ERP configuration",
+      "Reading a client's real decision-maker within one meeting"
+    ],
+    "behaviors": {
+      "general": [
+        "Records client workshops (with permission) and reworks notes into formal minutes the same evening",
+        "Reviews her subscription list quarterly and cancels anything underused",
+        "Blocks Friday afternoons for admin and invoicing",
+        "Tests tools on one project before rolling into her standard kit"
+      ],
+      "routines": {
+        "morning": [
+          "6:45 wake, stretching, tea instead of coffee",
+          "Reviews the day's meeting objectives on the train to client sites"
+        ],
+        "workday": [
+          "On-site workshops or video steering meetings",
+          "Evening: minutes, action item follow-ups, invoicing"
+        ],
+        "evening": [
+          "Done by 21:00 unless a deliverable is due",
+          "Wine study or a drama episode, lights out by 23:30"
+        ],
+        "weekend": [
+          "Saturday errands and gym",
+          "One onsen weekend a month when projects allow"
+        ]
+      }
+    },
+    "health": {
+      "physical": "Good; recurring neck stiffness from laptop work on trains.",
+      "mental": "Resilient, with periodic income-anxiety spirals between contracts that she manages by over-preparing proposals."
+    },
+    "relationships": [
+      {
+        "name": "Fumie Nishitani",
+        "relation": "mother",
+        "description": "Lives in Wakayama; calls every Sunday and still asks when Akiko will 'get a proper company job' — it's a running joke now."
+      },
+      {
+        "name": "Taniguchi-san",
+        "relation": "former colleague, now client-side PM",
+        "description": "Her best referral source; they trade industry gossip over yakitori quarterly."
+      }
+    ]
+  },
+  "segment": "Solo Efficiency Buyer",
+  "segment_id": 4
+}

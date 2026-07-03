@@ -1,0 +1,117 @@
+{
+  "persona": {
+    "name": "Naomi Kirishima",
+    "age": 43,
+    "nationality": "Japanese",
+    "occupation": {
+      "title": "HR Planning Group Manager",
+      "organization": "A 12,000-employee electronics manufacturer headquartered in Yokohama, Kanagawa",
+      "description": "Runs organizational development and internal communication policy for a sprawling enterprise. Her weeks hold 12-18 meetings: labor-management councils, promotion committees, harassment case reviews — exactly the meetings where what is said and what is meant diverge most. She is a key influencer in the company's ringi process for any tool touching employee data, though the final stamp belongs to the CHRO and IT."
+    },
+    "gender": "Female",
+    "residence": "Kohoku-ku, Yokohama, Kanagawa",
+    "education": "Psychology degree from Ochanomizu University; labor management certification (sharoushi study, uncompleted — a private sore spot) and an executive HR program at Keio.",
+    "long_term_goals": [
+      "Become the company's first female HR division director",
+      "Rebuild the manager-training system she inherited",
+      "Protect the informal channels where employees actually tell the truth",
+      "Take her mother to Vienna for the New Year concert someday"
+    ],
+    "style": "Measured and precise, with the diplomatic register of someone who writes sensitive personnel announcements for a living. She asks second-order questions — not 'does it transcribe well?' but 'what happens to candor when people know they're transcribed?'. Her disagreement arrives wrapped as a thoughtful concern, which makes it more dangerous, and she knows it.",
+    "personality": {
+      "traits": [
+        "Institutionally savvy",
+        "Skeptical of technological fixes for human problems",
+        "Fiercely discreet",
+        "High verbal intelligence",
+        "Ambitious beneath a composed surface",
+        "Slow to trust vendors, slower to forgive breaches"
+      ],
+      "big_five": {
+        "openness": 0.45,
+        "conscientiousness": 0.62,
+        "extraversion": 0.58,
+        "agreeableness": 0.38,
+        "neuroticism": 0.52
+      }
+    },
+    "preferences": {
+      "interests": [
+        "How recording changes what people say in meetings (honne vs tatemae)",
+        "Organizational psychology",
+        "Works council and labor-law implications of monitoring tools",
+        "Classical piano (plays badly, listens seriously)",
+        "Weekend gallery visits"
+      ],
+      "likes": [
+        "Meetings where someone finally says the real thing",
+        "Precise language in policy documents",
+        "Tools with granular access controls",
+        "Her standing desk",
+        "Single-origin coffee, black"
+      ],
+      "dislikes": [
+        "The phrase 'AI will capture everything' said approvingly",
+        "Managers who outsource listening to a transcript",
+        "Surveillance dressed as productivity",
+        "Leaked personnel information, above all else",
+        "Vendors who demo with fake harassment-case examples"
+      ]
+    },
+    "beliefs": [
+      "The most important sentence in a Japanese meeting is the one spoken after the recorder stops",
+      "A perfect record of tatemae is a perfectly useless record",
+      "HR's job is to know things that must never be searchable"
+    ],
+    "skills": [
+      "Sensitive-case handling",
+      "Policy drafting",
+      "Reading a room's unspoken hierarchy",
+      "Briefing executives on what they don't want to hear"
+    ],
+    "behaviors": {
+      "general": [
+        "Bans recording in personnel-related meetings, allows it elsewhere case by case",
+        "Takes her own shorthand notes and shreds drafts",
+        "Interviews employees over coffee, never in bookable rooms with glass walls",
+        "Reads vendor privacy policies for what they omit"
+      ],
+      "routines": {
+        "morning": [
+          "6:15 wake, 20 minutes of piano practice with headphones",
+          "Tokyu line commute reading HR law newsletters"
+        ],
+        "workday": [
+          "Committee meetings, case reviews, and one-on-ones",
+          "Writes policy documents in the quiet hour after 18:00"
+        ],
+        "evening": [
+          "Home by 20:00, cooks while listening to concert recordings",
+          "One episode of something undemanding, asleep by 23:30"
+        ],
+        "weekend": [
+          "Saturday: gallery or concert with her sister",
+          "Sunday: meal prep and a long walk along the Tsurumi River"
+        ]
+      }
+    },
+    "health": {
+      "physical": "Healthy; tension headaches during shunto (spring labor negotiation) season.",
+      "mental": "Composed but carries the accumulated weight of other people's worst workplace days; sees a counselor quarterly and tells no one."
+    },
+    "relationships": [
+      {
+        "name": "Mari",
+        "relation": "younger sister",
+        "description": "A freelance illustrator in Koenji; the one person with whom Naomi is unguarded and silly."
+      },
+      {
+        "name": "Sudo-CHRO",
+        "relation": "boss",
+        "description": "Enthusiastic about AI tools in a way she finds naive; managing his enthusiasm is an unlisted part of her job."
+      }
+    ]
+  },
+  "segment": "Honne-Nuance Skeptic",
+  "segment_id": 8
+}

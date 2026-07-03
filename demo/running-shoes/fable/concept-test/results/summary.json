@@ -1,0 +1,123 @@
+{
+  "total_respondents": 15,
+  "segments": {
+    "Split-Chasing Racer": 1,
+    "Doctor's-Orders Beginner": 1,
+    "On-My-Feet Buyer": 1,
+    "Faded-Glory Weekender": 1,
+    "Mileage Mall-Walker": 1,
+    "Headspace Jogger": 1,
+    "Clearance-Rack Competitor": 1,
+    "Reluctant Parkrunner": 1,
+    "Trail Gear Nerd": 1,
+    "Post-Op Cushion Seeker": 1,
+    "Run-Crew Socialite": 1,
+    "Farm-Store Frugalist": 1,
+    "Podiatrist-Note Shopper": 1,
+    "Never-Runs Sneakerhead": 1,
+    "Charity-Lap Regular": 1
+  },
+  "overall_preference": {
+    "B": 9,
+    "C": 4,
+    "A": 2
+  },
+  "preference_by_segment": {
+    "Split-Chasing Racer": {
+      "count": 1,
+      "preferences": {
+        "A": 1
+      }
+    },
+    "Doctor's-Orders Beginner": {
+      "count": 1,
+      "preferences": {
+        "B": 1
+      }
+    },
+    "On-My-Feet Buyer": {
+      "count": 1,
+      "preferences": {
+        "B": 1
+      }
+    },
+    "Faded-Glory Weekender": {
+      "count": 1,
+      "preferences": {
+        "A": 1
+      }
+    },
+    "Mileage Mall-Walker": {
+      "count": 1,
+      "preferences": {
+        "B": 1
+      }
+    },
+    "Headspace Jogger": {
+      "count": 1,
+      "preferences": {
+        "C": 1
+      }
+    },
+    "Clearance-Rack Competitor": {
+      "count": 1,
+      "preferences": {
+        "B": 1
+      }
+    },
+    "Reluctant Parkrunner": {
+      "count": 1,
+      "preferences": {
+        "C": 1
+      }
+    },
+    "Trail Gear Nerd": {
+      "count": 1,
+      "preferences": {
+        "B": 1
+      }
+    },
+    "Post-Op Cushion Seeker": {
+      "count": 1,
+      "preferences": {
+        "B": 1
+      }
+    },
+    "Run-Crew Socialite": {
+      "count": 1,
+      "preferences": {
+        "C": 1
+      }
+    },
+    "Farm-Store Frugalist": {
+      "count": 1,
+      "preferences": {
+        "B": 1
+      }
+    },
+    "Podiatrist-Note Shopper": {
+      "count": 1,
+      "preferences": {
+        "B": 1
+      }
+    },
+    "Never-Runs Sneakerhead": {
+      "count": 1,
+      "preferences": {
+        "C": 1
+      }
+    },
+    "Charity-Lap Regular": {
+      "count": 1,
+      "preferences": {
+        "B": 1
+      }
+    }
+  },
+  "purchase_likelihood": {
+    "mean": 3.53,
+    "median": 3.0,
+    "min": 3.0,
+    "max": 5.0
+  }
+}

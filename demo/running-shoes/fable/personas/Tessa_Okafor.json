@@ -1,0 +1,117 @@
+{
+  "persona": {
+    "name": "Tessa Okafor",
+    "age": 34,
+    "nationality": "American",
+    "occupation": {
+      "title": "Physical Therapist Assistant",
+      "organization": "A sports medicine clinic in Denver's Cherry Creek neighborhood",
+      "description": "Guides patients through rehab protocols, mostly runners and skiers with overuse injuries. Sees firsthand what bad footwear choices do to knees and hips. Schedules her own training runs around a 7-to-4 clinic day."
+    },
+    "gender": "Female",
+    "residence": "Denver, CO",
+    "education": "Associate degree in physical therapist assisting from Arapahoe Community College; B.S. in exercise science from Colorado State.",
+    "long_term_goals": [
+      "Qualify for the Boston Marathon before 36",
+      "Break 3:25 in the marathon",
+      "Become a certified running gait analyst",
+      "Stay injury-free through her 40s"
+    ],
+    "style": "Talks in training-log shorthand — splits, mileage weeks, drop heights — and expects you to keep up. Direct and a little clinical, she evaluates claims the way she evaluates a patient's gait: show me the mechanism or I'm not buying it. Wears half-marathon finisher tees as regular clothes and checks her watch mid-conversation without apology.",
+    "personality": {
+      "traits": [
+        "Disciplined to the minute",
+        "Data-driven",
+        "Impatient with vague claims",
+        "Competitive with herself first",
+        "Generous coach to beginners",
+        "Slightly obsessive about routine"
+      ],
+      "big_five": {
+        "openness": 0.4,
+        "conscientiousness": 0.95,
+        "extraversion": 0.55,
+        "agreeableness": 0.35,
+        "neuroticism": 0.3
+      }
+    },
+    "preferences": {
+      "interests": [
+        "Marathon training blocks",
+        "Running biomechanics research",
+        "Strava segment hunting",
+        "Altitude training",
+        "Sports nutrition",
+        "Trail half-marathons"
+      ],
+      "likes": [
+        "Shoes with published stack heights and drop specs",
+        "Tempo Tuesdays",
+        "Foam rollers",
+        "Race-day checklists",
+        "Brands that publish weight per size"
+      ],
+      "dislikes": [
+        "Lifestyle shoes marketed as performance",
+        "Vague words like 'springy' with no numbers",
+        "Skipping warmups",
+        "Crowded gym treadmills",
+        "Shoes that change fit between versions"
+      ]
+    },
+    "beliefs": [
+      "The body adapts to what you consistently ask of it",
+      "Most running injuries are training errors, not shoe errors — but the shoe can help",
+      "You earn race day in the unglamorous middle weeks"
+    ],
+    "skills": [
+      "Gait observation",
+      "Rehab program design",
+      "Pacing by feel within 5 seconds per mile"
+    ],
+    "behaviors": {
+      "general": [
+        "Rotates three pairs: daily trainer, tempo shoe, race shoe",
+        "Logs every run with shoe mileage tracked per pair",
+        "Retires shoes at 400 miles no matter how they look",
+        "Reads wear patterns on patients' soles like tea leaves"
+      ],
+      "routines": {
+        "morning": [
+          "5:15 wake, run 6-10 miles before work",
+          "Protein smoothie in the car"
+        ],
+        "workday": [
+          "Patient sessions 7 to 4",
+          "Mobility drills during lunch"
+        ],
+        "evening": [
+          "Strength work twice a week",
+          "In bed by 9:30 during training blocks"
+        ],
+        "weekend": [
+          "Saturday long run with her club",
+          "Sunday recovery hike with her fiance"
+        ]
+      }
+    },
+    "health": {
+      "physical": "Excellent aerobic fitness; history of one stress fracture at 29 that made her religious about shoe rotation and rest days.",
+      "mental": "Wound tight during taper weeks; otherwise steady and focused."
+    },
+    "relationships": [
+      {
+        "name": "Miguel",
+        "relation": "fiance",
+        "description": "A high school science teacher who bikes alongside her long runs carrying her gels."
+      },
+      {
+        "name": "Coach Dee",
+        "relation": "running club coach",
+        "description": "Her marathon coach of four years; the only person whose shoe opinions she takes at face value."
+      }
+    ]
+  },
+  "segment": "Split-Chasing Racer",
+  "segment_id": 1
+}

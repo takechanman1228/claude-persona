@@ -1,0 +1,88 @@
+{
+  "total_respondents": 10,
+  "segments": {
+    "Routine Maximalist": 1,
+    "Bar-Soap Holdout": 1,
+    "Ingredient Auditor": 1,
+    "Values-First Curator": 1,
+    "Locker-Room Functionalist": 1,
+    "Viral Dupe Hunter": 1,
+    "Polished Optimizer": 1,
+    "Derm-Guided Minimalist": 1,
+    "Forum-Taught Experimenter": 1,
+    "Anxious Beginner": 1
+  },
+  "overall_preference": {
+    "B": 7,
+    "A": 2,
+    "C": 1
+  },
+  "preference_by_segment": {
+    "Routine Maximalist": {
+      "count": 1,
+      "preferences": {
+        "C": 1
+      }
+    },
+    "Bar-Soap Holdout": {
+      "count": 1,
+      "preferences": {
+        "B": 1
+      }
+    },
+    "Ingredient Auditor": {
+      "count": 1,
+      "preferences": {
+        "B": 1
+      }
+    },
+    "Values-First Curator": {
+      "count": 1,
+      "preferences": {
+        "B": 1
+      }
+    },
+    "Locker-Room Functionalist": {
+      "count": 1,
+      "preferences": {
+        "A": 1
+      }
+    },
+    "Viral Dupe Hunter": {
+      "count": 1,
+      "preferences": {
+        "A": 1
+      }
+    },
+    "Polished Optimizer": {
+      "count": 1,
+      "preferences": {
+        "B": 1
+      }
+    },
+    "Derm-Guided Minimalist": {
+      "count": 1,
+      "preferences": {
+        "B": 1
+      }
+    },
+    "Forum-Taught Experimenter": {
+      "count": 1,
+      "preferences": {
+        "B": 1
+      }
+    },
+    "Anxious Beginner": {
+      "count": 1,
+      "preferences": {
+        "B": 1
+      }
+    }
+  },
+  "purchase_likelihood": {
+    "mean": 3.4,
+    "median": 3.5,
+    "min": 2.0,
+    "max": 4.0
+  }
+}

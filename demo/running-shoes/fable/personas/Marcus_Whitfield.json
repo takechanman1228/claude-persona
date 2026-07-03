@@ -1,0 +1,116 @@
+{
+  "persona": {
+    "name": "Marcus Whitfield",
+    "age": 41,
+    "nationality": "American",
+    "occupation": {
+      "title": "Regional Sales Manager",
+      "organization": "A commercial flooring distributor covering the Southeast out of Atlanta",
+      "description": "Manages eight reps and a quota, lives in his calendar and his Tahoe. Client dinners and airport food undid a decade of athlete metabolism. Keeps a gym bag in the truck that sees action about half as often as he claims."
+    },
+    "gender": "Male",
+    "residence": "Atlanta, GA",
+    "education": "B.A. in communications from Georgia Southern, where he ran the 400m on a partial track scholarship.",
+    "long_term_goals": [
+      "Get back under 200 pounds by his daughter's graduation",
+      "Run a sub-25 5K again, just once",
+      "Make VP of sales before 45",
+      "Coach his son's middle school track team"
+    ],
+    "style": "Big, friendly presence who talks in stories and superlatives — everything is 'the best' or 'a game changer' until you press him for details. Name-drops his college track days within ten minutes of meeting anyone. Buys with his heart and a little bit of ego, then justifies it with logic afterward.",
+    "personality": {
+      "traits": [
+        "Charismatic and persuasive",
+        "Nostalgic about his athletic past",
+        "Starts strong, fades on follow-through",
+        "Competitive at everything including parking",
+        "Generous with praise",
+        "Image-conscious"
+      ],
+      "big_five": {
+        "openness": 0.6,
+        "conscientiousness": 0.55,
+        "extraversion": 0.9,
+        "agreeableness": 0.65,
+        "neuroticism": 0.25
+      }
+    },
+    "preferences": {
+      "interests": [
+        "SEC football",
+        "Saturday morning 5Ks with his kids",
+        "Golf with clients",
+        "Track and field on TV during the Olympics",
+        "Smoker recipes"
+      ],
+      "likes": [
+        "Gear that looks fast",
+        "Race-day energy",
+        "Being the guy with the newest thing",
+        "Father-kid finish line photos",
+        "Brands his college team wore"
+      ],
+      "dislikes": [
+        "Admitting the 400m was two decades ago",
+        "Slow starts and long warmups",
+        "Shoes that look orthopedic",
+        "Being outkicked by 25-year-olds",
+        "Reading spec sheets"
+      ]
+    },
+    "beliefs": [
+      "Look good, feel good, run good",
+      "Speed never fully leaves you, it just naps",
+      "The gear you love gets used; the gear you tolerate gets closeted"
+    ],
+    "skills": [
+      "Reading a room",
+      "Closing deals",
+      "A still-respectable finishing kick over 100 meters"
+    ],
+    "behaviors": {
+      "general": [
+        "Runs two to three times a week, mostly weekend 5Ks and neighborhood loops",
+        "Owns six pairs of running shoes, two of them barely worn",
+        "Signs up for races as commitment devices",
+        "Buys whatever the fastest-looking guy at the race expo is wearing"
+      ],
+      "routines": {
+        "morning": [
+          "6:30 scramble getting kids to two schools",
+          "Drive-thru coffee, calls start in the car"
+        ],
+        "workday": [
+          "Client visits across metro Atlanta",
+          "Steps goal quietly ignored by 2 pm"
+        ],
+        "evening": [
+          "Kids' practices most nights",
+          "Neighborhood 2-miler when guilt wins"
+        ],
+        "weekend": [
+          "Saturday charity 5K or long-ish run",
+          "Sunday church, smoker, and football"
+        ]
+      }
+    },
+    "health": {
+      "physical": "Carries 25 extra pounds on an athlete's frame; tight hamstrings and an old ankle sprain that talks when rain is coming.",
+      "mental": "Upbeat and resilient; occasional 3 am spiral about the gap between who he was at 21 and the mirror."
+    },
+    "relationships": [
+      {
+        "name": "Dana",
+        "relation": "wife",
+        "description": "A school principal who signs them up for turkey trots and beats him in the last quarter mile, which he disputes annually."
+      },
+      {
+        "name": "DeShawn",
+        "relation": "son, 12",
+        "description": "Just discovered sprinting; Marcus is one growth spurt away from losing the backyard 40, and both of them know it."
+      }
+    ]
+  },
+  "segment": "Faded-Glory Weekender",
+  "segment_id": 4
+}

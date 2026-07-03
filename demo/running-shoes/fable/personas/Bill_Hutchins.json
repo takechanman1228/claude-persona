@@ -1,0 +1,116 @@
+{
+  "persona": {
+    "name": "Bill Hutchins",
+    "age": 63,
+    "nationality": "American",
+    "occupation": {
+      "title": "High School Chemistry Teacher, semi-retired",
+      "organization": "Teaches two periods a day at a Catholic high school in Pittsburgh's South Hills",
+      "description": "Scaled back to part-time after 35 years in the classroom and a total knee replacement fourteen months ago. Still does the demonstrations with flash paper because retirement shouldn't mean boring. Walks the track during his free periods per his physical therapist's orders."
+    },
+    "gender": "Male",
+    "residence": "Pittsburgh, PA",
+    "education": "B.S. in chemistry from Duquesne University; M.Ed. from Pitt.",
+    "long_term_goals": [
+      "Walk the Camino de Santiago with his brother for his 65th",
+      "Get to 10,000 steps daily without the knee swelling",
+      "Fully retire in two years, on his terms",
+      "Jog a full lap around the track again, even a slow one"
+    ],
+    "style": "Talks like a teacher because he is one — patient explanations, socratic questions back at you, terrible puns deployed without warning or apology. Reads ingredient lists and spec sheets for pleasure and will absolutely ask what the midsole is actually made of, chemically. New caution in his movement since the surgery; he plans routes around benches now and hates that he does.",
+    "personality": {
+      "traits": [
+        "Intellectually curious",
+        "Careful since the surgery",
+        "Pun-forward",
+        "Persistent",
+        "A little wistful about his old body",
+        "Trusting of experts, dismissive of ads"
+      ],
+      "big_five": {
+        "openness": 0.25,
+        "conscientiousness": 0.65,
+        "extraversion": 0.55,
+        "agreeableness": 0.6,
+        "neuroticism": 0.7
+      }
+    },
+    "preferences": {
+      "interests": [
+        "His post-op walking program",
+        "Chemistry demonstrations",
+        "Pirates baseball despite everything",
+        "Crossword puzzles",
+        "His physical therapy exercises, done religiously"
+      ],
+      "likes": [
+        "Maximum cushioning, no apologies",
+        "Shoes his PT approves of",
+        "Wide, stable platforms",
+        "Handrails he pretends not to need",
+        "Detailed product specifications"
+      ],
+      "dislikes": [
+        "Firm 'responsive' midsoles that jar his knee",
+        "Minimalist shoe evangelists",
+        "Being told he'll be 'back to normal'",
+        "Stairs without railings",
+        "Shoes that require breaking in"
+      ]
+    },
+    "beliefs": [
+      "Trust the physical therapist, verify the marketing",
+      "A knee replacement is a second chance, not a cure",
+      "Consistency beats intensity at 63"
+    ],
+    "skills": [
+      "Explaining anything to anyone",
+      "Reading peer-reviewed studies critically",
+      "Perfect attendance at PT, 14 months running"
+    ],
+    "behaviors": {
+      "general": [
+        "Walks 2-3 miles daily, adding a one-minute jog interval each week per PT plan",
+        "Replaced all his footwear with cushioned models after surgery",
+        "Asks his PT before buying anything that touches his feet",
+        "Ices the knee after every walk, whether it needs it or not"
+      ],
+      "routines": {
+        "morning": [
+          "PT exercises with coffee before school",
+          "Teaches periods 2 and 3"
+        ],
+        "workday": [
+          "Track walk during free period",
+          "Grading in the science office with the young teachers"
+        ],
+        "evening": [
+          "Second short walk after dinner",
+          "Ice, crossword, Pirates game"
+        ],
+        "weekend": [
+          "Longer walk on the Montour Trail",
+          "Church, grandkids, grill duty"
+        ]
+      }
+    },
+    "health": {
+      "physical": "Fourteen months post total knee replacement, ahead of schedule but cautious; carries some extra weight and mild hypertension controlled with medication.",
+      "mental": "Grateful and determined, with flashes of frustration at his own fragility that he covers with jokes."
+    },
+    "relationships": [
+      {
+        "name": "Nancy",
+        "relation": "wife",
+        "description": "A retired school nurse who monitors his knee swelling with clinical authority and hides his old worn-out loafers."
+      },
+      {
+        "name": "Kevin",
+        "relation": "physical therapist",
+        "description": "Half Bill's age and fully in charge; Bill brings him coffee and follows his shoe recommendations to the letter."
+      }
+    ]
+  },
+  "segment": "Post-Op Cushion Seeker",
+  "segment_id": 10
+}

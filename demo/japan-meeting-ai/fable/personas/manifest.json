@@ -1,0 +1,30 @@
+{
+  "survey_id": "ai-meeting-notes-japan-10p-2026-07",
+  "topic": "Potential buyers of AI meeting notes software",
+  "category": "AI Meeting Notes Software / Productivity SaaS",
+  "market": "Japan",
+  "generation_mode": "topic-only",
+  "requested_count": 10,
+  "total_personas": 10,
+  "diversity_dimensions": [
+    "technology_adoption",
+    "meeting_load",
+    "organization_size",
+    "decision_authority",
+    "industry_type"
+  ],
+  "created": "2026-07-02",
+  "generated_by": "claude-fable-5",
+  "persona_files": [
+    "Kenji_Morooka.json",
+    "Yui_Takahara.json",
+    "Hiroshi_Kanemoto.json",
+    "Akiko_Nishitani.json",
+    "Takumi_Ezaki.json",
+    "Sachiko_Umezawa.json",
+    "Ryo_Hazama.json",
+    "Naomi_Kirishima.json",
+    "Daisuke_Wakamiya.json",
+    "Emi_Furusawa.json"
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "persona": {
+    "name": "Priya Raman",
+    "age": 25,
+    "nationality": "American",
+    "occupation": {
+      "title": "UX Designer",
+      "organization": "A mid-size climate-tech startup in Seattle's Fremont neighborhood",
+      "description": "Designs dashboards for building-energy software, works hybrid with two office days. Spends design reviews defending white space and her lunch hours on the Burke-Gilman trail clearing her head."
+    },
+    "gender": "Female",
+    "residence": "Seattle, WA",
+    "education": "B.Des in interaction design from University of Washington.",
+    "long_term_goals": [
+      "Keep running gentle and joyful, never let it become a metrics thing",
+      "Make design lead by 28",
+      "Move somewhere with more sun eventually, maybe",
+      "Run one half marathon just to know she can, then never mention it"
+    ],
+    "style": "Soft-spoken and thoughtful with sudden flashes of dry wit; she thinks before answering and her answers tend to be about how things feel rather than what they do. Evaluates products aesthetically first and admits it without shame — if it's ugly she won't wear it no matter the specs. Journals, annotates, and has opinions about typography on shoeboxes.",
+    "personality": {
+      "traits": [
+        "Aesthetically exacting",
+        "Introspective",
+        "Anxious in crowds, calm on trails",
+        "Curious about new ideas",
+        "Non-competitive by conviction",
+        "Gently stubborn"
+      ],
+      "big_five": {
+        "openness": 0.9,
+        "conscientiousness": 0.45,
+        "extraversion": 0.3,
+        "agreeableness": 0.55,
+        "neuroticism": 0.75
+      }
+    },
+    "preferences": {
+      "interests": [
+        "Slow 5K runs along the ship canal",
+        "Film photography",
+        "Ceramics classes",
+        "Running as anxiety management",
+        "Scandinavian design blogs",
+        "Rainy-day playlists"
+      ],
+      "likes": [
+        "Muted colorways — sage, oatmeal, clay",
+        "Shoes that work with wide-leg pants",
+        "Running alone without a watch",
+        "Independent coffee shops",
+        "Products that photograph well"
+      ],
+      "dislikes": [
+        "Race culture and pace talk",
+        "Aggressive logos",
+        "Neon anything",
+        "Being asked her mile time",
+        "Performance marketing that shouts"
+      ]
+    },
+    "beliefs": [
+      "Movement is for the mind first",
+      "Beautiful objects get used; ugly ones get returned",
+      "Not everything needs to be optimized"
+    ],
+    "skills": [
+      "Visual design",
+      "User interviews",
+      "Noticing details everyone else misses"
+    ],
+    "behaviors": {
+      "general": [
+        "Runs 3-4 easy miles, three times a week, headphones in, watch off",
+        "Wears her running shoes as daily shoes until they become only daily shoes",
+        "Screenshots shoes from street-style accounts before checking specs",
+        "Will pay more for the right color, and knows it"
+      ],
+      "routines": {
+        "morning": [
+          "Slow start, pour-over coffee, journaling",
+          "Lunchtime run on work-from-home days"
+        ],
+        "workday": [
+          "Figma, design crits, two meetings too many",
+          "Walk to the good bakery as a meeting recovery ritual"
+        ],
+        "evening": [
+          "Ceramics studio Tuesdays",
+          "Cooking with her roommate, phone in another room"
+        ],
+        "weekend": [
+          "Saturday farmers market loop",
+          "Long slow run Sunday if the rain is soft"
+        ]
+      }
+    },
+    "health": {
+      "physical": "Healthy; mild shin splints when she increases mileage too fast, which she responds to by simply not increasing mileage.",
+      "mental": "Generalized anxiety managed with running, therapy, and ruthless calendar hygiene."
+    },
+    "relationships": [
+      {
+        "name": "Amma",
+        "relation": "mother",
+        "description": "Calls every Sunday from Sacramento; recently started walking daily and asks Priya for shoe advice, which delights her."
+      },
+      {
+        "name": "Jules",
+        "relation": "roommate and best friend",
+        "description": "A pastry cook who runs with her once a week and matches her exact no-pace-talk energy."
+      }
+    ]
+  },
+  "segment": "Headspace Jogger",
+  "segment_id": 6
+}

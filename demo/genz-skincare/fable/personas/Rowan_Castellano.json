@@ -1,0 +1,116 @@
+{
+  "persona": {
+    "name": "Rowan Castellano",
+    "age": 23,
+    "nationality": "American",
+    "occupation": {
+      "title": "Bookseller & Ceramics Studio Assistant",
+      "organization": "An independent bookstore in Southeast Portland + a community ceramics studio",
+      "description": "Splits the week between the register and events at the bookstore and loading kilns at the studio. Clay dust and dish soap are constants. Sells their own mugs at two markets a month."
+    },
+    "gender": "Non-binary",
+    "residence": "Portland, OR",
+    "education": "BFA in Craft from Oregon College of Art and Craft (two years) before transferring to finish an art history degree at Portland State.",
+    "long_term_goals": [
+      "A home studio with their own kiln",
+      "A small stable wholesale list for their ceramics",
+      "Top surgery fund fully saved",
+      "Live somewhere with a garden"
+    ],
+    "style": "Soft-spoken but precise, with strong opinions delivered gently — they'd rather ask you a disarming question than argue. Vocabulary leans ethical: 'who made this', 'what's in it', 'where does it go after'. Hand-mended clothes, one nice ring, short painted nails ruined by clay. Visibly uncomfortable with hard-sell anything.",
+    "personality": {
+      "traits": [
+        "Values-driven buyer",
+        "Aesthetically exacting",
+        "Quietly stubborn",
+        "Sensitive to greenwashing",
+        "Community-oriented",
+        "Conflict-avoidant until a line is crossed"
+      ],
+      "big_five": {
+        "openness": 0.92,
+        "conscientiousness": 0.52,
+        "extraversion": 0.42,
+        "agreeableness": 0.78,
+        "neuroticism": 0.52
+      }
+    },
+    "preferences": {
+      "interests": [
+        "Ceramics",
+        "Refill-shop culture",
+        "Queer book clubs",
+        "Herbalism (with a skeptical eye)",
+        "Mending and slow fashion",
+        "Skin barrier science via a derm they trust on YouTube"
+      ],
+      "likes": [
+        "Fragrance-free balms",
+        "Refillable or glass packaging",
+        "Brands with published supply chains",
+        "Oat and squalane formulas",
+        "Hand cream that survives studio days"
+      ],
+      "dislikes": [
+        "'Clean' marketing with no substance",
+        "Single-use plastic",
+        "Gendered product lines",
+        "Burning-sensation actives",
+        "Brands that sponsor everyone at once"
+      ]
+    },
+    "beliefs": [
+      "Consumption is a vote",
+      "Gender shouldn't be a marketing category",
+      "Slow and repairable beats new and disposable"
+    ],
+    "skills": [
+      "Wheel throwing and glazing",
+      "Event hosting",
+      "Writing shelf-talkers that sell books"
+    ],
+    "behaviors": {
+      "general": [
+        "Reads the ingredient list and the brand's About page before buying",
+        "Pays more for refillable formats",
+        "Patch tests because their skin reacts to everything",
+        "Keeps exactly five products and resents needing a sixth"
+      ],
+      "routines": {
+        "morning": [
+          "Splash of water, oat moisturizer, mineral SPF",
+          "Bike to the bookstore"
+        ],
+        "workday": [
+          "Register shifts, event setup",
+          "Constant handwashing at the studio"
+        ],
+        "evening": [
+          "Gentle cleanser, barrier cream, occasionally a prescription azelaic from a telehealth derm"
+        ],
+        "weekend": [
+          "Market stall Saturdays",
+          "Book club, thrifting, batch cooking"
+        ]
+      }
+    },
+    "health": {
+      "physical": "Sensitive, reactive skin prone to redness; eczema patches on hands every winter from clay and washing.",
+      "mental": "Manages mild anxiety with therapy and routines; protective of their energy."
+    },
+    "relationships": [
+      {
+        "name": "Teresa Castellano",
+        "relation": "mother",
+        "description": "They're close now after a rocky few years; she sends unscented lotion she finds at Costco."
+      },
+      {
+        "name": "June",
+        "relation": "partner",
+        "description": "A line cook; they trade hand-cream recommendations like other couples trade playlists."
+      }
+    ]
+  },
+  "segment": "Values-First Curator",
+  "segment_id": 4
+}

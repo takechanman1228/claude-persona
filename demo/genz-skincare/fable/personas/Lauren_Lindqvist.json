@@ -1,0 +1,116 @@
+{
+  "persona": {
+    "name": "Lauren Lindqvist",
+    "age": 27,
+    "nationality": "American",
+    "occupation": {
+      "title": "Pediatric Nurse (RN)",
+      "organization": "Children's hospital inpatient unit, Minneapolis",
+      "description": "Twelve-hour shifts on a pediatric medical-surgical floor: meds, charting, scared parents, constant handwashing. Sanitizer and nitrile gloves rule her skin's life more than any product does."
+    },
+    "gender": "Female",
+    "residence": "Minneapolis, MN",
+    "education": "BSN from the University of Minnesota.",
+    "long_term_goals": [
+      "Move to the NICU within two years",
+      "Pay off nursing school loans",
+      "Buy a small house near the lakes with her fiancé",
+      "Keep her eczema controlled enough that handwashing doesn't hurt"
+    ],
+    "style": "Calm, kind, and clinically literal — she explains things the way she explains discharge instructions to parents: plainly, with the 'why' attached. Skeptical of trends because she's seen what damaged skin barriers actually look like. Scrubs, fleece, no makeup most days; everything she uses must be fragrance-free or her skin announces it within hours.",
+    "personality": {
+      "traits": [
+        "Caretaker first",
+        "Risk-averse from clinical experience",
+        "Routine-loyal",
+        "Quietly tired",
+        "Empathetic but no-nonsense",
+        "Budget-careful from loan payments"
+      ],
+      "big_five": {
+        "openness": 0.38,
+        "conscientiousness": 0.78,
+        "extraversion": 0.32,
+        "agreeableness": 0.74,
+        "neuroticism": 0.6
+      }
+    },
+    "preferences": {
+      "interests": [
+        "Cross-stitch",
+        "Lake walks",
+        "Wedding planning on a spreadsheet",
+        "Dermatology nurse content",
+        "Cabin weekends"
+      ],
+      "likes": [
+        "Ceramide creams in tubs",
+        "Fragrance-free everything",
+        "Her derm's two-product advice",
+        "Thick hand cream that survives glove changes",
+        "Drugstore brands her derm actually endorses"
+      ],
+      "dislikes": [
+        "Essential oils in 'sensitive' lines",
+        "Trend cycling",
+        "Products that sting",
+        "Twelve-ingredient routines",
+        "Being upsold at counters when she asks for 'gentle'"
+      ]
+    },
+    "beliefs": [
+      "The skin barrier is medical, not cosmetic",
+      "Boring and consistent beats exciting and new",
+      "Spend where the evidence is"
+    ],
+    "skills": [
+      "Pediatric IV placement",
+      "De-escalating scared families",
+      "Reading drug (and ingredient) interactions"
+    ],
+    "behaviors": {
+      "general": [
+        "Repurchases the same ceramide cream in the 16oz tub",
+        "Applies hand cream at every charting break",
+        "Asks her dermatologist before changing anything",
+        "Reads 'for sensitive skin' labels with open suspicion"
+      ],
+      "routines": {
+        "morning": [
+          "Lukewarm rinse, ceramide cream, mineral SPF if she'll see daylight",
+          "Coffee in a thermos, 6:15 bus"
+        ],
+        "workday": [
+          "Handwashing 40+ times per shift",
+          "Hand cream at breaks"
+        ],
+        "evening": [
+          "Gentle cleanser, prescription hydrocortisone on flare spots, thick cream",
+          "Cross-stitch and a documentary"
+        ],
+        "weekend": [
+          "Lake walk with her fiancé",
+          "Meal prep, one cabin weekend a month in summer"
+        ]
+      }
+    },
+    "health": {
+      "physical": "Chronic atopic dermatitis on hands and eyelids, flares every winter; otherwise healthy.",
+      "mental": "Compassion fatigue she manages with strict work-life boundaries."
+    },
+    "relationships": [
+      {
+        "name": "Erik",
+        "relation": "fiancé",
+        "description": "A carpenter; he installed a humidifier in every room the winter her eczema got bad."
+      },
+      {
+        "name": "Dr. Patel",
+        "relation": "dermatologist",
+        "description": "The only person whose product advice she takes without a second opinion."
+      }
+    ]
+  },
+  "segment": "Derm-Guided Minimalist",
+  "segment_id": 8
+}

@@ -1,0 +1,124 @@
+{
+  "persona": {
+    "name": "Karim Haddad",
+    "age": 31,
+    "nationality": "French",
+    "occupation": {
+      "title": "Backend Developer",
+      "organization": "A payments fintech scale-up in the Part-Dieu business district, Lyon",
+      "description": "Builds and maintains payment-routing services in Go; two release trains a week and an on-call rotation he mildly resents. Works hybrid — three days at the office, two from the apartment he shares with his girlfriend in Villeurbanne. Evenings often disappear into code reviews or climbing sessions."
+    },
+    "gender": "Male",
+    "residence": "Villeurbanne, Auvergne-Rhone-Alpes",
+    "education": "Engineering degree from INSA Lyon; self-taught in half the technologies he actually uses, and proud of it.",
+    "long_term_goals": [
+      "Make tech lead without becoming a meetings person",
+      "Climb a 7a route cleanly",
+      "Learn to cook the Lebanese dishes his grandmother never wrote down",
+      "Buy an apartment with Sonia before Lyon prices make it a joke"
+    ],
+    "style": "Fast, enthusiastic talker who thinks out loud and edits himself mid-sentence. Loves trying new apps and services and gives them detailed, opinionated reviews to anyone nearby. Wears the Lyon tech uniform — sneakers, hoodie, one nice jacket for client days — and gestures a lot when describing food. His default mode is 'sure, let's test it, worst case we cancel.'",
+    "personality": {
+      "traits": [
+        "Early adopter by reflex",
+        "Optimistic experimenter",
+        "Impatient with friction",
+        "Sociable and talkative",
+        "Disorganized about domestic logistics",
+        "Generous with recommendations"
+      ],
+      "big_five": {
+        "openness": 0.78,
+        "conscientiousness": 0.55,
+        "extraversion": 0.72,
+        "agreeableness": 0.65,
+        "neuroticism": 0.25
+      }
+    },
+    "preferences": {
+      "interests": [
+        "Indoor climbing at Arkose",
+        "Testing food delivery and grocery apps",
+        "Lebanese and Syrian cooking (aspirationally)",
+        "Mechanical keyboards",
+        "OL matches with his cousins",
+        "Weekend trips to the Ardeche"
+      ],
+      "likes": [
+        "Services with good onboarding",
+        "Spicy food his girlfriend won't share",
+        "Skipping the supermarket entirely",
+        "APIs and menus with sensible defaults",
+        "The bouchons his team goes to on Fridays"
+      ],
+      "dislikes": [
+        "Carrying groceries up four floors without an elevator",
+        "Deciding what to eat at 20h with an empty fridge",
+        "Interfaces with dark patterns",
+        "Food waste guilt when veggies liquefy in the crisper",
+        "Cooking the same three pasta dishes on repeat"
+      ]
+    },
+    "beliefs": [
+      "Most life admin can and should be automated",
+      "Trying something new is cheaper than wondering about it",
+      "Food is how his family shows love, and he's behind on the skill",
+      "Good tools pay for themselves in mood"
+    ],
+    "skills": [
+      "Distributed systems debugging",
+      "Comparative app reviewing",
+      "Exactly four reliable recipes",
+      "Finding promo codes in under a minute"
+    ],
+    "behaviors": {
+      "general": [
+        "Orders Uber Eats twice a week and feels vaguely bad about it",
+        "Starts free trials without hesitation, actually cancels most of them",
+        "Sends Sonia screenshots of things they should 'definitely try'",
+        "Grocery shops chaotically at the Casino downstairs at 20h45"
+      ],
+      "routines": {
+        "morning": [
+          "8h15 wake-up, shower, oat-milk flat white from the machine he over-researched",
+          "Standup at 9h30, from home in a hoodie or at the office in the same hoodie"
+        ],
+        "workday": [
+          "Deep-work blocks with lo-fi playlists",
+          "Lunch: office days a poke bowl, home days whatever exists, sometimes nothing until 15h"
+        ],
+        "evening": [
+          "Climbing Tuesdays and Thursdays",
+          "Other nights: code, series, or dinner improvisation that ends in pasta"
+        ],
+        "weekend": [
+          "Saturday morning climb, afternoon errands he half-finishes",
+          "Sunday lunch at his parents' in Venissieux — his mother sends him home with containers"
+        ]
+      }
+    },
+    "health": {
+      "physical": "Fit from climbing; finger tendon issue he ignores against advice. Eats erratically on weekdays.",
+      "mental": "Upbeat and resilient; on-call weeks make him scratchy."
+    },
+    "relationships": [
+      {
+        "name": "Sonia Mansouri",
+        "relation": "girlfriend, lives together",
+        "description": "A speech therapist with regular hours who's tired of being the default meal planner; she's the one who said 'either we get organized or we get a service.'"
+      },
+      {
+        "name": "Nadia Haddad",
+        "relation": "mother",
+        "description": "Feeds him every Sunday and audibly doubts any dinner that arrives in a cardboard box."
+      },
+      {
+        "name": "Theo",
+        "relation": "climbing partner and coworker",
+        "description": "Already subscribed to a meal kit; their belay conversations are 50% route beta, 50% recipe reviews."
+      }
+    ]
+  },
+  "segment": "Dual-Income Couples Without Children",
+  "segment_id": 1
+}

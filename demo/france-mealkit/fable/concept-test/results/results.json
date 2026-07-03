@@ -1,0 +1,132 @@
+[
+  {
+    "name": "Elodie Vasseur",
+    "segment": "Dual-Income Couples Without Children",
+    "age": 34,
+    "gender": "Female",
+    "occupation": "Regulatory Affairs Manager",
+    "responses": {
+      "preferred_option": "A",
+      "reasoning": "Concept A, for two reasons: one, the skip-or-cancel mechanism is stated up front, which is exactly what I check before anything else — I have been burned by subscriptions where the cancel button is buried three menus deep; two, 'straightforward meals' suits a Tuesday after a long day at the office better than anything ambitious. B talks about reducing fear but gives me no concrete terms, and frankly if you have to lead with fear, that worries me. C promises 'noticeably easier within a week', which sounds like the recipes that claim 20 minutes and take 50 — I would need proof, not a promise.",
+      "purchase_likelihood": 4,
+      "improvement": "Publish the full cancellation policy and the exact price per portion on the landing page, before I create an account — no asterisks, no 'from €X' games. If I can verify the terms in two minutes, I would probably try a first box."
+    }
+  },
+  {
+    "name": "Karim Haddad",
+    "segment": "Dual-Income Couples Without Children",
+    "age": 31,
+    "gender": "Male",
+    "occupation": "Backend Developer",
+    "responses": {
+      "preferred_option": "C",
+      "reasoning": "C, easy — it's the only one actually selling me a result instead of an exit door. A and B are basically 'don't worry, you can leave', which, ok, fine, but that's table stakes, every app has skip and cancel now — if you don't, I'm out anyway. My real problem is it's 20h, the fridge is empty, and me and my girlfriend are doing the 'what do we eat' negotiation for the third night running — 'better weeknights within the first week' is exactly the promise I want to stress-test. Worst case we cancel after two weeks, that's like the cost of one bad restaurant.",
+      "purchase_likelihood": 4,
+      "improvement": "Let me set spice level and cuisine preferences as smart defaults at onboarding — I want proper Lebanese-adjacent, actually spicy options, not the toned-down version — and split portions so my dish can be hot and hers isn't."
+    }
+  },
+  {
+    "name": "Margaux Lefort",
+    "segment": "Dual-Income Couples Without Children",
+    "age": 43,
+    "gender": "Female",
+    "occupation": "Freelance Graphic Designer",
+    "responses": {
+      "preferred_option": "B",
+      "reasoning": "B is the only one that admits what this category actually is: a subscription designed to outlast your enthusiasm, with vegetables you didn't choose wilting in the fridge. I do my shopping at Talensac and I know where my chicken comes from, so a meal kit has to earn its place — and 'reducing the fear of wasting money' at least names my objection instead of papering over it. A is the same product with a softer voice, and C — 'noticeably easier and more enjoyable within the first week' — is the kind of promise I get paid to write, which is precisely why I don't believe it.",
+      "purchase_likelihood": 2,
+      "improvement": "Drop the subscription entirely and sell it as single kits I order when a deadline week is coming — and tell me the actual producers, not 'artisanal partners.' If the sourcing survives being named, I might reconsider the 2."
+    }
+  },
+  {
+    "name": "Thibault Nguyen",
+    "segment": "Dual-Income Couples Without Children",
+    "age": 27,
+    "gender": "Male",
+    "occupation": "Head Barista and Shift Supervisor",
+    "responses": {
+      "preferred_option": "C",
+      "reasoning": "C, easy — the weeknights are exactly where I crack. I'm on my feet all day pulling shots, and when Linh works late the last thing I want is the Carrefour queue at 20h, so 'noticeably easier within the first week' speaks to me directly. B feels like it was written for someone scared of food, which, no offence, is not my problem — my problem is energy, not fear. A is fine but a bit beige, like a lukewarm americano — a solid 5/10, whereas C promises actual better dinners, so I'd give it 8/10 on the pitch alone.",
+      "purchase_likelihood": 4,
+      "improvement": "Give me a 'bold flavours' track — real garlic, fish sauce, fresh herbs I'll actually use up — because if the recipes are those timid international things that fear seasoning, I'm out by week two. And Linh will want to see the price per portion upfront before she signs off, so be honest about that."
+    }
+  },
+  {
+    "name": "Aissatou Kone",
+    "segment": "Families With Young Children",
+    "age": 36,
+    "gender": "Female",
+    "occupation": "Pediatric Nurse",
+    "responses": {
+      "preferred_option": "C",
+      "reasoning": "C is the only one talking about my actual problem — Tuesday at 18h30 with two tired kids and thirty minutes, not a philosophy about subscriptions. A and B spend all their energy telling me how easy it is to leave, which honestly makes me wonder why so many people want to. If it makes weeknights genuinely faster in the first week, fine, prove it; if not, my freezer of labeled mafé does the job for less.",
+      "purchase_likelihood": 3,
+      "improvement": "Show me the actual cooking time honestly — real time, not 'chef time' — and make sure the meals are things kids will eat without a negotiation, otherwise it's just an expensive way to make pasta anyway."
+    }
+  },
+  {
+    "name": "Julien Barre",
+    "segment": "Families With Young Children",
+    "age": 44,
+    "gender": "Male",
+    "occupation": "Self-Employed Plumber and Heating Engineer",
+    "responses": {
+      "preferred_option": "B",
+      "reasoning": "B, because at least they admit the trap exists. I don't do subscriptions — I count those monthly charges over the year and it's always more than the market. A talks about 'easy to cancel', which tells me cancelling is normally hard. C promises my evenings will be 'enjoyable' — my wife's pot-au-feu already does that for less money.",
+      "purchase_likelihood": 2,
+      "improvement": "Drop the subscription entirely. Let me buy one box, cash, when a week of late call-outs is coming — no account, no card on file, no fine print."
+    }
+  },
+  {
+    "name": "Ines Belkacem",
+    "segment": "Families With Young Children",
+    "age": 38,
+    "gender": "Female",
+    "occupation": "HR Business Partner",
+    "responses": {
+      "preferred_option": "C",
+      "reasoning": "C speaks directly to my actual problem: the 18h45 'what's for dinner' void that eats the family's energy every single evening. I don't need hand-holding for a first step — I've onboarded harder systems than a meal kit — and B feels like it's marketing to my anxieties instead of solving anything, which frankly is the guilt-adjacent tone I can't stand. If a service can genuinely prove in one week that Tuesday and Wednesday nights run smoother, I can measure that, and I will happily become its unpaid ambassador. My only hesitation is 'enjoyable' is a promise, not a spec — show me how it handles two kids, one picky.",
+      "purchase_likelihood": 4,
+      "improvement": "Build real family features: kid-sized portions, a 'one new food, no drama' option per week, and skip settings that sync with school holidays and my shared calendar — designed by people who actually feed children, not by singles guessing."
+    }
+  },
+  {
+    "name": "Baptiste Charrier",
+    "segment": "Independent Professionals & Empty Nesters",
+    "age": 24,
+    "gender": "Male",
+    "occupation": "Master's Student in Civil Engineering (apprenticeship track)",
+    "responses": {
+      "preferred_option": "A",
+      "reasoning": "Honestly A speaks to me because I'm exactly the guy who watches cooking videos and then still eats pasta-pesto four nights in a row — I need the low-pressure entry, not a masterclass. The easy skip or cancel thing is huge because my weeks are chaos between courses and the apprenticeship site, so some weeks I'd literally not be home. B felt a bit like it was selling me anxiety I already have (I track every euro, believe me), and C promises 'noticeably easier in a week' which... okay, prove it? A just says: simple meals, no trap, try it. That's the pitch that gets past my spreadsheet.",
+      "purchase_likelihood": 3,
+      "improvement": "Give me an actual student price or at least portions for one or two people — supermarket family portions are already my enemy, and if a box costs more than my weekly food budget of ~40 euros it's dead on arrival no matter how easy it is."
+    }
+  },
+  {
+    "name": "Sylvie Aubertin",
+    "segment": "Independent Professionals & Empty Nesters",
+    "age": 55,
+    "gender": "Female",
+    "occupation": "Chartered Accountant (Expert-Comptable)",
+    "responses": {
+      "preferred_option": "B",
+      "reasoning": "Concept B speaks to the two lines I always check first: what it costs me in waste and how one exits the contract. I live alone, and half a courgette dying in the fridge door offends me more than the price of the kit itself — a service built around not wasting money or food is, frankly, the only honest pitch of the three. Concept A treats me like a nervous beginner, and Concept C promises 'joy within a week,' which is the sort of claim I'd strike from a client's prospectus. That said, I would want the cancellation terms in writing before anything else.",
+      "purchase_likelihood": 3,
+      "improvement": "Publish the full cancellation and skip conditions on the first page, in normal type, and offer proper single portions — generous, not apologetic — because feeding one person well should not require ordering for two."
+    }
+  },
+  {
+    "name": "Gerard Fontaine",
+    "segment": "Independent Professionals & Empty Nesters",
+    "age": 66,
+    "gender": "Male",
+    "occupation": "Retired SNCF Train Conductor",
+    "responses": {
+      "preferred_option": "A",
+      "reasoning": "If I must choose, I take the one that's easiest to leave, and this A says you can skip or cancel without fuss — that's the only feature that speaks to me. You understand, food that arrives in a box with a little instruction sheet, that's not for me; I have my garden, my butcher knows my order, and Josiane and I do the Halles on Saturday. The B one talks a lot about fear of wasting money — well, the surest way not to waste it is not to subscribe. And the C, making my weeknights faster... nobody is rushing me anywhere, thank you.",
+      "purchase_likelihood": 1,
+      "improvement": "Make it not a subscription at all — a box you buy once at the market when you feel like it, and nothing owed the month after. That I could maybe understand, perhaps as a gift for my son in Lyon."
+    }
+  }
+]

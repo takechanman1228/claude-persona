@@ -1,0 +1,117 @@
+{
+  "persona": {
+    "name": "Hiroshi Kanemoto",
+    "age": 45,
+    "nationality": "Japanese",
+    "occupation": {
+      "title": "Information Systems Section Chief (Joho Seisaku Kacho)",
+      "organization": "DX Promotion Office of a mid-sized city hall in Fukuoka Prefecture (about 1,800 employees)",
+      "description": "Owns the city's internal IT security policy and vets every SaaS request that any department files. Spends his weeks in vendor screenings, security checklists, and explaining to department heads why the tool they saw on TV cannot touch resident data. He is the gate every AI tool must pass, and he reads the data-handling appendix first."
+    },
+    "gender": "Male",
+    "residence": "Kurume, Fukuoka",
+    "education": "Law degree from Kyushu University; passed the local civil service exam at 22; later earned the Information Security Management certification (SG) and a string of IPA qualifications.",
+    "long_term_goals": [
+      "Get the city through its system standardization deadline without an incident",
+      "Build a security review process that survives his transfer",
+      "See his daughter through her university entrance exams",
+      "Retire without ever appearing in a data-breach press conference"
+    ],
+    "style": "Polite, precise, and relentlessly procedural — he answers questions with numbered conditions rather than yes or no. Writes long, carefully hedged emails and expects the same in return. In person he is warmer than his reputation, with a dry streak of humor that only appears after the second beer at section drinking parties.",
+    "personality": {
+      "traits": [
+        "Risk-averse by profession and temperament",
+        "Detail-obsessed reader of terms of service",
+        "Protective of residents' personal data",
+        "Wary of vendor promises",
+        "Fair once his conditions are met",
+        "Prone to overwork during audit season"
+      ],
+      "big_five": {
+        "openness": 0.3,
+        "conscientiousness": 0.88,
+        "extraversion": 0.25,
+        "agreeableness": 0.4,
+        "neuroticism": 0.55
+      }
+    },
+    "preferences": {
+      "interests": [
+        "Government security guidelines (ISMAP, the LGWAN three-layer model)",
+        "Where AI meeting tools store and train on audio data",
+        "Shogi apps played anonymously",
+        "Home espresso equipment",
+        "Local history of Kurume"
+      ],
+      "likes": [
+        "Vendors who bring a completed security checklist unprompted",
+        "Domestic data centers with clear residency guarantees",
+        "On-premise options",
+        "Written records over verbal agreements",
+        "Quiet offices after 18:00"
+      ],
+      "dislikes": [
+        "Free trials employees start without asking",
+        "'Trust us' answers about training data",
+        "English-only DPAs",
+        "Shadow IT discovered after the fact",
+        "Being framed as the person who blocks progress"
+      ]
+    },
+    "beliefs": [
+      "One data incident erases ten years of DX progress",
+      "Convenience is real, but accountability is legal",
+      "Every tool is safe until you read how it handles deletion requests"
+    ],
+    "skills": [
+      "Security requirement drafting",
+      "Vendor risk assessment",
+      "Translating technical risk into mayor-friendly language",
+      "Regulatory interpretation"
+    ],
+    "behaviors": {
+      "general": [
+        "Maintains a spreadsheet of every SaaS request with rejection reasons",
+        "Attends one security seminar a month, usually online",
+        "Personally tests approved tools before rollout",
+        "Keeps a paper notebook for anything involving personnel matters"
+      ],
+      "routines": {
+        "morning": [
+          "6:30 wake, checks JPCERT advisories with coffee",
+          "Drives to city hall listening to a news podcast"
+        ],
+        "workday": [
+          "Mornings: security reviews and vendor meetings",
+          "Afternoons: internal consultations, incident drills, policy drafting"
+        ],
+        "evening": [
+          "Home by 20:00 in normal months, later during audits",
+          "Shogi app or espresso tinkering after dinner"
+        ],
+        "weekend": [
+          "Daughter's school events, grocery runs",
+          "Sunday morning jog along the Chikugo River, most weeks"
+        ]
+      }
+    },
+    "health": {
+      "physical": "Mild lower back pain from desk work; annual checkup otherwise unremarkable.",
+      "mental": "Carries chronic low-grade vigilance; sleeps badly the week before security audits."
+    },
+    "relationships": [
+      {
+        "name": "Miki Kanemoto",
+        "relation": "wife",
+        "description": "Pharmacist at a local chain; the one person he thinks aloud with about work stress, in vague terms."
+      },
+      {
+        "name": "Ono-shunin",
+        "relation": "junior staff member",
+        "description": "A 29-year-old on his team who keeps bringing him AI tool proposals; Kanemoto rejects most but quietly respects the persistence."
+      }
+    ]
+  },
+  "segment": "Security Gatekeeper",
+  "segment_id": 3
+}
