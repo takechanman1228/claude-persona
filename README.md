@@ -137,6 +137,31 @@ context can't bias them either. Full data:
 - Python 3.10+
 - `pandas`, `matplotlib`, and `seaborn` for the analysis pipeline
 
+### OpenCode (offline)
+
+The same skill runs in [OpenCode](https://opencode.ai) with any model OpenCode
+is configured for, including local ones (e.g. Ollama). The installer needs no
+internet — copy this repo to the machine and run:
+
+```bash
+./install-opencode.sh
+```
+
+This installs the skill to `~/.config/opencode/skills/persona/` and a
+`/persona` command to `~/.config/opencode/commands/`. Restart OpenCode and use
+`/persona generate ...`, `/persona ask ...`, `/persona concept-test ...` as above.
+
+- Each persona answers in its own `opencode run` subprocess under a tool-less
+  `persona-sim` agent (injected per call, nothing written to your config).
+- Uses OpenCode's default model; pin one with `"model": "provider/model"` in
+  the run config or `--model provider/model`.
+- Analysis needs `pandas`/`matplotlib`/`seaborn`. Offline, build a wheelhouse
+  on a connected machine (`pip download -r requirements.txt -d wheels`), copy
+  it over, and run `./install-opencode.sh --wheels wheels`.
+- Uninstall with `./uninstall-opencode.sh`. If you also have the Claude Code
+  version in `~/.claude/skills/`, OpenCode sees both; remove one to avoid a
+  duplicate `persona` skill.
+
 
 ## Documentation
 

@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Shared LLM backend adapters for Claude and Codex CLIs.
+Shared LLM backend adapters for Claude, Codex, and OpenCode CLIs.
 """
 
 from __future__ import annotations
@@ -14,10 +14,11 @@ import subprocess
 import tempfile
 from pathlib import Path
 
-BACKEND_CHOICES = ("auto", "claude-cli", "codex-cli")
-REPORT_BACKEND_CHOICES = ("same", "python", "claude-cli", "codex-cli")
+BACKEND_CHOICES = ("auto", "claude-cli", "codex-cli", "opencode-cli")
+REPORT_BACKEND_CHOICES = ("same", "python", "claude-cli", "codex-cli", "opencode-cli")
 
 CODEX_ENV_MARKERS = ("CODEX_THREAD_ID", "CODEX_CI")
+OPENCODE_ENV_MARKERS = ("OPENCODE",)
 CLAUDE_ENV_MARKERS = (
     "CLAUDECODE",
     "CLAUDE_CODE",
@@ -33,6 +34,8 @@ def _backend_command(backend: str) -> str:
         return "claude"
     if backend == "codex-cli":
         return "codex"
+    if backend == "opencode-cli":
+        return "opencode"
     raise ValueError(f"Unsupported backend: {backend}")
 
 
@@ -46,6 +49,8 @@ def infer_backend_from_env(env: dict[str, str] | None = None) -> str | None:
     env = env or os.environ
     if any(env.get(key) for key in CODEX_ENV_MARKERS):
         return "codex-cli"
+    if any(env.get(key) for key in OPENCODE_ENV_MARKERS):
+        return "opencode-cli"
     if any(env.get(key) for key in CLAUDE_ENV_MARKERS):
         return "claude-cli"
     return None
@@ -68,11 +73,11 @@ def resolve_backend(requested: str | None = None, env: dict[str, str] | None = N
     if inferred and backend_available(inferred):
         return inferred
 
-    for candidate in ("claude-cli", "codex-cli"):
+    for candidate in ("claude-cli", "codex-cli", "opencode-cli"):
         if backend_available(candidate):
             return candidate
 
-    raise FileNotFoundError("Neither `claude` nor `codex` CLI is available on PATH")
+    raise FileNotFoundError("None of `claude`, `codex`, or `opencode` CLI is available on PATH")
 
 
 def resolve_report_backend(requested: str | None, simulation_backend: str) -> str:
@@ -96,6 +101,10 @@ def default_model_for_backend(backend: str) -> str | None:
 
 def resolve_model(model: str | None, backend: str) -> str | None:
     """Resolve model override or backend default."""
+    if backend == "opencode-cli":
+        # OpenCode models are "provider/model"; bare Claude aliases such as
+        # "sonnet" are ignored so OpenCode's own configured model is used.
+        return model if model and "/" in model else None
     if model:
         return model
     return default_model_for_backend(backend)
@@ -112,6 +121,8 @@ def describe_backend(backend: str) -> str:
         return "claude CLI (independent context per persona)"
     if backend == "codex-cli":
         return "codex CLI (independent context per persona)"
+    if backend == "opencode-cli":
+        return "opencode CLI (independent context per persona)"
     return backend
 
 
@@ -331,6 +342,10 @@ def preview_command(
             lines.append(f"  --model {model}")
         return "\n".join(lines)
 
+    if backend == "opencode-cli":
+        cmd = _build_opencode_run_command(model, isolation=isolation)
+        return " ".join(cmd) + " < prompt.txt"
+
     lines = [
         "codex -a never -s read-only \\",
     ]
@@ -418,6 +433,196 @@ def _build_codex_exec_command(
     return cmd
 
 
+# --- OpenCode -----------------------------------------------------------------
+# `opencode run --format json` streams JSON events (one per line). Persona calls
+# run under a throwaway agent injected via OPENCODE_CONFIG_CONTENT (merged on top
+# of the user's own config): its prompt is our system prompt and all tools are
+# disabled, so personas never see OpenCode's coding prompt or touch files.
+OPENCODE_AGENT_NAME = "persona-sim"
+OPENCODE_CAPABILITY_FLAGS = ("--pure",)
+_opencode_capabilities_cache: dict[str, bool] | None = None
+
+
+def detect_opencode_capabilities(help_text: str | None = None) -> dict[str, bool]:
+    """Detect optional `opencode run` flags (cached once per process)."""
+    global _opencode_capabilities_cache
+    if help_text is not None:
+        return {flag: flag in help_text for flag in OPENCODE_CAPABILITY_FLAGS}
+    if _opencode_capabilities_cache is None:
+        try:
+            proc = subprocess.run(
+                ["opencode", "run", "--help"], capture_output=True, text=True, timeout=30
+            )
+            detected = (proc.stdout or "") + (proc.stderr or "")
+        except (OSError, subprocess.TimeoutExpired, subprocess.SubprocessError):
+            detected = ""
+        _opencode_capabilities_cache = {
+            flag: flag in detected for flag in OPENCODE_CAPABILITY_FLAGS
+        }
+    return _opencode_capabilities_cache
+
+
+def _build_opencode_run_command(
+    model: str | None,
+    isolation: bool = True,
+    capabilities: dict[str, bool] | None = None,
+) -> list[str]:
+    caps = capabilities if capabilities is not None else detect_opencode_capabilities()
+    cmd = ["opencode", "run", "--format", "json", "--agent", OPENCODE_AGENT_NAME]
+    if isolation and caps.get("--pure"):
+        cmd.append("--pure")
+    if model:
+        cmd.extend(["-m", model])
+    return cmd
+
+
+def _opencode_env(system_prompt: str, isolation: bool = True) -> dict[str, str]:
+    """Environment with the persona agent merged into any existing inline config."""
+    env = dict(os.environ)
+    if isolation:
+        # Keep ~/.claude CLAUDE.md/skills out of persona context.
+        env["OPENCODE_DISABLE_CLAUDE_CODE"] = "1"
+    try:
+        inline = json.loads(env.get("OPENCODE_CONFIG_CONTENT") or "{}")
+        if not isinstance(inline, dict):
+            inline = {}
+    except json.JSONDecodeError:
+        inline = {}
+    agents = inline.setdefault("agent", {})
+    agents[OPENCODE_AGENT_NAME] = {
+        "mode": "primary",
+        "description": "claude-persona simulation agent (no tools)",
+        "prompt": system_prompt,
+        "tools": {"*": False},
+        "permission": {"*": "deny"},
+    }
+    env["OPENCODE_CONFIG_CONTENT"] = json.dumps(inline)
+    return env
+
+
+def _parse_opencode_events(stdout: str) -> dict:
+    """Collect text, token usage, and cost from `opencode run --format json`."""
+    texts: list[str] = []
+    tokens = {"input": 0, "output": 0, "cache_write": 0, "cache_read": 0}
+    cost = 0.0
+    saw_event = False
+    for line in stdout.splitlines():
+        line = line.strip()
+        if not line.startswith("{"):
+            continue
+        try:
+            event = json.loads(line)
+        except json.JSONDecodeError:
+            continue
+        saw_event = True
+        kind = event.get("type")
+        part = event.get("part") or {}
+        if kind == "error":
+            error = event.get("error") or {}
+            detail = (error.get("data") or {}).get("message") or error.get("name") or error
+            raise RuntimeError(f"opencode reported an error: {str(detail)[:1000]}")
+        if kind == "text" and part.get("text"):
+            texts.append(part["text"])
+        elif kind == "step_finish":
+            step_tokens = part.get("tokens") or {}
+            cache = step_tokens.get("cache") or {}
+            tokens["input"] += step_tokens.get("input", 0) or 0
+            tokens["output"] += step_tokens.get("output", 0) or 0
+            tokens["cache_write"] += cache.get("write", 0) or 0
+            tokens["cache_read"] += cache.get("read", 0) or 0
+            cost += part.get("cost", 0) or 0
+    if not saw_event:
+        raise RuntimeError(f"opencode returned no JSON events: {stdout.strip()[:1000]}")
+    return {"text": "\n".join(texts).strip(), "tokens": tokens, "cost": cost}
+
+
+def _run_opencode(
+    system_prompt: str,
+    user_message: str,
+    model: str | None,
+    cwd: Path | None,
+    timeout_s: int,
+    isolation: bool,
+    run_async: bool,
+):
+    """Run one opencode call; returns a coroutine when run_async is True."""
+    cmd = _build_opencode_run_command(model, isolation=isolation)
+    env = _opencode_env(system_prompt, isolation=isolation)
+
+    def finish(returncode: int, stdout: str, stderr: str) -> dict:
+        try:
+            parsed = _parse_opencode_events(stdout)
+        except RuntimeError:
+            if returncode != 0:
+                raise RuntimeError((stderr or stdout).strip()[:1000])
+            raise
+        if returncode != 0 and not parsed["text"]:
+            raise RuntimeError((stderr or stdout).strip()[:1000])
+        tokens = parsed["tokens"]
+        return {
+            "backend": "opencode-cli",
+            "resolved_model": model,
+            "text": parsed["text"],
+            "input_tokens": tokens["input"],
+            "output_tokens": tokens["output"],
+            "cache_creation_input_tokens": tokens["cache_write"],
+            "cache_read_input_tokens": tokens["cache_read"],
+            "total_cost_usd": parsed["cost"],
+            "model_usage": {model: {}} if model else {},
+            "usage_supported": True,
+        }
+
+    async def run_a() -> dict:
+        with tempfile.TemporaryDirectory() as tmp:
+            run_cwd = Path(tmp) if isolation else cwd
+            proc = await asyncio.create_subprocess_exec(
+                *cmd,
+                cwd=str(run_cwd) if run_cwd else None,
+                env=env,
+                stdin=asyncio.subprocess.PIPE,
+                stdout=asyncio.subprocess.PIPE,
+                stderr=asyncio.subprocess.PIPE,
+            )
+            try:
+                stdout, stderr = await asyncio.wait_for(
+                    proc.communicate(input=user_message.encode()), timeout=timeout_s
+                )
+            except asyncio.TimeoutError as error:
+                proc.kill()
+                await proc.communicate()
+                raise TimeoutError(f"opencode timed out after {timeout_s}s") from error
+            return finish(proc.returncode, stdout.decode(), stderr.decode())
+
+    def run_s() -> dict:
+        with tempfile.TemporaryDirectory() as tmp:
+            run_cwd = Path(tmp) if isolation else cwd
+            try:
+                proc = subprocess.run(
+                    cmd,
+                    input=user_message,
+                    capture_output=True,
+                    text=True,
+                    timeout=timeout_s,
+                    cwd=str(run_cwd) if run_cwd else None,
+                    env=env,
+                )
+            except subprocess.TimeoutExpired as error:
+                raise TimeoutError(f"opencode timed out after {timeout_s}s") from error
+            return finish(proc.returncode, proc.stdout, proc.stderr)
+
+    return run_a() if run_async else run_s()
+
+
+def _opencode_json_system_prompt(system_prompt: str, json_schema: dict | None) -> str:
+    instruction = (
+        "\n\nOUTPUT FORMAT: Return only a single JSON object. "
+        "No prose, no markdown, no code fences."
+    )
+    if json_schema is not None:
+        instruction += " It must match this JSON schema:\n" + json.dumps(json_schema)
+    return system_prompt + instruction
+
+
 async def run_json_completion_async(
     *,
     backend: str,
@@ -436,6 +641,19 @@ async def run_json_completion_async(
     """Run a single JSON completion against the resolved backend."""
     resolved_backend = resolve_backend(backend)
     resolved_model = resolve_model(model, resolved_backend)
+
+    if resolved_backend == "opencode-cli":
+        result = await _run_opencode(
+            _opencode_json_system_prompt(system_prompt, json_schema),
+            user_message,
+            resolved_model,
+            cwd,
+            timeout_s,
+            isolation,
+            run_async=True,
+        )
+        result["data"] = extract_json_from_text(result["text"])
+        return result
 
     if resolved_backend == "claude-cli":
         claude_schema = json_schema if structured_output else None
@@ -541,6 +759,17 @@ def run_text_completion(
     """Run a single text completion against the resolved backend."""
     resolved_backend = resolve_backend(backend)
     resolved_model = resolve_model(model, resolved_backend)
+
+    if resolved_backend == "opencode-cli":
+        return _run_opencode(
+            system_prompt,
+            user_message,
+            resolved_model,
+            cwd,
+            timeout_s,
+            isolation,
+            run_async=False,
+        )
 
     if resolved_backend == "claude-cli":
         cmd = _build_claude_print_command(

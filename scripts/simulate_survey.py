@@ -620,7 +620,8 @@ async def run_backend_preflight(config: dict) -> dict:
                 "additionalProperties": False,
             },
             cwd=SKILL_DIR,
-            timeout_s=60,
+            # Local OpenCode models may need a cold start before first token.
+            timeout_s=180 if config["_resolved_backend"] == "opencode-cli" else 60,
             **claude_call_options(config),
         )
         payload = completion["data"]

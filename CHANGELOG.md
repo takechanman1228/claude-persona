@@ -1,5 +1,14 @@
 # Changelog
 
+## [Unreleased]
+
+### Features
+- **OpenCode port**: new `opencode-cli` backend (`opencode run --format json`
+  under a tool-less agent injected via `OPENCODE_CONFIG_CONTENT`) plus an
+  offline `install-opencode.sh` that renders the OpenCode skill from the
+  Claude `SKILL.md` (`opencode/port_skill.py`) and installs a `/persona`
+  command. Works with local models; no internet needed.
+
 ## [0.2.0] - 2026-06-11
 
 Refresh for Claude Code CLI 2.1.x and the Claude Fable 5 model family.

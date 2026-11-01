@@ -9,7 +9,7 @@ A Claude Code skill (`/persona`) inspired by TinyTroupe that builds market-speci
 ## Common Commands
 
 ```bash
-# Run all tests (150 unit tests, no external dependencies needed)
+# Run all tests (159 unit tests, no external dependencies needed)
 python -m pytest tests/ -q
 
 # Run a single test file
@@ -55,7 +55,7 @@ All runtime logic lives in `scripts/`. There is no `src/` package — scripts im
 
 2. **`analyze_results.py`** (1400 lines) — Reads `results.json`, normalizes response structures, generates CSV exports, cross-tabulations, charts (matplotlib/seaborn), and a markdown report. Can use an LLM backend for narrative report generation or fall back to deterministic Python templates.
 
-3. **`llm_backends.py`** (~600 lines) — Backend abstraction for `claude-cli` and `codex-cli`. Handles CLI command construction (`_build_claude_print_command()`), defensive envelope parsing (`_parse_claude_envelope()` — `structured_output` preferred, fenced-text extraction as fallback), CLI capability detection (`detect_claude_capabilities()` greps `claude --help` once per process so new flags degrade gracefully on older CLIs), async/sync subprocess communication, and model resolution. The `"auto"` backend infers which CLI is available via environment markers.
+3. **`llm_backends.py`** (~800 lines) — Backend abstraction for `claude-cli`, `codex-cli`, and `opencode-cli`. Handles CLI command construction (`_build_claude_print_command()`), defensive envelope parsing (`_parse_claude_envelope()` — `structured_output` preferred, fenced-text extraction as fallback), CLI capability detection (`detect_claude_capabilities()` greps `claude --help` once per process so new flags degrade gracefully on older CLIs), async/sync subprocess communication, and model resolution. The `"auto"` backend infers which CLI is available via environment markers.
 
 4. **`validate_panel.py`** (663 lines) — Panel quality gate. Runs 11 checks against a generated panel: count vs. requested, name uniqueness, segment balance, occupation/surname diversity, geo spread, age spread, gender distribution, Big Five cosine similarity (flags pairs ≥ 0.98), and slot-plan adherence. Returns structured JSON via `--json`; exits non-zero on any hard fail. Called automatically after panel generation; can also be run standalone for diagnosis.
 
@@ -86,7 +86,7 @@ report.md, results.csv, summary.json, charts (same output dir)
   "topic": "Research topic",
   "variables": { "category": "...", "concepts": "..." },
   "output_dir": "outputs/...",
-  "backend": "claude-cli|codex-cli|auto",
+  "backend": "claude-cli|codex-cli|opencode-cli|auto",
   "model": "sonnet",
   "max_concurrency": 5,
 
@@ -133,7 +133,8 @@ Tests use `unittest` with a custom `load_module()` helper that imports scripts v
 ## Key Conventions
 
 - **Canonical output format**: Results are always `[{"name": "...", "segment": "...", "age": N, "gender": "...", "occupation": "...", "responses": {...}}]`
-- **Backend default model**: `claude-cli` defaults to `"sonnet"`; `codex-cli` has no default model
+- **Backend default model**: `claude-cli` defaults to `"sonnet"`; `codex-cli` has no default model; `opencode-cli` uses OpenCode's configured model and only accepts `provider/model` IDs (bare aliases are dropped)
+- **OpenCode port**: `install-opencode.sh` (offline) renders the OpenCode skill from `skills/persona/SKILL.md` via `opencode/port_skill.py` — keep SKILL.md as the single source of truth and add rewrites there rather than forking the skill
 - **Structured output first**: claude-cli calls pass the per-survey-type schema via `--json-schema` and read `structured_output` from the envelope; `extract_json_from_text()` remains the fallback for older CLIs, refusals, and the codex path
 - **Context isolation**: persona subprocesses and report calls run with `--safe-mode` by default so surrounding CLAUDE.md/plugins/hooks never enter persona context (`"isolation": false` / `--no-isolation` to disable)
 - **Model attribution**: `run_metadata.json` (schema_version 3) records the requested alias as `resolved_model` AND the exact serving model IDs as `actual_model_ids`, plus `total_cost_usd`, per-persona `cost_usd`, and cache token totals
